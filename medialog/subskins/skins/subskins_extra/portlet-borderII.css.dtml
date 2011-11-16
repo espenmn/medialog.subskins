@@ -1,0 +1,9 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+.portlet {
+	border: 1px solid &dtml-SubSkinsColor1;;
+	padding: 2px;
+}
+
+/* </dtml-with> */

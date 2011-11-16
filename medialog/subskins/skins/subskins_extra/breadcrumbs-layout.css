@@ -1,0 +1,25 @@
+.breadcrumbSeparator {
+	display: none !important;
+}
+
+#portal-breadcrumbs {
+	background: white ;
+	border:1px solid #C8C8C8;
+	margin: 6px 6px 20px;
+	overflow:hidden;
+	padding: 0;
+}
+
+#portal-breadcrumbs a,
+#portal-breadcrumbs span span {	
+background: transparent url(ico-breadcrumb-divider.gif) no-repeat scroll right center;
+float:left;
+display: block;
+padding:6px 15px 6px 10px;
+line-height: 20px;
+font-weight: normal !important;
+}
+
+span#breadcrumbs-you-are-here{
+	display: none;
+}

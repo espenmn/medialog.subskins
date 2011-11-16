@@ -1,0 +1,84 @@
+/*
+  For SubSkins
+   <dtml-with get_base_properties mapping> (do not remove this)
+ <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+.portletNavigationTree {
+	padding: 0 ;
+	list-style: none;
+	list-style-image: none;
+	line-height: 1.7em;
+}
+
+.navTree {
+	list-style: none;
+	list-style-image: none;
+	}
+	
+.portlet ul {
+	margin-top: 5px !important;
+	margin-bottom: 5px !importamt;
+}
+
+.navTree li {
+	margin-bottom: 1px;
+}
+
+.navTreeItem {
+	display: block;
+	background: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor5;/bullet.gif) no-repeat 7px 2px;
+padding-left: 25px;
+
+}
+
+.navTreeItem a {
+	display: block;
+	text-decoration: none;
+	padding-top: 0.2em;
+	padding-bottom: 0.25em;
+}
+
+.navTreeItem a:hover {
+	color: black;
+}
+
+.navTreeCurrentItem {
+	color: black;
+}
+ 
+li.navTreeCurrentItem a,
+li.navTreeCurrentItem a:hover {
+	display: block;
+	border: 0px;
+	min-height: 1.6em;
+	line-height: 1.6em;
+	height: auto;
+}
+
+
+.navTreeLevel0 {
+	margin-left: 0em;
+}
+
+.navTreeLevel1 {
+	margin-left: 0.75em;
+}
+
+.navTreeLevel2 {
+	margin-left: 0.75em;
+}
+
+.navTreeLevel3 {
+	margin-left: 0.75em;
+}
+
+.navTreeLevel4 {
+	margin-left: 0.75em;
+}
+
+.navTreeLevel5 {
+	margin-left: 0.75em;
+}
+
+/* </dtml-with> */

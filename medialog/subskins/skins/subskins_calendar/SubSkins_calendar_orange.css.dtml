@@ -1,0 +1,81 @@
+/*
+ For Subskins
+
+  <dtml-with base_properties> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+
+
+/* @group Calendar */
+
+.dayPopup{
+  background-color: #ea9b25;
+  padding: 0.2em;
+  position: absolute;
+  visibility: hidden;
+  width: 12em;
+  z-index: 2;
+  border: 1px solid #f5d7b0;
+  }
+
+.date{
+  font-weight: bold;
+  }
+
+
+
+.ploneCalendar{
+  border-collapse: separate;
+  border-spacing: 1px;
+  border: 1px solid #ecdcae;
+  }
+
+.ploneCalendar a:hover{
+  text-decoration: none;
+}
+
+.ploneCalendar th{
+  padding: 0.5em;
+  background: #ececec;
+  color: #333;
+  line-height: 1.6em;
+  text-align: center;
+  font-weight: normal;
+  border-bottom: 1px solid orange;
+  }
+
+.ploneCalendar td{
+  text-align: center;
+  color: #999;
+    padding: 1px 0;
+
+  }
+
+.ploneCalendar .weekdays td{
+  text-align: center;
+  }
+
+.ploneCalendar .event{
+  color: black;
+  font-weight: bold;
+  background-color: #eb9f25;
+  }
+
+.ploneCalendar .todayevent{
+  background-color: #f4e200;
+  font-weight: bold;
+  }
+
+.ploneCalendar .todaynoevent{
+  border-collapse: collapse;
+  border: 2px solid #f90;
+  }
+
+.ploneCalendar #calendar-previous{
+
+}
+
+
+/* </dtml-with> */
+

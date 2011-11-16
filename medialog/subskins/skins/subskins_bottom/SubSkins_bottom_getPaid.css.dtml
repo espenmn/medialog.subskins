@@ -1,0 +1,74 @@
+/*
+  For SubSkins
+  <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+#portal-footer {
+	background-color: &dtml-SubSkinsColor5;;
+	padding: 5px 10px;
+	border: 0px;
+	margin: 0px;
+	color: #76aada;
+	text-align: center;
+}
+
+#portal-footer a,
+#portal-footer p {
+	color: #fff !important;
+}
+
+#portal-colophon {
+	float: none;
+	background-color:  &dtml-SubSkinsColor6;;
+	margin: 0em 0em 0em 0em;
+	padding: 5px 10px;
+	text-align: center;
+}
+
+#portal-colophon ul,
+#portal-colophon ul li,
+#portal-colophon ul li a {
+	list-style-image: none;
+	list-style-type: none;
+	display: inline;
+	text-decoration: none;
+}
+
+#portal-colophon ul {
+	display: table-row;
+	list-style-type: none;
+}
+
+#portal-colophon ul li {
+	display: table-cell;
+	font-size: 85%;
+	margin: 0 0.25em;
+	padding: 0.1em 0.2em;
+}
+
+#portal-colophon .colophonWrapper {
+	display: table;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#portal-colophon .colophonIcon {
+	display: block;
+
+/* */
+display: inline-block;
+	text-decoration: none;
+	overflow: hidden;
+	border: 0;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 15px;
+	height: 0px !important;
+	width: 80px;
+	vertical-align: top;
+}
+
+
+/* </dtml-with> */

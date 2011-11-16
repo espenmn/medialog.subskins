@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Sunny II
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=C70037
+SubSkinsColor1:string=#C70037
+SubSkinsColor2:string=#C72B00
+SubSkinsColor3:string=#C78F00
+SubSkinsColor4:string=#9CC700
+SubSkinsColor5:string=#009CC7
+SubSkinsColor6:string=#FFCB47
+SubSkinsPosition:string=-125

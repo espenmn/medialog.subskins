@@ -1,0 +1,60 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+#portal-globalnav {
+	margin: 5px 0;
+	clear: both;
+	padding-left: 20px;
+}
+
+#portal-globalnav:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}
+
+/* for IE */
+
+ 
+
+* html #portal-globalnav {
+	height: 1em;
+	overflow: visible;
+}
+
+ 
+
+#portal-globalnav li {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0 0 0;
+}
+
+#portal-globalnav li a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #333;	
+	padding-left: 20px;
+	padding-right: 10px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+#portal-globalnav li.selected {
+	background: url(nav_select_gr.png) 5px 1px  no-repeat;
+}
+
+#portal-globalnav li a:hover {
+background: transparent url(http://xweb14f.plana.dk:8084/plone4/subskins_getimage/&dtml.url_quote-SubSkinsColor3;/nav_dot.png) 8px 4px  no-repeat;
+}
+
+#portal-globalnav li.selected a {
+background: transparent url(http://xweb14f.plana.dk:8084/plone4/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/nav_dot.png) 8px 4px  no-repeat;
+}
+
+/* </dtml-with> */
+

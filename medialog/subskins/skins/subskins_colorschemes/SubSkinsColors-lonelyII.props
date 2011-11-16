@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Lonely II
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=2A3B63
+SubSkinsColor1:string=#2A3B63
+SubSkinsColor2:string=#59642B
+SubSkinsColor3:string=#8F763D
+SubSkinsColor4:string=#3D568F
+SubSkinsColor5:string=#5471B6
+SubSkinsColor6:string=#B69854
+SubSkinsPosition:string=-125

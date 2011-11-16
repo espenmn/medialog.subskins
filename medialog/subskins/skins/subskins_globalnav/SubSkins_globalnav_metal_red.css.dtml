@@ -1,0 +1,46 @@
+/*
+For SubSKins
+  <dtml-with base_properties> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+#portal-globalnav {
+	clear: both;
+	display: block;
+	margin: 0px;
+	padding: 0;
+	height: 34px;
+	text-transform: uppercase;
+	font: normal 11px Verdana, Helvetica, Arial, "Helvetica Neue", Geneva, sans-serif;
+	border: 1px solid white;
+	background: url(gray_grad_1x40.gif) repeat-x;
+}
+
+#portal-globalnav li {
+	display: block;
+	margin: 0;
+	float: left;
+}
+
+#portal-globalnav li a {
+		background: transparent  url(doublegray_grad_2x40.gif) no-repeat;;
+	display: block;
+	color: #FFFFFF;
+	height: 22px;
+	vertical-align: bottom;	
+	padding: 12px 30px 0 15px;
+}
+
+#portal-globalnav li:hover, 
+#portal-globalnav li.selected  {
+background: red url(red_grad_1x40.gif) repeat-x;
+}
+
+
+#portal-globalnav li:hover, 
+#portal-globalnav li.selected  {
+background: red url(red_grad_1x40.gif) repeat-x;
+}
+
+
+/* </dtml-with> */

@@ -1,0 +1,51 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+body {
+	position: relative;
+	background-color: &dtml-SubSkinsColor5;;
+}
+
+/* @group Base Structure */
+
+/* base structures
+
+---------------------------------------------------------------------- */
+
+#visual-portal-wrapper {
+	position: relative;
+	text-align: left;
+	position: relative;
+	width:  &dtml-SubSkinsWidth1;;
+	margin: 6px auto;
+}
+
+#portal-column-one {
+	width:  &dtml-SubSkinsWidth2;;
+	padding: 0 20px 0 20px;
+	color: #ccc;
+	background: &dtml-SubSkinsColor6;;
+	  border-right: 1px solid &dtml-SubSkinsColor4;;
+}
+
+#portal-column-two {
+	width:  &dtml-SubSkinsWidth3;;
+	padding: 0 20px 0 20px;
+	color: #ccc;
+	background: &dtml-SubSkinsColor6;;
+}
+
+#portal-column-content {
+	padding: 10px;
+	background: white;
+	height:  auto;
+}
+
+#portal-columns {
+	background: white;
+}
+
+/* @end */
+
+/* </dtml-with> */

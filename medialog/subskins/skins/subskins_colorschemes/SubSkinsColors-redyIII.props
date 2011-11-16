@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Redy III
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=3F3F30
+SubSkinsColor1:string=#B80028
+SubSkinsColor2:string=#4AC0F2
+SubSkinsColor3:string=#84002E
+SubSkinsColor4:string=#FF5B00
+SubSkinsColor5:string=#FFC200
+SubSkinsColor6:string=#F2F5ED
+SubSkinsPosition:string=-490

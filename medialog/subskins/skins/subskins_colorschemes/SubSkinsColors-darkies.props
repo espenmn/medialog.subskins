@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Darkies
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=38312B
+SubSkinsColor1:string=#38312B
+SubSkinsColor2:string=#31372A
+SubSkinsColor3:string=#594E45
+SubSkinsColor4:string=#455059
+SubSkinsColor5:string=#7C6D5F
+SubSkinsColor6:string=#5F6F7C
+SubSkinsPosition:string=-330

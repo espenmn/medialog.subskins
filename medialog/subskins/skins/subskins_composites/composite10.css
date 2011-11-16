@@ -1,0 +1,842 @@
+/* - SubSkins3_koha.css - */
+@media screen {
+/* /portal_css/SubSkins3_koha.css?original=1 */
+#portal-top {
+width: 100%;
+background: whitesmoke;
+}
+#portal-header {
+margin-top: 0px;
+width: 100%;
+}
+#portal-logo {
+clear: both;
+}
+#portal-logo img {
+padding: 15px;
+}
+#portal-searchbox {
+line-height: 36px;
+float: right;
+width:30%;
+}
+#portal-siteactions {
+display: block;
+float: left;
+height: 25px;
+margin: 0;
+margin-left: 12px;
+padding: 0;
+width:60%;
+}
+#portal-siteactions li {
+display: inline;
+padding: 0;
+padding-right: 12px;
+line-height: 25px;
+font-size: 8pt;
+}
+#portal-siteactions li a {
+color: gray !important;
+border: 0;
+font-weight: normal;
+font-style: normal;
+font-size: 8pt;
+}
+#portal-siteactions li a:hover {
+color: #282828;
+}
+#portal-personaltools-wrapper {
+background:  #F96C06;
+margin-bottom: 10px;
+clear:both;
+height: 30px;
+}
+#portal-personaltools {
+float: right;
+margin: 3px 10px 0 10px;
+padding: 0;
+}
+#portal-personaltools li {
+display: inline;
+list-style: none;
+list-style-image: none;
+padding-top: 0;
+}
+#portal-personaltools li a {
+text-decoration: none;
+margin-right: 1em;
+margin-left: 1em;
+font-size: 10pt;
+color: white;
+}
+#portal-breadcrumbs {
+clear:  both;
+padding: 0 10px;
+height: 15px;
+}
+#portal-breadcrumbs a,
+#portal-breadcrumbs span {
+float:left;
+display: block;
+padding:0 2px;
+font-weight: normal;
+}
+
+.LSRes {
+font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+visibility: visible;
+color: #666666;
+background-color: white;
+vertical-align: middle;
+display: block;
+list-style-image: none;
+list-style-type: none;
+text-align: left;
+min-width: 16.5em;
+text-transform: none;
+margin-left: 0;
+line-height: 1em;
+}
+#LSHighlight {
+background-color: white;
+}
+.LSRow {
+padding: 0;
+margin: 0;
+list-style-image: none;
+list-style-type: none;
+}
+.LSRow a {
+text-decoration: none;
+font-weight: bold;
+white-space: nowrap;
+color:  #01679a;
+}
+.LSDescr {
+color: #777777	;
+text-transform: lowercase;
+padding-left: 2.1em;
+margin-top: -0.1em;
+}
+.LSResult {
+position: relative;
+display: block;
+text-align: right;
+padding-top: 0px;
+padding-bottom: 0px;
+margin: 0;
+left: 3px;
+top: 1em;
+z-index: 3;
+}
+.LSShadow {
+position: relative;
+}
+.livesearchContainer {
+background-color: white;
+margin-top: 0;
+padding: 0 !important;
+position: absolute;
+left: 0px;
+
+top: 0;
+white-space: normal;
+font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+visibility: visible;
+text-align: left;
+color: #666666;
+border: 1px solid #999999;
+width: 30em;
+text-transform: none;
+}
+* html .livesearchContainer {
+padding: 1px !important;
+padding-top: 0 !important;
+background-color: white;
+border: 0;
+}
+#livesearchLegend {
+line-height: 1em;
+margin-top: -2em;
+margin-left: -0.1em;
+border: 2px solid #999999;
+border-bottom: 0;
+}
+* html #livesearchLegend {
+margin-top: -1.9em;
+margin-left: -8px;
+position: relative;
+}
+
+.LSIEFix {
+background-color: white;
+padding: 0.5em !important;
+z-index: 20;
+}
+.LSBox {
+clear: left;
+float: left;
+text-align: right;
+padding: 0 1px;
+display: block;
+margin-left: 0;
+}
+#LSNothingFound {
+text-align: center;
+padding: 2px;
+}
+
+
+
+}
+
+
+/* - Plone_portlets.css - */
+@media screen {
+/* /portal_css/Plone_portlets.css?original=1 */
+
+
+
+.managePortletsFallback {
+margin: 0 0 0 1em;
+}
+
+.portlet {
+margin: 1px 0 1em 0;
+border-bottom: 1px solid #999999;
+background-color: White;
+}
+.portlet a {
+text-decoration: none;
+}
+.portlet a.tile {
+display: block;
+}
+.portletItem ul {
+list-style-type: none
+}
+
+.portletItem a,
+.portletFooter a {
+border-bottom: none;
+}
+.portletItem a:visited,
+.portletFooter a:visited {
+color: #3399aa;
+}
+.portletHeader, .managedPortlet .portletHeader {
+background-color: #d7d7d7;
+border: 1px solid #999999;
+padding: 0em 1em;
+text-transform: lowercase;
+font-weight: normal;
+line-height: 1.6em;
+margin: 0;
+}
+.portletHeader a, .managedPortlet .portletHeader a {
+color: Black;
+}
+.portletItem {
+margin: 0;
+padding: 1em;
+border-left: 1px solid #999999;
+border-right: 1px solid #999999;
+}
+.portletItem ol {
+margin: 0 0 0 1em;
+}
+.portletItemDetails {
+text-align: right;
+display: block;
+color: Black;
+}
+.portletFooter {
+background-color: #e5e5e5;
+margin: 0;
+padding: 0.25em 1em;
+border: 1px solid #999999;
+border-style: dotted solid none solid;
+text-align: right;
+}
+
+.portletTopLeft {}
+.portletTopRight {}
+.portletBottomLeft {}
+.portletBottomRight {}
+
+
+}
+
+
+/* - SubSkins_bottom.css - */
+@media screen {
+/* /portal_css/SubSkins_bottom.css?original=1 */
+
+
+
+#portal-footer{
+padding: 1em;
+border-bottom: 1px solid #bcbcbc;
+background: #eee url(bg-footer.jpg) top left repeat-x;
+color: #333;
+text-align: center;
+font-size: 0.875em;
+display: none;
+}
+#portal-footer p{
+margin: 0;
+color: #333;
+}
+#portal-colophon{
+font-size: 0.875em;
+margin: 0px auto;
+text-align: center;
+background: #6699cc url(bunn.gif) no-repeat 0 top;
+padding-top: 15px;
+color: #333;
+}
+#portal-colophon a{
+color: #ccc;
+}
+#portal-colophon p{
+display: inline;
+margin: 0;
+padding-left: 0.5em;
+}
+#portal-colophon ul{
+list-style-type: none;
+display: inline;
+margin: 0;
+}
+#portal-colophon ul li{
+display: inline;
+padding-left: 0.5em;
+}
+.colophonWrapper{
+display: inline;
+}
+
+}
+
+
+/* - SubSkins_base_1.css - */
+@media screen {
+/* /portal_css/SubSkins_base_1.css?original=1 */
+
+
+body {
+position: relative;
+background: #B20F0F;
+}
+
+
+#visual-portal-wrapper{
+position: relative;
+width:  880px;
+background: #fff;
+text-align: left;
+margin: 0 auto;
+}
+#portal-columns{
+}
+#portal-column-one{
+width:  150px;
+padding: 0 20px;
+color: #ccc;
+background: #fff;
+border-right: 1px solid #ccc;
+background: white;
+}
+#portal-column-two{
+width:  150px;
+padding: 0 20px;
+color: #ccc;
+background: white;
+}
+#portal-column-content{
+padding: 10px 20px;
+}
+#content{
+}
+
+
+}
+
+
+/* - SubSkins_text_koha.css - */
+@media screen {
+/* /portal_css/SubSkins_text_koha.css?original=1 */
+
+
+
+body {
+font-family: verdana, helvetica, sans-serif;
+font-size: 11px;
+}
+h1 {
+color: #01679a;
+font: normal 20px/27px verdana, helvetica, sans-serif;
+margin-top: 17px;
+}
+h1.documentFirstHeading {
+margin-top: 0px;
+}
+.boardCommentDetails {
+background: grey url(/subskins_getimage/%234098E3/blue_grid.jpg) repeat;
+color: whitesmoke;
+}
+h2 {
+font-family: verdana, helvetica, sans-serif;
+font-size: 14px;
+line-height: 18px;
+font-weight: bold;
+margin-top: 17px;
+}
+h5 {
+margin-bottom: 11px;
+}
+p.documentDescription,
+.documentDescription {
+padding: 9px 0px 0px 0px;
+font: 12px/18px verdana, helvetica, sans-serif;
+}
+#parent-fieldname-imageCaption {
+display: block;
+padding-bottom: 10px;
+padding-top: 4px;
+width: 100%;
+color: black;
+font: bold 11px "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+a {
+font-family: verdana, helvetica, sans-serif;
+font-size: 11px;
+font-weight: bold;
+color: #666666;
+text-decoration: none;
+}
+a:hover {
+color: #000000;
+}
+p {
+font-family: verdana, helvetica, sans-serif;
+font-size: 11px;
+line-height: 16px;
+margin-bottom: 5px;
+}
+p a:link {
+color: #000000;
+}
+img {
+border: none;
+vertical-align: middle;
+}
+.newsImageContainer img {
+float: left;
+margin: 3px 25px 10px 0;
+}
+img.image-left {
+float: left;
+margin: 5px 25px 15px 0;
+padding: 5px;
+border: 2px solid #01679a;
+}
+h3 {
+background: #01679a;
+color: whitesmoke;
+padding: 3px 8px;
+margin-top: 16px;
+margin-bottom: 10px;
+}
+input {
+border: 1px solid #ccc;
+margin: 5px 0;
+}
+input.standalone {
+background: white url(/subskins_getimage/%23B20F0F/bullet.gif) no-repeat 6px center;
+padding: 6px 10px 6px 30px;
+}
+#content div a.link-parent {
+padding-left: 22px;
+padding-top: 9px;
+background: url(/subskins_getimage/%234098E3/bullet.gif) no-repeat 0 9px;
+}
+#form label {
+color: #336699;
+margin-right: 6px;
+}
+#form fieldset input {
+padding: 3px;
+margin-right: 5px;
+}
+#content-core ul  {
+margin: 0.5em 0 0.75em 1.5em;
+list-style-type: disc;
+font-size: 11px;
+}
+ol {
+margin: 0.5em 0 0.75em 2em;
+}
+#content-core li {
+list-style-image: url(/subskins_getimage/%23F96C06/red-bullet.gif);
+margin: 0.3em 0 0.3em 2.5em;
+list-style-position: outside;
+}
+#content-core li {
+margin: 0.5em;
+}
+.visualNoMarker li {
+list-style-image: none !important;
+}
+dl {
+margin: 0.5em 1em 0.75em;
+}
+dt {
+margin: 0.75em 0;
+font-weight: bold;
+}
+dd {
+margin: 0.5em 0;
+}
+a.tile {
+color: black;
+}
+fieldset {
+padding: 1em 2em;
+border: 1px solid #ccc;
+margin-bottom: 12px;
+background: whitesmoke;
+}
+legend {
+font-weight: bold;
+}
+form {
+border: 0;
+}
+label {
+font: 11px verdana, helvetica, sans-serif;
+font-weight: bold;
+display: inline;
+}
+textarea {
+border: 1px solid #ccc;
+margin: 5px 0;
+}
+select {
+border: 1px solid #ccc;
+}
+.field {
+font: 11px verdana, helvetica, sans-serif;
+margin-top: 0.75em;
+}
+.formControls input, .searchButton {
+padding: 2px;
+padding-left: 20px;
+}
+table {
+border-collapse: collapse;
+font-size: 1em;
+}
+#content table.listing thead tr th {
+background: whitesmoke;
+line-height: 200%;
+}
+tbody {
+}
+tr {
+}
+th {
+}
+td {
+}
+em {
+font-style: normal;
+font-weight: bold;
+}
+strong {
+font-weight: bold;
+}
+cite, q {
+}
+blockquote {
+margin: 0.7em 0;
+padding: 0.5em 11px;
+border: 1px solid  #01679a;
+;
+color: #01679a;
+;
+}
+#content div.plain blockquote {
+clear: both;
+}
+code, kbd {
+background: #333;
+color: #ccc;
+font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;
+}
+pre {
+margin: 1em 0em;
+padding: 0.7em 0.3em;
+background: whitesmoke;
+color: #3d3d3d;
+font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;
+}
+ins {
+}
+del {
+color: #999;
+text-decoration: overline;
+}
+.portalMessage {
+padding: 0.375em 1em;
+margin-left: 0;
+margin-right:  0;
+background: #FFC603;
+border: 1px solid #eb0000;
+}
+div.documentActions ul {
+margin: 10px 0;
+text-align: right;
+padding: 0;
+padding-top: 5px;
+width: 100%;
+display: block;
+}
+.documentActions ul li {
+display: inline;
+margin-left: 7px !important;
+}
+.documentActions ul li a {
+border: 0;
+padding-right: 0;
+margin-right: 0;
+}
+.documentDescription {
+margin-bottom: 1.5em;
+}
+.comment {
+border: 1px solid #ccc;
+background: #f3f3f3;
+}
+#Xregion-content div dl dt span.discreet {
+display: none;
+}
+#content   table.listing span.discreet {
+font-weight: normal;
+font-style: normal;
+font-size: 10px;
+color: #666;
+}
+#content div.poweredBy {
+margin-top: 20px;
+}
+.photoAlbumEntryWrapper {
+float: left;
+}
+.photoAlbumEntryTitle {
+float: left;
+clear: both;
+margin-top: 6px;
+}
+#content div div.photoAlbumEntry a {
+float: left;
+margin: 20px 20px 10px 0
+}
+
+
+}
+
+
+/* - SubSkins_navigation_2silver.css - */
+@media screen {
+/* /portal_css/SubSkins_navigation_2silver.css?original=1 */
+
+#portlet-navigation-tree .portletItem{
+padding:0px 0px 0px 0px;
+background-image: none;
+overflow: hidden;
+font-family: tahoma, arial, verdana, sans-serif;
+list-style-type: none;
+}
+.portletNavigationTree{
+list-style-type: none;
+padding: 0px;
+border: 0;
+border-bottom-style: none;
+}
+.portletNavigationTree ul{
+padding:0px 0px 0px 0px;
+margin:0px;
+list-style:none;
+z-index:2;
+border-top: 1px solid silver;
+}
+.portletNavigationTree li{
+margin: 0;
+}
+.portletNavigationTree li a{
+display: block;
+width: auto;
+padding: 6px 6px;
+padding-left: 10px;
+border-top: 0px;
+border-right: 0px;
+color: #4098E3;
+text-decoration: none;
+border-bottom: 1px solid  silver;
+}
+.portletNavigationTree li.navTreeItem a.navTreeCurrentItem{
+color: #4098E3;
+}
+.portletNavigationTree li a:hover,
+a.navTreeCurrentItem{
+color: black;
+}
+.portletNavigationTree li a:hover{
+font-weight: bold;
+color: black;
+}
+.portletNavigationTree .navTreeLevel1 li a {
+padding-left: 15px;
+color: black;
+font-weight: normal;
+font-style: normal;
+}
+.portletNavigationTree .navTreeLevel2 li a {
+padding-left: 20px;
+color: black;
+font-weight: normal;
+font-style: normal;
+}
+.portletNavigationTree .navTreeLevel3 li a {
+padding-left: 25px;
+color: black;
+font-weight: normal;
+font-style: normal;
+}
+
+}
+
+
+/* - SubSkins_calendar_asconix.css - */
+@media screen {
+/* /portal_css/SubSkins_calendar_asconix.css?original=1 */
+
+
+
+.dayPopup {
+background-color: #FFC603;
+padding: 0.2em;
+position: absolute;
+visibility: hidden;
+width: 12em;
+z-index: 2;
+border: 1px solid #A1B312;
+}
+.date {
+font-weight: bold;
+}
+.ploneCalendar {
+width: 100%;
+border-collapse: separate;
+border-spacing: 1px;
+border: 1px solid #B20F0F ;
+margin: 0;
+padding: 0;
+font-variant: normal;
+}
+.portletCalendar .portletItem {
+padding:  0;
+}
+.portlet.portletCalendar {
+background: white;
+}
+.ploneCalendar a {
+color: whitesmoke;
+}
+.ploneCalendar a:hover {
+text-decoration: none;
+}
+.ploneCalendar th {
+padding: 0.2em 0.5em;
+background:  url(/subskins_getimage/%23B20F0F/000forlopvII.jpg) repeat-x left;
+line-height: 1.6em;
+text-align: center;
+font-weight: normal;
+}
+.ploneCalendar td {
+text-align: center;
+color: #999;
+padding: 0.2em;
+}
+.ploneCalendar .weekdays td {
+text-align: center;
+}
+.ploneCalendar .event {
+color: whitesmoke;
+font-weight: bold;
+background-color:#4098E3;
+}
+.ploneCalendar .todayevent {
+background-color: #4098E3;
+font-weight: bold;
+color: whitesmoke;
+}
+.ploneCalendar .todaynoevent {
+border-collapse: collapse;
+border: 2px solid #B20F0F;
+}
+.ploneCalendar #calendar-previous {
+}
+
+
+
+}
+
+
+/* - SubSkins_globalnav_devider1.css - */
+@media screen {
+/* /portal_css/SubSkins_globalnav_devider1.css?original=1 */
+
+
+
+#portal-globalnav {
+height: 40px;
+margin: 0;
+padding: 0;
+clear: both;
+background: url(/subskins_getimage/%23B20F0F/000menuanddevider.png) repeat-x 0px -49px;
+}
+#portal-globalnav li {
+display: block;
+float: left;
+line-height: 14px;
+height: 40px;
+vertical-align: bottom;
+text-align: center;
+text-decoration: none;
+margin: 0;
+text-align: center;
+line-height: 38px;
+background: url(/subskins_getimage/%23B20F0F/000menuanddevider.png) no-repeat right -100px;
+}
+#portal-globalnav li a {
+font-weight: normal;
+font-family: Arial;
+font-size: 12px;
+color: #FFFFFF;
+display: block;
+padding: 0 18px 0 20px;
+margin: 0 auto;
+height: 39px;
+text-decoration: none;
+margin-right: 2px;
+}
+#portal-globalnav a:hover,
+#portal-globalnav .selected a:hover {
+color: white;
+background: url(/subskins_getimage/%23B20F0F/000menuanddevider.png) repeat-x left 0px;
+}
+
+}

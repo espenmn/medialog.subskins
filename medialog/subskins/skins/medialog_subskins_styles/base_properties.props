@@ -1,0 +1,52 @@
+# Please note that this approach will gradually be phased out, probably in
+# Plone 2.2 or 2.3. Using DTML in CSS is something we want to stop doing.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=subskins's color, font, logo and border defaults
+
+plone_skin:string=subskins
+
+logoName:string=logo_medialog.png
+
+fontFamily:string="Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif
+fontBaseSize:string=69%
+fontColor:string=Black
+fontSmallSize:string=85%
+
+backgroundColor:string=White
+
+linkColor:string=#3399aa
+linkActiveColor:string=#990000
+linkVisitedColor:string=#3399aa
+
+borderWidth:string=1px
+borderStyle:string=solid
+borderStyleAnnotations:string=solid
+
+globalBorderColor:string=#999999
+globalBackgroundColor:string=#d7d7d7
+globalFontColor:string=#666666
+
+headingFontFamily:string="Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif
+
+contentViewBorderColor:string=#999999
+contentViewBackgroundColor:string=#d7d7d7
+contentViewFontColor:string=#666666
+
+inputFontColor:string=Black
+
+textTransform:string=lowercase
+
+evenRowBackgroundColor:string=#e5e5e5
+oddRowBackgroundColor:string=transparent
+
+notifyBorderColor:string=#ff9900
+notifyBackgroundColor:string=#ffffff
+
+discreetColor:string=#777777
+helpBackgroundColor:string=#cccccc
+
+portalMinWidth:string=760px
+columnOneWidth:string=16em
+columnTwoWidth:string=16em

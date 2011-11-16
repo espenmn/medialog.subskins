@@ -1,0 +1,1138 @@
+
+
+/* - Plone_Calendar1256.css - */
+@media screen {
+/* http://www.westcoast.no/portal_css/Plone_Calendar1256.css?original=1 */
+/* */
+/* */
+/* */
+/* */
+.dayPopup {
+background-color: #B8B30F;
+border: 1px solid #1795D7;
+padding: 0.2em;
+position: absolute;
+visibility: hidden;
+width: 12em;
+z-index: 2;
+}
+.date {
+font-weight: bold;
+}
+.portletCalendar {
+width: 100%;
+margin: 1px 0 1em 0;
+width: 100%;
+}
+.portletCalendar dt {
+background-color: #B8B30F;
+font-weight: normal;
+text-align: center;
+line-height: 1.6em;
+border-bottom: none;
+}
+.portletCalendar dd {
+margin: 0;
+padding: 0;
+}
+.portletCalendar a {
+text-decoration: none;
+}
+.portletCalendar a:hover {
+text-decoration: none;
+}
+.ploneCalendar {
+border-collapse: collapse;
+border-spacing:0;
+width: 100%;
+color: #1795D7;
+}
+.ploneCalendar td {
+background-color: transparent;
+width: 14%;
+text-align: center;
+padding: 2px;
+}
+.ploneCalendar .weekdays th {
+background-color: #D6D6D6;
+border: 1px solid #1795D7;
+text-align: center;
+padding: 2px;
+font-weight: normal;
+}
+.ploneCalendar .event {
+background-color: #B8B30F;
+font-weight: bold;
+}
+.ploneCalendar .todayevent {
+background-color: #8A4E0F;;
+border: 2px solid #D69A18;
+font-weight: bold;
+}
+.ploneCalendar .todaynoevent {
+border-collapse: collapse;
+border: 2px solid #8A4E0F;
+}
+/* */
+.toc {
+float: right;
+width: 30%;
+font-size: 90%;
+margin: 0 0 0.5em 0.5em;
+}
+.toc .TOC1Digit {
+margin-left: 1em;
+}
+.toc .TOC2Digit {
+margin-left: 2em;
+}
+.toc .TOC3Digit {
+margin-left: 3em;
+}
+/* */
+#portal-column-one fieldset.livesearchContainer {
+right: inherit !important;
+top: 1.5em !important;
+}
+/* */
+/* */
+
+}
+
+
+/* - subskins.css - */
+@media screen {
+/* http://www.westcoast.no/portal_css/subskins.css?original=1 */
+/* */
+#portal-columns #portal-breadcrumbs {
+display: block;
+float:  none;
+margin-left:  0;
+}
+* {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+}
+li.formTab a {
+padding: 3px;
+}
+ul.configlets li {
+list-style-type: none !important;
+list-style-image: none !important;
+}
+/* */
+#anon-personalbar {
+padding: 0; margin: 0;
+}
+/* */
+/* */
+.visualClear {
+display: block;
+clear: both;
+}
+.visualPadding {
+padding: 0;
+}
+.hiddenStructure, .netscape4 {
+display: none;
+}
+.tile {
+display: block;
+}
+body.fullscreen #portal-column-one,
+body.fullscreen #portal-column-two {
+display: none;
+}
+body.fullscreen #portal-column-content {
+width: 100%;
+margin: 0;
+padding: 0;
+}
+.managedPortlet .portletHeader {
+display: block;
+}
+/* */
+/* */
+/* */
+html.kupu-html body {
+background: #f3f3f3;
+text-align: left;
+font-size: 1em;
+}
+html.kupu-html body {
+width: 98%;
+}
+.documentEditable  #content {
+padding: 8px;
+}
+.verdana {
+font-family: verdana, helvetica, sans-serif;
+}
+.times {
+font-family: "Times New Roman", Times, Georgia, serif;
+font-size: 115%;
+}
+.lucida {
+font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+.helvetica {
+font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+.color1 {
+color: #1795D7;
+}
+.color2 {
+color: #0F5F8A;
+}
+.color3 {
+color: #D69A18;
+}
+.color4 {
+color: #8A4E0F;
+}
+.color5 {
+color: #B8B30F;
+}
+.color6 {
+color: #D6D6D6;
+}
+.black {
+color: #000;;
+}
+/* */
+/* */
+.visualClear {
+display: block;
+clear: both;
+}
+/* */
+.netscape4 {
+display: none;
+}
+/* */
+.hiddenStructure {
+display: block;
+background: transparent;
+background-image: none;
+/* */
+border: none;
+height: 1px;
+overflow: hidden;
+padding: 0;
+margin: -1px 0 0 -1px;
+width: 1px;
+}
+.contentViews .hiddenStructure,
+.contentActions .hiddenStructure {
+position: absolute;
+top: -200px;
+left: -200px;
+}
+.hiddenLabel {
+display: block;
+background: transparent;
+background-image: none;
+/* */
+border: none;
+height: 1px;
+overflow: hidden;
+padding: 0;
+margin: -1px 0 0 -1px;
+width: 1px;
+}
+/* */
+/* */
+div.overlay {
+width: auto;
+height: auto;
+/* */
+display:none;
+/* */
+margin:1em;
+font-size: 80%;
+}
+div.overlay-iframe,
+div.overlay-ajax {
+width: 60%;
+min-height: 100px;
+z-index: 99; /* */
+}
+div.overlay-iframe {
+height: 60%;
+}
+/* */
+div.overlaybg div.close,
+div.overlay div.close {
+background-image: url(pb_close.png);
+position: absolute;
+left: -15px;
+top: -15px;
+cursor: pointer;
+height: 30px;
+width: 30px;
+}
+.pb-ajax, .pb-image {
+white-space: normal;
+border:0.5em solid #1795D7;
+-moz-border-radius:0.35em;
+-webkit-border-radius:0.35em;
+-moz-box-shadow:0 0 1em #888;
+-webkit-box-shadow:0 0 1em #888;
+}
+.pb-ajax > * {
+background-color: #fff;
+padding: 1em;
+white-space: normal;
+}
+.pb-ajax .documentActions {display:none}
+div.overlay div.close span {
+display:block;
+height:1px;
+margin:-1px 0 0 -1px;
+overflow:hidden;
+padding:0;
+width:1px;
+}
+div.overlay textarea { width: 100%; }
+/* */
+/* */
+
+}
+
+
+/* - SubSkins_base_2.css - */
+@media screen {
+/* http://www.westcoast.no/portal_css/SubSkins_base_2.css?original=1 */
+/* */
+/* */
+body {
+position: relative;
+background: #0F5F8A;
+}
+/* */
+/* */
+#visual-portal-wrapper{
+position: relative;
+background: #fff;
+text-align: left;
+width:  832px;
+margin: 6px auto;
+}
+#portal-column-one{
+width:   170px;
+padding: 0 20px;
+color: #ccc;
+background: #fff;
+border-right: 1px solid #ccc;
+background: white;
+}
+#portal-column-two{
+width:   170px;
+padding: 0 20px;
+color: #ccc;
+background: white;
+}
+#portal-column-content{
+padding: 10px 20px;
+}
+/* */
+/* */
+}
+
+
+/* - SubSkins_top_nothing_special.css - */
+@media screen {
+/* http://www.westcoast.no/portal_css/SubSkins_top_nothing_special.css?original=1 */
+/* */
+/* */
+h6 {
+text-decoration: underline;
+background: url(fancy_right.png) left no-repeat;
+padding:  3px 33px;
+}
+#edit-bar {
+z-index: 9;
+}
+.dialog-wrapper {
+font-size:100% !important;
+padding:0 !important;
+}
+body.template-product_view h1    {
+background: #0F5F8A url(http://www.westcoast.no/subskins_getimage/%230F5F8A/000forlop.jpg)  -135px ;
+width: 557px;
+color: white;
+font: normal 13px/20px px helvetica, verdana, sans-serif;
+padding: 2px 10px ;
+position: absolute;
+top: 119px;;
+left: 23px;
+}
+#parent-fieldname-description {
+font-weight: bold;
+}
+#slider, #slider li, #slider ul, #slider-container{
+margin-top: 0 !important;
+padding: 0 !important;
+}
+img.productImage {
+margin:  14px auto;;
+display: block;
+}
+div.productImageContainer {
+border:  1px solid silver;
+text-align: center;
+margin-bottom: 15px;
+padding-top: 20px;
+}
+.template-newsitem_view table.listing {
+width: 45%;
+float: left;
+margin-right: 5%;
+}
+.section-contact div.tileItem,
+.section-contact  .visualIEFloatFix{
+width: 200px;
+float: left;
+margin-right:15px;
+margin-top: 20px;
+height: 210px;
+overflow: visible;
+padding: 10px 20px;;
+border: 1px solid #EEE;
+background: url(000forlop.jpg) -640px;;
+}
+.section-contact  .documentByLine {
+display: none;
+}
+.description {
+font-weight: bold;
+margin: 4px 0;
+}
+.section-contact  h2.tileHeadline,
+.summary.url {
+margin: 9px 0;
+padding-bottom: 0;
+font-size: 17px;
+}
+.section-contact .documentDescription{
+margin-bottom: 0;
+}
+.section-contact  img.newsImage {
+margin-top: -60px;
+}
+#portal-top {
+width: 100%;
+height: auto;
+background: white;
+}
+#portal-header {
+width: 100%;
+}
+#portal-logo img{
+margin: 20px 30px 14px;
+}
+#portal-searchbox {
+height:25px;
+padding:0;
+position:absolute;
+right:20px;
+top:44px;
+width:260px;
+}
+div.searchSection {
+display: none;
+}
+#searchGadget,
+input.searchButton {
+margin: 0;
+line-height: 16px;
+padding: 2px;
+}
+input.searchButton {
+padding-left: 20px;
+}
+#portal-siteactions {
+display: block;
+float: right;
+line-height: 30px;
+margin: 0;
+margin-left: 12px;
+margin-right: 12px;
+padding: 0;
+}
+#portal-siteactions li {
+display: inline;
+padding: 0;
+padding-right: 12px;
+line-height: 20px;
+font-size: 8pt;
+}
+#portal-siteactions li a {
+opacity: 0.40;
+border: 0;
+}
+#portal-siteactions li a:hover {
+opacity: 1;
+}
+div#portal-personaltools-wrapper {
+background: transparent;
+}
+#portal-personaltools {
+float: right;
+margin: 0 0.5em;
+padding: 0;
+font-size: 80%;
+}
+#portal-personaltools li {
+display: inline;
+list-style: none;
+list-style-image: none;
+}
+#portal-personaltools  a,
+.actionMenuHeader a {
+text-decoration: none;
+margin-right: 1em;
+color: grey;
+}
+#portal-breadcrumbs {
+padding: 8px 15px;
+background: white;
+}
+/* */
+.LSRes {
+font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+visibility: visible;
+color: #666666;
+background-color: white;
+vertical-align: middle;
+display: block;
+list-style-image: none;
+list-style-type: none;
+text-align: left;
+min-width: 16.5em;
+text-transform: none;
+margin-left: 0;
+line-height: 1em;
+}
+#LSHighlight {
+background-color: white;
+}
+.LSRow {
+padding: 0;
+margin: 0;
+list-style-image: none;
+list-style-type: none;
+}
+.LSRow a {
+text-decoration: none;
+font-weight: bold;
+white-space: nowrap
+}
+.LSDescr {
+color: #777777;
+text-transform: lowercase;
+padding-left: 2.1em;
+margin-top: -0.1em;
+}
+.LSResult {
+position: relative;
+display: block;
+text-align: right;
+padding-top: 0px;
+padding-bottom: 0px;
+margin: 0;
+left: 3px;
+top: 1em;
+z-index: 3;
+}
+.LSShadow {
+position: relative;
+}
+.livesearchContainer {
+background-color: white;
+margin-top: 0;
+padding: 0 !important;
+position: absolute;
+left: 0px;
+/* */
+top: 0;
+white-space: normal;
+font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+visibility: visible;
+text-align: left;
+color: #666666;
+border: 1px solid #999999;
+width: 30em;
+text-transform: none;
+}
+* html .livesearchContainer {
+padding: 1px !important;
+padding-top: 0 !important;
+background-color: white;
+border: 0;
+}
+#livesearchLegend {
+line-height: 1em;
+margin-top: -2em;
+margin-left: -0.1em;
+border: 2px solid #999999;
+border-bottom: 0;
+}
+* html #livesearchLegend {
+margin-top: -1.9em;
+margin-left: -8px;
+position: relative;
+}
+/* */
+.LSIEFix {
+background-color: white;
+padding: 0.5em !important;
+z-index: 20;
+}
+.LSBox {
+clear: left;
+text-align: right;
+padding-top: 3px;
+display: block;
+}
+#LSNothingFound {
+text-align: center;
+padding: 2px;
+}
+/* */
+}
+
+
+/* - SubSkins_text_friend.css - */
+@media screen {
+/* http://www.westcoast.no/portal_css/SubSkins_text_friend.css?original=1 */
+/* */
+/* */
+/* */
+.tileItem .documentActions {
+margin: 7px 0 ;
+}
+.relatedItems {
+border: 1px dotted silver;
+margin-top: 10px;
+padding: 0;
+}
+#content #relatedItemBox dt,
+#content #relatedItemBox dt {
+padding: 0;
+margin: 0;
+font-weight: bold;
+border-bottom: 1px dotted #666;
+}
+h1, h2.tileHeadline {
+color:  #D69A18;
+font: normal 23px/25px helvetica, verdana, sans-serif;
+letter-spacing: 1px;
+margin: 2px 0px 7px 0px;
+padding-top: 0px;
+}
+h2 {
+font-size: 13px;
+line-height: 17px;
+margin-top: 17px;
+}
+h2.tileHeadline {
+color:  #1795D7;
+border-top: 2px dotted #D69A18;
+margin-top: 0px;
+padding-top:23px;
+}
+.summary.url {
+font-style: normal;
+color:  #848587;
+font-weight: normal;
+text-decoration: none;
+}
+img.tileImage {
+padding-top: 70px;
+}
+h5 {
+margin-bottom: 10px;
+}
+p.documentDescription,
+.documentDescription {
+background-image: none;
+background: none;
+padding: 4px 0px 0px 0px;
+color: #2f3130;
+font-size: 13px;
+line-height: 22px;
+font-weight: bold;
+}
+a {
+color: #D69A18;
+}
+a:hover {
+color: #1795D7;
+}
+.documentActions {
+margin-top:40px;
+margin-bottom: 15px;
+}
+html, p {
+font-family: helvetica, verdana, sans-serif;
+font-size: 13px;
+line-height: 20px;
+}
+img {
+border: none;
+}
+img.newsImage {
+margin-left: 30px;
+}
+img.image-right,
+img.tileImage {
+float: right;
+margin: 4px 8px 10px 35px;
+}
+span#parent-fieldname-imageCaption {
+padding-left: 20px;
+}
+div.newsImageContainer {
+float: right;
+}
+p.tileFooter {
+margin-top: 10px;
+}
+p.tileFooter a {
+padding: 2px 0;
+}
+.documentByLine {
+margin: 10px 0;
+}
+.documentByLine,
+.documentByLine a {
+font-weight: normal;
+font-style: normal;
+}
+img.image-left{
+float: left;
+margin: 8px 20px 10px 0;
+}
+input {
+border: 1px solid #2f4355;
+margin: 5px 0;
+}
+#content  ul {
+padding-left: 2em;
+}
+ol {
+margin: 0.5em 0 0.75em 2em;
+}
+#content  li {
+margin: 0.5em 0;
+}
+#content  dl {
+margin: 0.5em 1em 0.75em;
+}
+#content  dt {
+margin: 0.75em 1em;
+}
+#content  dd {
+margin: 0.5em 0;
+}
+a.tile {
+color: black;
+}
+fieldset {
+padding: 1em;
+border: 1px solid #ccc;
+}
+legend {
+font-weight: bold;
+}
+form {
+border: 0;
+}
+label {
+font-weight: bold;
+display: inline;
+}
+textarea {
+border: 1px solid #ccc;
+margin: 5px 0;
+}
+select {
+border: 1px solid #ccc;
+}
+.field {
+margin-top: 0.75em;
+}
+.formControls input, .searchButton {
+padding: 2px;
+padding-left: 20px;
+}
+table {
+border-collapse: collapse;
+}
+em {
+font-style: normal;
+font-weight: bold;
+}
+strong {
+font-weight: bold;
+}
+cite, q {
+}
+blockquote {
+margin: 0.7em 0;
+padding: 0.5em 10px;
+border: 1px solid #ccc;
+color: #666666;
+}
+code, kbd {
+background: #333;
+color: #ccc;
+font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;
+}
+pre {
+margin: 0.5em 2em 0.75em 2em;
+padding: 0.5em;
+background: #333;
+color: #666666;
+font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;
+}
+del {
+color: #999;
+text-decoration: overline;
+}
+.portalMessage {
+padding: 0.375em 1em;
+margin-left: 0;
+margin-right:  0;
+background: #E5F1FA;
+border: 1px solid #e17700;
+}
+.documentActions ul {
+margin: 0;
+text-align: right;
+}
+#content .documentActions ul li {
+display: inline;
+padding: 3px 4px 3px 7px;
+margin-left:4px;
+border: 1px solid #CCC;
+font-size: 90%;
+}
+.documentActions ul li a {
+border: 0;
+text-decoration: none;
+}
+.documentFirstHeading {
+font-weight: normal;
+font-style: normal;
+padding: 0px;
+}
+.documentDescription {
+padding: 0.5em;
+background: #f3f3f3;
+margin: 1.5em 0;
+}
+.comment {
+border: 1px solid #ccc;
+background: #f3f3f3;
+}
+.photoAlbumEntryWrapper {
+float: left;
+}
+.photoAlbumEntryTitle {
+float: left;
+clear: both;
+margin-top: 6px;
+}
+#content  div div.photoAlbumEntry a {
+float: left;
+margin: 20px 20px 10px 0
+}
+/* */
+}
+
+
+/* - SubSkins_globalnav_helvetica.css - */
+@media screen {
+/* http://www.westcoast.no/portal_css/SubSkins_globalnav_helvetica.css?original=1 */
+#portal-globalnav {
+text-decoration: none;
+padding: 0 0 0 149px;
+height: 22px;
+margin: 0;
+clear: both;
+background: white url(globnav_prebar.jpg) no-repeat 0 bottom;
+float: left;
+display: block;
+}
+#portal-globalnav li {
+text-decoration: none;
+list-style-type: none;
+display: block;
+float: left;
+margin: 0;
+}
+#portal-globalnav li a {
+float: left;
+color:#FFFFFF;
+display:block;
+background: #AAA url(navbarBkgd.gif);
+margin-right: 2px;
+padding:0px 12px;
+text-decoration:none;
+font: 12px/22px helvetica, verdana,arial,sans-serif;
+}
+#portal-globalnav li a:hover {
+text-decoration: underline;
+}
+#portal-globalnav li.selected a{
+color: white;
+background: #D69A18 url(http://www.westcoast.no/subskins_getimage/%23D69A18/navbarsel.gif)
+}
+/* */
+
+}
+
+
+/* - SubSkins_portlets_clean_small_III.css - */
+@media screen {
+/* http://www.westcoast.no/portal_css/SubSkins_portlets_clean_small_III.css?original=1 */
+.portlet {
+margin: 0 0 23px 0;
+color: #666666;
+border: 0 none;
+font: normal 10px verdana, helvetica, sans-serif;
+border-collapse: collapse;
+background-color:  #f7ebd1;
+}
+.portlet a.tile {
+color: #333;
+text-decoration: none;
+clear: both;
+}
+.portlet ul {
+list-style-type: none;
+}
+.portlet ul, .portlet dl, .portlet li, .portlet dt, .portlet dd {
+margin: 0;
+}
+.portletHeader {
+background: #D69A18 url(http://www.westcoast.no/subskins_getimage/%23D69A18/mountains.png) no-repeat right top;
+height: 26px;
+margin: 0;
+padding: 0;
+color: whitesmoke;
+font-variant: normal;
+text-transform: none;
+font-size: 12px;
+line-height: 26px;
+padding-left:  10px;
+}
+.portletCalendar dt.portletHeader {
+padding-left: 0;
+background: #0F5F8A url(http://www.westcoast.no/subskins_getimage/%230F5F8A/mountains.png) no-repeat right top;
+}
+.portletHeader a.tile {
+text-decoration: none;
+text-transform: capitalize !important;
+color: whitesmoke;
+padding-top: 0px
+}
+.portletNavigationTree .portletItem,
+.portletCalendar .portletItem{
+padding: 0;
+}
+.portletItem {
+padding: 6px 10px;
+}
+.portletItemDetails {
+font-weight: normal;
+font-style: normal;
+font-size: 9px;
+padding-right: 10px;
+margin-bottom: 6px;
+padding-top: 2px;
+clear: both;
+display: block;
+}
+.portlet.portletThirdWidth {
+margin-top: 20px !important;
+margin-right:22px !important;
+}
+#portlet-page-view {
+background-color: #8A4E0F;
+}
+#portlet-page-view p {
+margin: 4px 6px 12px 6px;
+color: white;
+font-size: 12px;
+}
+.portletItem  img.image-inline {
+border: 2px solid whitesmoke;
+}
+.boardCommentHeaderTitleBlock {
+font-size: 134%;
+line-height: 150%;
+}
+#portlet-page-view a {
+color: white;
+}
+.portletHeader a {
+color: whitesmoke;
+}
+.visualNoMarker img {
+float: left;
+margin-right: 5px;
+margin-top: -1px;
+}
+dd.portletFooter {
+line-height: 20px;
+padding-left: 10px;
+}
+.portletFooter {
+background: #B8B30F  url(http://www.westcoast.no/subskins_getimage/%23B8B30F/menu_item.gif);
+border: 0 none;
+padding: 2px 15px;
+clear: both;
+text-align: right;
+border-top: 1px solid #8A4E0F;
+}
+.portletFooter a {
+color: black;
+text-align: right;
+line-height: 130%;
+}
+.portletLogin  dt {
+background: #0F5F8A;
+}
+.portletLogin .label {
+padding: 4px;
+display: block;
+margin: 10px;
+}
+.portletLogin .portletItem {
+padding-top: 0;
+padding-bottom: 5px;
+}
+.portletLogin dt.portletHeader a.tile {
+color: white;
+font-weight: bold;
+}
+input#__ac_name,
+input#__ac_password {
+width: 130px;
+margin-top: 4px;
+}
+.portletLogin div.field {
+margin-bottom: 12px;
+}
+/* */
+/* */
+}
+
+
+/* - SubSkins_navigation_Clean_simple_2.css - */
+@media screen {
+/* http://www.westcoast.no/portal_css/SubSkins_navigation_Clean_simple_2.css?original=1 */
+/* */
+.portletNavigationTree  {
+background: white;
+border: none;
+}
+.portletNavigationTree  .portletItem {
+padding: 0;
+}
+a.navTreeCurrentItem {
+font-weight: bold;
+padding-left: 7px;
+margin-left: -11px;
+border-left: 5px solid #0F5F8A;
+color: black;
+}
+.portletNavigationTree  li a:hover,
+a.navTreeCurrentItem {
+font-weight: normal;
+}
+.portletNavigationTree  li {
+padding: 4px 10px 4px 15px;
+border-bottom: 1px solid #CCCCCC;
+line-height: 16px;
+}
+.portletNavigationTree  a {
+text-decoration: none;
+}
+li.navTreeItem.visualNoMarker li {
+padding-left: 10px;
+line-height: 12px;
+border-bottom: 0px;
+padding-bottom: 4px;
+}
+/* */
+}
+
+
+/* - SubSkins_bottom_mirror.css - */
+@media screen {
+/* http://www.westcoast.no/portal_css/SubSkins_bottom_mirror.css?original=1 */
+/* */
+/* */
+#portal-colophon {
+background: #0F5F8A url(http://www.westcoast.no/subskins_getimage/%230F5F8A/forlopIV.gif) repeat-x;
+color: #ffffff;
+text-align: center;
+height: 110px;
+border-top: 1px solid #1795D7;
+margin: 0 auto;
+padding: 12px 0;
+font-size: smaller;
+}
+#portal-colophon div.colophonWrapper {
+width: 832px;
+margin: 0 auto;
+}
+#portal-colophon ul {
+list-style-image: none;
+list-style-type: none;
+}
+#portal-colophon ul li {
+display: inline !important;
+font-size: 90%;
+padding: 0 0.75em;
+color: white;
+}
+#portal-colophon ul li a {
+text-decoration: none;
+border-bottom: 1px #ccc solid;
+color: white;
+}
+#portal-footer {
+font-size: 12px;
+color: #dee7ec;
+line-height: 1.2em;
+text-align: center;
+width: 832px;
+margin: 0 auto;
+display: block;
+padding: 5px 0;
+background: #B8B30F
+}
+#portal-footer p {
+margin: 0.25em 0;
+}
+#portal-footer a {
+color: white;
+margin: 3px;
+font-style: italic;
+text-decoration: none;
+}
+#portal-footer a:visited {
+color: #436977;
+}
+#portal-footer a:hover {
+text-decoration: underline;
+}
+/* */
+}

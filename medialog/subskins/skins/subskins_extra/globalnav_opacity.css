@@ -1,0 +1,6 @@
+#portal-globalnav {
+  /* for IE */
+  filter:alpha(opacity=90);
+  /* CSS3 standard */
+  opacity:0.9;
+}

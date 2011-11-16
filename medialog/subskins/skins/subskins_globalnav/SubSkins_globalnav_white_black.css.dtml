@@ -1,0 +1,75 @@
+/*
+  This file is based on the ploneCustom.css.dtml shipped with Plone.
+
+  <dtml-with base_properties> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+#portal-globalnav {
+	list-style-type: none;
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	background: white;
+	text-decoration: none;
+	width: 100%;
+	clear: both;
+	border-bottom-style: none;
+	color: silver;
+}
+
+#portal-globalnav:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}
+
+/* for IE */
+
+/*\*/
+
+* html #portal-globalnav {
+	height: 1em;
+	overflow: visible;
+}
+
+/**/
+
+#portal-globalnav li {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#portal-globalnav li a {
+	display: block;
+	float: left;
+	padding: 0.25em 1.25em;
+	background: white;
+	color: gray;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: small;
+}
+
+#portal-globalnav li a:hover {
+	text-decoration: none;
+	background-color: white;
+	border-top: 1px solid black;
+	color: black;
+}
+
+#portal-globalnav li.selected a {
+	background: black;
+	font-weight: bold;
+	text-decoration: none;
+	border-top: 1px solid black;
+	color: white;
+}
+
+/* </dtml-with> */

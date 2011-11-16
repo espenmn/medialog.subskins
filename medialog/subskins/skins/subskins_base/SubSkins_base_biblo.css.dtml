@@ -1,0 +1,70 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+body {
+    background: &dtml-SubSkinsColor3; url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor3;/lindespace.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* base structures
+
+---------------------------------------------------------------------- */
+
+#visual-portal-wrapper{
+	position: relative;
+	width:  &dtml-SubSkinsWidth1;;
+	text-align: left;
+	margin: 0 auto;
+}
+
+#portal-columns{
+    background-color: #FFFFFF;
+    background-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor6;/almostwhite.jpg);
+    background-repeat: no-repeat;
+}
+
+#clear-space-before-footer {
+	display: block;
+	width:  100%;
+    background-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor6;/almostwhite_footer.jpg);
+    background-repeat: repeat-x;
+    height: 43px;
+    }
+
+#portal-column-one{
+    margin-right: 27px;
+    margin-top: 26px;
+    min-height: 443px;
+    width:   &dtml-SubSkinsWidth2;;
+	background:url(almostwhite_left.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+
+#portal-column-two{
+	margin-left: 27px;
+    margin-top: 26px;
+    min-height: 443px;
+    width:   &dtml-SubSkinsWidth3;;
+	background: url(almostwhite_right.jpg);
+	background-repeat: no-repeat;
+	background-position: left  top;
+}
+
+
+
+#portal-column-content{
+  padding: 10px 20px;
+}
+
+
+#content{
+	padding: 20px;
+}
+
+
+
+/* </dtml-with> */	

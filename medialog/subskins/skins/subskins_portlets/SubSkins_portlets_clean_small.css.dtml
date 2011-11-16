@@ -1,0 +1,171 @@
+/* @override http://xweb14f.plana.dk:8084/Products/portal_css/subskins/SubSkins_portlets_clean_small_III.css */
+
+/*
+  <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-with get_base_properties> 
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+.portlet {
+	margin: 0 0 23px 0;
+	color: #666666;
+	border: 0 none;
+	font: normal 10px verdana, helvetica, sans-serif;
+	border-collapse: collapse;
+	background-color:  <dtml-var expr="dim_to_white(color=SubSkinsColor1, percent='90')">;
+}
+
+.portlet a.tile {
+	color: #333;
+	text-decoration: none;
+	clear: both;
+}
+
+.portlet ul {
+	list-style-type: none;
+}
+
+.portlet ul, .portlet dl, .portlet li, .portlet dt, .portlet dd {
+	margin: 0;
+}
+
+.portletHeader {
+	background: &dtml-SubSkinsColor1; url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/navbarsel.gif) repeat-x left center;
+	height: 26px;
+	margin: 0;
+	padding: 0;
+	color: whitesmoke;
+	font-variant: normal;
+	text-transform: none;
+	font-size: 12px;
+	line-height: 26px;
+	padding-left:  10px;
+
+}
+.portletCalendar dt.portletHeader {
+	padding-left: 0;
+	background: &dtml-SubSkinsColor2; url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor2;/navbarsel.gif) repeat-x left center;
+}
+
+.portletHeader a.tile {
+	text-decoration: none;
+	text-transform: capitalize !important;
+	color: whitesmoke;
+	padding-top: 0px
+}
+
+.portletNavigationTree .portletItem,
+.portletCalendar .portletItem{
+	padding: 0;
+}
+.portletItem {
+	padding: 6px 10px;
+
+}
+
+
+.portletItemDetails {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 9px;
+	
+	padding-right: 10px;
+	margin-bottom: 6px;
+	padding-top: 2px;
+	clear: both;
+	display: block;
+	
+}
+
+.portlet.portletThirdWidth {
+	margin-top: 20px !important;
+	margin-right:22px !important;
+	
+}
+
+#portlet-page-view {
+	background-color: &dtml-SubSkinsColor4;;
+}
+
+#portlet-page-view p {
+	margin: 4px 6px 12px 6px;
+	color: white;
+	font-size: 12px;
+}
+
+.portletItem  img.image-inline {
+		border: 2px solid whitesmoke;
+}
+
+.boardCommentHeaderTitleBlock {
+	
+	font-size: 134%;
+	line-height: 150%;
+}
+
+#portlet-page-view a {
+		color: white;	
+}
+
+.portletHeader a {
+	color: whitesmoke;
+}
+
+.visualNoMarker img {
+	float: left;
+	margin-right: 5px;
+	margin-top: -1px;
+}
+
+dd.portletFooter {
+	line-height: 20px;
+	padding-left: 10px;
+}
+
+.portletFooter {
+	background: &dtml-SubSkinsColor5;  url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor5;/menu_item.gif);
+	border: 0 none;
+	padding: 2px 15px;
+	clear: both;
+	text-align: right;
+	border-top: 1px solid &dtml-SubSkinsColor3;;
+
+}
+
+.portletFooter a {
+	color: white;
+	text-align: right;
+	line-height: 130%;
+}
+
+.portletLogin  dt {
+	background: &dtml-SubSkinsColor1;;
+}
+
+.portletLogin .label {
+	padding: 4px;
+	display: block;
+	margin: 10px;
+}
+
+.portletLogin .portletItem {
+	padding-top: 0;
+	padding-bottom: 5px;
+}
+
+.portletLogin dt.portletHeader a.tile {
+	color: white;
+	font-weight: bold;
+}
+
+input#__ac_name,
+input#__ac_password {
+	width: 130px;
+	margin-top: 4px;
+}
+
+.portletLogin div.field {
+	margin-bottom: 12px;
+	}
+
+/* </dtml-with> </dtml-with> */

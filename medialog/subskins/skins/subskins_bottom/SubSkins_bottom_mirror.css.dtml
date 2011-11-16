@@ -1,0 +1,69 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+#portal-colophon {
+	background: &dtml-SubSkinsColor1; url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/forlopIV.gif) repeat-x;
+	color: #ffffff;
+	text-align: center;
+	height: 110px;
+	border-top: 1px solid &dtml-SubSkinsColor2;;
+	margin: 0 auto;
+	padding: 12px 0;
+	font-size: smaller;
+}
+
+#portal-colophon div.colophonWrapper {
+	width: &dtml-SubSkinsWidth1;;
+	margin: 0 auto;
+}
+
+#portal-colophon ul {
+	list-style-image: none;
+	list-style-type: none;
+}
+
+#portal-colophon ul li {
+	display: inline !important;
+	font-size: 90%;
+	padding: 0 0.75em;
+	color: white;
+}
+
+#portal-colophon ul li a {
+	text-decoration: none;
+	border-bottom: 1px #ccc solid;
+	color: white;
+}
+
+#portal-footer {
+	font-size: 12px;
+	color: #dee7ec;
+	line-height: 1.2em;
+	text-align: center;
+	width: &dtml-SubSkinsWidth1;;
+	margin: 0 auto;
+	display: block;
+	padding: 5px 0;
+	background: &dtml-SubSkinsColor1; 
+}
+
+#portal-footer p {
+	margin: 0.25em 0;
+}
+
+#portal-footer a {
+	color: white;
+	margin: 3px;
+	font-style: italic;
+	text-decoration: none;
+}
+
+#portal-footer a:visited {
+	color: #436977;
+}
+
+#portal-footer a:hover {
+	text-decoration: underline;
+}
+
+/* </dtml-with> */

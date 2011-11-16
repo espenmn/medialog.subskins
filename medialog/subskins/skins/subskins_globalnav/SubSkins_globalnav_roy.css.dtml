@@ -1,0 +1,45 @@
+/* @override 
+	http://xweb11.plana.dk:8098/roy/portal_css/SubSkins/SubSkins_globalnav_ROY.css
+*/
+
+/* - SubSkins_globalnav_red_rounded.css - */
+
+/*
+  For SubSKins - Dette er medialog looken.
+  <dtml-with base_properties> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+#portal-globalnav {
+	width: 590px;
+	background: #CCC;
+	text-decoration: none;
+	text-transform: lowercase;
+	float: right;
+	padding: 3px 0;
+	height: 12px; 
+	margin: 0;
+	clear: both;
+}
+
+#portal-globalnav li {
+	text-decoration: none;
+	list-style-type: none;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0 15px;
+	border-right: 1px solid #141414;
+	text-transform: uppercase;
+}
+
+#portal-globalnav li a {
+	float: left;
+	list-style-type: none;
+	font: normal 11px Arial, Helvetica, "Helvetica Neue", Geneva, sans-serif;
+	color: #141414;
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* </dtml-with> */

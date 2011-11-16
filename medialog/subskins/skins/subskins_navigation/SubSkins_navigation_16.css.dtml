@@ -1,0 +1,92 @@
+/*
+  denne er ferdig (blaa til bruk i medialog demo site
+  <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+
+/* portal navigation
+
+---------------------------------------------------------------------- */
+
+#portlet-navigation-tree .portletItem{
+    padding:0px 0px 0px 0px;
+    background-image: none;
+	overflow: hidden;
+	font-family: tahoma, arial, verdana, sans-serif;
+	list-style-type: none;
+	}
+
+.portletNavigationTree{
+  list-style-type: none;
+  padding: 0px;
+  border: 0;
+ 
+  border-bottom-style: none;
+  }
+
+.portletNavigationTree ul{
+  padding:0px 0px 0px 0px;
+  margin:0px;
+  list-style:none;
+  z-index:2;
+  border-top: 1px solid &dtml-SubSkinsColor6;;
+ 
+  }
+
+.portletNavigationTree li{
+  margin: 0;
+  }
+
+.portletNavigationTree li a{
+  display: block;
+  width: auto;
+  padding: 6px 6px;
+  padding-left: 10px;
+  border-top: 0px;
+  border-right: 0px;
+  color: &dtml-SubSkinsColor1;;
+  text-decoration: none;
+  border-bottom: 1px solid  &dtml-SubSkinsColor6;;
+  }
+
+.portletNavigationTree li.navTreeItem a.navTreeCurrentItem{
+  color: &dtml-SubSkinsColor1;;
+  
+ 
+  }
+
+.portletNavigationTree li a:hover,
+a.navTreeCurrentItem{
+  color: black;
+ 
+  }
+
+.portletNavigationTree li a:hover{
+  font-weight: bold;
+  color: black;
+
+  }
+
+.portletNavigationTree .navTreeLevel1 li a {
+  padding-left: 20px;
+  color: black;
+  font-weight: normal;
+  font-style: normal;
+  }
+
+.portletNavigationTree .navTreeLevel2 li a {
+  padding-left: 25px;
+   color: black;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.portletNavigationTree .navTreeLevel3 li a {
+  padding-left: 30px;
+  color: black;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*   </dtml-with> */

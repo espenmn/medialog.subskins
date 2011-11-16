@@ -1,0 +1,222 @@
+/*
+  For SubSKins - Dette er medialog looken.
+  <dtml-with base_properties> (do not remove this)
+  <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+#portal-top {
+	width: 100%;
+	height: auto;
+}
+
+#portal-header {
+	width: 100%;
+	background: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor3;/roundbrey.gif) no-repeat right bottom;
+}
+
+#portal-searchbox {
+	position: absolute;
+	top:  25px;
+	height: 40px;
+	width: 195px;
+	padding: 8px;
+	right: 20px;
+	background: white;
+}
+
+#portal-logo {
+	float:  left;
+	padding: 25px 20px 20px 20px;
+}
+
+
+#portal-siteactions {
+	display: block;
+	float: right;
+	margin: 2px;
+}
+
+#portal-siteactions li {
+	display: inline;
+	padding: 2px 12px;
+	font-size: 8pt;
+	border-left: 1px dotted #CCC;
+}
+
+
+#portal-siteactions li a:hover {
+	color: #333;
+	
+}
+ 
+#portal-breadcrumbs {
+	margin-left: 20px;
+	margin-bottom: 10px; 
+}
+
+#portal-siteactions {
+	white-space: nowrap;
+	list-style-image: none;
+	list-style-type: none;
+	float: right;
+	padding: 0;
+}
+
+
+#portal-siteactions li a {
+	color: #9e9e9e;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 90%;
+}
+
+#portal-personaltools {
+	float: right;
+	margin: 2px 10px;
+	padding: 0;
+	
+}
+
+#portal-personaltools li {
+	display: inline;
+	list-style: none;
+	list-style-image: none;
+}
+
+#portal-personaltools li a {
+	text-decoration: none;
+	margin-left: 1em;
+	margin-right: 1em;
+	font-weight: normal;
+	font-style: normal;
+}
+
+#portal-breadcrumbs {
+	margin: 7px 20px;
+	float: left; width: auto;
+}
+
+
+/* LiveSearch styles */
+
+.LSRes {
+	font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+	visibility: visible;
+	color: #666666;
+background-color: white;
+	vertical-align: middle;
+	display: block;
+	list-style-image: none;
+	list-style-type: none;
+	text-align: left;
+	min-width: 16.5em;
+	text-transform: none;
+	margin-left: 0;
+	line-height: 1em;
+}
+
+#LSHighlight {
+	background-color: white;
+}
+
+.LSRow {
+	padding: 0;
+	margin: 0;
+	list-style-image: none;
+	list-style-type: none;
+}
+
+.LSRow a {
+	text-decoration: none;
+	font-weight: bold;
+	white-space: nowrap
+}
+
+.LSDescr {
+	color: #777777	;
+	text-transform: lowercase;
+	padding-left: 2.1em;
+	margin-top: -0.1em;
+}
+
+.LSResult {
+	position: relative;
+	display: block;
+	text-align: right;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0;
+	left: 3px;
+	top: 1em;
+	z-index: 3;
+}
+
+.LSShadow {
+	position: relative;
+}
+
+.livesearchContainer {
+	background-color: white;
+	margin-top: 0;
+	padding: 0 !important;
+	position: absolute;
+	left: 0px;
+	/* Currently exposes a rendering bug in Mozilla */
+top: 0;
+	white-space: normal;
+	font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+	visibility: visible;
+	text-align: left;
+	color: #666666;
+	border: 1px solid #999999;
+	width: 30em;
+	text-transform: none;
+}
+
+* html .livesearchContainer {
+	padding: 1px !important;
+	padding-top: 0 !important;
+	background-color: white;
+	border: 0;
+}
+
+#livesearchLegend {
+	line-height: 1em;
+	margin-top: -2em;
+	margin-left: -0.1em;
+	border: 2px solid #999999;
+	border-bottom: 0;
+}
+
+* html #livesearchLegend {
+	margin-top: -1.9em;
+	margin-left: -8px;
+	position: relative;
+}
+
+/* Workaround for Internet Explorer's broken z-index implementation */
+
+.LSIEFix {
+	background-color: white;
+	padding: 0.5em !important;
+	z-index: 20;
+}
+
+.LSBox {
+	clear: left;
+	float: left;
+	text-align: right;
+	padding-right: 1px;
+	display: block;
+}
+
+#LSNothingFound {
+	text-align: center;
+	padding: 2px;
+}
+
+/* </dtml-with> */
+/* </dtml-with> */

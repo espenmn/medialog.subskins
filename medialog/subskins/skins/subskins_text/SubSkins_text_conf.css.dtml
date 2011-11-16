@@ -1,0 +1,612 @@
+/*for subskins */
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+  font-size: 69%;
+  color: #333339;
+}
+
+h1 {
+  color: #000033;
+  font-size: 200%;
+  margin-bottom: 0.75em;
+  font-weight: bold;
+}
+
+h2 {
+  color: #000033; 
+  text-transform: uppercase; 
+  font-weight: normal;
+  font-size: 140%;
+  margin: 1.75em 0 0.5em;
+  
+}
+
+h3 {
+  color: &dtml-SubSkinsColor3;; 
+  font-weight: bold; 
+  font-size: 120%;
+  margin: 1.75em 0 0.25em;
+}
+
+
+p {
+  line-height: 156%;
+  margin: 0 0 1em;
+}
+
+a {
+  color: &dtml-SubSkinsColor2;;
+  text-decoration: none;
+}
+
+a:hover {
+	color: &dtml-SubSkinsColor1;;
+}
+
+table, th, tr, td {
+  border-collapse: collapse;
+  border-spacing: 0;
+  vertical-align: top;
+}
+
+
+#content {
+  font-size: 115%;
+}
+
+.documentDescription {
+  color: #262B33; 
+  font-weight: bold; 
+  font-size: 90%;
+  border-bottom: 1px solid &dtml-SubSkinsColor5;;
+  border-top: 1px solid &dtml-SubSkinsColor5;;
+  padding: 5px;
+
+}
+
+
+body.largeText { font-size: 95%; }
+body.smallText { font-size: 60%; }
+
+
+h1, h2 {
+   font-weight: normal;
+}
+
+.documentFirstHeading {
+    margin-top: 0;
+    border-bottom: 0 none;
+}
+
+#content-core ul {
+    list-style-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/bullet.gif);
+    list-style-type: square;
+    margin: 0.5em 0 0 1.5em;
+}
+
+#content-core ol {
+    margin: 0.5em 0 0 2.5em;
+}
+
+#content p a {
+    text-decoration: none;
+}
+#content p a:visited {
+    color: &dtml-SubSkinsColor2;;
+    background-color: transparent;
+}
+#content p a:active {
+    color: &dtml-SubSkinsColor1;;
+    background-color: transparent;
+}
+
+#content li a {
+    text-decoration: none;
+    border-bottom: 1px #cccccc solid;
+}
+#content li a:visited {
+    color: &dtml-SubSkinsColor2;;
+}
+#content li a:active {
+    color: &dtml-SubSkinsColor1;;
+}
+#content dd a {
+    text-decoration: none;
+    border-bottom: 1px #cccccc solid;
+}
+#content dd a:visited {
+    color: &dtml-SubSkinsColor2;;
+    background-color: transparent;
+}
+#content dd a:active {
+    color: &dtml-SubSkinsColor1;;
+    background-color: transparent;
+}
+
+form.searchPage {
+    text-align: center;
+}
+
+input.searchPage {
+    font-size: 200% !important;
+}
+
+form.searchPage input.searchButton {
+    background-color: #E0E0CB;
+}
+
+.visualCaseSensitive {
+    text-transform: none;
+}
+
+#content h5,
+#content h6 {
+    color: &dtml-SubSkinsColor4;;
+}
+.newsItem {
+    margin-bottom: 1em;
+    border-bottom: 1px solid &dtml-SubSkinsColor5;;
+}
+.newsImage {
+    border: 1px solid #ccc;
+}
+.newsImageContainer {
+    float:right;
+    margin: 0 0 0.5em 1.5em;
+    width: 202px;
+}
+.newsContent {
+    padding: 0 1em 1em 1em;
+}
+
+.newsFooter li {
+    display: inline;
+    margin: 0 1em 0 0;
+}
+.documentActions {
+    margin: 1em 0;
+    padding: 0;
+    text-align: right;
+    border-top: 1px solid #ccc;
+}
+.documentActions ul {
+    margin: 0;
+    padding: 0 0.5em;
+    display: block;
+    margin-top: -0.9em;
+    list-style-type: none;
+    list-style-image: none;
+}
+.documentActions li {
+    display: inline;
+    font-size: 85%;
+    margin: 0 0.5em;
+    padding: 0 0.25em;
+    background-color: White;
+}
+.documentActions a {
+    border: none !important;
+    text-decoration: none;
+}
+
+/* Status messages */
+
+dl.portalMessage {
+    font-size: 85%;
+    background-color: #ffffe3; 
+    border: 1px solid &dtml-SubSkinsColor3;;    
+}
+dl.portalMessage a {
+    color: black;
+    border: none;
+    text-decoration: underline;
+}
+dl.portalMessage dt {
+    background-color: &dtml-SubSkinsColor3;; 
+    font-weight: bold;
+    float: left;
+    margin: 0 0.5em 0 0;
+    padding: 0.5em 0.75em;
+    color: White;
+    line-height: 1.25em;
+}
+dl.portalMessage dd {
+    padding: 0.5em 0.5em; 
+    margin: 0;
+    line-height: 1.25em;
+}
+dl.warning {
+    border-color: #d80;
+}
+dl.warning dt {
+    background-color: #d80;
+}
+dl.error {
+    border-color: #d00;    
+}
+dl.error dt {
+    background-color: #d00; 
+}
+dl.warning {
+    border-color: #d80;    
+}
+dl.warning dd {
+    background-color: #fd7; 
+}
+dl.error {
+    border-color: #d80;    
+}
+dl.error dd {
+    background-color: #fd7; 
+}
+
+.discussion {
+    margin-top: 1em;
+}
+.even {
+    background-color: &dtml-SubSkinsColor6;;
+}
+.odd {
+    background-color: transparent;
+}
+.visualHighlight {
+    background-color: #ffc;
+}
+.discreet {
+    color: &dtml-SubSkinsColor4;;
+    font-size: 85%;
+    font-weight: normal;
+}
+.pullquote {
+    padding: 0 1em 0 1em;
+    margin: 0 0 1em 1em;
+    font-weight: bold;
+    color: &dtml-SubSkinsColor2;;
+    float: right;
+    width: 35%;
+    clear: right;
+    background-color: White;
+    border-left: 4px solid &dtml-SubSkinsColor5;;
+}
+.callout {
+    font-weight: bold;
+    color: &dtml-SubSkinsColor2;;
+    padding: 0px 1em;
+}
+
+.notify,
+.documentEditable * .notify {
+    border: 1px solid #ffa500;
+}
+.card {
+    background-color: &dtml-SubSkinsColor5;;
+    border-color: &dtml-SubSkinsColor5;;
+    border-width: 1px;
+    border-style: solid;
+    float: left;
+    margin: 1em;
+    text-align: center;
+    width: 110px;
+    padding: 1em 0;
+}
+.card a {
+    text-decoration: none;
+}
+.portrait {
+    background-color: &dtml-SubSkinsColor5;;
+    border-color: &dtml-SubSkinsColor5;;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 85%;
+    margin: 0.5em;
+    padding: 1em 0 0.5em 0;
+    text-align: center;
+    width: 100px;
+}
+.portraitPhoto {
+    border: 1px solid black;
+}
+
+/* The table used for listings - horizontal and vertical variants */
+table.listing,
+.stx table {
+    /* The default table for document listings. Contains name, document types, modification times etc in a file-browser-like fashion */
+    border-collapse: collapse;
+    border-spacing: 0;    
+    font-size: 85%;
+    margin: 1em 0em 1em 0em;
+}
+table.listing th,
+.stx table th {
+    background: &dtml-SubSkinsColor5;;
+    border-top: 1px solid &dtml-SubSkinsColor5;;
+    border-bottom: 1px solid &dtml-SubSkinsColor5;;
+    border-right: 1px solid &dtml-SubSkinsColor5;;
+    font-size: 110%;
+    font-weight: bold;
+    color: #000;
+    padding: 0.25em 0.5em;
+    padding-top: 4px;
+    text-transform: lowercase;
+}
+table.listing .top {
+    border-left: 1px solid White;
+    border-top: 1px solid White ! important;
+    border-right: 1px solid White ! important;
+    text-align: right ! important;
+    padding: 0em 0em 1em 0em;
+}
+table.listing .listingCheckbox {
+    text-align: center;
+}
+table.listing td,
+.stx table td {
+    border-right: 1px solid &dtml-SubSkinsColor5;;
+    padding: 0.75em 1em 1.4em 1.25em;
+}
+table.listing a {
+    text-decoration: none;
+}
+table.listing a:hover {
+    text-decoration: underline;
+}
+table.listing img {
+    vertical-align: middle;
+}
+table.listing td a label,
+.stx table td a label {
+    cursor: pointer;
+}
+
+/* Vertical addition class */
+table.vertical {
+    background-color: White;	
+}
+table.vertical th {
+    padding: 0.5em;
+}
+table.vertical td {
+    border-top: 1px solid &dtml-SubSkinsColor5;;
+    padding: 0.5em;
+}
+
+/* grid addition class */
+
+table.grid td {
+    border: 1px solid &dtml-SubSkinsColor5;;
+    padding: 0.5em;
+}
+
+/* plain table class with light gray borders */
+
+table.plain,
+table.plain td,
+table.plain th {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    border-collapse: collapse;
+}
+
+/* Batch selector */
+.listingBar {
+    background-color: &dtml-SubSkinsColor5;;
+    border-color: &dtml-SubSkinsColor5;;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0em 1em;
+    text-align: center;
+    text-transform: lowercase;
+    vertical-align: top;
+    margin: 1em 0em;
+    font-size: 94%;
+    clear: both;
+}
+.listingBar span.previous,
+.listingPrevious {
+    text-align: left;
+    float: left;
+    margin-right: 1em;
+}
+.listingBar span.next,
+.listingNext {
+    text-align: right;
+    float: right;
+    margin-left: 1em;
+}
+.listingBar img {
+    vertical-align: middle;
+}
+.listingBar a {
+    text-decoration: none;
+}
+.tileItem {
+    border-top: 1px solid &dtml-SubSkinsColor5;;
+    padding-top: 0.5em;
+    margin-top: 0.5em;
+}
+.tileHeadline {
+    border: none;
+}
+.tileHeadline a {
+    text-decoration: none;
+}
+.tileBody {
+    margin-bottom: 0.5em;
+}
+.tileImage {
+    float: right;
+    margin: 0 0 0.5em 0.5em;
+    border: 1px solid black;
+}
+.eventDetails {
+    float: right;
+    width: 20em;
+    clear: right;
+    margin: 0 0 0.5em 1em;
+}
+
+
+/* List classes without markers */
+ul.visualNoMarker,
+ol.visualNoMarker {
+    list-style-type: none;
+    list-style-image: none;
+    margin: 0.5em 0 0 0;
+    line-height: 1em;
+}
+
+ul.discreet {
+    list-style-image: none;    
+    list-style-type: disc;
+}
+
+textarea.proportional {
+    font: 100% "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+}
+.productCredits {
+    text-align: right;
+    font-size: 85%;
+    clear: both;
+    font-weight: normal;
+    color: &dtml-SubSkinsColor4;;
+}
+
+
+/* Album view classes */
+.photoAlbumEntry {
+    float: left;
+    position:relative;
+    overflow: hidden;
+    height: 185px;
+    width: 143px;
+    margin: 0em;
+    padding: 0px 6px 0px 9px;
+    text-align: center;
+    background-image: url(polaroid-single.png);
+    background-repeat: no-repeat;
+}
+.photoAlbumEntry img {
+    border: 1px solid #ccc;
+    display: block;
+    margin: 0 auto;
+}
+.photoAlbumEntryWrapper {
+    /*display: block;*/
+    height: 130px;
+    width: 128px;
+    margin-bottom: 7px;
+}
+.photoAlbumEntry a {
+    display: block;
+    text-decoration: none;
+    font-size: 85%;
+    height: 169px;
+    width: 130px;
+    margin: 16px auto 0px;
+}
+.photoAlbumFolder {
+    background-image: url(polaroid-multi.png);
+    background-repeat: no-repeat;
+}
+.photoAlbumEntryTitle {
+    color: &dtml-SubSkinsColor4;;
+    display: block;
+    width: 128px;
+    height: 3.6em;
+}
+
+/* Link types */
+a.link-parent {
+    display: block;
+    background: transparent url(arrowUp.gif) 4px 5px no-repeat;
+    padding: 1px 0px 10px 16px;
+    font-size: 85%;
+    text-decoration: none;
+}
+
+.section div {
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+}
+
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+img.image-right {
+	float: right;
+	margin: 8px 0 10px 20px;
+}
+
+img.image-left {
+	float: left;
+	margin: 8px 20px 10px 0;
+}
+
+ul.formTabs {
+  margin: 0 0 -1em;
+}
+
+
+
+label {
+  font-weight: bold;
+}
+
+
+.field {
+    top: 0;
+    left: 0;
+    margin: 0 1em 1em 0;
+    clear: both;
+}
+.field .field {
+    margin: 0;
+}
+
+.formHelp {
+    font-size: 90%;
+    color: &dtml-SubSkinsColor4;;
+    margin: 0 0 0.2em 0;
+}
+.formHelp:hover {
+    color: Black;
+    cursor: default;
+}
+div.error {
+    /* Class for error indication in forms */
+    background-color: #fdc; 
+    border: 1px solid #d00;
+    padding: 0.5em;
+    margin: 0 0 1em 0;
+    width: 95%;
+}
+.error .fieldRequired {
+   color: #d00;
+}
+
+tr.selected { 
+    background-color: #ffa;
+}
+
+
+
+input {
+    border: 1px solid #dbd4d7;
+}
+
+.standalone, .context, .searchButton {
+    background-color: #e0e0cb;
+    color: #333;
+    border: 1px solid #dbd4d7;
+}
+
+
+
+
+/* </dtml-with>*/

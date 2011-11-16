@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=A little happy days II
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=006D90
+SubSkinsColor1:string=#006D90
+SubSkinsColor2:string=#CC3300
+SubSkinsColor3:string=#0099CC
+SubSkinsColor4:string=#6B8F00
+SubSkinsColor5:string=#A5C53D
+SubSkinsColor6:string=#0AC2FF
+SubSkinsPosition:string=-120

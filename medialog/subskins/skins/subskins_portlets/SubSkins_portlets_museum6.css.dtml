@@ -1,0 +1,146 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+
+.portletNavigationTree{
+	padding-top: 0px !important;
+	}
+	
+.portletWrapper {
+	padding: 1px;
+background-color: &dtml-SubSkinsColor6;;
+margin: 20px 0;
+}
+
+
+.portlet {
+	color: black;
+	font-weight: normal;
+	font: 11px verdana, helvetica, sans-serif;
+	border: 1px solid white;
+	margin: 0;
+	}
+
+
+.portlet a.tile {
+	text-decoration: none;
+	clear: both;
+	border-bottom: 1px solid white;
+	}
+	
+.portletLogin  a.tile {
+	border-bottom: 0 none;
+	}
+	
+.portlet ul {
+	list-style-type: none;
+}
+
+.portlet ul, .portlet dl, .portlet li, .portlet dt, .portlet dd {
+	margin: 0;
+}
+
+.portletHeader {
+	background:  url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/000menuanddeviderII.png) repeat-x 0 -2px; 
+	height: 30px;
+	margin: 0 0 5px 0;
+	padding: 0;
+	color: whitesmoke;
+	display: block;
+	font-variant: normal;
+	text-transform: none;
+	font-size: 12px;
+	line-height: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.portletHeader a.tile {
+	text-decoration: none;
+	color: whitesmoke;
+	padding-top: 0px;
+	border-bottom: 0 none;
+}
+
+.portletNavigationTree .portletItem,
+.portletCalendar .portletItem {
+	padding: 0;
+}
+
+.portletItem {
+	padding: 6px 10px;
+}
+
+.portletItemDetails {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 9px;
+	padding-right: 10px;
+	margin-bottom: 6px;
+	padding-top: 2px;
+	clear: both;
+	display: block;
+}
+
+.portletItem  img.image-inline {
+	border: 2px solid whitesmoke;
+}
+
+.portletHeader a {
+	color: whitesmoke;
+}
+
+
+.visualNoMarker img {
+	float: left;
+	margin-right: 5px;
+	margin-top: -1px;
+}
+
+.portletFooter {
+	background:  url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/000menuanddevider.png) repeat-x 0 -3px;
+	border: 0 none;
+	padding: 7px 15px;
+	clear: both;
+	
+}
+
+.portletFooter a {
+	color: whitesmoke;
+	line-height: 130%;
+	text-decoration: none;
+}
+
+dd.portletItem.even {
+	}
+
+
+.portletLogin .label {
+	padding: 4px;
+	display: block;
+	margin: 10px;
+}
+
+.portletLogin .portletItem {
+	padding-top: 0;
+	padding-bottom: 5px;
+}
+
+.portletLogin dt.portletHeader a.tile {
+	color: white;
+	font-weight: bold;
+}
+
+input#__ac_name,
+input#__ac_password {
+	width: 130px;
+	margin-top: 4px;
+}
+
+.portletLogin div.field {
+	margin-bottom: 12px;
+}
+
+/* </dtml-with> */
+
+ 

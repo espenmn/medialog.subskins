@@ -1,0 +1,77 @@
+/*
+A "SubSkins-version of Plones default navigation css
+*/
+
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+
+/* New navtree styles */
+
+.portletNavigationTree {
+    padding: 0; 
+    list-style: none !important;
+    list-style-image: none !important; 
+    line-height: 1em;
+}
+.navTree {
+    list-style: none; 
+    list-style-image: none; 
+    margin-top: 1px;
+    padding-left:0;
+}
+.navTree li {
+    margin-bottom: 1px;
+}
+.navTreeItem {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.navTreeItem a,
+dd.portletItem .navTreeItem a {
+    border: 1px solid &dtml-SubSkinsColor6;;
+    display: block;
+    text-decoration: none;
+    padding-top: 0.2em;
+    padding-bottom: 0.25em;
+}
+.navTreeItem a:hover,
+dd.portletItem .navTreeItem a:hover {
+    background-color: &dtml-SubSkinsColor4;;
+    color: &dtml-SubSkinsColor2;;
+    border: 1px solid &dtml-SubSkinsColor2;;
+}
+.navTreeCurrentItem {
+    background-color: &dtml-SubSkinsColor6;;
+    color: &dtml-SubSkinsColor2;;
+    border: 1px solid &dtml-SubSkinsColor2; !important;
+}
+li.navTreeCurrentItem {
+    display: block;
+    padding: 0 0 0 1px;
+    margin: 0 0 2px -1px;
+}
+li.navTreeCurrentItem a,
+li.navTreeCurrentItem a:hover {
+    display: block;
+    border: 1px solid &dtml-SubSkinsColor2;;
+    min-height: 1.6em;
+    line-height: 1.6em;
+    height: auto;
+}
+
+/* Another workaround for broken Internet Explorer */
+* html li.navTreeCurrentItem a,
+* html li.navTreeCurrentItem a:hover {
+    height: 1.6em;
+}
+
+.navTreeLevel0 { margin: 0; }
+.navTreeLevel1 { margin-left: 1em;}
+.navTreeLevel2 { margin-left: 0.75em; }
+.navTreeLevel3 { margin-left: 0.75em; }
+.navTreeLevel4 { margin-left: 0.75em; }
+.navTreeLevel5 { margin-left: 0.75em; }
+
+/* </dtml-with> */

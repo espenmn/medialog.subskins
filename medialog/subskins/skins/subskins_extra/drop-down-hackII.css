@@ -1,0 +1,33 @@
+  /** SUBMENU STYLES 
+*/ 
+#portal-globalnav ul.submenu {
+	padding:0;
+	line-height:10px;
+    border: 0 none;
+}
+#portal-globalnav ul.submenu li{
+ 	text-align: left;
+ 	padding: 0 ;
+ 	background: #4f4f4f;
+ 	margin:  0;
+ 	border: 0 none;
+}
+
+#portal-globalnav ul.submenu li a{
+     text-decoration: none;
+     padding: 0;
+     padding: 0 14px;
+ 	 margin:  0;
+ 
+} 	 
+
+#portal-globalnav ul.submenu li a:hover {
+ 	 
+	background: #8a8a8a !important;;
+ 
+} 
+
+ 
+.selected ul.submenu {
+	z-index: 99;
+}

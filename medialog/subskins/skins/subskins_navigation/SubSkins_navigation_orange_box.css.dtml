@@ -1,0 +1,103 @@
+/*
+  For SubSkins
+  <dtml-with base_properties> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+/* portal navigation
+
+---------------------------------------------------------------------- */
+
+#portlet-navigation-tree .portletItem {
+	width: auto;
+	padding: 0px 0px 0px 0px;
+	background-image: none;
+	overflow: hidden;
+	font-family: tahoma, arial, verdana, sans-serif;
+	list-style-type: none;
+}
+
+.portletNavigationTree {
+	list-style-type: none;
+	border-bottom-style: solid;
+	border: 1px solid #fc6;
+	border-bottom-color: #fc6;
+}
+
+.portlet.portletNavigationTree {
+	border: 0 none;
+}
+
+.portletNavigationTree ul {
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+	list-style: none;
+	background: #fff6e3;
+}
+
+.portletNavigationTree li {
+	margin: 0;
+}
+
+.portletNavigationTree li a {
+	display: block;
+	width: auto;
+	padding: 6px 6px;
+	padding-left: 10px;
+	border-right: 0px;
+	color: #4d4141;
+	text-decoration: none;
+}
+
+.portletNavigationTree li.navTreeItem a.navTreeCurrentItem {
+	color: black;
+	font-weight: bold;
+	background-color: #fc6;
+}
+
+.portletNavigationTree li a:hover,
+a.navTreeCurrentItem {
+	color: black;
+	font-weight: bold;
+	background-color: #fc6;
+}
+
+.portletNavigationTree li a:hover {
+	font-weight: bold;
+	color: white;
+	background-color: #df903a;
+}
+
+.portletNavigationTree .navTreeLevel1 li a {
+	padding-left: 15px;
+	color: black;
+	background-color: #fff6d3;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.portletNavigationTree .navTreeLevel2 li a {
+	padding-left: 20px;
+	background-color: #fff6d3;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.portletNavigationTree .navTreeLevel3 li a {
+	padding-left: 25px;
+	background-color: #fff6d3;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.portletNavigationTree .navTreeLevel2 a:hover {
+	background-color: #fcedc4;
+}
+
+.portletNavigationTree .navTreeLevel3 a:hover {
+	background-color: #fcedc4;
+}
+
+/* </dtml-with> */

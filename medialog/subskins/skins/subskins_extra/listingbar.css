@@ -1,0 +1,22 @@
+
+#viewlet-below-content div.listingBar {
+	line-height: 20px;
+	}
+
+#viewlet-below-content div.listingBar a {
+	text-transform: uppercase;
+    background-image: none;
+    padding: 10px;
+}
+
+#viewlet-below-content .listingBar a.previous {
+	background: url(fancy_left.png) no-repeat right 2px;
+	padding-right: 35px;
+	height: 32px;
+}
+
+#viewlet-below-content .listingBar a.next {
+	background: url(fancy_right.png) left 2px no-repeat;
+	height: 32px;
+	padding-left: 35px
+}

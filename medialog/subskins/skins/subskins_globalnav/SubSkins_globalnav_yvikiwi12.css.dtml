@@ -1,0 +1,54 @@
+/*
+  For SubSkins
+  <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+/* The global section tabs. */
+
+#portal-globalnav {
+	
+
+/* Navigational Plone Tabs(tm), implemented by customizing the a tag - they are surprisingly elegant. The power of CSS runs strong in these :) */
+    background-color: #FFFFFF;
+	font-weight: bold;
+	font: bold 1.1em Arial, Verdana, sans-serif;
+	padding: 3px 0px;
+	list-style: none;
+	margin: 0;
+	padding-top: 10px;
+	height: 20px;
+	line-height: normal;
+	text-transform: uppercase;
+	text-align: center;
+	clear: both;
+}
+
+#portal-globalnav li {
+	display: inline;
+	padding: 0 4px;
+}
+
+#portal-globalnav li a {
+	
+
+/* The normal, unselected tabs. They are all links */
+    background-color: transparent;
+	color: &dtml-SubSkinsColor1;;
+	height: auto;
+	margin-right: 0.5em;
+	text-decoration: none;
+}
+
+#portal-globalnav li.selected a {
+	
+
+/* The selected tab. There's only one of this */
+    color: &dtml-SubSkinsColor2;;
+}
+
+#portal-globalnav li a:hover {
+	color: &dtml-SubSkinsColor2;;
+}
+
+/* </dtml-with> */

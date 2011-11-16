@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Earth fj
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=8E795D
+SubSkinsColor1:string=#8E795D
+SubSkinsColor2:string=#D19648
+SubSkinsColor3:string=#B8966A
+SubSkinsColor4:string=#B2C9CC
+SubSkinsColor5:string=#EFCC6C
+SubSkinsColor6:string=#E4DBC0
+SubSkinsPosition:string=-520

@@ -1,0 +1,228 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-with base_properties> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+#portal-top {
+	width: 100%;
+	height: auto;
+}
+
+#portal-header {
+	width: 100%;
+}
+
+#portal-searchbox {
+	float: right;
+	clear: right;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+}
+
+#portal-logo {
+	float:  left;
+	padding: 10px 20px 5px 20px;
+}
+
+#portal-siteactions {
+	background-color: transparent;
+	white-space: nowrap;
+	list-style-image: none;
+	list-style-type: none;
+	margin: 1px 0 0 0;
+	line-height: normal;
+	padding:0;
+	float: right;
+	display: block;
+	height: 30px;
+}
+
+#portal-siteactions li {
+	display: inline-block;
+	padding: 0;
+	padding-right: 12px;
+	font-size: 8pt;
+}
+
+#portal-siteactions li a {
+	border: 1px solid transparent;
+	color: &dtml-SubSkinsColor3;;
+	padding: 0.5em;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 90%;
+	margin: 0;
+}
+
+#portal-siteactions li a:hover {
+	background-color: #ffffff;
+	color: #000000;
+	border: 1px solid &dtml-SubSkinsColor4;;
+}
+
+#portal-siteactions li.selected a {
+	background-color: #ffffff;
+	color: #000000;
+	border: 1px solid &dtml-SubSkinsColor4;;
+}
+
+#portal-personaltools {
+	float: right;
+	margin: 0.5em 0;
+	padding: 0 15px;
+}
+
+#portal-personaltools li {
+	display: inline;
+	list-style: none;
+	list-style-image: none;
+}
+
+#portal-personaltools li a {
+	text-decoration: none;
+	margin-right: 1em;
+	margin-left: 1em;
+	margin-bottom: 10px; 
+}
+
+#portal-breadcrumbs {
+	padding-left: 15px;
+}
+#portal-breadcrumbs a,
+#portal-breadcrumbs span span {	
+float:left;
+display: block;
+padding:6px;
+font-weight: normal;
+}
+#portal-breadcrumbs a {
+	color: &dtml-SubSkinsColor4;;
+}
+
+span#breadcrumbs-you-are-here{
+	display: none;
+}
+
+/* LiveSearch styles */
+
+.LSRes {
+	font-family: <dtml-var fontFamily>;
+	visibility: visible;
+	color: &dtml-globalFontColor;;
+background-color: white;
+	vertical-align: middle;
+	display: block;
+	list-style-image: none;
+	list-style-type: none;
+	text-align: left;
+	min-width: 16.5em;
+	text-transform: none;
+	margin-left: 0;
+	line-height: 1em;
+}
+
+#LSHighlight {
+	background-color: white;
+}
+
+.LSRow {
+	padding: 0;
+	margin: 0;
+	list-style-image: none;
+	list-style-type: none;
+}
+
+.LSRow a {
+	text-decoration: none;
+	font-weight: bold;
+	white-space: nowrap
+}
+
+.LSDescr {
+	color: &dtml-discreetColor;	;
+	text-transform: &dtml-textTransform;;
+	padding-left: 2.1em;
+	margin-top: -0.1em;
+}
+
+.LSResult {
+	position: relative;
+	display: block;
+	text-align: right;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0;
+	left: 3px;
+	top: 1em;
+	z-index: 3;
+}
+
+.LSShadow {
+	position: relative;
+}
+
+.livesearchContainer {
+	background-color: white;
+	margin-top: 0;
+	padding: 0 !important;
+	position: absolute;
+	left: 0px;
+	/* Currently exposes a rendering bug in Mozilla */
+top: 0;
+	white-space: normal;
+	font-family: <dtml-var fontFamily>;
+	visibility: visible;
+	text-align: left;
+	color: &dtml-globalFontColor;;
+	border: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
+	width: 30em;
+	text-transform: none;
+}
+
+* html .livesearchContainer {
+	padding: &dtml-borderWidth; !important;
+	padding-top: 0 !important;
+	background-color: white;
+	border: 0;
+}
+
+#livesearchLegend {
+	line-height: 1em;
+	margin-top: -2em;
+	margin-left: -0.1em;
+	border: 2px &dtml-borderStyle; &dtml-globalBorderColor;;
+	border-bottom: 0;
+}
+
+* html #livesearchLegend {
+	margin-top: -1.9em;
+	margin-left: -8px;
+	position: relative;
+}
+
+/* Workaround for Internet Explorer's broken z-index implementation */
+
+.LSIEFix {
+	background-color: white;
+	padding: 0.5em !important;
+	z-index: 20;
+}
+
+.LSBox {
+	clear: left;
+	float: left;
+	text-align: right;
+	padding-right: 1px;
+	display: block;
+}
+
+#LSNothingFound {
+	text-align: center;
+	padding: 2px;
+}
+
+
+/* </dtml-with> */
+/* </dtml-with> */

@@ -1,0 +1,47 @@
+/*
+  <dtml-with get_base_properties mapping> (do not remove this)
+ <dtml-with get_base_properties> 
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+.portletNavigationTree li {
+	font-family: Arial, Helvetica, sans-serif,sans-serif;
+	border-top: 1px solid <dtml-var expr="dim_to_white(color=SubSkinsColor2, percent='50')">;
+	border-bottom: 1px solid <dtml-var expr="dim_to_black(color=SubSkinsColor2, percent='75')">;
+	padding-left: 13px;
+	padding-right: 10px;
+  background: <dtml-var expr="dim_to_white(color=SubSkinsColor2, percent=20)">;
+}
+
+.portletNavigationTree  :hover {
+	background: <dtml-var expr="dim_to_white(color=SubSkinsColor2, percent=25)">;
+}
+
+.portletNavigationTree li a {
+	padding: 8px 0;
+	color: white;
+	display: block;
+	clear: both;
+	text-decoration: none;
+	font: 12px Arial, Helvetica, sans-serif,sans-serif;
+}
+
+li.navTreeCurrentNode {
+	background: <dtml-var expr="dim_to_white(color=SubSkinsColor2, percent=25)">;
+}
+
+.portletNavigationTree .navTreeCurrentNode li a {
+	padding: 4px 0;
+}
+
+.portletNavigationTree .navTreeCurrentNode li {
+	background: <dtml-var expr="dim_to_white(color=SubSkinsColor2, percent=25)">;
+}
+
+.navTreeCurrentItem.navTreeCurrentNode :before {
+	content: "» ";
+	color: &dtml-SubSkinsColor4;;
+}
+
+/* </dtml-with>*/
+/* </dtml-with>*/

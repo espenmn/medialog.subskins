@@ -1,0 +1,48 @@
+/*  For SubSkins
+  <dtml-with get_base_properties mapping>
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)*/
+
+ #portal-globalnav {
+	clear: both;
+	display: block;
+	padding: 0 5px;;
+	background: transparent;
+	margin: 10px;
+border-bottom: 8px solid &dtml-SubSkinsColor3;;
+height: 22px;
+
+}
+
+#portal-globalnav ul {
+	font: bold 11px Arial, Verdana, sans-serif;
+	list-style: none;
+}
+
+#portal-globalnav li {
+	display: block;
+	padding: 0;
+	text-transform: uppercase;
+	float: left;
+	background: &dtml-SubSkinsColor3; url(white-dot.gif) no-repeat left top;
+	margin: 0 2px 0 0;
+	padding: 0 0 1px 3px;
+	text-decoration: none;
+	letter-spacing: 1px;
+	height: 19px;
+}
+
+#portal-globalnav li a {
+	color: white;
+	float: left;
+	display: block;
+	background: transparent url(white-dot.gif) no-repeat right top;
+	padding: 4px 9px 2px 6px;
+}
+
+#portal-globalnav li:hover, 
+#portal-globalnav li.selected {
+	background: &dtml-SubSkinsColor2;;
+	}
+
+/* </dtml-with> 
+*/

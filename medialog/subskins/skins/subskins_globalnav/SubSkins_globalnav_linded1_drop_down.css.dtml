@@ -1,0 +1,89 @@
+/*
+  For SubSkins
+  <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+#portal-globalnav {
+	clear: both;
+	display: block;
+	margin: 1px 0;
+	padding: 0;
+	padding-left: 10px;
+	height: 36px;
+	border-top: 1px solid #AAA;
+	border-bottom: 1px solid #AAA;
+}
+
+#portal-globalnav li {
+	display: block;
+	margin: 0;
+	padding: 0;
+	float: left;
+	text-align: center;
+}
+
+#portal-globalnav li a {
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	font: bold 11px Verdana, Helvetica, Arial, "Helvetica Neue", Geneva, sans-serif;
+	display: block;
+	letter-spacing: 1px;
+	line-height: 36px;
+	color: #999;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#portal-globalnav li:hover a {
+	border-left: 1px solid #AAA;
+	border-right: 1px solid #AAA;
+	color: #555;
+}
+
+#portal-globalnav .selected a {
+	color: &dtml-SubSkinsColor1;;
+}
+
+#portal-globalnav ul.submenu li {
+	width: 100% !important;
+	padding: 0;
+	margin: 0;
+}
+
+.selected ul.submenu {
+	z-index: 99;
+	margin-top: 0 !important;
+}
+
+ul.submenu a:hover {
+	background: white;
+	color: #555 !important;
+}
+
+#portal-globalnav .submenu li {
+	padding: 0;
+	margin: 0;
+}
+
+#portal-globalnav ul.submenu a {
+	line-height: 17px;
+	padding: 10px;
+	border: 0 none !important;
+	border-top: 1px solid #AAA !important;
+}
+
+ul.submenu li a:hover {
+	background-color: #EEE !important;
+	color: #555;
+}
+
+#portal-globalnav ul {
+	padding: 0;
+}
+
+.submenu li a {
+	color: #777 !important;
+	text-align: left;
+}
+
+/* </dtml-with> */

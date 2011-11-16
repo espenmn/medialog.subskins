@@ -1,0 +1,55 @@
+/* @override http://localhost:8080/Plone/portal_css/SubSkins/SubSkins_text_base.css */
+
+/* <dtml-with base_properties> (do not remove this :) */
+
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+/* @group Portlets */
+
+.portlet {
+	padding-bottom: 25px;
+	margin: 0;
+}
+
+.portlet a {
+	text-decoration: none;
+}
+
+.portlet ul {
+	list-style-type: none;
+}
+
+.portlet ul, .portlet dl, .portlet li, .portlet dt, .portlet dd {
+	margin: 0;
+}
+
+.portletHeader {
+	display: none;
+}
+
+.portletItem {
+	padding: 0;
+	background-color: transparent;
+	color: black;
+}
+
+span.portletItemDetails {
+	display: block;
+	color: #999;
+}
+
+.configlets li {
+	padding: 0.5em 0;
+}
+
+.portletFooter {
+	
+}
+
+.portlet input.context {
+	margin-bottom: 5px;
+}
+
+/* @end */
+
+/* </dtml-with> */

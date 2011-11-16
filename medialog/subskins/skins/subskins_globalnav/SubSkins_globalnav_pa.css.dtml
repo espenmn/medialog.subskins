@@ -1,0 +1,55 @@
+/* a globalnav for medialog.subskins theme
+  <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+#portal-globalnav {
+	height:37px;
+	background:  &dtml-SubSkinsColor1; URL(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/000forlopvII.jpg) repeat-x;
+	background-position: 0 -135px;
+	margin:  0;
+	padding: 0;
+	border-top:  1px solid #fff;
+	border-bottom:  1px solid #fff;;
+	clear: both;
+}
+
+#portal-globalnav li {
+       display: block;
+        float:  left;
+	font-weight: bold;
+	font-family: Arial;
+	line-height: 14px;
+	color: #FFFFFF;
+	border-right:  1px solid #fff;
+	height: 37px;
+	vertical-align: bottom;	text-align: center;
+	margin: 0;
+}
+
+#portal-globalnav li a{
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFFFFF;
+	vertical-align: bottom;
+	display: block;
+	padding-top: 12px;
+	height:25px;
+	width:  80px;
+}
+
+
+#portal-globalnav .selected,
+#portal-globalnav :hover{
+	background: URL(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/000forlopvII.jpg) repeat-x;
+	background-position: 0 -145px;
+}
+	
+#portal-globalnav a:hover,
+#portal-globalnav .selected a:hover{
+	color: white;
+	opacity: 0.85;
+}
+
+/* </dtml-with> */

@@ -1,0 +1,133 @@
+/*
+** SubSkins version of Plone style sheet - Portlets
+**
+
+**
+*/
+
+/* <dtml-with base_properties> (do not remove this :) */
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+/* Fallback for edit screen if both columns are hidden */
+.managePortletsFallback {
+    margin: 0 0 0 1em;
+}
+
+/* Main portlet elements */
+.portlet {
+    margin: 1px 0 1em 0;
+    border-bottom: 1px solid &dtml-SubSkinsColor5;;
+    background-color:<dtml-var expr="dim_to_white(color=SubSkinsColor6, percent='70')">;;
+}
+.portlet a {
+    text-decoration: none;
+}
+.portlet a.tile {
+    display: block;
+}
+
+.portletItem ul {
+    list-style-type: none
+}
+
+/* XXX: The two below rules should really be in the rule above, but that makes the items grow/shrink on :hover (navtree) - need to investigate how to make it not do that. ~limi, Dec 2005 */
+.portletItem a,
+.portletFooter a {
+    border-bottom: none;
+}
+
+.portletItem a:visited,
+.portletFooter a:visited {
+    color: &dtml-linkColor;;
+}
+.portletHeader, .managedPortlet .portletHeader {
+    background-color:  <dtml-var expr="dim_to_white(color=SubSkinsColor5, percent='70')">;
+    border: 1px solid &dtml-SubSkinsColor5;;
+    padding: 0em 1em;
+    font-weight: normal;
+    line-height: 1.6em;
+     margin: 0;
+}
+.portletHeader a, .managedPortlet .portletHeader a {
+    color: &dtml-fontColor;;
+}
+.portletItem {
+    margin: 0;
+    padding: 1em;
+    border-left: 1px solid &dtml-SubSkinsColor5;;
+    border-right: 1px solid &dtml-SubSkinsColor5;;
+}
+.portletItem ol {
+    margin: 0 0 0 1em;
+}
+.portletItemDetails {
+    text-align: right;
+    display: block;
+    color: &dtml-fontColor;;
+}
+.portletFooter {
+    background-color:  <dtml-var expr="dim_to_white(color=SubSkinsColor5, percent='50')">;
+    margin: 0;
+    padding: 0.25em 1em;
+    border: 1px solid &dtml-SubSkinsColor5;;
+    border-style: dotted;
+    text-align: right;
+}
+
+/* Static text portlet */
+.portletStaticText ul {
+    list-style-image: url(&dtml-portal_url;/bullet.gif);
+    list-style-type: square; 
+    margin: 0.5em 0 0 1.5em;
+}
+
+.portletStaticText ol {
+    margin: 0.5em 0 0 2em;
+}
+
+
+.managePortletsLink {
+    text-align: center;
+}
+
+div.portlets-manager div.section {
+    padding-top: 1em !important;
+}
+
+div.managedPortlet {
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    background-color: transparent;
+}
+
+.managedPortlet .portletHeader {
+    min-height: 3em !important;
+}
+
+.managedPortlet a {
+    text-decoration: underline;
+}
+
+.managedPortletActions {
+    display:block;
+    float:right;
+}
+
+.managedPortletActions a {
+    text-decoration: none;
+}
+
+.managedPortletActions a.up,
+.managedPortletActions a.down {
+    color:blue !important;
+}
+
+.managedPortletActions a.delete {
+    color:red !important;
+}
+
+/* </dtml-with> */
+/* </dtml-with> */
+
+ 

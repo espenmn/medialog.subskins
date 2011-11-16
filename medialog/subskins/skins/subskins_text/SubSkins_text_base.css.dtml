@@ -1,0 +1,337 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+body {
+	font-family: "Trebuchet MS", "Lucida Grande", Verdana, Lucida, Tahoma, Helvetica, Arial, sans-serif;
+	font-size: 0.75em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 1em;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	border: 0;
+	color: #000;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+	border: 0;
+	color: #000;
+}
+
+h1 {
+	margin-top: 0;
+	font-size: 1.75em;
+	color: #000;
+}
+
+h2 {
+	font-size: 1.35em;
+	color: #000;
+}
+
+h3 {
+	font-size: 1.25em;
+	color: #000;
+}
+
+h4 {
+	font-size: 1em;
+	color: #000;
+}
+
+h5 {
+	font-size: 1em;
+	color: #000;
+}
+
+h6 {
+	font-size: 1em;
+	color: #000;
+}
+
+h1 {
+	font-weight: normal;
+	padding: 0px;
+	color: #134e62;
+}
+
+p {
+	padding-left: 0px;
+	line-height: 1.5em;
+	color: #2d2f2f;
+}
+
+a {
+	color: #214867;
+}
+
+p a:link {
+	color: #233d5a;
+	text-decoration: none;
+	border-bottom: 1px solid #463229;
+}
+
+img {
+	border: none;
+}
+
+img.image-right {
+	float: right;
+	margin: 8px 0 10px 20px;
+}
+
+
+
+img.image-left {
+	float: left;
+	margin: 8px 20px 10px 0;
+}
+
+
+input {
+	border: 1px solid #463229;
+}
+
+.documentDescription {
+	margin: 5px 0;
+}
+
+/* @group Basis tagger for Lister */
+
+/* base tags - list
+
+--------------------------- */
+
+/* Unordered list (med • foran) */
+
+#content-core ul  {
+	margin: 0.5em 0 0.75em 2em;
+	list-style-type: disc;
+}
+
+/* Ordnered list (nummerert) */
+
+ol {
+	margin: 0.5em 0 0.75em 2em;
+}
+
+/* List item. Skriv inn display:inline for horisontal liste */
+
+#content-core li {
+	margin: 0.5em 0;
+}
+
+/* Definition list. Beholder for dt og dd */
+
+dl {
+	margin: 0.5em 1em 0.75em;
+}
+
+dt {
+
+/* Definition term. */
+  margin: 0.75em 0;
+	font-weight: bold;
+}
+
+dd {
+
+/* Definition descriprion */
+  margin: 0.5em 0;
+}
+
+
+
+/* @end */
+
+/* @group Basis tagger for Forms */
+
+/* base tags - form
+
+---------------------------------------------------------------------- */
+
+/* En beholder som kan brukes til å gruppere inputfelter */
+
+fieldset {
+	padding: 1em;
+	border: 1px solid #ccc;
+}
+
+legend {
+
+/* Tittel på form-felt */
+  font-weight: bold;
+}
+
+form {
+	border: 0;
+}
+
+label {
+
+/* For skjermlesere */
+  font-weight: bold;
+}
+
+/* attributter for tekst-felt */
+
+textarea {
+	border: 1px solid #ccc;
+}
+
+/* attributter for input-felt */
+
+input {
+	padding: 2px;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+
+/* attributter for valg-knapper */
+
+select {
+	border: 1px solid #ccc;
+}
+
+.field {
+	margin-top: 0.75em;
+}
+
+.formControls input, .searchButton {
+	padding: 2px;
+	padding-left: 20px;
+}
+
+/* @end */
+
+/* @group Basis tagger for Tabeller */
+
+/* base tags - table
+
+---------------------------------------------------------------------- */
+
+table {
+	border-collapse: collapse;
+	font-size: 1em;
+}
+
+tbody {
+	
+}
+
+tr {
+	
+}
+
+/* Tabellrad */
+
+th {
+	
+}
+
+/* Tabellheadinger */
+
+td {
+	
+}
+
+/* Vanlige tabellceller */
+
+/* @end */
+
+/* @group Edit */
+
+/* base tags - edit
+
+---------------------------------------------------------------------- */
+
+em {
+	font-style: normal;
+	font-weight: bold;
+}
+
+strong {
+	font-weight: bold;
+}
+
+cite, q {
+	
+}
+
+blockquote {
+
+/* Uthevet tekst/sitat */
+  margin: 0.5em 2em 0.75em 2em;
+	padding: 0.5em 2em;
+	border: 1px solid #ccc;
+	background: #fff url("quotation.gif") top left no-repeat;
+}
+
+code, kbd {
+	background: #333;
+	color: #ccc;
+	font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;
+}
+
+pre {
+	margin: 0.5em 2em 0.75em 2em;
+	padding: 0.5em;
+	background: #333;
+	color: #ccc;
+	font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;
+}
+
+ins {
+	
+}
+
+del {
+	color: #999;
+	text-decoration: overline;
+}
+
+/* @end */
+
+.documentActions {
+	float: right;
+	padding: 0;
+	
+	text-align: right;
+}
+
+.documentActions ul {
+	margin: 1px 0 2px 0;
+	padding: 0;
+	display: block;
+}
+
+.documentActions li {
+	display: inline;
+	list-style: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 10px;
+}
+
+.documentActions a {
+	border: none !important;
+	text-decoration: none;
+}
+.photoAlbumEntryWrapper {
+	float: left;
+}
+
+.photoAlbumEntryTitle {
+	float: left;
+	clear: both;
+	margin-top: 6px;
+}
+
+.documentContent  div div.photoAlbumEntry a {
+	float: left;
+	margin: 20px 20px 10px 0
+}
+/* </dtml-with> */

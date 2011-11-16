@@ -1,0 +1,11 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+#portal-column-one,
+#portal-column-two  {
+	background: white url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor6;/forlopvIII.png) repeat-x !important;	
+	padding: 20px !important;
+	background-position: top;
+} 
+
+/* </dtml-with> */

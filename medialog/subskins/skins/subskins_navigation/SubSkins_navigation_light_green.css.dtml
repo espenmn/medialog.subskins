@@ -1,0 +1,79 @@
+/*
+  for subskins
+  <dtml-with base_properties> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+
+/* portal navigation
+----------------------------------------------------------- */
+
+#portlet-navigation-tree .portletItem{
+  padding: 0px;
+  background-image: none;
+    }
+
+.portletNavigationTree{
+  list-style-type: none;
+  padding: 0px;
+  border: 0;
+  border-bottom-style: none;
+  }
+
+.portletNavigationTree ul{
+  list-style-type: none;
+  margin: 0;
+  }
+
+.portletNavigationTree li{
+  margin: 0;
+  }
+
+.portletNavigationTree li a{
+  display: block;
+  width: auto;
+  padding: 6px 0px;
+  padding-left: 16px;
+  border-right: 0px;
+  color: #0b0b0c;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  }
+
+.portletNavigationTree li.navTreeItem a.navTreeCurrentItem{
+	background-color: #dbdec8;
+	}
+
+.portletNavigationTree li a:hover,
+a.navTreeCurrentItem{
+  color: white;
+  background-color: #879a66;
+  }
+
+.portletNavigationTree li a:hover{
+  font-weight: normal;
+  color: black;
+  }
+
+.portletNavigationTree .navTreeLevel1 li a {
+  padding-left: 15px;
+  color: black;
+  list-style-type: disc;
+  list-style-position: outside;
+  }
+
+.portletNavigationTree .navTreeLevel2 li a {
+	padding-left: 20px;
+	color: black;
+	list-style-type: disc;
+	list-style-position: outside;
+	}
+
+.portletNavigationTree .navTreeLevel3 li a {
+  padding-left: 25px;
+  color: black;
+  list-style-type: disc;
+  list-style-position: outside;
+  }
+
+/* </dtml-with> */

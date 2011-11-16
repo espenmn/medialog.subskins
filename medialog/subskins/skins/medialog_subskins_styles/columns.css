@@ -1,0 +1,36 @@
+/*
+** Table-based column layout for all browsers.
+**
+** There's a table-less column layout alternative in the plone_tableless
+** skin layer, if you prefer layouts without tables.
+*/
+
+#portal-columns {
+    width: 100% !important;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+#portal-column-one {
+    vertical-align: top;
+    border-collapse: collapse;
+}
+#portal-column-content {
+    vertical-align: top;
+    border-collapse: collapse;
+}
+#portal-column-two {
+    vertical-align: top;
+    border-collapse: collapse;
+}
+
+/* fullscreen */
+body.fullscreen #portal-column-one,
+body.fullscreen #portal-column-two {
+    display: none;
+}
+body.fullscreen #portal-column-content { 
+    width: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+

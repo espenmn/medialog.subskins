@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Africa I
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=3F3F30
+SubSkinsColor1:string=#3F3F30
+SubSkinsColor2:string=#670000
+SubSkinsColor3:string=#A31B00
+SubSkinsColor4:string=#C24400
+SubSkinsColor5:string=#DD6100
+SubSkinsColor6:string=#EFEFC1
+SubSkinsPosition:string=-490

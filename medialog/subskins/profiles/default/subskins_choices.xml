@@ -1,0 +1,16 @@
+<subskins-choices>
+   <default for="SubSkinsWidth1" value="820px" />
+   <default for="SubSkinsWidth2" value="150px" />
+   <default for="SubSkinsWidth3" value="150px" />
+   <default for="colorschemes" value="SubSkinsColors-diversified" />
+   <default for="base" value="SubSkins_base_forl1.css" />
+   <default for="top" value="SubSkins_top_nothing_special.css" />
+   <default for="text" value="SubSkins_text_arty.css" />
+   <default for="globalnav" value="SubSkins_globalnav_devider2.css" />
+   <default for="portlets" value="SubSkins_portlets_museum5.css" />
+   <default for="navigation" value="SubSkins_navigation_orange_box.css" />
+   <default for="calendar" value="SubSkins_calendar_clean_small.css" />
+   <default for="bottom" value="SubSkins_bottom_W3.css" />
+   <default for="extra" value="no_navigation_header.css" />
+</subskins-choices>
+

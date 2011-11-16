@@ -1,0 +1,131 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+.portlet{
+	padding: 0px;
+	margin: 0px 0 20px 0;
+	color: #777;
+	padding: 0;	
+	background: white url(lightvforl.jpg) repeat-x 0 10px;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	}
+
+
+ .portletTopLeft {
+	width: 8px; height: 30px;
+	position: relative;
+	top:  0; left: 0; z-index: 1;
+	background: url(round_top_left.gif) no-repeat; float: left;
+}
+
+ .portletTopRight {
+	width: 8px; height: 8px; float: right; 
+	position: relative;
+	background: url(round_top_right.gif) ; right: 0; top:  -28px;
+	}
+
+
+.portletItem{
+	list-style-type: none;
+	
+	}
+
+.portletLogin .portletItem {
+	margin: 0;
+}
+
+.portlet ul, .portlet dl, .portlet li, .portlet dt, .portlet dd{
+	margin: 0;
+	list-style-image: none;
+	list-style-type: none;
+	}
+
+.portlet a{
+	text-decoration: none;
+}
+
+dd.portletItem {
+	padding: 3px 15px;
+	border-top: 1px solid silver;
+}
+	
+
+.portletHeader{
+	font: normal 14px Verdana,Arial,Helvetica,sans-serif;
+	padding-bottom: 0;
+	line-height: 28px;
+	padding: 0;
+	letter-spacing: 2px;
+	overflow: visible;
+	margin: 0;
+}
+
+dt.portletHeader {
+	background: white url(black_stripes.gif) repeat-x left 13px;
+}
+
+.portletFooter {
+	padding: 10px;
+	border-top:  dotted 1px silver;
+	font-weight: bold;
+}
+
+.portletCalendar .portletHeader {
+	background: &dtml-SubSkinsColor2;;
+}
+
+#calendar-previous,
+#calendar-next {
+	color:  white; 
+}
+
+.portletHeader a{
+	text-decoration: none;	
+}
+
+.managedPortlet  a {
+	background: white;
+}
+.portletHeader a.tile{
+	background: &dtml-SubSkinsColor3;;
+	padding: 0 0 0 15px;
+	color: white;opacity: 0.9;
+	}
+
+#portal-column-two .portletHeader a.tile{
+	background: &dtml-SubSkinsColor2;;
+}
+
+span.portletItemDetails{
+	margin-left:  10px;
+	font-size: 85%;
+	color: #999;
+	}
+
+.configlets li{
+	padding: 0.5em 0;
+	}
+
+
+.portletLogin .field {
+	width: 120px;
+	margin-bottom: 2px;
+	margin-left: 10px;
+	margin-top: 0;
+	padding-top: 10px;
+	}
+
+.portletLogin .portletItem a.tile {
+	padding: 0px;
+}
+
+.portletLogin  input.context{
+	padding: 5px 20px;
+	margin: 6px 0 0 10px;
+	}
+
+
+	
+/* </dtml-with> */
+
+

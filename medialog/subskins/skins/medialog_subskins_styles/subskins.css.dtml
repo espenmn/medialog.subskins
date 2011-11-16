@@ -1,0 +1,281 @@
+/* Stylesheet for the 'subskins' Plone theme */
+
+/*
+ <dtml-with get_base_properties mapping> (do not remove this)
+ <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either
+*/ 
+
+#portal-columns #portal-breadcrumbs {
+	display: block;
+	float:  none;
+	margin-left:  0;
+}
+
+.popupworkflow {
+	padding: 0 !important; 
+}
+ 
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+li.formTab a {
+    padding: 3px;
+}
+
+ul.configlets li {
+	list-style-type: none !important;
+	list-style-image: none !important;
+}
+
+/* hack for new action menu header */
+
+#anon-personalbar {
+	padding: 0; margin: 0;
+}
+/* @group Base Classes */
+
+/* base classes - structure
+
+---------------------------------------------------------------------- */
+
+.hiddenStructure {
+	display: none;
+}
+
+.visualClear {
+	display: block;
+	clear: both;
+}
+
+.visualPadding {
+	padding: 0;
+}
+
+.hiddenStructure, .netscape4 {
+	display: none;
+}
+
+.tile {
+	display: block;
+}
+
+body.fullscreen #portal-column-one, 
+
+body.fullscreen #portal-column-two {
+	display: none;
+}
+
+body.fullscreen #portal-column-content {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.managedPortlet .portletHeader {
+	display: block;
+}
+
+/*
+
+@end */
+
+
+/* Accessibility elements, applied by JS */
+body.largeText { font-size: 110%; }
+body.smallText { font-size: 80%; }
+
+/* @group Kupu Edit */
+
+/* base classes - kupu edit
+
+---------------------------------------------------------------------- */
+
+html.kupu-html body {
+	background: #f3f3f3;
+	text-align: left;
+	font-size: 1em;
+}
+
+html.kupu-html body {
+	width: 98%;
+}
+
+.documentEditable  #content {
+	padding: 8px;
+}
+
+.verdana {
+	font-family: verdana, helvetica, sans-serif;
+}
+
+.times {
+	font-family: "Times New Roman", Times, Georgia, serif;
+	font-size: 115%;
+}
+
+.lucida {
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+.helvetica {
+	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+
+.color1 {
+	color: &dtml-SubSkinsColor1;;
+}
+
+.color2 {
+	color: &dtml-SubSkinsColor2;;
+}
+
+.color3 {
+	color: &dtml-SubSkinsColor3;;
+}
+
+.color4 {
+	color: &dtml-SubSkinsColor4;;
+}
+
+.color5 {
+	color: &dtml-SubSkinsColor5;;
+}
+
+.color6 {
+	color: &dtml-SubSkinsColor6;;
+}
+
+.black {
+	color: #000;;
+}
+
+/* @end */
+
+
+/* fixes */
+
+.visualClear {
+	display: block;
+	clear: both;
+}
+
+/* Hiding helper elements for old browsers */
+
+.netscape4 {
+	display: none;
+}
+
+/* Accessibility and visual enhancement elements */
+
+.hiddenStructure {
+	display: block;
+	background: transparent;
+	background-image: none;
+	/* safari bug */
+border: none;
+	height: 1px;
+	overflow: hidden;
+	padding: 0;
+	margin: -1px 0 0 -1px;
+	width: 1px;
+}
+
+.contentViews .hiddenStructure,
+.contentActions .hiddenStructure {
+	position: absolute;
+	top: -200px;
+	left: -200px;
+}
+
+.hiddenLabel {
+	display: block;
+	background: transparent;
+	background-image: none;
+	/* safari bug */
+border: none;
+	height: 1px;
+	overflow: hidden;
+	padding: 0;
+	margin: -1px 0 0 -1px;
+	width: 1px;
+}
+
+dt.portletHeader.hiddenStructure {
+	display: none;
+}
+
+
+/* @group overlays */
+
+/* styling for overlays (popups) */
+
+div.overlay {
+    width: auto;
+    height: auto;
+    /* initially overlay is hidden */
+    display:none;
+    /* some padding to layout nested elements nicely  */
+    margin:1em;
+	font-size: 80%;
+}
+
+div.overlay-iframe,
+div.overlay-ajax {
+    width: 60%;
+    min-height: 100px;
+    z-index: 99; /* overlays should be above everything */
+}
+
+div.overlay-iframe {
+    height: 60%;
+}
+
+/* default close button positioned on upper right corner */
+    div.overlaybg div.close,
+    div.overlay div.close {
+    background-image: url(pb_close.png);
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+.pb-ajax, .pb-image {
+    white-space: normal;
+    border:0.5em solid &dtml-SubSkinsColor1;;
+    -moz-border-radius:0.35em;
+    -webkit-border-radius:0.35em;
+    -moz-box-shadow:0 0 1em #888;
+    -webkit-box-shadow:0 0 1em #888;
+}
+
+.pb-ajax > * {
+    background-color: #fff;
+    padding: 1em;
+    white-space: normal;
+}
+
+.pb-ajax .documentActions {display:none}
+
+div.overlay div.close span {
+    display:block;
+    height:1px;
+    margin:-1px 0 0 -1px;
+    overflow:hidden;
+    padding:0;
+    width:1px;
+}
+
+div.overlay textarea { width: 100%; }
+
+&dtml-SubSkinsCSS;
+
+/* @end */
+
+/* </dtml-with> */

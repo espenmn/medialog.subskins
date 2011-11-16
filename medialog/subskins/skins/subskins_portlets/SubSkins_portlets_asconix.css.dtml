@@ -1,0 +1,60 @@
+
+/*for subskins */
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+
+/* @group Portlets */
+
+.portlet{
+	margin: 12px 12px;
+	color: black;
+}
+
+.portlet ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+.portlet ul, .portlet dl, .portlet li, .portlet dt, .portlet dd{
+	margin: 0;
+	color:black;
+}
+
+.portletHeader, dt.portletHeader, dt.portletHeader a.tile {
+	color:  &dtml-SubSkinsColor2;;
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+.portletNavigationTree dt.portletHeader  {
+	display: block;
+}
+
+.portletItem{
+	padding-top: 12px;
+	color: &dtml-SubSkinsColor6;;
+}
+
+dd.portletItem .tile {
+	color: &dtml-SubSkinsColor6;;
+}
+
+span.portletItemDetails{
+	display: block;
+	color: &dtml-SubSkinsColor5;;
+}
+
+.configlets li {
+	padding: 0.5em 0;
+}
+
+.portletFooter {
+	background: white;;
+	padding:4px;
+	display: block;
+}
+
+/* @end */
+
+/* </dtml-with>*/

@@ -1,0 +1,51 @@
+
+ #portal-globalnav {
+	clear: both;
+	padding: 0 5px;;
+	margin: 10px;
+       display: block;  
+    list-style: none;  
+}
+
+#portal-globalnav li a  {
+   color: #ffffff;  
+    padding: 5px 15px;  
+    outline: none;  
+    text-decoration: none;  
+
+/* Border Radius */  
+    -webkit-border-radius: 15px;  
+    -moz-border-radius: 15px;  
+    border-radius: 15px;  
+  
+    /* Border Shadow */  
+    -webkit-box-shadow: 1px 2px 2px rgba(0,0,0,0.6);  
+    -moz-box-shadow: 1px 2px 2px rgba(0,0,0,0.6);  
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.6);  
+  
+    background: rgba(0,0,0,0.2);  
+
+    /* Animation (Webkit, Gecko & Mozilla) */  
+    -webkit-transition-duration: 0.20s;  
+    -webkit-transition-timing-function: ease-out;  
+    -moz-transition-duration: 0.20s;  
+    -moz-transition-timing-function: ease-out;  
+    margin-right:4px;
+}
+#portal-globalnav li  {
+display: inline-block;  
+}
+
+ 
+#portal-globalnav li a:hover {  
+    background: rgba(0,0,0,0.5);  
+    padding: 5px 25px;  
+}  
+  
+#portal-globalnav li.selected a {  
+    background: rgba(0,0,0,0.1);  
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);  
+    -moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);  
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.4);  
+    color:  #555;;
+}  

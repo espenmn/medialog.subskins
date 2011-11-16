@@ -1,0 +1,19 @@
+#livesearch0 .LSBox {
+	width: 93%;
+}
+
+#searchGadget {
+	width: 100%;
+	margin-top: 5px;
+	background-image: url(searchField.png);
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+#livesearch0 .LSBox .searchButton{
+	display: none;
+}
+
+div.searchSection {
+	display: none;
+}

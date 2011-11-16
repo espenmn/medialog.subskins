@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Icy hot
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=FC4300
+SubSkinsColor1:string=#FC4300
+SubSkinsColor2:string=#FC9C00
+SubSkinsColor3:string=#FCD800
+SubSkinsColor4:string=#72AEE3
+SubSkinsColor5:string=#9DC6EB
+SubSkinsColor6:string=#C7DFF4
+SubSkinsPosition:string=-40

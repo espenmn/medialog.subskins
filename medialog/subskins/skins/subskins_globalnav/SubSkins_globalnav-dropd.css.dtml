@@ -1,0 +1,88 @@
+
+/* For SubSkins
+
+  <dtml-with base_properties>
+  <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+#portal-globalnav  {
+	font:normal 16px/36px Arial, Helvetica, sans-serif;
+	background:url(menu_bg.gif) left bottom;
+	width: 100%;
+	display: block;
+	float: left;
+}
+#portal-globalnav li {
+	list-style:none;
+	background:url(menu_bg.gif) no-repeat left bottom;
+	padding:0;
+	margin:0;
+	float:left;
+	position:relative;
+}
+#portal-globalnav li a{
+	color:#bfbfbf;
+	text-decoration:none;
+	padding-left:15px;
+	margin-right:10px;
+	padding-right: 40px;
+ 	background: transparent url(arrow.png) no-repeat right 12px;
+ 	display:block;
+	float:left;
+}
+ 
+ #portal-globalnav li a:hover{
+	color:white;
+}
+ 
+ /** SUBMENU STYLES 
+*/ 
+#portal-globalnav ul.submenu{
+ 	background: url(submenu_bg.gif) no-repeat right bottom;
+	padding:0;
+	font-size:15px;
+	margin:0;
+
+}
+#portal-globalnav ul.submenu li{
+    line-height:30px;
+ 		padding:  0;
+}
+
+#portal-globalnav ul.submenu a{
+	background-image:none !important;
+	background-color: transparent !important;
+}
+ 
+ul.submenu li:hover {
+	background:url(over_red.png) no-repeat left top !important;
+	color:#FFFFFF !important;
+	 transition: 1s;
+	 -moz-transition:  1s; /* Firefox 4 */
+	 -webkit-transition:  1s; /* Safari and Chrome */
+	 -o-transition:  1s; /* Opera */
+     
+}
+
+#portal-globalnav  ul.submenu li a:hover {
+ padding-left: 25px;
+ transition: 0.5s;
+-moz-transition:  0.5s; /* Firefox 4 */
+-webkit-transition:  0.5s; /* Safari and Chrome */
+-o-transition:  0.5s; /* Opera */
+ }
+
+.selected ul.submenu {
+	z-index: 99;
+}
+
+ul.submenu {
+	position: relative;
+	top:  36px;;
+	padding: 0;
+}
+
+/* </dtml-with> 
+</dtml-with> 
+*/

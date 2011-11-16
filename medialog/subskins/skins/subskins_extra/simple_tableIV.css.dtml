@@ -1,0 +1,116 @@
+
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+
+table.listing,
+.stx table {
+    /* The default table for document listings. Contains name, document types, modification times etc in a file-browser-like fashion */
+    border-collapse: collapse;
+    border-spacing: 0;    
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin: 1em 0em 1em 0em;
+    width: 99%;
+}
+table.listing th,
+.stx table th {
+    background: transparent;
+    border-top: 1px solid EEE#;
+    border-bottom: 2px solid #fff;
+    border-right: 1px solid #fff;
+    font-weight: normal;
+    padding: 0.25em 0.5em;
+}
+
+table.listing  th {
+	 border-bottom: 1px solid #EEE;
+}
+table.listing .top {
+    border-left: 1px solid #fff;
+    border-top: 1px solid EEE# ! important;
+    border-right: 1px solid #fff ! important;
+    text-align: right ! important;
+    padding: 0em 0em 1em 0em;
+}
+table.listing .listingCheckbox {
+    text-align: center;
+}
+table.listing td,
+.stx table td {
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;    
+    padding: 0.25em 0.5em;
+}
+table.listing a {
+    text-decoration: none;
+}
+table.listing a:hover {
+    text-decoration: underline;
+}
+table.listing img {
+    vertical-align: middle;
+}
+table.listing td a label,
+.stx table td a label {
+    cursor: pointer;
+}
+
+/* Vertical addition class */
+table.vertical {
+    background-color: #FAF7EE;	
+}
+table.vertical th {
+    padding: 0.5em;
+    border-top: none;
+}
+table.vertical td {
+    border-top: 1px solid #fff;
+    padding: 0.5em;
+}
+
+/* grid addition class */
+
+table.grid td {
+    border: 1px solid #fff;
+    padding: 0.5em;
+}
+
+/* plain table class with light gray borders */
+
+table.plain,
+table.plain td,
+table.plain th {
+    border: 1px solid #ccc !important;
+    padding: 0.5em;
+    border-collapse: collapse;
+}
+.listing tr.odd,
+tr.tittel {
+    background: #e4e4e4;	
+    position: relative;
+}
+.grid.listing tbody tr:nth-child(odd) {
+    background: #e5eff3;
+}
+.listing tr.odd .fieldRequired {
+    color: #e5eff3;
+}
+.listing tr.even,
+tr.tittel2 {
+    background: #cce0e7;
+    position: relative;    
+}
+.grid.listing tbody tr:nth-child(even) {
+    background: #cce0e7;	
+}
+.listing tr.even .fieldRequired {
+    color: #cce0e7;
+}
+.listing tr.selected { 
+    background-color: #fef2c1;
+}
+
+
+/* </dtml-with> */
+

@@ -1,0 +1,95 @@
+/*
+  For SubSkins, based on asconix style sheet
+ <dtml-with get_base_properties mapping> (do not remove this)
+ <dtml-with get_base_properties> 
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+#portal-globalnav {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	height: 29px;
+	background: &dtml-SubSkinsColor4; url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor4;/navbar_black.gif);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	position: relative;
+}
+
+#portal-globalnav li {
+	color: white;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 29px;
+	padding: 0px 15px;
+	margin: 0px;
+background: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor4;/navbar_black.gif);
+	border-right: 1px solid <dtml-var expr="dim_to_black(color=SubSkinsColor4, percent=90)">;
+	display: block;
+	float: left;
+}
+
+#portal-globalnav li a {
+	text-decoration: none;
+	color: white;
+	height: 29px;
+	display:block;
+}
+
+#portal-globalnav li a:hover {
+	text-decoration: none;
+	color: &dtml-SubSkinsColor5;;
+}
+
+#portal-globalnav li.selected {
+background: url(&dtml-portal_url;/subskins_getimage/<dtml-var url_quote="1"
+expr="dim_to_black(color=SubSkinsColor4, percent=85)">/navbar_black.gif); 
+	border-right: 1px solid <dtml-var expr="dim_to_black(color=SubSkinsColor4, percent=75)">;
+}
+
+#portal-globalnav ul.submenu li {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.selected ul.submenu {
+	z-index: 99;
+}
+
+.submenu li a{
+	color: white !important;
+	background: black !important;
+}
+
+.submenu li a:hover {
+	color: &dtml-SubSkinsColor2; !important;
+}
+
+#portal-globalnav .submenu {
+	padding: 6px 10px;
+	margin-left: -10px;
+        background: black;
+	line-height: 5;
+	border: 0;
+}
+
+#portal-globalnav .submenu li {
+	padding: 0;
+	margin: 0;
+}
+
+/* side-dropdown menu styles */
+
+#portal-globalnav li ul ul {
+	z-index: 99;
+	margin: 30px 0 0 14em;
+}
+
+.submenu ul {
+	padding-left: 0;
+}
+
+/* </dtml-with> */
+/* </dtml-with> */

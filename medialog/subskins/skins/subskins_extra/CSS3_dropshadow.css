@@ -1,0 +1,8 @@
+#visual-portal-wrapper {
+	-moz-box-shadow: 0px 1px 20px 3px #777;
+	-webkit-box-shadow: 0px 1px 20px 3px  #777;
+	/* ...and the 'real' property last. */
+	box-shadow: 0px 1px 20px #777;
+	margin-top:  20px;;
+	padding: 12px;
+}

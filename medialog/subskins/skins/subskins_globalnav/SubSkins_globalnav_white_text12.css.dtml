@@ -1,0 +1,72 @@
+/*  For SubSkins
+  <dtml-with get_base_properties mapping>  (do not remove this)  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)*/
+
+#portal-globalnav {
+	list-style-type: none;
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	background: &dtml-SubSkinsColor1;;
+	text-decoration: none;
+	width: 100%;
+	clear: both;
+	border-bottom-style: none;
+	border-style: none;
+}
+
+#portal-globalnav:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}
+
+/* for IE */
+
+ 
+
+* html #portal-globalnav {
+	height: 1em;
+	overflow: visible;
+}
+
+ 
+
+#portal-globalnav li {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#portal-globalnav li a {
+	display: block;
+	float: left;
+	padding: 0.25em 1.25em;
+	background: &dtml-SubSkinsColor5;;
+	color: #fff;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-top: 1px solid &dtml-SubSkinsColor1;;
+	font-size: 10pt;
+}
+
+#portal-globalnav li a:hover {
+	text-decoration: none;
+	background-color: &dtml-SubSkinsColor1;;
+	border-top: 1px solid &dtml-SubSkinsColor1;;
+	color: #fdf3d4;
+}
+
+#portal-globalnav li.selected a {
+	background: &dtml-SubSkinsColor2;;
+	font-weight: bold;
+	text-decoration: none;
+	border-top: 1px solid &dtml-SubSkinsColor1;;
+	color: gray;
+}
+
+/* </dtml-with> */

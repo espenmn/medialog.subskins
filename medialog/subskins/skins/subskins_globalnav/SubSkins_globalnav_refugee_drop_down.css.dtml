@@ -1,0 +1,82 @@
+/*
+  For SubSkins
+  <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+#portal-globalnav {
+clear: both;
+float: left;
+font-family: georgia, serif;
+font-size: 0.9em;
+width: 930px;
+padding: 0 0 10px 0;
+list-style: none;
+border-bottom: 1px solid #DEDEDE;
+border-top: 3px solid #DEDEDE;
+margin: 0 0 25px 10px;
+}
+.section-home-page #portal-globalnav {
+margin-top: 10px;
+}
+#portal-globalnav li {
+margin-left: 10px;
+display: inline;
+}
+#portal-globalnav li a {
+display: block;
+float: left;
+padding: 10px 0 0 0;
+margin: 0 20px 0 0;
+color: #666;
+font-weight: normal;
+border-style: none;
+text-transform: none;
+}
+#portal-globalnav li a:hover,
+#portal-globalnav li.selected a,
+#portal-globalnav li.selected a:hover{
+margin-top: -3px;
+color: &dtml-SubSkinsColor2;;
+border-style: none;
+background-color: #fff;
+border-top: 3px solid &dtml-SubSkinsColor2;;
+}
+
+
+#portal-globalnav ul.submenu li {
+width: 100% !important;
+padding: 0;
+margin: 0;
+}
+.selected ul.submenu {
+z-index: 99;
+margin-top: 0 !important;
+}
+ul.submenu a:hover {
+background: white;
+color: #555 !important;
+}
+#portal-globalnav .submenu li {
+padding: 0;
+margin: 0;
+}
+#portal-globalnav ul.submenu a {
+line-height: 17px;
+padding: 10px;
+border: 0 none !important;
+border-top: 1px solid #AAA !important;
+}
+ul.submenu li a:hover {
+background-color: #EEE !important;
+color: #555;
+}
+#portal-globalnav ul {
+padding: 0;
+}
+.submenu li a {
+color: #777 !important;
+text-align: left;
+}
+/* */
+
+/* </dtml-with> */

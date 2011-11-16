@@ -1,0 +1,314 @@
+/*for subskins *//* <dtml-with get_base_properties mapping> (do not remove this :) *//* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+body {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 10px;
+}
+
+h1 {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color:  &dtml-SubSkinsColor3;;
+}
+
+h2 {
+	font-size: 13px;
+	line-height: 17px;
+	margin-top: 17px;
+}
+
+h2.tileHeadline {
+	border-top: 2px dotted &dtml-SubSkinsColor3;;
+	margin-top: 20px;
+	padding-top: 13px;
+	text-transform: uppercase;
+}
+	
+.summary.url {
+	color:  &dtml-SubSkinsColor3;;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+h5 {
+	margin-bottom: 10px;
+}
+
+p.documentDescription,
+.documentDescription {
+	background-image: none;
+	background: none;
+	padding: 4px 0px 0px 0px;
+	color: #2f3130;
+	font-size: 11px;
+	line-height: 17px;
+	font-weight: bold;
+}
+
+a {
+	font-size: 10px;
+	font-weight: bold;
+	color: &dtml-SubSkinsColor3;;
+	text-decoration: none;
+}
+
+a:hover {
+	color: &dtml-SubSkinsColor2;;
+}
+
+p {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+}
+
+p a:link {
+	color:  &dtml-SubSkinsColor3;;
+}
+
+img {
+	border: none;
+}
+
+img.image-right,
+img.tileImage {
+	float: right;
+	margin: 8px 0 10px 20px;
+}
+span#parent-fieldname-imageCaption {
+	padding-left: 20px;
+}
+
+div.newsImageContainer {
+	float: right;
+}
+
+p.tileFooter {
+	margin-top: 10px; 
+}
+
+p.tileFooter a {
+	color:  &dtml-SubSkinsColor3;;
+	font-weight: normal;
+	font-style: normal;
+	text-transform: uppercase;
+	padding: 2px 0 3px 25px;
+	background: url(buttonForward.png) no-repeat;
+}
+	
+.documentByLine {
+margin: 10px 0;	
+	
+}
+
+.documentByLine,
+.documentByLine a {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 9px;
+}
+
+
+img.image-left{
+	float: left;
+	margin: 8px 20px 10px 0;
+}
+
+input {
+	border: 1px solid #2f4355;
+	margin: 5px 0;
+}
+
+#content-core ul {
+	padding-left: 2em;
+}
+
+ol {
+	margin: 0.5em 0 0.75em 2em;
+}
+
+#content-core  li {
+	margin: 0.5em 0;
+}
+
+dl {
+	margin: 0.5em 1em 0.75em;
+}
+
+dt {
+	margin: 0.75em 0;
+	font-weight: bold;
+}
+
+dd {
+	margin: 0.5em 0;
+}
+
+a.tile {
+	color: black;
+}
+
+fieldset {
+	padding: 1em;
+	border: 1px solid #ccc;
+}
+
+legend {
+	font-weight: bold;
+}
+
+form {
+	border: 0;
+}
+
+label {
+	font-weight: bold;
+	display: inline;
+}
+
+textarea {
+	border: 1px solid #ccc;
+	margin: 5px 0;
+}
+
+select {
+	border: 1px solid #ccc;
+}
+
+.field {
+	margin-top: 0.75em;
+}
+
+.formControls input, .searchButton {
+	padding: 2px;
+	padding-left: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	font-size: 1em;
+}
+
+tbody {
+	
+}
+
+tr {
+	
+}
+
+th {
+	
+}
+
+td {
+	
+}
+
+em {
+	font-style: normal;
+	font-weight: bold;
+}
+
+strong {
+	font-weight: bold;
+}
+
+cite, q {
+	
+}
+
+blockquote {
+	margin: 0.7em 0;
+	padding: 0.5em 10px;
+	border: 1px solid #ccc;
+	color: #666666;
+}
+
+code, kbd {
+	background: #333;
+	color: #ccc;
+	font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;
+}
+
+pre {
+	margin: 0.5em 2em 0.75em 2em;
+	padding: 0.5em;
+	background: #333;
+	color: #666666;
+	font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;
+}
+
+ins {
+	
+}
+
+del {
+	color: #999;
+	text-decoration: overline;
+}
+
+.portalMessage {
+	padding: 0.375em 1em;
+	margin-left: 0;
+	margin-right:  0;
+	background: &dtml-SubSkinsColor5;;
+	border: 1px solid #eb0000;
+}
+
+.documentActions ul {
+	margin: 0;
+	text-align: right;
+}
+
+.documentActions ul li {
+	display: inline;
+	padding-right: 0.5em;
+}
+
+.documentActions ul li a {
+	border: 0;
+}
+
+.documentFirstHeading {
+	color:  &dtml-SubSkinsColor2;;
+	font-weight: normal;
+	font-style: normal;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 0px;
+	font-weight: normal;
+	margin: 2px 0px 14px 0px;
+}
+
+.documentDescription {
+	padding: 0.5em;
+	background: #f3f3f3;
+	margin-bottom: 1.5em;
+}
+
+.comment {
+	border: 1px solid #ccc;
+	background: #f3f3f3;
+}
+
+.photoAlbumEntryWrapper {
+	float: left;
+}
+
+.photoAlbumEntryTitle {
+	float: left;
+	clear: both;
+	margin-top: 6px;
+}
+
+#content  div div.photoAlbumEntry a {
+	float: left;
+	margin: 20px 20px 10px 0
+}
+
+/* </dtml-with>*/

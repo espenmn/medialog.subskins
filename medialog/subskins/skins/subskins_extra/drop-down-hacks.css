@@ -1,0 +1,17 @@
+
+ul.submenu *{
+	background-image: none !important;
+	border: 0 none !important;
+}
+
+ul.submenu li {
+	width: 80% !important;
+	}
+	
+ul.submenu li a {
+	color: #333 !important;
+	}
+
+ul.submenu li a:hover {
+	text-decoration: underline !important;
+	}

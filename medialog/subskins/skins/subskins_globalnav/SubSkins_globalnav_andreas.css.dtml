@@ -1,0 +1,41 @@
+/*
+  This file is based on the andreas theme
+  <dtml-with base_properties> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+#portal-globalnav {
+	list-style-type: none;
+	border-bottom: 1px solid gray;
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+
+#portal-globalnav li {
+	display: inline;
+	margin: 0 0  0 0.8em;
+	border: 1px solid #AAA;
+	border-bottom: none;
+	padding: .25em .5em;
+	background: #EEE;
+	text-decoration: none;
+}
+
+#portal-globalnav a {
+	padding: 5px;
+}
+
+#portal-globalnav .selected {
+	background: #FFF;
+	border-bottom: 1px  white;
+	border-collapse: collapse;
+}
+
+#portal-globalnav li a,
+#portal-globalnav li a:hover,
+#portal-globalnav li.selected a {
+	text-decoration: none;
+}
+
+/* </dtml-with> */

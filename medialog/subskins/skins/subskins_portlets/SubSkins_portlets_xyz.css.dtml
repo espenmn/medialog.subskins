@@ -1,0 +1,127 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+.portletWrapper {
+	padding: 0;
+background: url(gray_white_border_vanish_L.jpg) no-repeat 0 -1px;
+margin: 10px 0;
+border-top:  1px solid #AAA;
+}
+
+
+.portlet {
+	background: url(gray_white_border_vanish_R.jpg) no-repeat right -1px;
+	font: 11px verdana, helvetica, sans-serif;
+	margin: 0;
+	padding: 10px !important;
+	min-height: 130px;
+	}
+
+
+.portlet a.tile {
+	text-decoration: none;
+	clear: both;
+	border-bottom: 1px solid white;
+	font-weight: normal;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.portlet ul {
+	list-style-type: none;
+}
+
+.portlet ul, .portlet dl, .portlet li, .portlet dt, .portlet dd {
+	margin: 0;
+}
+
+.portletHeader {
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 30px;
+	color: black;
+}
+
+.portletHeader a.tile {
+	text-decoration: none;
+	letter-spacing: 5px;
+	padding: 3px 10px;
+	font: bold 14px/20px "Courier New", Courier, mono;
+}
+
+.portletNavigationTree .portletItem,
+.portletCalendar .portletItem {
+	padding: 0;
+}
+
+.portletItem {
+	padding: 6px 0px;
+}
+
+.portletItemDetails {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 9px;
+	padding-right: 10px;
+	margin-bottom: 6px;
+	padding-top: 2px;
+	clear: both;
+	display: block;
+}
+
+.portletItem  img.image-inline {
+	border: 2px solid whitesmoke;
+}
+
+
+
+.visualNoMarker img {
+	float: left;
+	margin-right: 5px;
+	margin-top: -1px;
+}
+
+.portletFooter {
+	border: 0 none;
+	padding: 7px 15px;
+	clear: both;
+	
+}
+
+.portletFooter a {
+	line-height: 130%;
+	text-decoration: none;
+}
+
+
+
+.portletLogin .label {
+	padding: 4px;
+	display: block;
+	margin: 10px;
+}
+
+.portletLogin .portletItem {
+	padding-top: 0;
+	padding-bottom: 5px;
+}
+
+.portletItem.even {
+	background: transparent;
+}
+
+
+input#__ac_name,
+input#__ac_password {
+	width: 130px;
+	margin-top: 4px;
+}
+
+.portletLogin div.field {
+	margin-bottom: 12px;
+}
+/* </dtml-with> */
+ 

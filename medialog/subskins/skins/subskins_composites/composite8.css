@@ -1,0 +1,1239 @@
+/* - Plone_Calendar1256.css - */
+@media screen {
+/* portal_css/Plone_Calendar1256.css?original=1 */
+
+
+.dayPopup {
+background-color: #C6AD00;
+border: 1px solid #0071b9;
+padding: 0.2em;
+position: absolute;
+visibility: hidden;
+width: 12em;
+z-index: 2;
+}
+.date {
+font-weight: bold;
+}
+.portletCalendar {
+width: 100%;
+margin: 1px 0 1em 0;
+width: 100%;
+}
+.portletCalendar dt {
+background-color: #C6AD00;
+font-weight: normal;
+text-align: center;
+line-height: 1.6em;
+border-bottom: none;
+}
+.portletCalendar dd {
+margin: 0;
+padding: 0;
+}
+.portletCalendar a {
+text-decoration: none;
+}
+.portletCalendar a:hover {
+text-decoration: none;
+}
+.ploneCalendar {
+border-collapse: collapse;
+border-spacing:0;
+width: 100%;
+color: #0071b9;
+}
+.ploneCalendar td {
+background-color: transparent;
+width: 14%;
+text-align: center;
+padding: 2px;
+}
+.ploneCalendar .weekdays th {
+background-color: #7F00D0;
+border: 1px solid #0071b9;
+text-align: center;
+padding: 2px;
+font-weight: normal;
+}
+.ploneCalendar .event {
+background-color: #C6AD00;
+font-weight: bold;
+}
+.ploneCalendar .todayevent {
+background-color: #C63C00;;
+border: 2px solid #9C0AD0;
+font-weight: bold;
+}
+.ploneCalendar .todaynoevent {
+border-collapse: collapse;
+border: 2px solid #C63C00;
+}
+
+.toc {
+float: right;
+width: 30%;
+font-size: 90%;
+margin: 0 0 0.5em 0.5em;
+}
+.toc .TOC1Digit {
+margin-left: 1em;
+}
+.toc .TOC2Digit {
+margin-left: 2em;
+}
+.toc .TOC3Digit {
+margin-left: 3em;
+}
+
+#portal-column-one fieldset.livesearchContainer {
+right: inherit !important;
+top: 1.5em !important;
+}
+}
+
+ 
+@media screen {
+/* portal_css/subskins.css?original=1 */
+
+#portal-columns #portal-breadcrumbs {
+display: block;
+float:  none;
+margin-left:  0;
+}
+}
+
+/* - SubSkins_navigation_2_5.css - */
+@media screen {
+/* portal_css/SubSkins_navigation_2_5.css?original=1 */
+
+#portlet-navigation-tree .portletItem{
+padding:0px 0px 0px 0px;
+background-image: none;
+overflow: hidden;
+font-family: tahoma, arial, verdana, sans-serif;
+list-style-type: none;
+}
+.portletNavigationTree{
+list-style-type: none;
+padding: 0px;
+border: 0;
+border-bottom-style: none;
+}
+.portletNavigationTree ul{
+padding:0px 0px 0px 0px;
+margin:0px;
+list-style:none;
+z-index:2;
+border-top: 1px solid #C6AD00;
+}
+.portletNavigationTree li{
+margin: 0;
+}
+.portletNavigationTree li a{
+display: block;
+width: auto;
+padding: 6px 6px;
+padding-left: 10px;
+border-top: 0px;
+border-right: 0px;
+color: #DEB422;
+text-decoration: none;
+border-bottom: 1px solid  #C6AD00;
+}
+.portletNavigationTree li.navTreeItem a.navTreeCurrentItem{
+color: #DEB422;
+}
+.portletNavigationTree li a:hover,
+a.navTreeCurrentItem{
+color: black;
+}
+.portletNavigationTree li a:hover{
+font-weight: bold;
+color: black;
+}
+.portletNavigationTree .navTreeLevel1 li a {
+padding-left: 0.75em;
+color: black;
+font-weight: normal;
+font-style: normal;
+}
+.portletNavigationTree .navTreeLevel2 li a {
+padding-left: 1.5em;
+color: black;
+font-weight: normal;
+font-style: normal;
+}
+.portletNavigationTree .navTreeLevel3 li a {
+padding-left: 2.25em;
+color: black;
+font-weight: normal;
+font-style: normal;
+}
+.portletNavigationTree .navTreeLevel2 a:hover {
+padding-left: 1.5em;
+}
+.portletNavigationTree .navTreeLevel3 a:hover {
+padding-left: 2.25em;
+}
+}
+
+
+/* - no_search_section.css - */
+@media screen {
+/* portal_css/no_search_section.css?original=1 */
+.searchSection {
+display: none;
+}
+}
+
+
+/* - SubSkins_text_koha_12.css - */
+@media screen {
+/* portal_css/SubSkins_text_koha_12.css?original=1 */
+
+
+.listingBar a {
+background-image: none;
+padding-left: 10px;
+}
+body {
+font-family: verdana, helvetica, sans-serif;
+font-size: 11px;
+}
+h1 {
+color: #0071b9;
+font: normal 20px/27px verdana, helvetica, sans-serif;
+margin-top: 17px;
+}
+h1.documentFirstHeading {
+margin-top: 0px;
+}
+.boardCommentDetails {
+background: grey url(blue_grid.jpg) repeat;
+color: whitesmoke;
+}
+h2 {
+font-family: verdana, helvetica, sans-serif;
+font-size: 14px;
+line-height: 18px;
+font-weight: bold;
+margin-top: 17px;
+}
+h5 {
+margin-bottom: 11px;
+}
+p.documentDescription,
+.documentDescription {
+padding: 9px 0px 0px 0px;
+font: 12px/18px verdana, helvetica, sans-serif;
+font-weight: bold;
+color: #555;
+}
+#parent-fieldname-imageCaption {
+display: block;
+padding-bottom: 10px;
+padding-top: 4px;
+width: 100%;
+color: black;
+font: bold 11px "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+a {
+font-family: verdana, helvetica, sans-serif;
+font-size: 11px;
+font-weight: bold;
+color: #DEB422;
+text-decoration: none;
+}
+a:hover {
+color: #000000;
+}
+p {
+font-family: verdana, helvetica, sans-serif;
+font-size: 11px;
+line-height: 16px;
+margin-bottom: 5px;
+}
+p a:link {
+color: #000000;
+}
+img {
+border: none;
+vertical-align: middle;
+}
+.newsImageContainer img {
+float: left;
+margin: 3px 25px 10px 0;
+}
+img.image-left {
+float: left;
+margin: 5px 25px 15px 0;
+padding: 5px;
+border: 2px solid #0071b9;
+}
+img.image-right {
+float: right;
+margin: 5px 0 15px 25px;
+padding: 5px;
+border: 2px solid #0071b9;
+}
+h3 {
+background: #0071b9;
+color: whitesmoke;
+padding: 3px 8px;
+margin-top: 16px;
+margin-bottom: 10px;
+}
+input {
+border: 1px solid #ccc;
+margin: 5px 0;
+}
+input.standalone {
+background: white url(subskins_getimage/%23DEB422/bullet.gif) no-repeat 6px center;
+padding: 6px 10px 6px 30px;
+}
+#content div a.link-parent {
+padding-left: 22px;
+padding-top: 9px;
+background: url(subskins_getimage/%23DEB422/bullet.gif) no-repeat 0 9px;
+}
+#form label {
+color: #DEB422;
+margin-right: 6px;
+}
+#form fieldset input {
+padding: 3px;
+margin-right: 5px;
+}
+#content-core ul  {
+margin: 0.5em 0 0.75em 0.5em;
+list-style-type: disc;
+font-size: 11px;
+}
+#content-core ul  {
+margin: 0.5em 0 0.75em 1.5em;
+list-style-type: disc;
+font-size: 11px;
+}
+ol {
+margin: 0.5em 0 0.75em 2em;
+}
+#content-core li {
+list-style-image: url(subskins_getimage/%230071b9/red-bullet.gif);
+margin: 0.3em 0 0.3em 2.5em;
+list-style-position: outside;
+}
+#content-core li {
+margin: 0.5em;
+}
+.visualNoMarker li {
+list-style-image: none !important;
+}
+dl {
+margin: 0.5em 1em 0.75em;
+}
+dt {
+margin: 0.75em 0;
+font-weight: bold;
+}
+dd {
+margin: 0.5em 0;
+}
+a.tile {
+color: black;
+}
+fieldset {
+padding: 1em 2em;
+border: 1px solid #ccc;
+margin-bottom: 12px;
+background: whitesmoke;
+}
+legend {
+font-weight: bold;
+}
+form {
+border: 0;
+}
+label {
+font: 11px verdana, helvetica, sans-serif;
+font-weight: bold;
+display: inline;
+}
+textarea {
+border: 1px solid #ccc;
+margin: 5px 0;
+}
+select {
+border: 1px solid #ccc;
+}
+.field {
+font: 11px verdana, helvetica, sans-serif;
+margin-top: 0.75em;
+}
+.formControls input, .searchButton {
+padding: 2px;
+padding-left: 20px;
+}
+table {
+border-collapse: collapse;
+font-size: 1em;
+}
+#content table.listing thead tr th {
+background: whitesmoke;
+line-height: 200%;
+}
+tbody {
+}
+tr {
+}
+th {
+}
+td {
+}
+em {
+font-style: normal;
+font-weight: bold;
+}
+strong {
+font-weight: bold;
+}
+cite, q {
+}
+blockquote {
+margin: 0.7em 0;
+padding: 0.5em 11px;
+border: 1px solid  #0071b9;
+;
+color: #0071b9;
+;
+}
+#content div.plain blockquote {
+clear: both;
+}
+code, kbd {
+background: #333;
+color: #ccc;
+font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;
+}
+pre {
+margin: 1em 0em;
+padding: 0.7em 0.3em;
+background: whitesmoke;
+color: #3d3d3d;
+font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;
+}
+del {
+color: #999;
+text-decoration: overline;
+}
+.portalMessage {
+padding: 0.375em 1em;
+margin-left: 0;
+margin-right:  0;
+background: #C6AD00;
+border: 1px solid #eb0000;
+}
+div.documentActions ul {
+margin: 10px 0;
+text-align: right;
+padding: 0;
+padding-top: 5px;
+width: 100%;
+display: block;
+}
+.documentActions ul li {
+display: inline;
+margin-left: 7px !important;
+}
+.documentActions ul li a {
+border: 0;
+padding-right: 0;
+margin-right: 0;
+}
+.documentDescription {
+margin-bottom: 1.5em;
+}
+.comment {
+border: 1px solid #ccc;
+background: #f3f3f3;
+}
+#Xregion-content div dl dt span.discreet {
+display: none;
+}
+#content  table.listing span.discreet {
+font-weight: normal;
+font-style: normal;
+font-size: 10px;
+color: #666;
+}
+#content div.poweredBy {
+margin-top: 20px;
+}
+.photoAlbumEntryWrapper {
+float: left;
+}
+.photoAlbumEntryTitle {
+float: left;
+clear: both;
+margin-top: 6px;
+}
+#content  div div.photoAlbumEntry a {
+float: left;
+margin: 20px 20px 10px 0
+}
+
+}
+
+
+/* - SubSkins_top_nothing_special.css - */
+@media screen {
+/* portal_css/SubSkins_top_nothing_special.css?original=1 */
+#portal-top {
+width: 100%;
+height: auto;
+}
+#mymap {
+width: 100px;
+position: absolute;
+right: 100px;
+top: 20px;
+}
+#portal-header {
+width: 100%;
+padding: 0;
+background: white url(mybackground.png) no-repeat left 20px;
+}
+#portal-logo img{
+margin: 10px
+}
+#portal-searchbox {
+float: left;
+height: 30px;
+margin: 0;
+padding: 0;
+position: absolute;
+top: 100px;
+right: 28px;
+z-index: 99;
+}
+div.searchSection {
+display: none;
+}
+#searchGadget,
+input.searchButton {
+margin: 0;
+line-height: 20px;
+padding: 1px 5px;
+border:  1px solid #0071B9;;
+}
+input.searchButton {
+color:  white;;
+background: #0071B9;
+text-transform: uppercase;
+font-weight: bold;
+padding: 0 6px;
+}
+#portal-siteactions {
+display: block;
+float: right;
+line-height: 30px;
+margin: 0;
+margin-left: 12px;
+margin-right: 12px;
+padding: 0;
+}
+#portal-siteactions li {
+display: inline;
+padding: 0;
+padding-right: 12px;
+line-height: 20px;
+font-size: 8pt;
+}
+#portal-siteactions li a {
+opacity: 0.40;
+border: 0;
+}
+#portal-siteactions li a:hover {
+opacity: 1;
+}
+div#portal-personaltools-wrapper {
+width: 100%;
+height: 20px;
+background: #0071B9;
+padding: 0;
+line-height: 10px;
+}
+#portal-personaltools {
+float: right;
+margin: 0.5em 0;
+padding: 0;
+}
+#portal-personaltools li {
+display: inline;
+list-style: none;
+list-style-image: none;
+}
+#portal-personaltools li a {
+text-decoration: none;
+margin-right: 1em;
+margin-left: 1em;
+}
+#portal-breadcrumbs {
+padding: 8px 15px;
+background: white;
+}
+
+.LSRes {
+font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+visibility: visible;
+color: #666666;
+background-color: white;
+vertical-align: middle;
+display: block;
+list-style-image: none;
+list-style-type: none;
+text-align: left;
+min-width: 16.5em;
+text-transform: none;
+margin-left: 0;
+line-height: 1em;
+}
+#LSHighlight {
+background-color: white;
+}
+.LSRow {
+padding: 0;
+margin: 0;
+list-style-image: none;
+list-style-type: none;
+}
+.LSRow a {
+text-decoration: none;
+font-weight: bold;
+white-space: nowrap
+}
+.LSDescr {
+color: #777777;
+text-transform: lowercase;
+padding-left: 2.1em;
+margin-top: -0.1em;
+}
+.LSResult {
+position: relative;
+display: block;
+text-align: right;
+padding-top: 0px;
+padding-bottom: 0px;
+margin: 0;
+left: 3px;
+top: 1em;
+z-index: 3;
+}
+.LSShadow {
+position: relative;
+}
+.livesearchContainer {
+background-color: white;
+margin-top: 0;
+padding: 0 !important;
+position: absolute;
+left: 0px;
+
+top: 0;
+white-space: normal;
+font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+visibility: visible;
+text-align: left;
+color: #666666;
+border: 1px solid #999999;
+width: 30em;
+text-transform: none;
+}
+* html .livesearchContainer {
+padding: 1px !important;
+padding-top: 0 !important;
+background-color: white;
+border: 0;
+}
+#livesearchLegend {
+line-height: 1em;
+margin-top: -2em;
+margin-left: -0.1em;
+border: 2px solid #999999;
+border-bottom: 0;
+}
+* html #livesearchLegend {
+margin-top: -1.9em;
+margin-left: -8px;
+position: relative;
+}
+
+.LSIEFix {
+background-color: white;
+padding: 0.5em !important;
+z-index: 20;
+}
+.LSBox {
+clear: left;
+text-align: right;
+padding-top: 3px;
+display: block;
+}
+#LSNothingFound {
+text-align: center;
+padding: 2px;
+}
+
+}
+
+
+ 
+
+/* - SubSkins_base_biblo.css - */
+@media screen {
+/* http://xweb14f.plana.dk:8096/mount02/thermtech/portal_css/SubSkins_base_biblo.css?original=1 */
+
+
+#chicken_contentDiv {
+overflow: visible !important;
+}
+.placemark-url {
+display: none;
+}
+.olPopup h2 {
+margin-top:  0 !important;;
+}
+a.placemark-image {
+float: right;
+margin-top: -24px;
+margin-right: -28px;
+margin-left: 10px;
+}
+.mapicon, .cameraicon {
+margin-top: 15px;
+margin-right: 8px;
+}
+.cameraicon {
+width: 32px;
+height: 32px;;
+}
+.portletfeedmixer a {
+color:  #444;
+font-weight: normal;
+}
+#kml-content-viewlet {
+width:  400px;
+height: 0px;
+overflow: hidden;
+float: left;
+margin-right: 20px;
+}
+.newsImageContainer  {
+width: 400px;
+height:  300px;;
+overflow:  hidden;;
+float: left;
+background: white;
+margin-right: 20px;
+}
+.tileImage {
+float: left;
+margin-top: 4px;
+margin-right: 10px;
+}
+
+body {
+background: #0071B9 url(topshadow.png);;
+background-repeat: no-repeat;
+background-position: center 10px ;
+position: relative;
+}
+#visual-portal-wrapper{
+position: relative;
+width:  900px;
+text-align: left;
+margin: 0 auto;
+}
+#portal-columns{
+background-color: #FFFFFF;
+background-image: url(http://xweb14f.plana.dk:8096/mount02/thermtech/subskins_getimage/%237F00D0/almostwhite.jpg);
+background-repeat: no-repeat;
+}
+#clear-space-before-footer {
+display: block;
+width:  100%;
+background-image: url(http://xweb14f.plana.dk:8096/mount02/thermtech/subskins_getimage/%237F00D0/almostwhite_footer.jpg);
+background-repeat: no-repeat;
+height: 43px;
+}
+#portal-column-one{
+margin-right: 27px;
+margin-top: 26px;
+min-height: 443px;
+width:   170px;
+background:url(almostwhite_left.jpg);
+background-repeat: no-repeat;
+background-position: right top;
+}
+#portal-column-two{
+margin-left: 27px;
+margin-top: 26px;
+min-height: 443px;
+width:   230px;
+background: url(almostwhite_right.jpg);
+background-repeat: no-repeat;
+background-position: left  top;
+}
+#portal-column-content{
+padding: 10px 20px;
+}
+#content{
+padding: 20px;
+}
+
+
+}
+
+
+/* - SubSkins_bottom_mirror.css - */
+@media screen {
+/* http://xweb14f.plana.dk:8096/mount02/thermtech/portal_css/SubSkins_bottom_mirror.css?original=1 */
+
+
+#portal-colophon {
+background: #0071b9 url(http://xweb14f.plana.dk:8096/mount02/thermtech/subskins_getimage/%230071b9/forlopIV.gif) repeat-x;
+color: #ffffff;
+text-align: center;
+height: 110px;
+border-top: 1px solid #DEB422;
+margin: 0 auto;
+padding: 12px 0;
+font-size: smaller;
+}
+#portal-colophon div.colophonWrapper {
+width: 900px;
+margin: 0 auto;
+}
+#portal-colophon ul {
+list-style-image: none;
+list-style-type: none;
+}
+#portal-colophon ul li {
+display: inline !important;
+font-size: 90%;
+padding: 0 0.75em;
+color: white;
+}
+#portal-colophon ul li a {
+text-decoration: none;
+border-bottom: 1px #ccc solid;
+color: white;
+}
+#portal-footer {
+font-size: 12px;
+color: #dee7ec;
+line-height: 1.2em;
+text-align: center;
+width: 900px;
+margin: 0 auto;
+display: block;
+padding: 5px 0;
+background: #0071b9
+}
+#portal-footer p {
+margin: 0.25em 0;
+}
+#portal-footer a {
+color: white;
+margin: 3px;
+font-style: italic;
+text-decoration: none;
+}
+#portal-footer a:visited {
+color: #436977;
+}
+#portal-footer a:hover {
+text-decoration: underline;
+}
+
+}
+
+
+/* - columns-padding.css - */
+@media screen {
+/* http://xweb14f.plana.dk:8096/mount02/thermtech/portal_css/columns-padding.css?original=1 */
+td#portal-column-one,
+td#portal-column-two {
+padding: 20px;
+}
+
+}
+
+
+/* - SubSkins_globalnav_modernbuttonII.css - */
+@media screen {
+/* http://xweb14f.plana.dk:8096/mount02/thermtech/portal_css/SubSkins_globalnav_modernbuttonII.css?original=1 */
+#portal-globalnav {
+padding: 10px 0;
+clear: both;
+padding-left: 40px;
+height: 71px;
+border-bottom: 1px solid silver; /**/
+}
+#portal-globalnav:after {
+content: "";
+display: block;
+clear: both;
+height: 1px;
+overflow: hidden;
+}
+
+* html #portal-globalnav {
+height: 1em;
+overflow: visible;
+}
+#portal-globalnav #portaltab-index_html {
+background-image: none;
+background-color: white;
+padding: 0;
+margin-right:  4px;;
+}
+#portal-globalnav #portaltab-index_html a {
+background:  url(thermtechtext.png)  center center no-repeat;
+width:  72px;
+height: 70px;
+padding: 0;
+margin:  0;;
+border: 2px solid #0071B9;
+color:  #0071B9;
+font-weight: bold;
+text-transform: uppercase;
+font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+text-align: center;
+line-height: 119px;
+}
+#portal-globalnav li {
+display: block;
+float: left;
+margin: 2px;;
+padding: 0;
+overflow: visible;
+}
+#portal-globalnav li a {
+margin-top:  49px;;
+padding: 0 15px;
+display: block;
+float: left;
+text-decoration: none;
+height: 24px;
+color:  white;
+font-weight: bold;
+text-transform: uppercase;
+font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+font-size:  11px;
+text-align: center;
+line-height: 26px;
+background: #0071B9;
+}
+#portal-globalnav li.selected a,
+#portal-globalnav li a:hover {
+background: #c69a00;
+}
+#portal-globalnav li a:hover {
+text-decoration:underline;
+}
+}
+
+
+/* - SubSkins_portlets_blue.css - */
+@media screen {
+/* http://xweb14f.plana.dk:8096/mount02/thermtech/portal_css/SubSkins_portlets_blue.css?original=1 */
+
+
+.portlet {
+margin: 0 0 23px 0;
+color: #666666;
+border: 0 none;
+font: 10px verdana, helvetica, sans-serif;
+border-collapse: collapse;
+background-color: whitesmoke;
+}
+.portlet a.tile {
+color: #333;
+text-decoration: none;
+clear: both;
+}
+.portlet ul {
+list-style-type: none;
+}
+.portlet ul, .portlet dl, .portlet li, .portlet dt, .portlet dd {
+margin: 0;
+}
+.portletHeader {
+background: #01679a url(menu_item.gif) repeat-x left;
+height: 26px;
+margin: 0;
+padding: 0;
+color: whitesmoke;
+font-variant: normal;
+text-transform: none;
+font-size: 12px;
+line-height: 26px;
+padding-left:  10px;
+}
+#portal-column-two .portletHeader {
+background: #949901 url(menu_item_green.jpg) repeat-x left;
+}
+.portletHeader a.tile {
+text-decoration: none;
+text-transform: capitalize !important;
+color: whitesmoke;
+padding-top: 0px
+}
+.portletNavigationTree .portletItem,
+.portletCalendar .portletItem{
+padding: 0;
+}
+.portletItem {
+padding: 6px 10px;
+}
+dd.portletItem.even {
+background: white;
+}
+.portletItemDetails {
+font-weight: normal;
+font-style: normal;
+font-size: 9px;
+padding-right: 10px;
+margin-bottom: 6px;
+padding-top: 2px;
+clear: both;
+display: block;
+}
+.portlet.portletThirdWidth {
+margin-top: 20px !important;
+margin-right:4% !important;
+width: 29%;
+}
+#portlet-page-view {
+background-color:  #01679a;
+}
+#portlet-page-view .portletHeader{
+background-image: none;
+text-align: center;
+padding-right: 0;
+padding-left: 0;
+}
+#portlet-page-view p {
+margin: 4px 6px 12px 6px;
+color: white;
+font-size: 12px;
+}
+.portletItem  img.image-inline {
+border: 2px solid whitesmoke;
+}
+.boardCommentHeaderTitleBlock {
+font-size: 134%;
+line-height: 150%;
+}
+#portlet-page-view a {
+color: white;
+}
+.portletHeader a {
+color: whitesmoke;
+}
+.configlets li {
+}
+.visualNoMarker img {
+float: left;
+margin-right: 5px;
+margin-top: -1px;
+}
+dd.portletFooter {
+line-height: 20px;
+padding-left: 10px;
+}
+.portletFooter {
+background : #fcf8e6 url(bg_tonplatta_1.gif) no-repeat 0 100%;
+border: 0 none;
+padding: 2px 15px;
+clear: both;
+text-align: right;
+border-top: 1px solid #01679a;
+}
+.portletFooter a {
+color: #005b92;
+text-align: right;
+line-height: 130%;
+}
+.portletLogin  dt {
+background: #e6cb7a;
+}
+.portletLogin .label {
+padding: 4px;
+display: block;
+margin: 10px;
+}
+.portletLogin .portletItem {
+padding-top: 0;
+padding-bottom: 5px;
+}
+.portletLogin dt.portletHeader a.tile {
+color: white;
+font-weight: bold;
+}
+input#__ac_name,
+input#__ac_password {
+width: 130px;
+margin-top: 4px;
+}
+.portletLogin div.field {
+margin-bottom: 12px;
+}
+
+}
+
+
+/* - simple_tableII.css - */
+@media screen {
+/* http://xweb14f.plana.dk:8096/mount02/thermtech/portal_css/simple_tableII.css?original=1 */
+
+table.listing,
+.stx table {
+border-collapse: collapse;
+border-spacing: 0;
+border-left: 1px solid #999999;
+border-bottom: 1px solid #999999;
+font-size: 85%;
+margin: 1em 0em 1em 0em;
+}
+table.listing th,
+.stx table th {
+background: #d7d7d7;
+border-top: 1px solid #999999;
+border-bottom: 1px solid #999999;
+border-right: 1px solid #999999;
+font-weight: normal;
+padding: 0.25em 0.5em;
+text-transform: lowercase;
+}
+table.listing .top {
+border-left: 1px solid White;
+border-top: 1px solid White ! important;
+border-right: 1px solid White ! important;
+text-align: right ! important;
+padding: 0em 0em 1em 0em;
+}
+table.listing .listingCheckbox {
+text-align: center;
+}
+table.listing td,
+.stx table td {
+border-right: 1px solid #999999;
+padding: 0.25em 0.5em;
+}
+table.listing a {
+text-decoration: none;
+}
+table.listing a:hover {
+text-decoration: underline;
+}
+table.listing img {
+vertical-align: middle;
+}
+table.listing td a label,
+.stx table td a label {
+cursor: pointer;
+}
+
+table.vertical {
+background-color: White;
+}
+table.vertical th {
+padding: 0.5em;
+}
+table.vertical td {
+border-top: 1px solid #999999;
+padding: 0.5em;
+}
+
+table.grid td {
+border: 1px solid #999999;
+padding: 0.5em;
+font-size: 78%;
+}
+
+table.plain,
+table.plain td,
+table.plain th {
+border: 1px solid #ccc;
+padding: 0.5em;
+border-collapse: collapse;
+}
+
+.listingBar {
+border-color: #999999;
+border-style: solid;
+border-width: 1px;
+border-right: 0 none;
+border-left: 0 none;
+padding: 0em 1em;
+text-align: center;
+text-transform: lowercase;
+vertical-align: top;
+margin: 1em 0em;
+font-size: 94%;
+clear: both;
+}
+.listingBar span.previous,
+.listingPrevious {
+text-align: left;
+float: left;
+margin-right: 1em;
+}
+.listingBar span.next,
+.listingNext {
+text-align: right;
+float: right;
+margin-left: 1em;
+}
+.listingBar img {
+vertical-align: middle;
+}
+.listingBar a {
+text-decoration: none;
+}
+.eventDetails {
+float: right;
+clear: right;
+margin: 0 0 0.5em 1em;
+}
+
+
+
+}
+
+
+
+/* - listingbar.css - */
+@media screen {
+/* http://xweb14f.plana.dk:8096/mount02/thermtech/portal_css/listingbar.css?original=1 */
+#viewlet-below-content div.listingBar {
+line-height: 20px;
+}
+#viewlet-below-content div.listingBar a {
+text-transform: uppercase;
+background-image: none;
+padding: 10px;
+}
+#viewlet-below-content .listingBar a.previous {
+background: url(fancy_left.png) no-repeat right 2px;
+padding-right: 35px;
+height: 32px;
+}
+#viewlet-below-content .listingBar a.next {
+background: url(fancy_right.png) left 2px no-repeat;
+height: 32px;
+padding-left: 35px
+}
+}

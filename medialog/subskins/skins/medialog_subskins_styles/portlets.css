@@ -1,0 +1,10 @@
+
+
+.managedPortlet {
+    margin: 0 0 1em;
+}
+
+.blockedPortlet .portletHeader {
+    background: #eee !important;
+}
+

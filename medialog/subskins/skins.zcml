@@ -1,0 +1,35 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    i18n_domain="medialog.subskins">
+
+   <!-- File System Directory Views registration -->
+   <cmf:registerDirectory
+       name="medialog_subskins_custom_images"/>
+   <cmf:registerDirectory
+       name="medialog_subskins_custom_templates"/>
+   <cmf:registerDirectory
+       name="medialog_subskins_styles"/>
+   <cmf:registerDirectory
+       name="subskins_base"/>
+<cmf:registerDirectory
+       name="subskins_top"/>
+<cmf:registerDirectory
+       name="subskins_navigation"/>
+<cmf:registerDirectory
+       name="subskins_bottom"/>
+<cmf:registerDirectory
+       name="subskins_calendar"/>
+<cmf:registerDirectory
+       name="subskins_portlets"/>
+<cmf:registerDirectory
+       name="subskins_globalnav"/>
+<cmf:registerDirectory
+       name="subskins_colorschemes"/>
+<cmf:registerDirectory
+       name="subskins_text"/>
+<cmf:registerDirectory
+       name="subskins_extra"/>
+<cmf:registerDirectory
+       name="subskins_composites"/>
+</configure>

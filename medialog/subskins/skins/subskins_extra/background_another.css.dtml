@@ -1,0 +1,9 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+body {
+	background: white url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor3;/page_back_bw.gif) repeat-x 0 top; ;
+}
+
+/* </dtml-with> */
+

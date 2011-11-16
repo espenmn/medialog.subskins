@@ -1,0 +1,9 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+#visual-portal-wrapper {
+	padding: 15px;
+}
+
+/* </dtml-with> */
+

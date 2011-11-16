@@ -1,0 +1,578 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+/* @group Basics */
+#content-views {
+	font-size: 80%;
+}
+
+body { 
+	font: 100% Arial, FreeSans, sans-serif;
+	color: Black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Helvetica Neue", Arial, FreeSans, sans-serif; 
+	font-weight: bold;
+	line-height: 150%;
+	color: Black;
+}
+h1, h2 {
+	letter-spacing: -0.05em;
+}
+h1 {
+	font-size: 2em; 
+}
+h2 {
+	font-size: 1.75em; 
+}
+h3 {
+	font-size: 1.5em; 
+}
+h4 {
+	font-size: 1.25em; 
+}
+h5 {
+	font-size: 1em; 
+}
+h6 {
+	font-size: 0.8em; 
+}
+
+p {
+}
+
+a:link, a:visited {
+	color: &dtml-SubSkinsColor1;;
+}
+dt {
+	font-weight: bold;
+}
+input {
+	font-family: "Lucida Grande", Arial, FreeSans;
+	padding: 2px;
+}
+
+q {
+    quotes: "“" "”" "‘" "’"
+}
+
+/* @end */
+
+/* @group Accessibility elements, applied by JS */
+
+body.largeText { font-size: 125%; }
+body.smallText { font-size: 85%; }
+
+/* @end */
+
+/* @group Listings */
+
+a.link-parent {
+}
+
+/* @end */
+
+/* @group Content Area */
+
+#content {
+	line-height: 1.5em;
+	clear: both;
+	font-size: 80%;
+}
+
+#content h1 {	
+	margin-top: 0.5em;
+}
+
+#content h1.documentFirstHeading {	
+	margin-top: 0;
+}
+
+#content h2,
+#content h3,
+#content h4 {
+	margin-top: 0.5em;
+	color: #444;	
+}
+
+
+#content-core p,
+#content-core ul,
+#content-core ol,
+#content-core table,
+#content-core dl {
+	margin-bottom: 1em;
+}
+
+#content a:link{
+	color: &dtml-SubSkinsColor1;;
+	border-bottom: 0.1em solid #ccc;
+}
+
+#content a:visited{
+	color: &dtml-SubSkinsColor2;;
+	border-bottom: 0.1em solid #ccc;
+}
+#content a:hover {
+	text-decoration: underline;
+	color: &dtml-SubSkinsColor1; !important; /* This one gets an !important because it should always activate in the content area, even when state coloring is active */
+}
+
+#content a:target {
+	background-color: #ffb;
+}
+
+#content a.link-category {
+	color: black;
+	padding: 0.25em 0.5em;
+	background: #ddd;
+	border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+}
+#content a.link-category:hover {
+	background: &dtml-SubSkinsColor1;;
+	color: White;
+	border-color: &dtml-SubSkinsColor1;;
+}
+
+#content img {
+	max-width: 100%;
+}
+
+#content-core ul {
+	list-style-type: disc;
+	margin-left: 2em;
+}
+
+#content-core ol{
+	list-style-type: decimal;
+	margin-left: 2em;
+}
+
+#content-core li {
+	margin-bottom: 0.25em;
+	line-height: 1.5em;
+	display: list-item;
+}
+
+#content-core dt {
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-right: 0;
+}
+#content-core dd {
+	margin: 0 0 1em 1em;
+}
+
+#content pre {
+	background-color: #222;
+	color: White;
+	font-family: Consolas, Inconsolata, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace;	
+	padding: 1em;
+	overflow-x: auto;
+	font-size: 90%;
+	margin-bottom: 1em;
+	line-height: 1em;
+}
+
+#content code {
+	font-family: Consolas, Inconsolata, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace;	
+}
+
+#content div.documentByLine {
+	font-size: 85%;
+	display: block;
+	margin-top: -0.5em;
+	color: #666;
+}
+
+#content .discreet,
+#sidebar .discreet {
+	color: #666;
+	font-size: 85%;
+	font-weight: normal;
+}
+
+#content .visualHighlight {
+    background-color: #ffb;
+}
+
+#content .pullquote {
+    padding: 0 1em 0 1em;
+    margin: 0 0 1em 1em;
+    font-weight: bold;
+    float: right;
+    width: 35%;
+    clear: right;
+    border-left: 0.1em solid #888;
+	color: #888;
+}
+#content .callout {
+    color: #666;
+    padding: 1em;
+	border: 0.1em solid #666;
+	border-style: solid none;
+	clear:  both;
+}
+
+#content table {
+	text-align: left;
+}
+
+#content p.documentDescription,
+#content #description {
+	color: #666;
+	font: bold 1.25em "Helvetica Neue", Arial, FreeSans, sans-serif;
+	margin-left: 0;
+}
+
+#content img.tileImage,
+#content div.newsImageContainer {
+	float: right;
+	margin: 0 1em 0.5em 1em;
+}
+
+img.image-right {
+	float: right;
+	margin: 8px 0 10px 20px;
+}
+
+img.image-left {
+	float: left;
+	margin: 8px 20px 10px 0;
+}
+
+#content div.newsImageContainer p.discreet {
+	margin: 0;
+	padding: 0.5em;
+	background-color: #666;
+	background-color: rgba(40,40,40,0.7);
+	color: White;
+	font-weight: bold;
+	position: relative;
+	top: -3em;
+}
+/* @end */
+
+
+
+/* @group Data tables */
+
+table.listing {
+	border-spacing: 0; 
+}
+
+table.listing td, 
+table.listing th {
+	padding: 0.5em 1em;
+	vertical-align: top;
+}
+
+table.listing td.listingCheckbox, 
+table.listing th.listingCheckbox {
+	text-align: center;
+}
+
+table.listing thead th {
+	text-align: left;
+	color: #666;
+	border: 0.1em solid #e7e7e7;
+	border-style: solid none none;
+}
+table.listing tr.odd th {
+	border: 0.1em solid #fff;
+	border-style: solid solid none none;
+}
+table.listing tbody th {
+	font-weight: bold;
+}
+table.listing tbody tr {
+	text-align:left;
+}
+table.listing tbody tr.odd {
+	background: #eee;
+}
+table.listing tbody tr td { 
+	background: transparent;
+}
+table.listing tbody tr.odd td { 
+	background: #eee;
+	border: 0.1em solid #fff;
+	border-style: none solid none none;	
+}
+table.listing a { 
+	border: none;
+}
+
+table.listing td.draggable {
+	cursor: move;	
+}
+
+div.listingBar {
+	font-size: 80%;	
+	margin: 1em 0;
+}
+
+div.listingBar .next {
+	display: inline-block;
+	float: right;
+}
+
+div.listingBar .previous {
+	display: inline-block;
+}
+
+div.listingBar a {
+	display: inline-block;
+	padding: 0.25em 0.5em;
+	border: 0.1em solid #ccc;
+}
+
+div.listingBar a:hover {
+	color: White;
+	background-color: #329fd7;
+	border-color: #329fd7;
+}
+
+/* @end */
+
+/* @group Status messages */
+
+#content dl.portalMessage {
+    margin: 1em 0;
+	font-size: 80%;
+	border: 1px solid #996;
+	background-color: #ffffe3; 
+}
+
+#content dl.portalMessage a {
+    color: black;
+	border-color: black;
+}
+#content dl.portalMessage dt {
+    background-color: #996; 
+    font-weight: bold;
+    float: left;
+    margin: 0 0.5em 0 0;
+    padding: 0.5em 0.75em;
+    color: White;
+    line-height: 1.25em;
+}
+#content dl.portalMessage dd {
+    padding: 0.5em 0.5em; 
+    margin: 0;
+    line-height: 1.25em;
+}
+#content dl.warning {
+    border-color: #d80;
+}
+#content dl.warning dt {
+    background-color: #d80;
+}
+#content dl.error {
+    border-color: #d00;    
+}
+#content dl.error dt {
+    background-color: #d00; 
+}
+#content dl.warning {
+    border-color: #d80;    
+}
+#content dl.warning dd {
+    background-color: #fd7; 
+}
+#content dl.error {
+    border-color: red;    
+}
+#content dl.error dd {
+    background-color: #fdc; 
+}
+/* @end */
+
+/* @group Collapsible */
+dl.collapsible {
+    border: 0.1em solid &dtml-SubSkinsColor5;;
+    margin: 1em 0;
+    padding: 0;
+}
+dl.collapsible dt.collapsibleHeader {
+    display: block;
+    float: left;
+    background: White;
+    line-height: 1.2em;
+    vertical-align: middle;
+    font-size: 90%;
+    position: relative;
+    top: -0.6em;
+    width: auto;
+    margin: 0 0 -0.6em 1em;
+    padding: 0 0.5em;
+}
+dl.collapsible dd.collapsibleContent {
+    margin: 0;
+    padding: 0 1em 0.4em;
+    clear: left;
+}
+
+/* for IE the following isn't needed, that's why the css2 selector is used */
+dl.collapsible dd.collapsibleContent > dl {
+    margin: 0;
+    padding: 0;
+}
+
+dl.expandedInlineCollapsible dt.collapsibleHeader,
+dl.expandedBlockCollapsible dt.collapsibleHeader {
+    padding: 0 0.5em 0 2em;
+    background: White url(treeExpanded.png) no-repeat 0.5em 50%;
+    cursor: pointer;
+}
+
+dl.collapsedBlockCollapsible {
+    border: none;
+    height: 1em;
+    width: auto;
+}
+dl.collapsedBlockCollapsible dt.collapsibleHeader {
+    float: none;
+    position: relative;
+    margin: 0 0 0 1em;
+    padding: 0 0.5em 0 2em;
+    line-height: 1.2em;
+    cursor: pointer;
+    background: White url(treeCollapsed.png) no-repeat 0.5em 50%;    
+}
+dl.collapsedInlineCollapsible dd.collapsibleContent,
+dl.collapsedBlockCollapsible dd.collapsibleContent {
+    display: none;
+}
+dl.collapsedInlineCollapsible {
+    border: none;
+    height: 1em;
+    width: auto;
+    display: inline;
+}
+dl.collapsedInlineCollapsible dt.collapsibleHeader {
+    position: static;
+    float: none;
+    margin: 0;
+    padding: 0 0 0 2em;
+    line-height: 1em;
+    cursor: pointer;
+    display: inline;
+}
+
+/* @end */
+
+/* @group Comments */
+
+.comment {
+	border: 0.1em solid #eee;
+	background-color: #f6f6f6;
+    padding: 0.25em 1em 1em 1em;
+    margin-bottom: 1em;
+	font-size: 80%;
+}
+.comment h1,
+.comment h2,
+.comment h3,
+.comment h4, 
+.comment h5,
+.comment h6 {
+    border-bottom: 0.1em solid #76797c;
+    font-weight: normal;
+}
+
+/* @end */
+
+.reviewHistory,
+.contentHistory {
+    display: inline;
+    color: Black;
+}
+.spacer {
+    margin: 1em;
+}
+
+.label {
+    font-weight: bold;
+    display: inline;
+    padding-right: 0.5em;
+}
+.optionsToggle {
+    border: 0.1em solid &dtml-SubSkinsColor5;;
+    color: Black;
+    background-color: &dtml-SubSkinsColor6;;
+    font-weight: normal;
+    font-size: 90%;
+}
+.highlightedSearchTerm {
+   background-color: #ffa;
+}
+
+dl.searchResults .highlightedSearchTerm {
+    background-color: transparent;
+    font-weight: bold;
+}
+
+/* for greying out inherited roles */
+.noInheritedRoles {
+    color: #a0a0a0;
+}
+/* for highlighting current items, like the language or today in the calendar */
+.currentItem {
+    border-collapse: collapse;
+    border: 0.2em solid #ffa500;
+    padding: 0.1em;
+}
+
+/* @group Search results page */
+
+form.searchPage {
+    text-align:center;
+}
+
+input.searchPage {
+    font-size:200% !important;
+}
+
+/* @end */
+
+/* @group Dashboard */
+
+#dashboard-actions ul,
+#dashboard-actions ul li {
+    list-style: none;
+}
+#dashboard-actions ul {
+    margin-left: 0;
+}
+
+/* @end */
+
+/* @group Table of Contents */
+
+ /*Table of Contents styling - essentially a portlet with smaller fonts and aligned right + limited in width*/ 
+
+dl.toc {
+	float: right;
+    width: 35%;
+	font-size: 70%;
+    margin: 0 0 0.5em 1.5em;
+	border-left: 0.1em solid #666;
+}
+dl.toc dt {
+	margin-left: 3em;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+dl.toc dd {
+	margin-bottom: 0;
+}
+dl.toc dd ol {
+	margin-left: 1.5em;
+}
+
+/* @end */
+
+/*</dtml-with> */

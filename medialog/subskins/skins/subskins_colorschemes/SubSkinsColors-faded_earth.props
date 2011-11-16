@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Faded earth
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=43539E
+SubSkinsColor1:string=#43539E
+SubSkinsColor2:string=#71789E
+SubSkinsColor3:string=#D35D52
+SubSkinsColor4:string=#D39893
+SubSkinsColor5:string=#C8D352
+SubSkinsColor6:string=#CBD191
+SubSkinsPosition:string=-250

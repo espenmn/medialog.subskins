@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Voz
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=4C5844
+SubSkinsColor1:string=#4C5844
+SubSkinsColor2:string=#E5E5AE
+SubSkinsColor3:string=#BCd8A1
+SubSkinsColor4:string=#F1F1EA
+SubSkinsColor5:string=#A9340C
+SubSkinsColor6:string=#A9340C
+SubSkinsPosition:string=-370

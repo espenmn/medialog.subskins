@@ -1,0 +1,76 @@
+/*
+ For SubSkins
+  <dtml-with base_properties> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+#portal-globalnav {
+	list-style-type: none;
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	border-top: 1px solid #fd0;
+	border-bottom: 1px solid #4b0022;
+	background: #f6c538;
+	text-decoration: none;
+	width: 100%;
+	clear: both;
+}
+
+#portal-globalnav:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}
+
+/* for IE */
+
+/*\*/
+
+* html #portal-globalnav {
+	height: 1em;
+	overflow: visible;
+}
+
+/**/
+
+#portal-globalnav li {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	border-right: 1px solid #fefff8;
+}
+
+#portal-globalnav li a {
+	display: block;
+	float: left;
+	padding: 0.25em 1.25em;
+	border-top: 0px solid #fffcf6;
+	border-right: 1px none #fefff8;
+	border-bottom: 0px solid #890;
+	border-left: 0px solid #df3;
+	background: #f6c538;
+	color: #fff;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: small;
+}
+
+#portal-globalnav li a:hover {
+	text-decoration: none;
+	background-color: #a40501;
+}
+
+#portal-globalnav li.selected a {
+	background: #310100;
+	border-top: 0px solid #2d0718;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* </dtml-with> */

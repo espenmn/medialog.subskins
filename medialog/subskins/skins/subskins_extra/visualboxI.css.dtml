@@ -1,0 +1,38 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+.visulBoxEntry {
+	float: left;
+	width: 250px;
+	height: 180px;
+	border: 1px solid #000;
+	overflow: hidden;
+    background: white url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor6;/forlopvIII.png) repeat-x !important;	
+;
+}
+
+.visulBoxEntry a {
+	text-decoration: none !important;
+}
+
+.visualBoxEntryTitle {
+	position: relative;
+	top: 130px;
+	left: 15px;
+	color: &dtml-SubSkinsColor2;;
+	z-index: 10;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.visualBoxWrapper img {
+	position: relative;
+	top: 0px;
+	left: 0;
+	z-index: 10px;
+}
+
+
+
+
+/* </dtml-with> */

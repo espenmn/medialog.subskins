@@ -1,0 +1,94 @@
+/* <dtml-with base_properties> (do not remove this :) */
+
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+
+/* @group Calendar */
+
+.dayPopup {
+	background-color: #c9d8da;
+	  padding: 0.2em;
+	position: absolute;
+	visibility: hidden;
+	width: 12em;
+	z-index: 2;
+	border: 1px solid #f5d7b0;
+}
+
+.date {
+	font-weight: bold;
+}
+
+.ploneCalendar {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 1px;
+	border: 1px solid #949901 ;
+	margin: 0;
+	padding: 0;
+}
+
+.portletCalendar dt.portletHeader {
+	text-align: center;
+	font-size: 11px;
+	padding: 0;
+}
+
+.portletCalendar .portletItem {
+	border-style: none !important;
+	border-width: 0;
+	padding:  0;
+}
+
+
+.ploneCalendar a {
+	}
+
+.ploneCalendar a:hover {
+	text-decoration: none;
+}
+
+.ploneCalendar th {
+	padding: 0.3em;
+	background: #949901 url(menu_item_green.jpg) repeat-x left;
+	color: whitesmoke;
+	text-align: center;
+	font-weight: normal;
+	border-bottom: 1px solid  #949901;
+}
+
+
+.ploneCalendar td {
+	text-align: center;
+	color: #999;
+line-height: 1.3em;
+}
+
+.ploneCalendar .weekdays td {
+	text-align: center;
+}
+
+.ploneCalendar .event {
+	font-weight: bold;
+	background-color: #e6e7d1;
+}
+
+.ploneCalendar .todayevent {
+	background-color: #949901;
+	font-weight: bold;
+	color: whitesmoke;
+}
+
+.ploneCalendar .todaynoevent {
+	border-collapse: collapse;
+	border: 2px solid #949901;
+}
+
+.ploneCalendar #calendar-previous {
+	
+}
+
+/* @end */
+
+
+/* </dtml-with> */

@@ -1,0 +1,81 @@
+/*
+  Coprorate_1 for SubSkins
+  <dtml-with base_properties> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+
+/* portal navigation
+
+------------------------------------------------------ */
+
+#portlet-navigation-tree .portletItem{
+}
+
+.portletNavigationTree{
+	padding-bottom: 16px;
+	list-style-image: none;
+	color: black;
+	}
+
+.portletNavigationTree .visualPadding {	
+	padding-top: 12px;
+	font-size: 12px;
+}
+
+.portletNavigationTree ul{
+	}
+
+.portletNavigationTree li{
+	display: block;
+	padding-left: 10px;
+	margin-right: 6px;
+	padding-bottom: 6px;
+	color: black;
+	}
+
+.portletNavigationTree li a{
+	display: block;
+	padding-left: 10px;
+	width: auto;
+	color: black;
+	text-decoration: none;
+	}
+
+.portletNavigationTree li.navTreeItem a.navTreeCurrentItem{
+	}
+
+.portletNavigationTree li a:hover,
+a.navTreeCurrentItem{
+    font-weight: bold;
+    }
+
+.portletNavigationTree li a:hover{
+	font-weight: bold;
+	color: black;
+	}
+
+.portletNavigationTree .navTreeLevel1 li a {
+  	color: black;
+  	}
+
+.portletNavigationTree .navTreeLevel2 li a {
+	padding: 10px 0 0 0.5em;
+	}
+
+.portletNavigationTree .navTreeLevel3 li a {
+	padding-left: 1em;
+	color: black;
+	}
+
+.portletNavigationTree .navTreeLevel2 a:hover {
+	padding-left: 0.5em;
+	}
+
+.portletNavigationTree .navTreeLevel3 a:hover {
+	padding-left: 1em;
+	}
+
+/* </dtml-with> */
+
+

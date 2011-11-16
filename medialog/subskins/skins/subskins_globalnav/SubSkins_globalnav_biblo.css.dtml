@@ -1,0 +1,88 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+
+/* globalnav
+---------------------------------------------------------------------- */
+
+#portal-globalnav  {
+	height: 41px; 
+	margin: 0;
+	padding: 0;
+	clear: both;
+	list-style-type: none;
+	background: url(line_forl.png) no-repeat right bottom;}
+
+#portal-globalnav li {
+	float: left;
+	display:block;
+	height: 41px; /* was 56px */
+	cursor: pointer;
+	background-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor6;/gradII.png);
+	background-repeat: repeat-x;
+	background-position: bottom ;
+	padding: 0;
+	margin:  0;
+}
+#portal-globalnav li a{
+	text-decoration: none;
+	color:#000000;
+	font-family:Tahoma,Verdana,Geneva;
+	font-size:12px;
+	height: 41px;
+	line-height:41px;
+	display: block;
+	background-repeat: no-repeat; 	
+	padding:  0 14px;
+	background-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor5;/gradII.png);
+	background-position: bottom left;
+}
+
+#portal-globalnav li:first-child{
+	background-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor6;/menu_r_left.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	padding-left: 2px;
+	padding-right: 0;
+}
+
+#portal-globalnav li:first-child:hover{
+	background-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/menu_r_left_hover.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	padding-left: 0;
+	padding-right: 2px;
+}
+
+#portal-globalnav li:first-child.selected{
+	background-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor2;/menu_r_left_hover.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	padding-left: 0;
+	padding-right: 2px;
+}
+
+#portal-globalnav li.selected {
+	background-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor2;/gradII.png);
+	background-repeat: repeat-x;
+	background-position: bottom left;
+
+}
+
+#portal-globalnav li :hover {
+	background-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/gradIV.png);
+	background-repeat: repeat-x;
+	background-position: bottom left;
+	color: #ffffff;
+}
+
+#portal-globalnav  li:last-child{
+	background-image:url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor6;/menu_r_right.png);
+	background-position:right bottom;
+	background-repeat:no-repeat;
+	padding-right:7px;
+}
+
+
+
+/* </dtml-with> */	

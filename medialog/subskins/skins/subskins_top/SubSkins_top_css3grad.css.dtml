@@ -1,0 +1,189 @@
+
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+#portal-top {
+	height: auto;;
+}
+
+#portal-header {
+	background: &dtml-SubSkinsColor5;; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='&dtml-SubSkinsColor5;', endColorstr='#FFFFFF'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(&dtml-SubSkinsColor5;), to(#FFF));
+	/* for webkit browsers */
+	background: -moz-linear-gradient(top, &dtml-SubSkinsColor5;,  #FFF); /* for firefox 3.6+ */ 
+}
+#portal-personaltools {
+	float: right;
+	background: #e3e3e3;
+	position: relative;
+	z-index: 3;
+	top: 0;
+	right: 0;
+	padding: 0.25em 0.5em;
+	font-size: 80%;
+	border-bottom-right-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+	-webkit-border-bottom-right-radius: 0.5em;
+	-webkit-border-bottom-left-radius: 0.5em;
+	-moz-border-radius-bottomleft: 0.5em;
+	-moz-border-radius-bottomright: 0.5em;
+}
+
+#portal-personaltools #anon-personalbar a {
+	float: left;
+	margin-right: 0.5em;
+}
+
+#portal-languageselector {
+	float: right;
+	background: #e3e3e3;
+	position: relative;
+	top: 0;
+	right: 1px;
+	z-index: 3;
+	font-size: 80%;
+	border-bottom-right-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+	-webkit-border-bottom-right-radius: 0.5em;
+	-webkit-border-bottom-left-radius: 0.5em;
+	-moz-border-radius-bottomleft: 0.5em;
+	-moz-border-radius-bottomright: 0.5em;
+	max-width: 50%;
+}
+
+#portal-searchbox {
+	-moz-border-radius-bottomleft: 0.5em;
+	-moz-border-radius-bottomright: 0.5em;
+	-moz-border-radius-topleft: 0.5em;
+	-moz-border-radius-topright: 0.5em;
+	background-color: #E3E3E3;
+	clear: right;
+	float: right;
+	font-size: 12px;
+	margin-bottom: 1.2em;
+	margin-left: 0;
+	margin-right: 10px;
+	margin-top: 1.2em;
+	padding-bottom: 6px;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-top: 6px;
+	text-align: left;
+	border-radius: 5px;
+}
+
+#portal-searchbox form {
+	white-space: nowrap;
+}
+
+#portal-searchbox label {
+	font-weight: normal;
+	color: black;
+}
+
+#searchGadget {
+	width: 13em;
+}
+
+#searchGadget, .LSBox input.searchButton {
+	
+}
+
+.LSBox .searchSection {
+	
+}
+
+#content input.searchField {
+	margin-bottom: 1em;
+}
+
+input.searchField {
+	-moz-appearance: searchfield !important;
+	border: 1px solid silver!important;
+	padding: 1px 3px;
+}
+
+.collapsible .collapser.collapsed {
+	padding-right: 14px;
+	background: url('arrowRight.png') center right no-repeat;
+}
+
+.collapsible .collapser.expanded {
+	padding-right: 14px;
+	background: url('arrowDown.png') center right no-repeat;
+}
+
+#LSResult {
+	position: absolute;
+	right: 0;
+	background: White;
+	margin: -1.5em 0 0 -7em;
+}
+
+#LSResult fieldset {
+	padding: 1em 0 0;
+	border: 0.1em solid #ccc;
+}
+
+#livesearchLegend {
+	background-color: #ccc;
+	padding: 0.3em;
+}
+
+#LSResult .LSDescr {
+	font-size: 85%;
+	color: #666;
+}
+
+.LSRow, #LSNothingFound {
+	display: block;
+	padding: 0.5em 1em;
+	white-space: normal;
+	width: 28em;
+}
+
+.LSHighlight {
+	background: #ddd;
+}
+
+#portal-breadcrumbs {
+	font-size: 85%;
+	margin: 1em 2em;
+	
+}
+
+#portal-breadcrumbs a {
+	border-bottom: none;
+	display: inline-block;
+}
+
+#portal-siteactions {
+	font-size: 85%;
+	padding-bottom: 2em;
+	text-align: center;
+}
+
+#portal-siteactions li {
+	margin-right: 0.5em;
+}
+
+#portal-siteactions li a:hover {
+	color: #75ad0a
+}
+
+ul#portal-siteactions {
+	background: transparent;
+	list-style-type: none;
+	list-style-image: none;
+	text-align: right;
+	padding: 0;
+	background-color: transparent;
+}
+
+ul#portal-siteactions li {
+	padding: 0 5px;
+	display: inline-block;
+}
+
+/* </dtml-with> */

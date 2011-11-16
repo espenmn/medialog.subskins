@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Winemaker
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=006D90
+SubSkinsColor1:string=#000000
+SubSkinsColor2:string=#666600
+SubSkinsColor3:string=#222222
+SubSkinsColor4:string=#990000
+SubSkinsColor5:string=#CC3300
+SubSkinsColor6:string=#F0F0F0
+SubSkinsPosition:string=-120

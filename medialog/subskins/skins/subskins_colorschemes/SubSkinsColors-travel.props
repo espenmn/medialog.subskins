@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Travel
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=585858
+SubSkinsColor1:string=#585858
+SubSkinsColor2:string=#678090
+SubSkinsColor3:string=#6F9DBE
+SubSkinsColor4:string=#F7A700
+SubSkinsColor5:string=#F9CA69
+SubSkinsColor6:string=#F9EDE1
+SubSkinsPosition:string=-122

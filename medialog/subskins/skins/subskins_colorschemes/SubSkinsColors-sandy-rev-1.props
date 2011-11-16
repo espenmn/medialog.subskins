@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Sandy rev 1
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=007FAE
+SubSkinsColor1:string=#007FAE
+SubSkinsColor2:string=#00B7FA
+SubSkinsColor3:string=#AD6800
+SubSkinsColor4:string=#FA6C00
+SubSkinsColor5:string=#525252
+SubSkinsColor6:string=#ADADAD
+SubSkinsPosition:string=-50

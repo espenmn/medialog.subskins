@@ -1,0 +1,68 @@
+/*  For Subskins */
+/* <dtml-with base_properties> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+
+/* portal navigation
+
+---------------------------------------------------------------------- */
+
+#portlet-navigation-tree .portletItem{
+	padding: 0;
+	background-image: none;
+	}
+
+.portletNavigationTree{
+  list-style-type: none;
+  padding: 0;
+  border: 1px solid #aa9;
+}
+
+.portletNavigationTree ul{
+  list-style-type: none;
+  margin: 0;
+  }
+
+.portletNavigationTree li{
+  margin: 0;
+  }
+
+.portletNavigationTree li a{
+  display: block;
+  width: auto;
+  padding: 6px 0;
+  padding-left: 15px;
+  border-top: 1px solid #eee;
+  border-right: 1px solid #a4a4a4;
+  border-bottom: 1px solid #a4a4a4;
+  border-left: 1px solid #eee;
+  background: #100841;
+  color: #fff;
+  text-decoration: none;
+  }
+
+.portletNavigationTree li a:hover,
+.portletNavigationTree li.navTreeItem a.navTreeCurrentItem{
+  background: #151f5e;
+  color: #fff;
+  font-weight: bold;
+  }
+
+.portletNavigationTree li a:hover{
+  color: #fff !important;
+  font-weight: normal;
+  }
+
+.portletNavigationTree .navTreeLevel1 li a{
+  padding-left: 1.25em;
+  }
+
+.portletNavigationTree .navTreeLevel2 li a{
+  padding-left: 2.5em;
+  }
+
+.portletNavigationTree .navTreeLevel3 li a{
+  padding-left: 3.75em;
+  }
+
+/* </dtml-with> */

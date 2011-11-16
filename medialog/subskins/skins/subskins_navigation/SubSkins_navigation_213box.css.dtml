@@ -1,0 +1,111 @@
+/*
+  for subskins
+    <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+/* portal navigation
+
+---------------------------------------------------------------------- */
+
+#portlet-navigation-tree .portletItem {
+	width: auto;
+	padding: 0px 0px 0px 0px;
+	background-image: none;
+	overflow: hidden;
+	font-family: tahoma, arial, verdana, sans-serif;
+	list-style-type: none;
+}
+
+.portlet.portletNavigationTree  {
+	border: 0 none;
+}
+
+.portletNavigationTree {
+	list-style-type: none;
+	padding: 0;
+	border: 1px solid &dtml-SubSkinsColor2;;
+}
+
+.portletNavigationTree ul {
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+	list-style: none;
+	z-index: 2;
+	background: #e7e7e7;
+}
+
+.portletNavigationTree li {
+	margin: 0;
+}
+
+.portletNavigationTree li a {
+	display: block;
+	width: auto;
+	padding: 6px 6px;
+	padding-left: 10px;
+	border-right: 0px;
+	color: #4d4141;
+	text-decoration: none;
+}
+
+.portletNavigationTree li.navTreeItem a.navTreeCurrentItem {
+	color: black;
+	font-weight: bold;
+	background-color: &dtml-SubSkinsColor2;
+;
+}
+
+.portletNavigationTree li a:hover,
+a.navTreeCurrentItem {
+	color: black;
+	font-weight: bold;
+	background-color: &dtml-SubSkinsColor2;
+;
+}
+
+.portletNavigationTree li a:hover {
+	font-weight: bold;
+	color: white;
+	background-color: &dtml-SubSkinsColor1;
+;
+}
+
+.portletNavigationTree .navTreeLevel1 li a {
+	padding-left: 15px;
+	color: black;
+	background-color: &dtml-SubSkinsColor3;
+	;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.portletNavigationTree .navTreeLevel2 li a {
+	padding-left: 20px;
+	background-color: &dtml-SubSkinsColor3;
+	;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.portletNavigationTree .navTreeLevel3 li a {
+	padding-left: 25px;
+	background-color: &dtml-SubSkinsColor3;
+	;
+	color: black;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.portletNavigationTree .navTreeLevel2 a:hover {
+	background-color: &dtml-SubSkinsColor4;
+;
+}
+
+.portletNavigationTree .navTreeLevel3 a:hover {
+	background-color: &dtml-SubSkinsColor4;
+;
+}
+
+/* </dtml-with> */

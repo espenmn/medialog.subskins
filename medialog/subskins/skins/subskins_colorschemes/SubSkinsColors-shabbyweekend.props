@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Shabby weekend
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=9AAB21
+SubSkinsColor1:string=#9AAB21
+SubSkinsColor2:string=#C3CA6B
+SubSkinsColor3:string=#9BBFBF
+SubSkinsColor4:string=#BFFDD0
+SubSkinsColor5:string=#EEB351
+SubSkinsColor6:string=#DEC292
+SubSkinsPosition:string=-245

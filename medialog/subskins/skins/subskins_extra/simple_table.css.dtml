@@ -1,0 +1,117 @@
+/* <dtml-with base_properties> (do not remove this :) */
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+
+table.listing,
+.stx table {
+/* */
+border-collapse: collapse;
+border-spacing: 0;
+border-left: 1px solid &dtml-SubSkinsColor4;;
+border-bottom: 1px solid &dtml-SubSkinsColor4;;
+font-size: 0.8em;
+margin: 1em 0em 1em 0em;
+}
+table.listing th,
+.stx table th {
+background: &dtml-SubSkinsColor4;;
+border-top: 1px solid &dtml-SubSkinsColor4;;
+border-bottom: 1px solid &dtml-SubSkinsColor4;;
+border-right: 1px solid &dtml-SubSkinsColor4;;
+font-weight: normal;
+padding: 0.25em 0.5em;
+text-transform: none;
+}
+table.listing .top {
+border-left: 1px solid &dtml-SubSkinsColor5;;
+border-top: 1px solid &dtml-SubSkinsColor5; ! important;
+border-right: 1px solid &dtml-SubSkinsColor5; ! important;
+text-align: right ! important;
+padding: 0em 0em 1em 0em;
+}
+table.listing .listingCheckbox {
+text-align: center;
+}
+table.listing td,
+.stx table td {
+border-right: 1px solid &dtml-SubSkinsColor4;;
+padding: 0.25em 0.5em;
+}
+table.listing a {
+text-decoration: none;
+}
+table.listing a:hover {
+text-decoration: underline;
+}
+table.listing img {
+vertical-align: middle;
+}
+table.listing td a label,
+.stx table td a label {
+cursor: pointer;
+}
+/* */
+table.vertical {
+background-color: &dtml-SubSkinsColor5;;
+float: right;
+width: 260px;
+}
+table.vertical th {
+padding: 0.5em;
+}
+table.vertical td {
+border-top: 1px solid &dtml-SubSkinsColor4;;
+padding: 0.5em;
+}
+/* */
+table.grid td {
+border: 1px solid &dtml-SubSkinsColor4;;
+padding: 0.5em;
+}
+/* */
+table.plain,
+table.plain td,
+table.plain th {
+border: 1px solid #ccc;
+padding: 0.5em;
+border-collapse: collapse;
+}
+
+/* Batch selector */
+.listingBar {
+    border-color: &dtml-globalBorderColor;;
+    border-style: &dtml-borderStyle;;
+    border-width: &dtml-borderWidth;;
+    border-right: 0 none;
+    border-left: 0 none;
+    padding: 0em 1em;
+    text-align: center;
+    text-transform: &dtml-textTransform;;
+    vertical-align: top;
+    margin: 1em 0em;
+    font-size: 94%;
+    clear: both;
+}
+.listingBar span.previous,
+.listingPrevious {
+    text-align: left;
+    float: left;
+    margin-right: 1em;
+}
+.listingBar span.next,
+.listingNext {
+    text-align: right;
+    float: right;
+    margin-left: 1em;
+}
+.listingBar img {
+    vertical-align: middle;
+}
+.listingBar a {
+    text-decoration: none;
+}
+
+
+/* </dtml-with> */
+/* </dtml-with> */

@@ -1,0 +1,695 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+body {
+	font: 69% "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+	color: Black;
+}
+
+table {
+	font-size: 100%;
+}
+
+a {
+	color: &dtml-SubSkinsColor2;;	
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	border: none;
+	vertical-align: middle;
+}
+
+img.image-right {
+	float: right;
+	margin: 8px 0 10px 20px;
+}
+
+img.image-left {
+	float: left;
+	margin: 8px 20px 10px 0;
+}
+
+
+p {
+	margin: 0 0 0.75em 0;
+	line-height: 1.5em;
+}
+
+p img {
+	border: none;
+	margin: 0;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	color: &dtml-SubSkinsColor4;
+	;
+background-color: &dtml-SubSkinsColor4;
+	;
+margin: 0.5em 0 1em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: Black;
+	background-color: transparent;
+	font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	margin: 0 0 0.25em 0;
+	border-bottom: 1px solid &dtml-SubSkinsColor4;
+;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: Black ! important;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 120%;
+	background-color: &dtml-SubSkinsColor4;	;
+	padding: 2px 2px 2px 6px;
+	width: 100%;
+	color: #fff !important;
+}
+
+h2 {
+	font-size: 150%;
+}
+
+h3 {
+	font-size: 125%;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 110%;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+h5 {
+	font-size: 100%;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+h6 {
+	font-size: 85%;
+	border-bottom: none;
+	font-weight: bold;
+}
+
+#content-core ul  {
+	line-height: 1.5em;
+	margin: 0.5em 0 0 1.5em;
+	padding: 0;
+	list-style-image: url(bullet.gif);
+	list-style-type: square;
+}
+
+ol {
+	line-height: 1.5em;
+	margin: 0.5em 0 0 2.5em;
+	padding: 0;
+	list-style-image: none;
+}
+
+#content-core li {
+	margin-bottom: 0.5em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	line-height: 1.5em;
+	margin-bottom: 1em;
+}
+
+fieldset {
+	border: 1px solid &dtml-SubSkinsColor4;	;
+	margin: 1em 0em 1em 0em;
+	padding: 0em 1em 1em 1em;
+	line-height: 1.5em;
+	width: auto;
+}
+
+legend {
+	background: White;
+	padding: 0.5em;
+	font-size: 90%;
+}
+
+form {
+	border: none;
+	margin: 0;
+}
+
+label {
+	font-weight: bold;
+}
+
+textarea {
+	font: 100% Monaco, "Courier New", Courier, monospace;
+	border: 1px solid &dtml-SubSkinsColor4;	;
+	color: Black;
+	background: White url(input_background.gif) repeat-x;
+	width: 100%;
+}
+
+input {
+	font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+	visibility: visible;
+	border: 1px solid &dtml-SubSkinsColor4;;
+	color: Black;
+	vertical-align: middle;
+	background: White url(input_background.gif) repeat-x;
+}
+
+button {
+	font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+	visibility: visible;
+	border: 1px solid &dtml-SubSkinsColor4;;
+	color: Black;
+	vertical-align: middle;
+	background-color: #ffffff;
+	padding: 1px;
+	cursor: pointer;
+	font-size: 85%;
+	text-transform: lowercase;
+}
+
+select {
+	border: 1px solid &dtml-SubSkinsColor4;;
+	color: Black;
+	background-color: White;
+	vertical-align: top;
+}
+
+optgroup {
+	font-style: normal;
+	font-weight: bold;
+	color: #999;
+	padding-left: 0.25em;
+}
+
+option {
+	color: black;
+}
+
+optgroup > option {
+	padding: 0 0.25em 0 1em;
+}
+
+abbr, acronym, .explain {
+	border-bottom: 1px dotted Black;
+	color: Black;
+	background-color: transparent;
+	cursor: help;
+}
+
+q {
+	font-family: Baskerville, Georgia, serif;
+	font-style: italic;
+	font-size: 120%;
+}
+
+blockquote {
+	padding-left: 0.5em;
+	margin-left: 0;
+	border-left: 4px solid &dtml-SubSkinsColor4;;
+	color: &dtml-SubSkinsColor3;;
+}
+
+code {
+	font-family: Monaco, "Courier New", Courier, monospace;
+	font-size: 120%;
+	color: Black;
+	background-color: #ffffff;
+	padding: 0 0.1em;
+}
+
+pre {
+	font-family: Monaco, "Courier New", Courier, monospace;
+	font-size: 100%;
+	padding: 1em;
+	border: 1px solid &dtml-SubSkinsColor4;;
+	color: Black;
+	background-color: #ffffff;
+	overflow: auto;
+}
+
+ins {
+	color: green;
+	text-decoration: none;
+}
+
+del {
+	color: red;
+	text-decoration: line-through;
+}
+
+.bullet {
+	background-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/bullet.gif);
+	background-repeat: no-repeat;
+	height: 13px;
+	width: 12px;
+	padding-right: 17px;
+}
+
+#content  {
+	padding: 0em 1em 0 1em !important;
+	margin: 0em 0em 2em 0em;
+}
+
+.documentEditable {
+	padding: 0em 2em 1em 2em !important;
+}
+
+#content -news h1 {
+	margin-bottom: 1em;
+}
+
+/* */
+
+#content h5,
+#content h6 {
+	color: &dtml-SubSkinsColor3;;
+}
+
+.newsItem {
+	margin-bottom: 1em;
+	border-bottom: 1px solid &dtml-SubSkinsColor4;;
+}
+
+.newsImage {
+	border: 1px solid black;
+}
+
+.newsImageContainer {
+	float: right;
+	margin: 0 0 0.5em 1em;
+	width: 202px;
+}
+
+.newsContent {
+	padding: 0 1em 1em 1em;
+}
+
+.newsContent ul,
+.newsContent li {
+	display: block;
+	list-style: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 0;
+}
+
+.newsAbout {
+	display: block;
+	color: &dtml-SubSkinsColor3;;
+	font-size: 85%;
+	padding: 0;
+	margin-top: 0;
+	list-style: none;
+	list-style-image: none;
+	float: right;
+	text-align: right;
+}
+
+.newsAbout li {
+	display: inline;
+}
+
+.newsFooter {
+	
+}
+
+.newsFooter li {
+	display: inline;
+	margin: 0 1em 0 0;
+}
+
+.documentActions {
+	float: right;
+	padding: 0;
+	text-align: right;
+}
+
+.documentActions ul {
+	margin: 1px 0 2px 0;
+	padding: 0;
+	display: block;
+}
+
+.documentActions li {
+	display: inline;
+	list-style: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 0;
+}
+
+.documentActions a {
+	border: none !important;
+	text-decoration: none;
+}
+
+
+.portalMessage,
+.portalWarningMessage,
+.portalStopMessage,
+.system-message,
+#error-handling {
+	background-color: #ccdbe9;
+	border: 1px solid &dtml-SubSkinsColor2;;
+	color: Black;
+	font-size: 85%;
+	font-weight: bold;
+	margin: 1em 0em;
+	padding: 0.5em 1em 0.5em 3em;
+	vertical-align: middle;
+	background-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor2;/info_icon.gif);
+	background-repeat: no-repeat;
+	background-position: 5px 50%;
+}
+
+.portalMessage a,
+.portalWarningMessage a,
+.portalStopMessage a {
+	color: Black;
+}
+
+.documentDescription {
+
+font-weight: bold;
+	display: block;
+	margin: 0em 0em 0.5em 0em;
+	line-height: 1.5em;
+}
+
+.documentByLine {
+	font-size: 85%;
+	font-weight: normal;
+	color: &dtml-SubSkinsColor3;;
+	margin: 0em 0em 0.5em 0em;
+}
+
+.discussion {
+	margin-top: 1em;
+}
+
+.even {
+	background-color: #eef3f5;
+}
+
+.odd {
+	background-color: transparent;
+}
+
+.visualHighlight {
+	background-color: #eef3f5;
+}
+
+.discreet {
+	color: &dtml-SubSkinsColor3;;
+	font-size: 85%;
+	font-weight: normal;
+}
+
+.pullquote {
+	padding: 0 1em 0 1em;
+	margin: 0 0 1em 1em;
+	font-weight: bold;
+	color: #CC9933;
+	float: right;
+	width: 35%;
+	clear: right;
+	background-color: White;
+}
+
+.callout {
+	font-weight: bold;
+	color: #CC9933;
+	padding: 0px 1em;
+}
+
+.link-plain {
+	background-image: none;
+	padding: 0;
+}
+
+.link-parent {
+	display: block;
+	background: transparent url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/arrowUp.gif) 4px 5px no-repeat;
+	padding: 1px 0px 10px 16px;
+	font-size: 85%;
+	text-decoration: none;
+}
+
+.link-user {
+	background: transparent url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/000user.jpg) 0 1px no-repeat;
+	padding: 1px 0px 1px 16px;
+}
+
+.link-external {
+	background: transparent url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/link_icon.gif) 0px 1px no-repeat;
+	padding: 1px 0px 1px 16px;
+}
+
+.link-https {
+	background: transparent url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/lock_icon.gif) 0px 1px no-repeat;
+	padding: 1px 0px 1px 16px;
+}
+
+.link-mailto {
+	background: transparent url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/000mail_icon.jpg) 0px 1px no-repeat;
+	padding: 1px 0px 1px 16px;
+}
+
+.link-news {
+	background: transparent url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/topic_icon.gif) 0px 1px no-repeat;
+	padding: 1px 0px 1px 16px;
+}
+
+.link-ftp {
+	background: transparent url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/file_icon.gif) 0px 1px no-repeat;
+	padding: 1px 0px 1px 16px;
+}
+
+.link-irc {
+	background: transparent url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/discussionitem_icon.gif) 0px 1px no-repeat;
+	padding: 1px 0px 1px 16px;
+}
+
+.link-callto {
+	background: transparent url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/phone_icon.gif) 0px 1px no-repeat;
+	padding: 1px 0px 1px 16px;
+}
+
+.link-webcal {
+	background: transparent url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/000event.jpg) 0px 1px no-repeat;
+	padding: 1px 0px 1px 16px;
+}
+
+.link-feed {
+	background: transparent url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/rss.gif) 0px 1px no-repeat;
+	padding: 1px 0px 1px 18px;
+}
+
+.link-comment {
+	background: transparent url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/discussionitem_icon.gif) center left no-repeat;
+	padding: 1px 0px 1px 16px !important;
+}
+
+.link-anchor {
+	color: &dtml-SubSkinsColor3;;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.hiddenStructure {
+	display: block;
+	background: transparent;
+	background-image: none;
+	border: none;
+	height: 1px;
+	overflow: hidden;
+	padding: 0;
+	margin: -1px 0 0 -1px;
+	width: 1px;
+}
+
+.contentViews .hiddenStructure,
+.contentActions .hiddenStructure {
+	position: absolute;
+	top: -200px;
+	left: -200px;
+}
+
+.hiddenLabel {
+	display: block;
+	background: transparent;
+	background-image: none;
+	border: none;
+	height: 1px;
+	overflow: hidden;
+	padding: 0;
+	margin: -1px 0 0 -1px;
+	width: 1px;
+}
+
+.contentActions {
+	color: #000000;
+	text-align: right;
+	text-transform: lowercase;
+	padding: 0 0 0 0em;
+	z-index: 2;
+	position: relative;
+}
+
+#content {
+	font-size: 110%;
+	padding: 0em 1em 2em 1em !important;
+	background: White;
+}
+
+#content p a {
+	text-decoration: none;
+	border-bottom: 1px #cccccc solid;
+}
+
+#content p a:visited {
+	color: &dtml-SubSkinsColor4;;
+	background-color: transparent;
+}
+
+#content p a:active {
+	color: &dtml-SubSkinsColor2;;
+	background-color: transparent;
+}
+
+#content li a {
+	text-decoration: none;
+	border-bottom: 1px #cccccc solid;
+}
+
+#content li a:visited {
+	color: &dtml-SubSkinsColor4;;
+}
+
+#content li a:active {
+	color: &dtml-SubSkinsColor2;;
+}
+
+#content dd a {
+	text-decoration: none;
+	border-bottom: 1px #cccccc solid;
+}
+
+#content dd a:visited {
+	color: &dtml-SubSkinsColor4;;
+	background-color: transparent;
+}
+
+#content dd a:active {
+	color: &dtml-SubSkinsColor2;;
+	background-color: transparent;
+}
+
+.field {
+	top: 0;
+	left: 0;
+	margin: 0 1em 1em 0;
+}
+
+.field .field {
+	margin: 1em 0 0 0;
+}
+
+.fieldRequired {
+	background: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/required.gif) center left no-repeat;
+	padding: 0 0 0 8px;
+	color: White;
+}
+
+.fieldUploadFile {
+	text-align: right;
+	margin-right: 0.75em;
+	display: none;
+}
+
+.fieldTextFormat {
+	text-align: right;
+	margin-right: 0.75em
+}
+
+.formHelp {
+	font-size: 90%;
+	color: &dtml-SubSkinsColor3;;
+	margin: 0 0 0.2em 0;
+}
+
+.formHelp:hover {
+	color: Black;
+	cursor: default;
+}
+
+.formControls {
+	margin: 1em 0;
+}
+
+.error {
+	background-color: #ccdbe9;
+	border: 1px solid &dtml-SubSkinsColor2;;
+	padding: 1em;
+	margin: 0 0 1em 0;
+	width: 95%;
+}
+
+.error .fieldRequired {
+	color: #ccdbe9;
+}
+
+.actionMenu .actionMenuContent li {
+	float: none;
+	background-color: #fff;
+	display: inline;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.visualIconPadding,
+.actionMenu .actionMenuContent .visualIconPadding {
+	padding-left: 25px;
+	margin-left: -1px;
+}
+
+.photoAlbumEntryWrapper {
+	float: left;
+}
+
+.photoAlbumEntryTitle {
+	float: left;
+	clear: both;
+	margin-top: 6px;
+}
+
+#content  div div.photoAlbumEntry a {
+	float: left;
+	margin: 20px 20px 10px 0;
+}
+/* </dtml-with> */

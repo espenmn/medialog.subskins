@@ -1,0 +1,118 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+
+.portlet{
+	padding: 0px;
+	margin: 0px 0 20px 0;
+	color: black;
+	padding: 0;	
+	border: 1px solid silver;
+
+	}
+
+
+.portletItem{
+	list-style-type: none;
+	}
+
+.portletLogin .portletItem {
+	margin: 0;
+}
+
+.portlet ul, .portlet dl, .portlet li, .portlet dt, .portlet dd{
+	margin: 0;
+	list-style-image: none;
+	list-style-type: none;
+	}
+
+.portlet a{
+	text-decoration: none;
+}
+
+dd.portletItem.odd,
+dd.portletItem.even {
+	padding: 5px 10px;
+	border-top: 1px solid silver;
+}
+	
+
+.portletHeader{
+	color: white;
+	text-transform: uppercase;
+	font: normal bold 13px "Lucida Grande", Lucida, Verdana, sans-serif;
+	padding-bottom: 0;
+	line-height: 25px;
+	padding: 0;
+	overflow: visible;
+margin: 0;
+    background: &dtml-SubSkinsColor3;;
+}
+
+dt.portletHeader {
+	background: #0099CC url(black_stripes.gif) repeat-x left 13px;
+}
+
+.portletFooter {
+	padding: 10px;
+	border-top:  dotted 1px silver;
+	font-weight: bold;
+}
+
+.portletCalendar .portletHeader {
+	background: &dtml-SubSkinsColor2;;	
+}
+
+#calendar-previous,
+#calendar-next {
+	color:  white;
+}
+
+.portletHeader a{
+	text-decoration: none;	
+	color: white;
+}
+
+.portletHeader a.tile{
+	background: &dtml-SubSkinsColor3;;
+	padding: 0 0 0 15px;
+	opacity: 0.9;
+}
+
+#portal-column-two .portletHeader a.tile{
+	background: &dtml-SubSkinsColor2;;
+}
+
+span.portletItemDetails{
+	display: block;
+	color: #999;
+	}
+
+.configlets li{
+	padding: 0.5em 0;
+}
+
+
+.portletLogin .field {
+	width: 120px;
+	margin-bottom: 2px;
+	margin-left: 10px;
+	margin-top: 0;
+	padding-top: 10px;
+	}
+
+.portletLogin .portletItem a.tile {
+	padding: 0px;
+}
+
+.portletLogin  input.context{
+	padding: 5px 20px;
+	margin: 6px 0 0 10px;
+	}
+
+
+	
+/* </dtml-with> */
+
+

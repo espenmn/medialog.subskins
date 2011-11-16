@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+   default_skin="subskins">
+
+ <object name="medialog_subskins_custom_images"
+    meta_type="Filesystem Directory View"
+    directory="medialog.subskins:skins/medialog_subskins_custom_images"/>
+ <object name="medialog_subskins_custom_templates"
+    meta_type="Filesystem Directory View"
+    directory="medialog.subskins:skins/medialog_subskins_custom_templates"/>
+ <object name="medialog_subskins_styles"
+    meta_type="Filesystem Directory View"
+    directory="medialog.subskins:skins/medialog_subskins_styles"/>
+
+ <object name="subskins_base"
+    meta_type="Filesystem Directory View"
+    directory="medialog.subskins:skins/subskins_base"/>
+ <object name="subskins_top"
+    meta_type="Filesystem Directory View"
+    directory="medialog.subskins:skins/subskins_top"/>
+ <object name="subskins_globalnav"
+    meta_type="Filesystem Directory View"
+    directory="medialog.subskins:skins/subskins_globalnav"/>
+ <object name="subskins_navigation"
+    meta_type="Filesystem Directory View"
+    directory="medialog.subskins:skins/subskins_navigation"/>
+ <object name="subskins_bottom"
+    meta_type="Filesystem Directory View"
+    directory="medialog.subskins:skins/subskins_bottom"/>
+ <object name="subskins_calendar"
+    meta_type="Filesystem Directory View"
+    directory="medialog.subskins:skins/subskins_calendar"/>
+ <object name="subskins_colorschemes"
+    meta_type="Filesystem Directory View"
+    directory="medialog.subskins:skins/subskins_colorschemes"/>
+ <object name="subskins_portlets"
+    meta_type="Filesystem Directory View"
+    directory="medialog.subskins:skins/subskins_portlets"/>
+ <object name="subskins_text"
+    meta_type="Filesystem Directory View"
+    directory="medialog.subskins:skins/subskins_text"/>
+  <object name="subskins_extra"
+    meta_type="Filesystem Directory View"
+    directory="medialog.subskins:skins/subskins_extra"/>
+  <object name="subskins_composites"
+    meta_type="Filesystem Directory View"
+    directory="medialog.subskins:skins/subskins_composites"/>
+
+ <skin-path name="subskins" based-on="Plone Classic Theme">
+  <layer name="medialog_subskins_custom_images"
+     insert-after="custom"/>
+  <layer name="medialog_subskins_custom_templates"
+     insert-after="medialog_subskins_custom_images"/>
+ <layer name="medialog_subskins_styles"
+     insert-after="medialog_subskins_custom_templates"/>
+
+  <layer name="subskins_base"
+     insert-after="medialog_subskins_custom_templates"/>
+  <layer name="subskins_top"
+     insert-after="medialog_subskins_custom_templates"/>
+  <layer name="subskins_navigation"
+     insert-after="medialog_subskins_custom_templates"/>
+  <layer name="subskins_text"
+     insert-after="medialog_subskins_custom_templates"/>
+  <layer name="subskins_bottom"
+     insert-after="medialog_subskins_custom_templates"/>
+  <layer name="subskins_calendar"
+     insert-after="medialog_subskins_custom_templates"/>
+  <layer name="subskins_globalnav"
+     insert-after="medialog_subskins_custom_templates"/>
+  <layer name="subskins_portlets"
+     insert-after="medialog_subskins_custom_templates"/>
+  <layer name="subskins_extra"
+     insert-after="medialog_subskins_custom_templates"/>
+  <layer name="subskins_colorschemes"
+     insert-after="medialog_subskins_custom_templates"/>
+   <layer name="subskins_composites"
+     insert-after="medialog_subskins_custom_templates"/>
+
+ </skin-path>
+
+</object>

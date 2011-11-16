@@ -1,0 +1,40 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Asconix
+
+plone_skin:string=SubSkins
+
+# Orange
+SubSkinsPre:string=de6328
+
+# Dark red
+# SubSkinsColor1:string=#7d1021
+
+# Blue
+SubSkinsColor1:string=#192f73
+
+# Dark yellow
+SubSkinsColor2:string=#e39725
+
+# Dark green
+SubSkinsColor3:string=#265329 
+
+# Light yellow
+SubSkinsColor4:string=#dfb804
+
+SubSkinsColor5:string=#888888
+
+SubSkinsColor6:string=#333333
+
+# Light green
+SubSkinsColor7:string=#8fb73e
+
+# Blue
+SubSkinsColor8:string=#10277d
+
+# Middle green
+SubSkinsColor9:string=#698f6b
+
+SubSkinsPosition:string=-480

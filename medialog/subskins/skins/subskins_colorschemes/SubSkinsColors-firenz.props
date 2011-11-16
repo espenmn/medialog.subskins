@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Firenz
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=468966
+SubSkinsColor1:string=#468966
+SubSkinsColor2:string=#8E2800
+SubSkinsColor3:string=#8E2800
+SubSkinsColor4:string=#FFB03B
+SubSkinsColor5:string=#FFF0A5
+SubSkinsColor6:string=#FFE4B0
+SubSkinsPosition:string=-324

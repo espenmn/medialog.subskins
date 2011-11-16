@@ -1,0 +1,82 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+dl.portlet {
+	position: relative;
+	border: 0;
+	background-color:  <dtml-var expr="dim_to_white(color=SubSkinsColor1, percent='95')">;
+}
+
+.portletHeader {
+	padding: 7px 15px 6px 15px;
+	line-height: 1em;
+	text-transform: capitalize;
+	border-bottom: 1px dotted &dtml-SubSkinsColor1;;
+}
+
+.portletHeader a {
+	color: &dtml-SubSkinsColor1;;
+	font-size: 1.3em;
+	text-decoration: none;
+}
+
+.portletItem {
+	padding: 0.7em 15px;
+	font-size: 1.1em;
+}
+
+.portlet ul {
+	list-style-type: none;
+}
+
+dd.portletFooter {
+	background-color: transparent;
+	margin-top: 1em;
+	padding: 0.3em 15px 0.5em;
+	border-top: 1px dotted &dtml-SubSkinsColor1;;
+}
+
+/* portlets rounded corners */
+
+.portletTopLeft,
+.portletTopRight,
+.portletBottomLeft,
+.portletBottomRight {
+	position: absolute;
+	height: 8px;
+	width: 8px;
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+.portletTopLeft {
+	top: 0;
+	left: 0;
+	background: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/portlet-corner-top-left.gif);
+}
+
+.portletTopRight {
+	top: 0;
+	right: 0;
+	background: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/portlet-corner-top-right.gif);
+}
+
+.portletBottomLeft {
+	bottom: 0;
+	left: 0;
+	background: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/portlet-corner-bottom-left.gif);
+}
+
+.portletBottomRight {
+	bottom: 0;
+	right: 0;
+	background: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/portlet-corner-bottom-right.gif);
+}
+
+/* calendar */
+
+.portletCalendar .portletItem {
+	padding-bottom: 1em;
+}
+
+/* </dtml-with> */

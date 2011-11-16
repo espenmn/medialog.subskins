@@ -1,0 +1,79 @@
+/*
+  For SubSkins
+  <dtml-with get_base_properties mapping>
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+ #portal-globalnav {
+	clear: both;
+	height: 20px ;
+	display: block;  
+    list-style: none;  
+    border-bottom: 1px solid #888;
+    width: 100%;
+    background: url(forlop_lrvII.jpg);
+    zbackground-position: top left;
+    
+    
+    /* Firefox 3.6+ */
+  background: -moz-linear-gradient(0% 100% 90deg, #DDD);
+  
+  /* Safari 4-5, Chrome 1-9 */
+  /* -webkit-gradient(<type>, <point> [, <radius>]?, <point> [, <radius>]? [, <stop>]*) */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFF), to(#DDD));
+  
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-linear-gradient(#FFF, #DDD);
+  
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(#FFF, #DDD);
+
+}
+
+#portal-globalnav li a  {
+   color: #ffffff;  
+    padding: 5px 15px;  
+    outline: none;  
+    text-decoration: none;  
+
+/* Border Radius */  
+    -webkit-border-radius: 5px 5PX 0PX 0PX;   
+    -moz-border-radius: 5px 5px 0px 0px;  
+    border-radius: 5px 5px 0 0;  
+  
+    /* Border Shadow */  
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.6);  
+    -moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.6);  
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.6);  
+    /* For IE. Not sure if this works (install easyaspile) */  
+    behavior: url(border-radius.htc);
+  
+    background: &dtml-SubSkinsColor1;;  
+
+    /* Animation (Webkit, Gecko & Mozilla) */  
+    -webkit-transition-duration: 0.20s;  
+    -webkit-transition-timing-function: ease-out;  
+    -moz-transition-duration: 0.20s;  
+    -moz-transition-timing-function: ease-out;  
+    margin-right:4px;
+}
+#portal-globalnav li  {
+display: inline-block;  
+}
+
+ 
+#portal-globalnav li a:hover,
+#portal-globalnav li.selected a{  
+        background: &dtml-SubSkinsColor2;;   
+    padding-top: 10px;  
+}  
+  
+#portal-globalnav li.selected a {  
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);  
+    -moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.4);  
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.4);  
+}  
+
+
+/* </dtml-with> 
+*/

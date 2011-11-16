@@ -1,0 +1,13 @@
+.livesearchContainer {
+	background-color: White;
+	margin-top: 0;
+	padding: 0 !important;
+	right: 0px !important;	
+	white-space: normal;
+	visibility: visible;
+	text-align: left;
+	color: #436976;
+	border: 1px solid #8cacbb;
+	width: 30em;
+	text-transform: none;
+}

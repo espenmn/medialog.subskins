@@ -1,0 +1,60 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+#portal-globalnav {
+	margin: 0 0 5px 0;
+	clear: both;
+	padding-left: 20px;
+	height: 29px;
+}
+
+#portal-globalnav:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}
+
+/* for IE */
+
+* html #portal-globalnav {
+	height: 1em;
+	overflow: visible;
+}
+
+#portal-globalnav li {
+	display: block;
+	float: left;
+	margin: 0 2px;;
+	padding: 0;
+	padding-left: 20px;
+	background: transparent url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor5;/round_buttonII.png) no-repeat 0 bottom;
+}
+
+#portal-globalnav li a {
+	display: block;
+	float: left;
+	text-decoration: none;
+	padding-right: 20px;
+	line-height: 29px;
+	color: #333;
+	font-weight: normal;
+	font-style: normal;
+	background: transparent url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor5;/round_buttonII.png) no-repeat right bottom;
+}
+
+#portal-globalnav li.selected {
+		background: transparent url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/round_buttonII.png) no-repeat 0 bottom;
+}
+
+#portal-globalnav li.selected a {
+background: transparent url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/round_buttonII.png) no-repeat right bottom;
+	color: white;
+}
+#portal-globalnav li a:hover {
+	text-decoration: underline;
+}
+
+/* </dtml-with> */
+

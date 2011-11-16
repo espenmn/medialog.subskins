@@ -1,0 +1,71 @@
+/*  For SubSkins
+  <dtml-with get_base_properties mapping>  (do not remove this)  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)*/
+
+#portal-top {
+	background: whitesmoke;
+}
+
+#portal-header {
+	background: &dtml-SubSkinsColor4;;
+	margin-top: 10px;
+	height: 100px;
+}
+
+#portal-searchbox {
+	float: right;
+	clear: right;
+	margin-top: 80px;
+}
+
+#portal-siteactions {
+	display: block;
+	float: right;
+	height: 30px;
+	margin: 0;
+	margin-left: 12px;
+	padding: 0;
+}
+
+#portal-siteactions li {
+	display: inline;
+	padding: 0;
+	padding-right: 12px;
+	line-height: 30px;
+	font-size: 8pt;
+}
+
+#portal-siteactions li a {
+	color: white;
+	border: 0;
+}
+
+#portal-siteactions li a:hover {
+	color: #f9fecd;
+}
+
+#portal-personaltools {
+	float: right;
+	padding: 5px 15px;
+}
+
+#portal-personaltools li {
+	display: inline;
+	list-style: none;
+	list-style-image: none;
+}
+
+#portal-personaltools li a {
+	text-decoration: none;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
+#portal-breadcrumbs {
+	clear: both;
+	float: left;
+	display: block;
+	padding: 5px 15px;
+}
+
+/* </dtml-with> 
+*/

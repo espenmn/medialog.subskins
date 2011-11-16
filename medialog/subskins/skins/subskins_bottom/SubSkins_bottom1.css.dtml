@@ -1,0 +1,56 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+
+/* portal footer
+
+---------------------------------------------------------------------- */
+
+#portal-footer{
+  padding: 1em;
+  border-bottom: 1px solid #bcbcbc;
+   background: &dtml-SubSkinsColor1; url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/bg-footer.jpg) top left repeat-x;
+  color: #666;
+  text-align: center;
+  font-size: 0.875em;
+}
+
+#portal-footer p{
+  margin: 0;
+}
+
+#portal-colophon{
+  padding: 1em 1em 0.5em;
+  border-top: #999;
+  color: #ccc;
+  font-size: 0.875em;
+  margin: 0 50px 0 50px;
+  text-align: center;
+  }
+
+#portal-colophon a{
+  color: #ccc;
+  }
+
+#portal-colophon p{
+  display: inline;
+  margin: 0;
+  padding-left: 0.5em;
+  }
+
+#portal-colophon ul{
+  list-style-type: none;
+  display: inline;
+  margin: 0;
+  }
+
+#portal-colophon ul li{
+  display: inline;
+  padding-left: 0.5em;
+  }
+
+.colophonWrapper{
+	display: inline;
+	}
+
+/* </dtml-with> */	

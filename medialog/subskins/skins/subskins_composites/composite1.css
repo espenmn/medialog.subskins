@@ -1,0 +1,881 @@
+
+/* - SubSkins_navigation_arrows.css - */
+@media screen {
+/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/SubSkins_navigation_arrows.css?original=1 */
+.portletNavigationTree .portletItem{
+font-family: tahoma, arial, verdana, sans-serif;
+}
+.portletNavigationTree  .portletItem.lastItem {
+padding: 1em;
+}
+.portletNavigationTree ul {
+padding: 0;margin: 0;
+}
+.portletNavigationTree li {
+padding: 3px 0;
+list-style-image: none;
+list-style-type: none;
+}
+li.navTreeItem.navTreeCurrentNode.navTreeFolderish {
+margin-top: 2px;
+padding:  7px 3px 3px 16px;
+border-top: 1px solid #BBB;
+border-bottom: 1px solid #BBB;
+background: #f8f8f8 url(arrow-darkblue_down.png) no-repeat 2px 9px;
+}
+.portletNavigationTree li {
+color: #777;
+padding-left: 16px;
+font-weight: normal;
+background: url(arrow-gray.png) no-repeat 0 3px;
+}
+.portletNavigationTree li a {
+color: #777;
+font-weight: normal;
+}
+/* */
+}
+
+
+/* - SubSkins_top_nothing_special.css - */
+@media screen {
+/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/SubSkins_top_nothing_special.css?original=1 */
+/* */
+/* */
+#portal-top {
+width: 100%;
+height: auto;
+background: white;
+}
+#portal-header {
+width: 100%;
+}
+#portal-logo img{
+margin: 20px 30px 14px;
+}
+#portal-searchbox {
+float: left;
+height: 30px;
+margin: 0;
+padding: 0;
+position: absolute;
+top: 40px;
+right: 20px;
+}
+div.searchSection {
+display: none;
+}
+#searchGadget,
+input.searchButton {
+margin: 0;
+line-height: 16px;
+padding: 2px;
+}
+input.searchButton {
+padding-left: 20px;
+}
+#portal-siteactions {
+display: block;
+float: right;
+line-height: 30px;
+margin: 0;
+margin-left: 12px;
+margin-right: 12px;
+padding: 0;
+}
+#portal-siteactions li {
+display: inline;
+padding: 0;
+padding-right: 12px;
+line-height: 20px;
+font-size: 8pt;
+}
+#portal-siteactions li a {
+opacity: 0.40;
+border: 0;
+}
+#portal-siteactions li a:hover {
+opacity: 1;
+}
+div#portal-personaltools-wrapper {
+float: right;
+width: 300px;
+height: 30px;
+}
+#portal-personaltools {
+float: right;
+margin: 0.5em 0;
+padding: 0;
+}
+#portal-personaltools li {
+display: inline;
+list-style: none;
+list-style-image: none;
+}
+#portal-personaltools li a {
+text-decoration: none;
+margin-right: 1em;
+margin-left: 1em;
+}
+#portal-breadcrumbs {
+padding: 8px 15px;
+background: white;
+}
+/* */
+.LSRes {
+font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+visibility: visible;
+color: #666666;
+background-color: white;
+vertical-align: middle;
+display: block;
+list-style-image: none;
+list-style-type: none;
+text-align: left;
+min-width: 16.5em;
+text-transform: none;
+margin-left: 0;
+line-height: 1em;
+}
+#LSHighlight {
+background-color: white;
+}
+.LSRow {
+padding: 0;
+margin: 0;
+list-style-image: none;
+list-style-type: none;
+}
+.LSRow a {
+text-decoration: none;
+font-weight: bold;
+white-space: nowrap
+}
+.LSDescr {
+color: #777777;
+text-transform: lowercase;
+padding-left: 2.1em;
+margin-top: -0.1em;
+}
+.LSResult {
+position: relative;
+display: block;
+text-align: right;
+padding-top: 0px;
+padding-bottom: 0px;
+margin: 0;
+left: 3px;
+top: 1em;
+z-index: 3;
+}
+.LSShadow {
+position: relative;
+}
+.livesearchContainer {
+background-color: white;
+margin-top: 0;
+padding: 0 !important;
+position: absolute;
+left: 0px;
+/* */
+top: 0;
+white-space: normal;
+font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+visibility: visible;
+text-align: left;
+color: #666666;
+border: 1px solid #999999;
+width: 30em;
+text-transform: none;
+}
+* html .livesearchContainer {
+padding: 1px !important;
+padding-top: 0 !important;
+background-color: white;
+border: 0;
+}
+#livesearchLegend {
+line-height: 1em;
+margin-top: -2em;
+margin-left: -0.1em;
+border: 2px solid #999999;
+border-bottom: 0;
+}
+* html #livesearchLegend {
+margin-top: -1.9em;
+margin-left: -8px;
+position: relative;
+}
+/* */
+.LSIEFix {
+background-color: white;
+padding: 0.5em !important;
+z-index: 20;
+}
+.LSBox {
+clear: left;
+text-align: right;
+padding-top: 3px;
+display: block;
+}
+#LSNothingFound {
+text-align: center;
+padding: 2px;
+}
+/* */
+}
+
+
+/* - globalnav_no_underline.css - */
+@media screen {
+/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/globalnav_no_underline.css?original=1 */
+#portal-globalnav li a {
+text-decoration: none;
+}
+
+}
+
+
+/* - googlefonts.css - */
+@media screen {
+/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/googlefonts.css?original=1 */
+h1 {
+font-family: 'Waiting for the Sunrise', arial, serif !important;
+font-size: 300% !important;
+line-height:140% !important;;
+}
+h1, h2 {
+margin-top: 14px; margin-bottom: 9px;}
+
+}
+
+
+/* - SubSkins_text_koha_12.css - */
+@media screen {
+/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/SubSkins_text_koha_12.css?original=1 */
+/* */
+/* */
+body {
+font-family: verdana, helvetica, sans-serif;
+font-size: 11px;
+}
+h1 {
+color: #8E795D;
+font: normal 20px/27px verdana, helvetica, sans-serif;
+margin-top: 17px;
+}
+h1.documentFirstHeading {
+margin-top: 0px;
+}
+.boardCommentDetails {
+background: grey url(blue_grid.jpg);
+color: whitesmoke;
+}
+h2 {
+font-family: verdana, helvetica, sans-serif;
+font-size: 14px;
+line-height: 18px;
+font-weight: bold;
+margin-top: 17px;
+}
+h5 {
+margin-bottom: 11px;
+}
+p.documentDescription,
+.documentDescription {
+padding: 9px 0px 0px 0px;
+font: 12px/18px verdana, helvetica, sans-serif;
+}
+#parent-fieldname-imageCaption {
+display: block;
+padding-bottom: 10px;
+padding-top: 4px;
+width: 100%;
+color: black;
+font: bold 11px "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+a {
+font-family: verdana, helvetica, sans-serif;
+font-size: 11px;
+font-weight: bold;
+color: #D19648;
+text-decoration: none;
+}
+a:hover {
+color: #000000;
+}
+p {
+font-family: verdana, helvetica, sans-serif;
+font-size: 11px;
+line-height: 16px;
+margin-bottom: 5px;
+}
+p a:link {
+color: #000000;
+}
+img {
+border: none;
+vertical-align: middle;
+}
+.newsImageContainer img {
+float: left;
+margin: 3px 25px 10px 0;
+}
+img.image-left {
+float: left;
+margin: 5px 25px 15px 0;
+padding: 5px;
+border: 2px solid #8E795D;
+}
+img.image-right {
+float: right;
+margin: 5px 0 15px 25px;
+padding: 5px;
+border: 2px solid #8E795D;
+}
+h3 {
+background: #8E795D;
+color: whitesmoke;
+padding: 3px 8px;
+margin-top: 16px;
+margin-bottom: 10px;
+}
+input {
+border: 1px solid #ccc;
+margin: 5px 0;
+}
+input.standalone {
+background: white url(bullet.gif) no-repeat 6px center;
+padding: 6px 10px 6px 30px;
+}
+#content div a.link-parent {
+padding-left: 22px;
+padding-top: 9px;
+background: url(subskins_getimage/%23D19648/bullet.gif) no-repeat 0 9px;
+}
+#form label {
+color: #D19648;
+margin-right: 6px;
+}
+#form fieldset input {
+padding: 3px;
+margin-right: 5px;
+}
+#content-core ul  {
+margin: 0.5em 0 0.75em 0.5em;
+list-style-type: disc;
+font-size: 11px;
+}
+#content-core ul  {
+margin: 0.5em 0 0.75em 1.5em;
+list-style-type: disc;
+font-size: 11px;
+}
+ol {
+margin: 0.5em 0 0.75em 2em;
+}
+#content-core li {
+list-style-image: url(subskins_getimage/%238E795D/red-bullet.gif);
+margin: 0.3em 0 0.3em 2.5em;
+list-style-position: outside;
+}
+#content-core li {
+margin: 0.5em;
+}
+.visualNoMarker li {
+list-style-image: none !important;
+}
+dl {
+margin: 0.5em 1em 0.75em;
+}
+dt {
+margin: 0.75em 0;
+font-weight: bold;
+}
+dd {
+margin: 0.5em 0;
+}
+a.tile {
+color: black;
+}
+fieldset {
+padding: 1em 2em;
+border: 1px solid #ccc;
+margin-bottom: 12px;
+background: whitesmoke;
+}
+legend {
+font-weight: bold;
+}
+form {
+border: 0;
+}
+label {
+font: 11px verdana, helvetica, sans-serif;
+font-weight: bold;
+display: inline;
+}
+textarea {
+border: 1px solid #ccc;
+margin: 5px 0;
+}
+select {
+border: 1px solid #ccc;
+}
+.field {
+font: 11px verdana, helvetica, sans-serif;
+margin-top: 0.75em;
+}
+.formControls input, .searchButton {
+padding: 2px;
+padding-left: 20px;
+}
+table {
+border-collapse: collapse;
+font-size: 1em;
+}
+#content table.listing thead tr th {
+background: whitesmoke;
+line-height: 200%;
+}
+tbody {
+}
+tr {
+}
+th {
+}
+td {
+}
+em {
+font-style: normal;
+font-weight: bold;
+}
+strong {
+font-weight: bold;
+}
+cite, q {
+}
+blockquote {
+margin: 0.7em 0;
+padding: 0.5em 11px;
+border: 1px solid  #8E795D;
+;
+color: #8E795D;
+;
+}
+#content div.plain blockquote {
+clear: both;
+}
+code, kbd {
+background: #333;
+color: #ccc;
+font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;
+}
+pre {
+margin: 1em 0em;
+padding: 0.7em 0.3em;
+background: whitesmoke;
+color: #3d3d3d;
+font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;
+}
+del {
+color: #999;
+text-decoration: overline;
+}
+.portalMessage {
+padding: 0.375em 1em;
+margin-left: 0;
+margin-right:  0;
+background: #EFCC6C;
+border: 1px solid #eb0000;
+}
+div.documentActions ul {
+margin: 10px 0;
+text-align: right;
+padding: 0;
+padding-top: 5px;
+width: 100%;
+display: block;
+}
+.documentActions ul li {
+display: inline;
+margin-left: 7px !important;
+}
+.documentActions ul li a {
+border: 0;
+padding-right: 0;
+margin-right: 0;
+}
+.documentDescription {
+margin-bottom: 1.5em;
+}
+.comment {
+border: 1px solid #ccc;
+background: #f3f3f3;
+}
+#Xregion-content div dl dt span.discreet {
+display: none;
+}
+#content  table.listing span.discreet {
+font-weight: normal;
+font-style: normal;
+font-size: 10px;
+color: #666;
+}
+#content div.poweredBy {
+margin-top: 20px;
+}
+.photoAlbumEntryWrapper {
+float: left;
+}
+.photoAlbumEntryTitle {
+float: left;
+clear: both;
+margin-top: 6px;
+}
+#content  div div.photoAlbumEntry a {
+float: left;
+margin: 20px 20px 10px 0
+}
+/* */
+}
+
+
+/* - SubSkins_globalnav_linded1_drop_down.css - */
+@media screen {
+/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/SubSkins_globalnav_linded1_drop_down.css?original=1 */
+#portal-globalnav {
+clear: both;
+display: block;
+margin: 1px 0;
+padding: 0;
+padding-left: 10px;
+height: 36px;
+border-top: 1px solid #AAA;
+border-bottom: 1px solid #AAA;
+}
+#portal-globalnav li {
+display: block;
+margin: 0;
+padding: 0;
+float: left;
+text-align: center;
+}
+#portal-globalnav li a {
+border-left: 1px solid white;
+border-right: 1px solid white;
+font: 11px Verdana, Helvetica, Arial, "Helvetica Neue", Geneva, sans-serif;
+font-weight: bold;
+display: block;
+letter-spacing: 1px;
+line-height: 36px;
+color: #999;
+padding-left: 10px;
+padding-right: 10px;
+}
+#portal-globalnav li:hover a {
+border-left: 1px solid #AAA;
+border-right: 1px solid #AAA;
+color: #555;
+}
+#portal-globalnav .selected a {
+color: #8E795D;
+}
+#portal-globalnav ul.submenu li {
+width: 100% !important;
+padding: 0;
+margin: 0;
+}
+.selected ul.submenu {
+z-index: 99;
+margin-top: 0 !important;
+opacity: 0.97;
+}
+ul.submenu {
+background: #efefef !important;
+}
+ul.submenu a:hover {
+background: white;
+color: #555 !important;
+}
+#portal-globalnav .submenu li {
+padding: 0;
+margin: 0;
+}
+#portal-globalnav ul.submenu a {
+line-height: 12px;
+font-weight: normal !important;
+padding: 5px 10px;
+border: 0 none !important;
+border-top: 1px solid #FFF !important;
+letter-spacing: 0;
+color:  #999 ;
+}
+#portal-globalnav ul.submenu a {
+line-height: 12px;
+font-weight: normal !important;
+padding: 7px 10px;
+border: 0 none !important;
+color:  #555;
+border-top: 1px solid #AAA !important;
+}
+ul.submenu li a:hover {
+background-color: #D19648 !important;
+color: #FFF !important;
+}
+#portal-globalnav ul {
+padding: 0;
+}
+.submenu li a {
+color: #777 !important;
+text-align: left;
+}
+/* */
+
+}
+
+
+/* - simple_tableII.css - */
+@media screen {
+/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/simple_tableII.css?original=1 */
+/* */
+/* */
+/* */
+/* */
+table.listing,
+.stx table {
+/* */
+border-collapse: collapse;
+border-spacing: 0;
+border-left: 1px solid #999999;
+border-bottom: 1px solid #999999;
+font-size: 85%;
+margin: 1em 0em 1em 0em;
+}
+table.listing th,
+.stx table th {
+background: #d7d7d7;
+border-top: 1px solid #999999;
+border-bottom: 1px solid #999999;
+border-right: 1px solid #999999;
+font-weight: normal;
+padding: 0.25em 0.5em;
+text-transform: lowercase;
+}
+table.listing .top {
+border-left: 1px solid White;
+border-top: 1px solid White ! important;
+border-right: 1px solid White ! important;
+text-align: right ! important;
+padding: 0em 0em 1em 0em;
+}
+table.listing .listingCheckbox {
+text-align: center;
+}
+table.listing td,
+.stx table td {
+border-right: 1px solid #999999;
+padding: 0.25em 0.5em;
+}
+table.listing a {
+text-decoration: none;
+}
+table.listing a:hover {
+text-decoration: underline;
+}
+table.listing img {
+vertical-align: middle;
+}
+table.listing td a label,
+.stx table td a label {
+cursor: pointer;
+}
+/* */
+table.vertical {
+background-color: White;
+}
+table.vertical th {
+padding: 0.5em;
+}
+table.vertical td {
+border-top: 1px solid #999999;
+padding: 0.5em;
+}
+/* */
+table.grid td {
+border: 1px solid #999999;
+padding: 0.5em;
+}
+/* */
+table.plain,
+table.plain td,
+table.plain th {
+border: 1px solid #ccc;
+padding: 0.5em;
+border-collapse: collapse;
+}
+/* */
+.listingBar {
+border-color: #999999;
+border-style: solid;
+border-width: 1px;
+border-right: 0 none;
+border-left: 0 none;
+padding: 0em 1em;
+text-align: center;
+text-transform: lowercase;
+vertical-align: top;
+margin: 1em 0em;
+font-size: 94%;
+clear: both;
+}
+.listingBar span.previous,
+.listingPrevious {
+text-align: left;
+float: left;
+margin-right: 1em;
+}
+.listingBar span.next,
+.listingNext {
+text-align: right;
+float: right;
+margin-left: 1em;
+}
+.listingBar img {
+vertical-align: middle;
+}
+.listingBar a {
+text-decoration: none;
+}
+.eventDetails {
+float: right;
+clear: right;
+margin: 0 0 0.5em 1em;
+}
+/* */
+/* */
+
+}
+
+
+/* - SubSkins_portlets_asconix.css - */
+@media screen {
+/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/SubSkins_portlets_asconix.css?original=1 */
+/* */
+/* */
+/* */
+/* */
+.portlet{
+margin: 12px 12px;
+color: black;
+}
+.portlet ul{
+list-style-type: none;
+padding: 0;
+}
+.portlet ul, .portlet dl, .portlet li, .portlet dt, .portlet dd{
+margin: 0;
+color:black;
+}
+.portletHeader, dt.portletHeader, dt.portletHeader a.tile {
+color:  #D19648;
+font-size: 15px;
+margin-top: 20px;
+}
+.portletNavigationTree dt.portletHeader  {
+display: block;
+}
+.portletItem{
+padding-top: 12px;
+color: #E4DBC0;
+}
+dd.portletItem .tile {
+color: #E4DBC0;
+}
+span.portletItemDetails{
+display: block;
+color: #EFCC6C;
+}
+.configlets li {
+padding: 0.5em 0;
+}
+.portletFooter {
+background: white;;
+padding:4px;
+display: block;
+}
+/* */
+/* */
+
+}
+
+
+/* - SubSkins_base_white.css - */
+@media screen {
+/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/SubSkins_base_white.css?original=1 */
+body {
+position: relative;
+}
+#visual-portal-wrapper {
+background: #fff;
+text-align: left;
+position: relative;
+width:  880px;
+margin: 0px auto;
+}
+#portal-column-one {
+width:  200px;
+color: #ccc;
+background: white;
+}
+#portal-column-two {
+width:  200px;
+color: #ccc;
+background: white;
+}
+#portal-column-content {
+padding: 10px 30px;
+}
+/* */
+}
+
+
+/* - columns-grad.css - */
+@media screen {
+/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/columns-grad.css?original=1 */
+/* */
+/* */
+#portal-column-one,
+#portal-column-two  {
+background: white url(subskins_getimage/%23E4DBC0/forlopvIII.png) repeat-x !important;
+padding: 20px !important;
+background-position: top;
+}
+/* */
+}
+
+
+/* - listingbar.css - */
+@media screen {
+/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/listingbar.css?original=1 */
+#viewlet-below-content div.listingBar {
+line-height: 20px;
+}
+#viewlet-below-content div.listingBar a {
+text-transform: uppercase;
+background-image: none;
+padding: 10px;
+}
+#viewlet-below-content .listingBar a.previous {
+background: url(fancy_left.png) no-repeat right 2px;
+padding-right: 35px;
+height: 32px;
+}
+#viewlet-below-content .listingBar a.next {
+background: url(fancy_right.png) left 2px no-repeat;
+height: 32px;
+padding-left: 35px
+}
+
+}
+

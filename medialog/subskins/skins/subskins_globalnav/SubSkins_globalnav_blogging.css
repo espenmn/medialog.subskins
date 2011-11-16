@@ -1,0 +1,47 @@
+ #portal-globalnav {
+	clear: both;
+	padding: 13px 10px;;
+	margin: 10px;
+    display: block;
+    border-top: 1px solid #d0d0d0; 
+    border-bottom: 3px solid #d0d0d0; 
+    list-style: none;  
+}
+
+#portal-globalnav li a  {
+    color:  #555;;
+    font-size: 12px;
+    padding: 6px 10px;
+    margin-right:4px;
+    -webkit-border-radius: 6px;  
+    -moz-border-radius: 6px;  
+    border-radius: 6px;  
+    /* Animation (Webkit, Gecko & Mozilla) */  
+    -webkit-transition-duration: 0.30s;  
+    -webkit-transition-timing-function: ease-out;  
+    -moz-transition-duration: 0.30s;  
+    -moz-transition-timing-function: ease-out;  
+
+}
+#portal-globalnav li  {
+	display: inline-block;  
+}
+
+ 
+#portal-globalnav li a:hover {  
+    background: #f2f2f2;
+}  
+  
+#portal-globalnav li.selected a {  
+    background: #ececec;
+    /* Border Radius */  
+    -webkit-border-radius: 6px;  
+    -moz-border-radius: 6px;  
+    border-radius: 6px;  
+    -webkit-transition-duration: 0.40s;  
+    -webkit-transition-timing-function: ease-out;  
+    -moz-transition-duration: 0.40s;  
+    -moz-transition-timing-function: ease-out;  
+}  
+
+

@@ -1,0 +1,124 @@
+
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+
+#portal-globalnav {
+	clear: both;
+	margin: 0;
+	padding: 0 15px;
+	background:  url(000forlopvII.jpg) repeat-x  0 -47px;
+	height: 29px;
+	display: block;
+	border-bottom: 1px solid &dtml-SubSkinsColor1;;
+}
+
+#portal-globalnav li {
+	display: block;
+	margin: 0;
+	float: left;
+	padding: 0;
+	text-align: center;
+}
+
+#portal-globalnav li a {
+	display: block;
+	padding: 0px 13px;
+	margin-right: 2px;
+	color: black; 
+    letter-spacing: 1px;
+	font: bold 1.2em/30px Helvetica, Verdana, Arial, "Helvetica Neue", Geneva, sans-serif;
+	text-decoration: none;
+}
+
+#portal-globalnav li:hover a {
+	color: &dtml-SubSkinsColor1;;
+	text-decoration: underline;
+}
+
+#portal-globalnav .selected a {
+	color: white;
+    background:  url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/000lique.png)  no-repeat left 0;
+}
+#portal-globalnav .selected a:hover {
+	color: white;
+}
+
+
+#portal-globalnav .selected {
+	background: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/000lique.png) no-repeat right 0;
+}
+
+/** SUBMENU STYLES 
+*/
+
+#portal-globalnav ul.submenu li {
+	width: 90% !important;
+	padding: 0;
+	margin: 0;
+}
+
+.selected ul.submenu {
+	z-index: 99;
+}
+
+ul.submenu a:hover {
+	
+}
+
+#portal-globalnav .submenu li {
+	padding: 0;
+	margin: 0;
+}
+
+#portal-globalnav .submenu {
+	border-top: 1px solid #616362;
+	padding-bottom: 8px;
+}
+
+#portal-globalnav .submenu ul {
+	border-style: none solid solid solid !important;
+	border-color: #616362;
+
+}
+
+#portal-globalnav ul.submenu a {
+	line-height: 17px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+#portal-globalnav ul {
+	padding: 0;
+}
+
+.submenu li a {
+	color: #515151 !important;
+	text-align: left;
+	text-transform: capitalize;
+	border-style: none;
+	border-width: 0;
+}
+
+.submenu li {
+	background-image: none !important;
+}
+
+#portal-globalnav ul.submenu {
+	margin-top: 5px !important;
+}
+
+/* side-dropdown menu styles */
+
+#portal-globalnav li ul ul {
+	z-index: 99;
+	margin: 0 0 0 14em;
+}
+
+.submenu ul {
+	padding-left: 0;
+}
+
+/* </dtml-with> */
+

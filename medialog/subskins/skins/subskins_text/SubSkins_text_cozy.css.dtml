@@ -1,0 +1,598 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+#portal-column-content {
+	background: url(paraBg.gif) repeat-x top;
+}
+
+body {
+	font: 69% "Trebuchet MS", sans-serif;
+	color: #646464;
+}
+
+h1 {
+	font-size: 28px;
+	font-weight: normal;
+	text-transform: none;
+	line-height: 1.2em;
+	color: &dtml-SubSkinsColor2;;
+	padding-bottom: 10px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 16px;
+	padding: 0.8em 0 0.2em 0;
+	text-transform: uppercase;
+	color: &dtml-SubSkinsColor2;;
+}
+
+fieldset h1 {
+	margin-top: 5px;
+}
+
+p {
+	font-size: 11px;
+	line-height: 1.5em;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: &dtml-SubSkinsColor3;;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: &dtml-SubSkinsColor3;;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	border: none;
+	vertical-align: middle;
+}
+
+img {
+	border: none;
+}
+
+img.image-right,
+img.tileImage {
+	float: right;
+	margin: 8px 0 10px 20px;
+}
+
+span#parent-fieldname-imageCaption {
+	padding-left: 20px;
+}
+
+div.newsImageContainer {
+	float: right;
+}
+
+img.image-left {
+	float: left;
+	margin: 8px 20px 10px 0;
+}
+
+#content-core fieldset {
+	margin: 10px 0 0 0;
+	padding: 20px;
+	background: url(paraBg.gif) repeat-x top;
+	border: 0;
+}
+
+#content-core  .field {
+	top: 0;
+	left: 0;
+	margin: 0 20px 10px 0;
+	padding: 10px 0 0 0px;
+	font: 12px Georgia serif;
+}
+
+#content-core .field .field {
+	margin: 1em 0 0 0;
+}
+
+#content-core .field p {
+	padding-bottom: 10px;
+	font: 13px Georgia serif;
+	line-height: 1.4em;
+}
+
+#content-core form .row {
+	margin-bottom: 10px;
+}
+
+.row input {
+	margin-bottom: 0;
+}
+
+input {
+	border: 1px solid #CCC;
+	margin: 10px 0 0 0;
+	padding: 4px;
+	font: 11px "Trebuchet MS", sans-serif;
+}
+
+div.discussion .standalone {
+	background-image: url(discussion_icon.gif);
+	background-repeat: no-repeat;
+	padding-left: 34px;
+	padding-right: 8px;
+	min-height: 1.6em;
+	height: auto;
+	line-height: 1.6em;
+}
+
+#content-core  div.formControls {
+	margin: 20px 0 0 0;
+}
+
+.formControls input {
+	padding: 4px 10px;
+	color: white;
+	font-size: 12px;
+	color: white;
+	text-transform: lowercase;
+	background: &dtml-SubSkinsColor1;  url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/000lique.png) -2px -2px;
+	border-color: &dtml-SubSkinsColor1;
+}
+
+.context input {
+	background: none;
+	border: 0;
+	padding: 0;
+	text-transform: lowercase;
+}
+
+input.context:hover {
+	text-decoration: underline;
+}
+
+input .standalone {
+	background: none;
+}
+
+textarea {
+	border: 1px solid #CCC;
+	padding: 5px;
+	font: 11px "Trebuchet MS", sans-serif;
+	line-height: 1.4em;
+	margin-bottom: 10px;
+	width: 600px;
+	height: 100px;
+}
+
+legend {
+	display: none;
+}
+
+label {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #555;
+	padding: 10px 0;
+	margin: 0;
+	font: 11px "Trebuchet MS", sans-serif;
+}
+
+select {
+	width: 300px;
+	font: 12px "Trebuchet MS", sans-serif;
+}
+
+.formHelp {
+	font-size: 11px;
+	font-family: Georgia, serif;
+	line-height: 1.4em;
+	padding: 5px 0;
+	margin: 0;
+	color: #7e7c7c;
+}
+
+.formHelp:hover {
+	color: #555;
+}
+
+blockquote {
+	font: 16px Georgia serif;
+	font-style: italic;
+	line-height: 1.5em;
+	background-image: url(sitat.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	margin: 20px 0 10px 0;
+	padding: 2px 40px;
+	color: #444;
+}
+
+p {
+	font: 13px Georgia serif;
+	line-height: 1.4em;
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+#content-core ul {
+	margin: 3px 0 0 5px;
+	padding: 1px 15px;
+	list-style: none;
+	list-style-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/blue_bullet.gif);
+}
+#content-core ol {
+	margin: 3px 0 0 5px;
+	padding: 1px 15px;
+}
+
+#content-core li {
+	padding: 2px 0;
+}
+
+.portrait {
+	background-color: &dtml-SubSkinsColor5;;
+	border-color: &dtml-SubSkinsColor4;;
+	border-width: 1px;
+	border-style: solid;
+	font-size: 85%;
+	margin: 0.5em;
+	padding: 1em 0 0.5em 0;
+	text-align: center;
+	width: 100px;
+}
+
+.portraitPhoto {
+	border: 1px solid black;
+}
+
+.listing,
+.stx table {
+	border-collapse: collapse;
+	border-left: 1px solid &dtml-SubSkinsColor4;;
+	border-bottom: 1px solid &dtml-SubSkinsColor4;;
+	font-size: 85%;
+	margin: 1em 0em 1em 0em;
+}
+
+.listing th,
+.stx table th {
+	background: &dtml-SubSkinsColor5;;
+	border-top: 1px solid &dtml-SubSkinsColor4;;
+	border-bottom: 1px solid &dtml-SubSkinsColor4;;
+	border-right: 1px solid &dtml-SubSkinsColor4;;
+	font-weight: normal;
+	padding: 0.25em 1em;
+	text-transform: lowercase;
+}
+
+.listing .top {
+	border-left: 1px solid White;
+	border-top: 1px solid White ! important;
+	border-right: 1px solid White ! important;
+	text-align: right ! important;
+	padding: 0em 0em 1em 0em;
+}
+
+.listing .listingCheckbox {
+	text-align: center;
+}
+
+.listing td,
+.stx table td {
+	border-right: 1px solid &dtml-SubSkinsColor4;;
+	padding: 0.25em 1em;
+}
+
+.listing a {
+	text-decoration: none;
+}
+
+.listing a:hover {
+	text-decoration: underline;
+}
+
+.listing img {
+	vertical-align: middle;
+}
+
+.listing td a label,
+.stx table td a label {
+	cursor: pointer;
+}
+
+ul.configlets {
+	margin: 1em 0;
+	list-style-image: none;
+	list-style: none;
+}
+
+ul.configlets li {
+	margin-bottom: 1em;
+}
+
+ul.configlets li a {
+	text-decoration: none;
+	border: none;
+}
+
+ul.configlets li a:visited {
+	color: #436976;
+	background-color: transparent;
+}
+
+ul.configlets li a:active {
+	color: #436976;
+	background-color: transparent;
+}
+
+ul.configlets li label {
+	font-weight: bold;
+}
+
+ul.configletDetails {
+	margin: 0em 1em 1em 4em;
+	list-style-image: none;
+	list-style: none;
+}
+
+ul.configletDetails li {
+	margin-bottom: 1em;
+	display: inline;
+}
+
+ul.configletDetails li a {
+	text-decoration: none;
+}
+
+ul.configletDetails li label {
+	font-weight: bold;
+}
+
+ul.visualNoMarker,
+ol.visualNoMarker {
+	list-style-type: none;
+	list-style-image: none;
+	margin: 0.5em 0 0 0;
+}
+
+.reviewHistory {
+	display: inline;
+	font-size: 110% !important;
+	color: Black;
+}
+
+.comment {
+	background: #eef3f5;
+	border: 1px dashed &dtml-SubSkinsColor4;;
+	padding: 0.25em 1em 0.5em 1em;
+	margin-bottom: 1em;
+}
+
+.actionItems li {
+	background-image: none;
+}
+
+.contentActions a {
+	text-decoration: none;
+	color: #578308;
+	padding: 0 0.5em;
+}
+
+.configlet .documentEditable {
+	padding: 0em !important;
+}
+
+.documentEditable #content {
+	border: 1px solid #74ae0b;
+	padding: 0;
+}
+
+.label {
+	font-weight: bold;
+	display: inline;
+	padding-right: 0.5em;
+}
+
+.highlightedSearchTerm {
+	background-color: #feff82;
+}
+
+.currentItem {
+	border-collapse: collapse;
+	border: 2px solid #ffa500;
+	padding: 1px;
+}
+
+#archetypes-fieldname-title input {
+	font-size: 160%;
+	font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	width: 99%;
+}
+
+#archetypes-fieldname-description textarea {
+	font: 100% "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+tr.dragging td {
+	background-color: yellow;
+}
+
+.draggingHook {
+	cursor: move;
+}
+
+input.inlineSubmit {
+	border: 0;
+	padding: 0;
+	background: transparent;
+	font-size: 11px;
+	color: &dtml-SubSkinsColor3;;
+	cursor: pointer;
+}
+
+input.inlineSubmit :hover {
+	text-decoration: underline;
+}
+
+.portalMessage {
+	border: 0;
+	background-color: #F1F1F1;
+	padding: 10px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	color: black;
+}
+
+.portalWarningMessage {
+	border: 0;
+	background-color: &dtml-SubSkinsColor5;;
+	padding: 10px;
+	margin-bottom: 20px;
+	font-size: 12px;
+	color: black;
+}
+
+.documentEditable {
+	padding: 0;
+	margin: 0;
+}
+
+.documentActions {
+	display: none;
+}
+
+.radioButton {
+	list-style: none;
+}
+
+ul.radioButton {
+	padding: 0;
+	margin-top: 5px;
+}
+
+ul.radioButton li {
+	line-height: 1.2em;
+}
+
+ul.radioButton li a {
+	cursor: pointer;
+}
+
+ul.radioButton li.radioSelected {
+	background-image: url(radio_sel.gif);
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding-left: 15px;
+}
+
+ul.radioButton li.radioUnselected {
+	background-image: url(radio_unsel.gif);
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding-left: 15px;
+}
+
+.listing {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: left;
+	font-family: verdana, arial;
+	font-size: 10px;
+	line-height: 1.5em;
+	color: #666;
+}
+
+.listing th {
+	padding-left: 0;
+	padding-right: 10px;
+	margin-left: 0;
+	text-align: left;
+}
+
+.listing img {
+	padding-left: 5px;
+}
+
+.listing .even {
+	background-color: white;
+}
+
+.listing .odd {
+	background-color: #F9F9F9;
+}
+
+.listing tr:hover {
+	background-color: &dtml-SubSkinsColor6;;
+}
+
+.listing td {
+	border-right: 0;
+	padding: 15px;
+	vertical-align: top;
+}
+
+.listing thead {
+	border: 2px solid white;
+	border-bottom: 10px solid white;
+}
+
+.listing th {
+	border: 0;
+	background-color: #B8C4CF;
+	color: black;
+	text-transform: uppercase;
+	white-space: nowrap;
+	font-size: 11px;
+	font-variant: small-caps;
+}
+
+.listing th.nosort {
+	padding-left: 20px;
+}
+
+.listing td a  {
+	font-size: 9px;
+}
+
+.messageLink {
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.itemHistory {
+	padding: 10px;
+	font-size: 11px;
+	line-height: 1.4em;
+}
+
+.itemHistory:hover {
+	background-color: &dtml-SubSkinsColor6;;
+}
+
+.itemHistory .datetime {
+	color: &dtml-SubSkinsColor4;;
+	padding-right: 10px;
+}
+
+.itemHistory .name {
+	color: #333;
+	padding-right: 10px;
+}
+
+.itemHistory .description {
+	font-style: italic;
+}
+
+.formControls input:hover {
+	border-bottom: 1px solid &dtml-SubSkinsColor3;;
+}
+
+/* </dtml-with> */

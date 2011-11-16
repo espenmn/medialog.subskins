@@ -1,0 +1,266 @@
+
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-with base_properties> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Sans Sarif, Arial;
+}
+
+
+table {
+    font-size: 100%;
+}
+
+a {
+    color: #007c9a;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: normal;
+    line-height: normal;
+}  
+
+h1 {
+    font-size: 2.6em;
+}  
+
+h2 {
+    font-size: 1.3em;
+} 
+
+h3 {
+    font-size: 1.1em;
+} 
+   
+h2, h3 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+ul ul,
+ol ul,
+ol ol,
+ul ol {
+    margin: 0.5em 0 0.5em 1em;
+}
+
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+p {
+    margin: 0 0 0.75em 0;
+    line-height: 1.5em;
+}
+p img {
+    border: none;
+    margin: 0;
+}
+
+img.image-right {
+	float: right;
+	margin: 8px 0 10px 20px;
+}
+
+img.image-left {
+	float: left;
+	margin: 8px 20px 10px 0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    color: #999999;
+    background-color: #999999;
+    margin: 0.5em 0 1em 0;
+}
+
+.discreet {
+    font-size: 0.93em; /* roughly 11px within 12px text */
+    color: #8b8985;
+}
+fieldset {
+    border-color: #DDDCD8;
+}
+
+legend {
+    background-color: #fcf6ef;
+    padding-left: 0.5em !important;
+}        
+input {
+    font-family: "Helvetica Neue", Helvetica, Sans Sarif, Arial;
+}
+
+#content-core li {
+    margin-bottom: 0.5em;
+    list-style-position: outside;
+    margin-left: 1em;
+}
+
+li {
+	list-style-position: inside;
+}
+#content-core ul {
+	padding-left: 1em;
+}
+
+ol {
+	margin: 0.5em 0 0.75em 1em;
+}
+
+dt {
+    font-weight: bold;
+}
+dd {
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+abbr, acronym, .explain {
+    border-bottom: 1px dotted Black;
+    color: Black;
+    background-color: transparent;
+    cursor: help;
+}
+abbr .explain {
+    border-bottom: none;
+}
+q {
+    font-family: Baskerville, Georgia, serif;
+    font-style: italic;
+    font-size: 120%;
+}
+blockquote {
+    padding-left: 0.5em;
+    margin-left: 0;
+    border-left: 4px solid #999999;
+    color: #777777;
+}
+
+code, tt, pre {
+    background: #DDDCD8;
+    padding: 0.5em;
+    overflow-x: auto;
+}   
+ins {
+    color: green;
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+.callout {
+	color: #e18434;
+	font-weight:bold;
+	padding:0 1em;
+}
+
+.pullquote {
+	background: #f1ece2;
+	border-left:4px solid #F1880E;
+	clear:right;
+	color: #403f32;
+	float:right;
+	font-weight:bold;
+	margin:0 0 1em 1em;
+	padding:1em;
+	width:35%;
+}
+
+
+h1.documentFirstHeader,
+h1.documentFirstHeading {
+	/* there should be a border between title and description */
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.1em;
+    margin-bottom: 0.39em;
+    margin-top: -0.3em;
+    color: #343329;
+    line-height: 1em;
+}
+body.template-section_view h1.documentFirstHeader {
+    border: none;
+}
+body.template-prefs_users_overview .configlet h1.documentFirstHeading {
+	display: none;
+}
+.documentDescription {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.8em;
+	padding-top: 0.8em;
+    margin-bottom: 1em; 
+    color: #343329;
+    font-weight: bold;
+    font-size: 120%;
+    line-height: 1.3em;
+}
+
+.portalMessage {
+	background-color: #fbe295;
+	padding:  0.3em 1em ;
+	margin:  1.5em 0;;
+}
+
+.image-inline,
+.image-left,
+.image-right {
+    background: #f5f4f0;
+    display: block;
+    text-decoration: none;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+
+.image-left {
+    float: left;
+    margin-right: 1.2em;
+}
+.image-right {
+    float: right;
+    margin-left: 1.2em;    
+}
+.image-inline a {
+    display: block;
+    text-align: center;
+}
+img.image-inline {
+    display: block;
+    margin: 0 auto;
+}
+ 
+
+.newsImageContainer {
+    background: transparent;
+    text-align: center;
+}
+.newsImageContainer span {
+    display: inline-block;
+    background: #f5f4f0;
+}
+.newsImageContainer span a {
+    text-align: left;
+}
+span#section-image img {
+    margin-top: 0;
+}
+.imageDescription {
+    padding: 10px;
+    display: inline-block;
+    color: #555344;
+    text-align: left;
+}
+  
+.managePortletsFallbackWrapper {
+    font-size: 0.9em;
+    padding: 0.3em 0 0;
+    text-align: center;
+}
+
+/* </dtml-with> */
+/* </dtml-with> */

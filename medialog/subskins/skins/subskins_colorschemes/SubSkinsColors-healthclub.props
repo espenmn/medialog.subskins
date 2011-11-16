@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Healthclub
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=006D90
+SubSkinsColor1:string=#000033
+SubSkinsColor2:string=#999999
+SubSkinsColor3:string=#666666
+SubSkinsColor4:string=#333333
+SubSkinsColor5:string=#CCCCCC
+SubSkinsColor6:string=#0AC2FF
+SubSkinsPosition:string=-120

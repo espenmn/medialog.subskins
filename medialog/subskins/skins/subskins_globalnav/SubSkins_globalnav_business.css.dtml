@@ -1,0 +1,73 @@
+/*  For SubSkins (espen@medialog.no)
+   <dtml-with base_properties> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+#portal-globalnav {
+	list-style-type: none;
+	height: 33px;
+	background: white;
+	margin: 0 auto;
+	width: 100%;
+	clear: both;
+}
+
+#portal-globalnav:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}
+
+/* for IE */
+
+/*\*/
+
+* html #portal-globalnav {
+	height: 28px;
+	overflow: visible;
+}
+
+#portal-globalnav li {
+	width: 110px;
+	height: 28px;
+	float: left;
+	display: block;
+}
+
+#portal-globalnav li a {
+	width: 109px;
+	height: 28px;
+	display: block;
+	background: #fff;
+	color: #2F2A28;
+	border-right: 1px dashed #969260;
+	font: 13px/28px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+#portal-globalnav li a:hover {
+	width: 110px;
+	height: 28px;
+	background: #2F2A28;
+	color: #fff;
+	border: none;
+	text-decoration: none;
+}
+
+#portal-globalnav li.selected a {
+	width: 110px;
+	height: 28px;
+	background: #2F2A28;
+	color: #fff;
+	font: 13px/28px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	border: none;
+	text-decoration: none;
+}
+
+/* </dtml-with> */

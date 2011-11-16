@@ -1,0 +1,52 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+/* portal footer
+
+---------------------------------------------------------------------- */
+
+#portal-colophon  {
+    background-image:  url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor2;/roundcolophon.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 36px;
+    margin-top: 8px;
+    font-size: small;
+    text-align: center;
+    padding-left: 10px;
+}
+
+div.colophonWrapper  {
+	 background-image:  url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor2;/roundcolophon.png);
+	     background-position: right;
+    background-repeat: no-repeat;
+}
+
+#portal-colophon ul {
+	color: white;
+	list-style-image: none;
+	list-style-type: none;
+	line-height: 36px;
+}
+
+#portal-colophon ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+div#portal-footer {
+     width: 100%;
+    color: white;
+    font-size: smaller;
+    text-align: center;
+    line-height: 33px;
+}
+
+div#portal-footer  a {
+	text-transform: uppercase;
+	font-weight:  bold;;
+	margin-left: 3px;
+	margin-right:  3px;;
+}
+
+/* </dtml-with> */	

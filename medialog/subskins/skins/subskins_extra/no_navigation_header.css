@@ -1,0 +1,9 @@
+
+.portletNavigationTree dt.portletHeader {
+	display: none;
+}
+
+.portletNavigationTree dd.portletItem {
+	border-top:0px none;
+    padding:0 !important;
+}

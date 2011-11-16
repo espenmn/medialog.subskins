@@ -1,0 +1,87 @@
+/*
+  For SubSkins
+  <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+/* portal navigation
+
+-------------------------------------- */
+
+#portlet-navigation-tree {
+	/*
+
+Hele navigasjonen (UL) */
+		border-style: none;
+}
+
+#portlet-navigation-tree .portletItem {
+	padding-left: 0px;
+	padding-bottom: 0;
+	background-color: #fff;
+}
+
+a.navTreeCurrentItem {
+	
+
+/* Nåværende side */
+	font-weight: bold;
+	color: black;
+	background-color: white;
+}
+
+a.navTreeCurrentItem li {
+	
+
+/* Nåværende side */
+	color: black;
+}
+
+.portletNavigationTree li a:hover,
+a.navTreeCurrentItem {
+	font-weight: bold;
+	display: block;
+}
+
+.portletNavigationTree ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
+.portletNavigationTree li {
+	
+
+/* Feltene (LI) */
+	font-size: 20px;
+	text-indent: 15px;
+	border-bottom: 1px solid #CCCCCC;
+	line-height: 30px;
+	background-color: #ebecec;
+	display: block;
+	vertical-align: middle;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.portletNavigationTree li a:link, a:visited {
+	color: gray;
+	display: block;
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.portletNavigationTree li a:hover {
+	color: white;
+	background-color: #aaa;
+	display: block;
+}
+
+li.navTreeItem.visualNoMarker li {
+	padding-left: 10px;
+	line-height: 12px;
+	border-bottom: 0px;
+	padding-bottom: 4px;
+}
+
+/* </dtml-with> */

@@ -1,0 +1,9 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+body {
+	background:black url(forlopIV.gif) 0 0 repeat-x !important;
+}
+
+/* </dtml-with> */
+

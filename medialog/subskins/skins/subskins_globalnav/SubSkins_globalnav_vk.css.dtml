@@ -1,0 +1,59 @@
+
+/*
+  Round corners dont work with IE (surprise!)
+    <dtml-with base_properties> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+
+
+#portal-globalnav {
+display: block;
+clear: both;
+height: 33px;
+background-image: url(menuFundo.jpg);
+background-repeat: repeat-x;
+background-position: left top;
+border-bottom: 1px solid #a09d9d;
+padding-top: 13px;
+margin: 0 0 15px 0;
+padding-left: 10px;
+	list-style-image: none;
+	list-style-type: none;
+}
+
+
+#portal-globalnav .selected {
+margin-right: 1px;
+background-image: url(menuItemSelecionadoFundo.gif);
+}
+
+#portal-globalnav li {
+background-image: url(menuItemNormalFundo.gif);
+float: left;
+padding: 0 14px;
+margin: 0 1px;
+height: 33px;
+-moz-border-radius-topright: 5px;
+-moz-border-radius-topleft: 5px;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+}
+
+#portal-globalnav a{
+	background: url(menuItemNormalSeletor.gif) no-repeat center top;
+	height:33px;
+	display:block;
+	color: white;
+	font: bold 11px/33px "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+#portal-globalnav .selected a{
+background: url(menuItemSelecionadoSeletor.gif) no-repeat center top;
+	}
+#portal-globalnav a:hover,
+#portal-globalnav .selected a:hover{
+text-decoration: underline;
+}
+
+/* </dtml-with> */

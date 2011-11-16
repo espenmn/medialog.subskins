@@ -1,0 +1,224 @@
+
+/*
+  For SubSKins - Dette er medialog looken.
+  <dtml-with base_properties> (do not remove this)
+  <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+#portal-top {
+	width: 100%;
+	background: white;
+}
+
+#portal-header {
+	margin-top: 0px;
+	width: 100%;
+	background: white;	
+}
+
+#portal-logo {
+	clear: both;
+	float: left;
+	overflow: visible;
+	margin: 0;
+	padding: 0;
+	padding: 10px;
+}
+
+
+#portal-searchbox {
+	padding: 0px 12px 0px 12px;
+	 background: whitesmoke;
+	line-height: 36px;
+	height: 36px;
+}
+
+#portal-siteactions {
+	display: block;
+	float: right;
+	height: 30px;
+	margin: 0;
+	margin-left: 12px;
+	padding: 0;
+}
+
+#portal-siteactions li {
+	display: inline;
+	padding: 0;
+	padding-right: 12px;
+	line-height: 30px;
+	font-size: 8pt;
+}
+
+#portal-siteactions li a {
+	color: gray;
+	border: 0;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 10px;
+}
+
+#portal-siteactions li a:hover {
+	color: #282828;
+}
+
+#portal-personaltools-wrapper {
+	background:  &dtml-SubSkinsColor3;;
+	height: 26px;
+	margin-bottom: 10px;
+	clear:both;
+}
+
+
+#portal-personaltools {
+	float: right;
+	margin: 2px 10px;
+	padding: 0;
+	
+}
+
+#portal-personaltools li {
+	display: inline;
+	list-style: none;
+	list-style-image: none;
+	color: whitesmoke;
+}
+
+#portal-personaltools li a {
+	text-decoration: none;
+	margin-right: 1em;
+	margin-left: 1em;
+	color: whitesmoke;
+}
+
+#portal-breadcrumbs {
+	margin-left: 20px;
+	margin-bottom: 10px; 
+}
+
+/* LiveSearch styles */
+
+.LSRes {
+	font-family: <dtml-var fontFamily>;
+	visibility: visible;
+	color: &dtml-globalFontColor;;
+background-color: white;
+	vertical-align: middle;
+	display: block;
+	list-style-image: none;
+	list-style-type: none;
+	text-align: left;
+	min-width: 16.5em;
+	text-transform: none;
+	margin-left: 0;
+	line-height: 1em;
+}
+
+#LSHighlight {
+	background-color: white;
+}
+
+.LSRow {
+	padding: 0;
+	margin: 0;
+	list-style-image: none;
+	list-style-type: none;
+}
+
+.LSRow a {
+	text-decoration: none;
+	font-weight: bold;
+	white-space: nowrap;
+	color:  #01679a;
+}
+
+.LSDescr {
+	color: &dtml-discreetColor;	;
+	text-transform: &dtml-textTransform;;
+	padding-left: 2.1em;
+	margin-top: -0.1em;
+}
+
+.LSResult {
+	position: relative;
+	display: block;
+	text-align: right;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0;
+	left: 3px;
+	top: 1em;
+	z-index: 3;
+}
+
+.LSShadow {
+	position: relative;
+}
+
+.livesearchContainer {
+	background-color: white;
+	margin-top: 0;
+	padding: 0 !important;
+	position: absolute;
+	left: 0px;
+	/* Currently exposes a rendering bug in Mozilla */
+top: 0;
+	white-space: normal;
+	font-family: <dtml-var fontFamily>;
+	visibility: visible;
+	text-align: left;
+	color: &dtml-globalFontColor;;
+	border: &dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;
+	width: 30em;
+	text-transform: none;
+}
+
+* html .livesearchContainer {
+	padding: &dtml-borderWidth; !important;
+	padding-top: 0 !important;
+	background-color: white;
+	border: 0;
+}
+
+#livesearchLegend {
+	line-height: 1em;
+	margin-top: -2em;
+	margin-left: -0.1em;
+	border: 2px &dtml-borderStyle; &dtml-globalBorderColor;;
+	border-bottom: 0;
+}
+
+* html #livesearchLegend {
+	margin-top: -1.9em;
+	margin-left: -8px;
+	position: relative;
+}
+
+/* Workaround for Internet Explorer's broken z-index implementation */
+
+.LSIEFix {
+	background-color: white;
+	padding: 0.5em !important;
+	z-index: 20;
+}
+
+.LSBox {
+	clear: left;
+	float: left;
+	text-align: right;
+	padding: 0 1px;
+	display: block;
+	margin-left: 0;
+
+	}
+	
+	
+	
+
+#LSNothingFound {
+	text-align: center;
+	padding: 2px;
+}
+/* </dtml-with> */
+/* </dtml-with> */

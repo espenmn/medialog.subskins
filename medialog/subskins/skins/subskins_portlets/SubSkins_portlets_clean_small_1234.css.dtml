@@ -1,0 +1,110 @@
+/*
+  <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-with get_base_properties> 
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+.portletWrapper {
+	border: 1px solid &dtml-SubSkinsColor2;;
+	padding: 1px;
+	margin: 0 0 23px 0;
+}
+
+.portletWrapper .portletLogin  {
+	border:  3px solid &dtml-SubSkinsColor3;;
+}
+
+dl.portlet {
+	color: #666;
+	font: 10px verdana, helvetica, sans-serif;
+	border-collapse: collapse;
+	margin: 0;
+}
+
+.portlet a.tile {
+	text-decoration: none;
+	padding-left
+}
+
+.portlet ul {
+	list-style-type: none;
+}
+
+.portlet ul, .portlet dl, .portlet li, .portlet dt, .portlet dd {
+	margin: 0;
+}
+
+dt.portletHeader  {
+	background: &dtml-SubSkinsColor2; url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor2;/mon_pattern.png) right;
+	line-height: 20px;
+	padding: 3px 13px;
+	border-collapse: collapse;
+	margin-bottom: 1px;
+}
+
+.portletHeader a.tile {
+	text-decoration: none;
+	text-transform: capitalize !important;
+	color: white;
+	padding-top: 0px
+}
+
+.portletNavigationTree .portletItem {
+	padding: 0;
+}
+.portletItem {
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.portletItemDetails {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 9px;
+	float: right;
+	padding-right: 10px;
+}
+
+dd.portletFooter {
+	background: &dtml-SubSkinsColor4; url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor4;/mon_pattern.png) right;
+	line-height: 20px;
+	padding-left: 10px;
+}
+
+/* @end */
+
+.portletLogin  .portletHeader  {
+	background: &dtml-SubSkinsColor3; url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor3;/mon_pattern.png) right;
+}
+
+.portletNavigationTree  .portletHeader  {
+	background: &dtml-SubSkinsColor1; url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/mon_pattern.png) right;
+}
+
+.portletLogin .label {
+	padding: 4px;
+	display: block;
+	margin: 10px;
+}
+
+.portletLogin .portletItem {
+	padding-top: 0;
+	padding-bottom: 5px;
+}
+
+.portletLogin dt.portletHeader a.tile {
+	color: white;
+	font-weight: bold;
+}
+
+input#__ac_name,
+input#__ac_password {
+	width: 130px;
+	margin-top: 4px;
+}
+
+.portletLogin div.field {
+	margin-bottom: 12px;
+	}
+	
+
+/* </dtml-with> </dtml-with> */

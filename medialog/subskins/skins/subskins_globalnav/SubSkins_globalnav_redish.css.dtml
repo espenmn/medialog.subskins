@@ -1,0 +1,84 @@
+/* - SubSkins_globalnav_redish - */
+/*
+  For SubSKins - Dette er medialog looken.
+  <dtml-with base_properties> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+#portal-globalnav {
+	clear: both;
+	margin:0px;
+	padding: 0;
+	height: 29px;
+	background-color: #C80000;
+	background-image: url(red_menubg.gif);
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	z-index:10;
+}
+
+#portal-globalnav li {
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 15px;
+	padding: 2px 10px;
+	margin: 5px 0px;
+/* 	border-right: 1px solid #890101; */
+	display: block;
+	float: left;
+}
+
+#portal-globalnav li a {
+	text-decoration: none;
+	color: #f3e3c5;
+}
+
+#portal-globalnav li a:hover,
+#portal-globalnav li a.selecte {
+	text-decoration: none;
+	color: #ffd75b;
+}
+
+/** SUBMENU STYLES 
+*/
+
+#portal-globalnav ul {
+	margin-top: 2px;
+	}
+
+#portal-globalnav ul.submenu li {
+   width:90% !important;
+}
+.selected ul.submenu {
+    z-index:10;
+}
+
+ul.submenu li {
+    border-right: 0 none;
+    padding-right: 15px;
+}
+
+ul.submenu {
+	padding-left: 0;
+}
+
+.submenu li a{
+	   color: #515151 !important;
+}
+
+/* side-dropdown menu styles */
+#portal-globalnav li ul ul {
+    z-index:12;
+    margin: 0 0 0 14em;
+}
+	
+#portal-globalnav li ul {
+    border-top: 1px solid #999999;
+}
+
+.submenu ul {
+	padding-left: 0;
+}
+
+/* </dtml-with> */

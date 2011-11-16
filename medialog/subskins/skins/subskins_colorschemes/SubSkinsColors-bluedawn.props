@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Blue dawn
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=2A3B63
+SubSkinsColor1:string=#2A3B63
+SubSkinsColor2:string=#717C8C
+SubSkinsColor3:string=#C34E02
+SubSkinsColor4:string=#F56203
+SubSkinsColor5:string=#FC9D4A
+SubSkinsColor6:string=#C8A77B
+SubSkinsPosition:string=-50

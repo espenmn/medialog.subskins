@@ -1,0 +1,365 @@
+/* @override http://xweb14f.plana.dk:8084/Products/portal_css/subskins/subskins-cachekey9716.css */
+
+/*
+  For SubSKins - Dette er medialog looken.
+  <dtml-with base_properties> (do not remove this)
+  <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+#portal-top {
+	width: &dtml-SubSkinsWidth1;;
+	margin: 0 auto;
+}
+
+#portal-header {
+	width: &dtml-SubSkinsWidth1;;
+	margin: 0 auto;
+}
+
+#portal-searchbox {
+	height: 30px;
+	float: right;
+	clear: right;
+}
+
+.LSBox input.searchButton {
+	margin-bottom: 1px !important;
+	font-size: 1px;
+	height: 26px;
+	margin: 0;
+	color: &dtml-SubSkinsColor2;;
+	background: &dtml-SubSkinsColor2; url(white_next.gif) center center no-repeat;
+	cursor: pointer;
+	border: 0 none !important;
+}
+
+div.searchSection {
+	color: #ddd;
+	font-size: 11px;
+	margin-top: 9px;
+}
+
+input#searchGadget.inputLabel {
+	height:13px;
+	margin:0;
+	padding:6px 8px;
+}
+
+#portal-siteactions {
+	display: block;
+	float: right;
+	line-height: 30px;
+	margin: 0;
+	margin-left: 12px;
+	padding: 0;
+}
+
+#portal-siteactions li {
+	display: inline;
+	padding: 0;
+	padding-left: 12px;
+	line-height: 30px;
+	font-size: 8pt;
+}
+
+#portal-siteactions li a {
+	color: white;
+	border: 0;
+}
+
+#portal-siteactions li a:hover {
+	color: #&dtml-SubSkinsColor2;;
+}
+
+div#portal-personaltools-wrapper {
+	float: right;
+	height: 30px;
+}
+
+#portal-personaltools {
+	float: right;
+	margin: 0.5em 0;
+	padding: 0;
+}
+
+#portal-personaltools li {
+	display: inline;
+	list-style: none;
+	list-style-image: none;
+}
+
+#portal-personaltools li a {
+	text-decoration: none;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
+#portal-breadcrumbs {
+	padding: 8px 0;
+	color: white;
+	font-size: 12px;
+}
+
+span.breadcrumbSeparator {
+	font-size: 150%;
+}
+
+#portal-breadcrumbs a {
+	color: &dtml-SubSkinsColor2;;
+	font-weight: bold;
+}
+
+/* LiveSearch styles */
+
+.LSRes {
+	font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+	visibility: visible;
+	color: #666666;
+	background-color: white;
+	vertical-align: middle;
+	display: block;
+	list-style-image: none;
+	list-style-type: none;
+	text-align: left;
+	min-width: 16.5em;
+	text-transform: none;
+	margin-left: 0;
+	line-height: 1em;
+}
+
+#LSHighlight {
+	background-color: white;
+}
+
+.LSRow {
+	padding: 0;
+	margin: 0;
+	list-style-image: none;
+	list-style-type: none;
+}
+
+.LSRow a {
+	text-decoration: none;
+	font-weight: bold;
+	white-space: nowrap
+}
+
+.LSDescr {
+	color: #777777;
+	text-transform: lowercase;
+	padding-left: 2.1em;
+	margin-top: -0.1em;
+}
+
+.LSResult {
+	position: relative;
+	display: block;
+	text-align: right;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 0;
+	left: 3px;
+	top: 1em;
+	z-index: 3;
+}
+
+.LSShadow {
+	position: relative;
+}
+
+.livesearchContainer {
+	background-color: white;
+	margin-top: 0;
+	padding: 0 !important;
+	position: absolute;
+	left: 0px;
+	
+
+/* Currently exposes a rendering bug in Mozilla */
+	top: 0;
+	white-space: normal;
+	font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+	visibility: visible;
+	text-align: left;
+	color: #666666;
+	border: 1px
+	solid #999999;
+	width: 30em;
+	text-transform: none;
+}
+
+* html .livesearchContainer {
+	padding: 1px !important;
+	padding-top: 0 !important;
+	background-color: white;
+	border: 0;
+}
+
+#livesearchLegend {
+	line-height: 1em;
+	margin-top: -2em;
+	margin-left: -0.1em;
+	border: 2px	solid #999999;
+	border-bottom: 0;
+}
+
+* html #livesearchLegend {
+	margin-top: -1.9em;
+	margin-left: -8px;
+	position: relative;
+}
+
+/* Workaround for Internet Explorer's broken z-index implementation */
+
+.LSIEFix {
+	background-color: white;
+	padding: 0.5em !important;
+	z-index: 20;
+}
+
+.LSBox {
+	clear: left;
+	float: left;
+	text-align: right;
+	padding-right: 1px;
+	display: block;
+}
+
+#LSNothingFound {
+	text-align: center;
+	padding: 2px;
+}
+
+.LSRes {
+	font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+	visibility: visible;
+	color: #436976;
+	background-color: White;
+	vertical-align: middle;
+	display: block;
+	list-style-image: none;
+	list-style-type: none;
+	text-align: left;
+	min-width: 16.5em;
+	text-transform: none;
+	margin-left: 0;
+	line-height: 1.1em;
+}
+
+#LSHighlight,
+.LSHighlight {
+	background-color: #dee7ec;
+	border: 1px solid #8cacbb;
+	color: #436976;
+}
+
+.LSTable {
+	margin: 1em 0;
+}
+
+.LSRow {
+	border: 1px solid White;
+	white-space: normal;
+	padding: 0;
+	margin: 0;
+	list-style-image: none;
+	list-style-type: none;
+}
+
+.LSRow a {
+	text-decoration: none;
+	font-weight: bold;
+	white-space: nowrap
+}
+
+.LSDescr {
+	color: #76797c;
+	font-size: 90%;
+	font-weight: normal;
+	margin-left: 2.5em;
+}
+
+.LSResult {
+	position: relative;
+	display: block;
+	text-align: right;
+	padding-top: 5px;
+	margin: 0;
+	left: 3px;
+	z-index: 3;
+}
+
+.LSShadow {
+	position: relative;
+	text-align: right;
+}
+
+.livesearchContainer {
+	background-color: White;
+	margin-top: 0;
+	padding: 0 !important;
+	position: absolute;
+	right: 
+
+0px;
+	/* */
+top: 0;
+	white-space: normal;
+	font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+	visibility: visible;
+	text-align: left;
+	color: #436976;
+	border: 1px solid #8cacbb;
+	width: 30em;
+	text-transform: none;
+}
+
+* html .livesearchContainer {
+	padding: 1px !important;
+	padding-top: 0 !important;
+	background-color: #8cacbb;
+	border: 0;
+}
+
+#livesearchLegend {
+	line-height: 1em;
+	margin-top: -2em;
+	margin-left: -0.1em;
+	border: 1px solid #8cacbb;
+	border-bottom: 0;
+}
+
+* html #livesearchLegend {
+	margin-top: -1.9em;
+	margin-left: -8px;
+	position: relative;
+}
+
+/* */
+
+.LSIEFix {
+	background-color: White;
+	padding: 0.5em !important;
+	z-index: 20;
+}
+
+.LSBox {
+	clear: left;
+	float: left;
+	text-align: right;
+	padding-right: 1px;
+	display: block;
+}
+
+#LSNothingFound {
+	text-align: center;
+	padding: 2px;
+}
+
+.LSBox label {
+	font-weight: normal;
+}
+
+/* </dtml-with> */
+/* </dtml-with> */

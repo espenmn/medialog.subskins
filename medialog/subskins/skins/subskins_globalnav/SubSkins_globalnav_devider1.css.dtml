@@ -1,0 +1,50 @@
+/*for subskins */
+
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+#portal-globalnav {
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	clear: both;
+	background: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/000menuanddevider.png) repeat-x 0px -49px;
+}
+
+#portal-globalnav li {
+	display: block;
+	float: left;
+	line-height: 14px;
+	height: 40px;
+	vertical-align: bottom;
+	text-align: center;
+	text-decoration: none;
+	margin: 0;
+	text-align: center;
+	line-height: 38px;
+	background: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/000menuanddevider.png) no-repeat right -100px;
+}
+
+#portal-globalnav li a {
+	font-weight: normal;
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFFFFF;
+	display: block;
+	padding: 0 18px 0 20px;
+	margin: 0 auto;
+	height: 39px;
+	text-decoration: none;
+	margin-right: 2px;
+
+}
+
+#portal-globalnav a:hover,
+#portal-globalnav .selected a:hover {
+	color: white;
+	background: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/000menuanddevider.png) repeat-x left 0px;
+
+}
+
+/* </dtml-with>*/

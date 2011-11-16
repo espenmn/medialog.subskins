@@ -1,0 +1,1203 @@
+
+
+/* - simple_tableII.css - */
+@media screen {
+/* http://forslagii.medialog.no/portal_css/simple_tableII.css?original=1 */
+
+
+
+
+table.listing,
+.stx table {
+
+border-collapse: collapse;
+border-spacing: 0;
+border-left: 1px solid #999999;
+border-bottom: 1px solid #999999;
+font-size: 85%;
+margin: 1em 0em 1em 0em;
+}
+table.listing th,
+.stx table th {
+background: #d7d7d7;
+border-top: 1px solid #999999;
+border-bottom: 1px solid #999999;
+border-right: 1px solid #999999;
+font-weight: normal;
+padding: 0.25em 0.5em;
+text-transform: lowercase;
+}
+table.listing .top {
+border-left: 1px solid White;
+border-top: 1px solid White ! important;
+border-right: 1px solid White ! important;
+text-align: right ! important;
+padding: 0em 0em 1em 0em;
+}
+table.listing .listingCheckbox {
+text-align: center;
+}
+table.listing td,
+.stx table td {
+border-right: 1px solid #999999;
+padding: 0.25em 0.5em;
+}
+table.listing a {
+text-decoration: none;
+}
+table.listing a:hover {
+text-decoration: underline;
+}
+table.listing img {
+vertical-align: middle;
+}
+table.listing td a label,
+.stx table td a label {
+cursor: pointer;
+}
+
+table.vertical {
+background-color: White;
+}
+table.vertical th {
+padding: 0.5em;
+}
+table.vertical td {
+border-top: 1px solid #999999;
+padding: 0.5em;
+}
+
+table.grid td {
+border: 1px solid #999999;
+padding: 0.5em;
+}
+
+table.plain,
+table.plain td,
+table.plain th {
+border: 1px solid #ccc;
+padding: 0.5em;
+border-collapse: collapse;
+}
+
+.listingBar {
+border-color: #999999;
+border-style: solid;
+border-width: 1px;
+border-right: 0 none;
+border-left: 0 none;
+padding: 0em 1em;
+text-align: center;
+text-transform: lowercase;
+vertical-align: top;
+margin: 1em 0em;
+font-size: 94%;
+clear: both;
+}
+.listingBar span.previous,
+.listingPrevious {
+text-align: left;
+float: left;
+margin-right: 1em;
+}
+.listingBar span.next,
+.listingNext {
+text-align: right;
+float: right;
+margin-left: 1em;
+}
+.listingBar img {
+vertical-align: middle;
+}
+.listingBar a {
+text-decoration: none;
+}
+.eventDetails {
+float: right;
+clear: right;
+margin: 0 0 0.5em 1em;
+}
+
+
+
+}
+
+
+/* - SubSkins_globalnav_biblo.css - */
+@media screen {
+/* http://forslagii.medialog.no/portal_css/SubSkins_globalnav_biblo.css?original=1 */
+
+
+
+#portal-globalnav  {
+height: 41px;
+margin: 0;
+padding: 0;
+clear: both;
+list-style-type: none;
+background: url(line_forl.png) no-repeat right bottom;}
+#portal-globalnav li {
+float: left;
+display:block;
+height: 41px; 
+cursor: pointer;
+background-image: url(http://forslagii.medialog.no/subskins_getimage/%23FF9900/gradII.png);
+background-repeat: repeat-x;
+background-position: bottom ;
+padding: 0;
+margin:  0;
+}
+#portal-globalnav li a{
+text-decoration: none;
+color:#000000;
+font-family:Tahoma,Verdana,Geneva;
+font-size:12px;
+height: 41px;
+line-height:41px;
+display: block;
+background-repeat: no-repeat;
+padding:  0 14px;
+background-image: url(http://forslagii.medialog.no/subskins_getimage/%23003300/gradII.png);
+background-position: bottom left;
+}
+#portal-globalnav li:first-child{
+background-image: url(http://forslagii.medialog.no/subskins_getimage/%23FF9900/menu_r_left.png);
+background-repeat: no-repeat;
+background-position: bottom left;
+padding-left: 2px;
+padding-right: 0;
+}
+#portal-globalnav li:first-child:hover{
+background-image: url(http://forslagii.medialog.no/subskins_getimage/%23330000/menu_r_left_hover.png);
+background-repeat: no-repeat;
+background-position: bottom left;
+padding-left: 0;
+padding-right: 2px;
+}
+#portal-globalnav li:first-child.selected{
+background-image: url(http://forslagii.medialog.no/subskins_getimage/%23996600/menu_r_left_hover.png);
+background-repeat: no-repeat;
+background-position: bottom left;
+padding-left: 0;
+padding-right: 2px;
+}
+#portal-globalnav li.selected {
+background-image: url(http://forslagii.medialog.no/subskins_getimage/%23996600/gradII.png);
+background-repeat: repeat-x;
+background-position: bottom left;
+}
+#portal-globalnav li :hover {
+background-image: url(http://forslagii.medialog.no/subskins_getimage/%23330000/gradIV.png);
+background-repeat: repeat-x;
+background-position: bottom left;
+color: #ffffff;
+}
+#portal-globalnav  li:last-child{
+background-image:url(http://forslagii.medialog.no/subskins_getimage/%23FF9900/menu_r_right.png);
+background-position:right bottom;
+background-repeat:no-repeat;
+padding-right:7px;
+}
+
+}
+
+
+/* - SubSkins_bottom_roundcolophon.css - */
+@media screen {
+/* http://forslagii.medialog.no/portal_css/SubSkins_bottom_roundcolophon.css?original=1 */
+
+
+
+#portal-colophon  {
+background-image:  url(http://forslagii.medialog.no/subskins_getimage/%23996600/roundcolophon.png);
+background-position: left;
+background-repeat: no-repeat;
+height: 36px;
+margin-top: 8px;
+font-size: small;
+text-align: center;
+padding-left: 10px;
+}
+div.colophonWrapper  {
+background-image:  url(http://forslagii.medialog.no/subskins_getimage/%23996600/roundcolophon.png);
+background-position: right;
+background-repeat: no-repeat;
+}
+#portal-colophon ul {
+color: white;
+list-style-image: none;
+list-style-type: none;
+line-height: 36px;
+}
+#portal-colophon ul li a {
+text-decoration: none;
+color: white;
+}
+div#portal-footer {
+width: 100%;
+color: white;
+font-size: smaller;
+text-align: center;
+line-height: 33px;
+}
+div#portal-footer  a {
+text-transform: uppercase;
+font-weight:  bold;;
+margin-left: 3px;
+margin-right:  3px;;
+}
+
+}
+
+
+/* - SubSkins_base_biblo.css - */
+@media screen {
+/* http://forslagii.medialog.no/portal_css/SubSkins_base_biblo.css?original=1 */
+
+
+body {
+background: #CC6600 url(http://forslagii.medialog.no/subskins_getimage/%23CC6600/lindespace.jpg);
+background-position: center top;
+background-repeat: no-repeat;
+position: relative;
+}
+
+#visual-portal-wrapper{
+position: relative;
+width:  920px;
+text-align: left;
+margin: 0 auto;
+}
+#portal-columns{
+background-color: #FFFFFF;
+background-image: url(http://forslagii.medialog.no/subskins_getimage/%23FF9900/almostwhite.jpg);
+background-repeat: no-repeat;
+}
+#clear-space-before-footer {
+display: block;
+width:  100%;
+background-image: url(http://forslagii.medialog.no/subskins_getimage/%23FF9900/almostwhite_footer.jpg);
+background-repeat: no-repeat;
+height: 43px;
+}
+#portal-column-one{
+margin-right: 27px;
+margin-top: 26px;
+min-height: 443px;
+width:   200px;
+background:url(almostwhite_left.jpg);
+background-repeat: no-repeat;
+background-position: right top;
+}
+#portal-column-two{
+margin-left: 27px;
+margin-top: 26px;
+min-height: 443px;
+width:   200px;
+background: url(almostwhite_right.jpg);
+background-repeat: no-repeat;
+background-position: left  top;
+}
+#portal-column-content{
+padding: 10px 20px;
+}
+#content{
+padding: 20px;
+}
+
+
+}
+
+
+/* - SubSkins_top_trans.css - */
+@media screen {
+/* http://forslagii.medialog.no/portal_css/SubSkins_top_trans.css?original=1 */
+
+
+#portal-top {
+width: 100%;
+height: auto;
+background: transparent;
+}
+#portal-header {
+width: 100%;
+background: transparent;
+}
+#portal-logo {
+float: left;
+}
+#portal-logo img{
+margin: 10px;
+}
+#portal-searchbox {
+float: right;
+height: AUTO;
+margin: 10px 0;
+padding: 0;
+width: 150px;
+font-size: smaller;
+}
+div.searchSection {
+display: none;
+}
+#searchGadget,
+input.searchButton {
+margin: 0;
+line-height: 11px;
+padding: 0 0 0 7px;
+height: 18px;
+}
+input.searchButton {
+height:  20px;
+width: 25px;
+overflow: hidden;
+color: transparent;
+}
+#portal-siteactions {
+display: block;
+float: right;
+margin: 0;
+padding: 0;
+}
+#portal-siteactions li {
+display: inline;
+width: 30px;
+overflow: hidden;
+float: left;
+padding: 8px 0 0 0;
+margin-top:  10px;;
+font-size: 8pt;
+}
+#portal-siteactions li a {
+opacity: 0.40;
+border: 0;
+}
+#portal-siteactions li a:hover {
+opacity: 1;
+}
+li#siteaction-sitemap a {
+color: transparent;
+background-image: url(http://forslagii.medialog.no/subskins_getimage/%23996600/sitemap_icon.gif);
+background-repeat: no-repeat  ;
+}
+li#siteaction-accessibility a {
+color: transparent;
+background-image: url(http://forslagii.medialog.no/subskins_getimage/%23996600/siteaction_size.png);
+background-position: left center;
+background-repeat: no-repeat;
+}
+li#siteaction-contact a {
+color: transparent;
+background-image: url(http://forslagii.medialog.no/subskins_getimage/%23996600/mail_icon.png);
+background-repeat: no-repeat;
+}
+div#portal-personaltools-wrapper {
+float: right;
+width: 300px;
+height: 30px;
+}
+#portal-personaltools {
+float: right;
+margin: 0.5em 0;
+padding: 0;
+}
+#portal-personaltools li {
+display: inline;
+list-style: none;
+list-style-image: none;
+}
+#portal-personaltools li a {
+text-decoration: none;
+margin-right: 1em;
+margin-left: 1em;
+}
+#portal-breadcrumbs {
+padding: 8px 15px;
+}
+
+.LSRes {
+font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+visibility: visible;
+color: #666666;
+background-color: white;
+vertical-align: middle;
+display: block;
+list-style-image: none;
+list-style-type: none;
+text-align: left;
+min-width: 16.5em;
+text-transform: none;
+margin-left: 0;
+line-height: 1em;
+}
+#LSHighlight {
+background-color: white;
+}
+.LSRow {
+padding: 0;
+margin: 0;
+list-style-image: none;
+list-style-type: none;
+}
+.LSRow a {
+text-decoration: none;
+font-weight: bold;
+white-space: nowrap
+}
+.LSDescr {
+color: #777777;
+text-transform: lowercase;
+padding-left: 2.1em;
+margin-top: -0.1em;
+}
+.LSResult {
+position: relative;
+display: block;
+text-align: right;
+padding-top: 0px;
+padding-bottom: 0px;
+margin: 0;
+left: 3px;
+top: 1em;
+z-index: 3;
+}
+.LSShadow {
+position: relative;
+}
+.livesearchContainer {
+background-color: white;
+margin-top: 0;
+padding: 0 !important;
+position: absolute;
+left: 0px;
+
+top: 0;
+white-space: normal;
+font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+visibility: visible;
+text-align: left;
+color: #666666;
+border: 1px solid #999999;
+width: 30em;
+text-transform: none;
+}
+* html .livesearchContainer {
+padding: 1px !important;
+padding-top: 0 !important;
+background-color: white;
+border: 0;
+}
+#livesearchLegend {
+line-height: 1em;
+margin-top: -2em;
+margin-left: -0.1em;
+border: 2px solid #999999;
+border-bottom: 0;
+}
+* html #livesearchLegend {
+margin-top: -1.9em;
+margin-left: -8px;
+position: relative;
+}
+
+.LSIEFix {
+background-color: white;
+padding: 0.5em !important;
+z-index: 20;
+}
+.LSBox {
+text-align: right;
+padding-top: 3px;
+display: block;
+}
+#LSNothingFound {
+text-align: center;
+padding: 2px;
+}
+
+}
+
+
+/* - Plone_Calendar1256.css - */
+@media screen {
+/* http://forslagii.medialog.no/portal_css/Plone_Calendar1256.css?original=1 */
+
+
+
+
+.dayPopup {
+background-color: #003300;
+border: 1px solid #330000;
+padding: 0.2em;
+position: absolute;
+visibility: hidden;
+width: 12em;
+z-index: 2;
+}
+.date {
+font-weight: bold;
+}
+.portletCalendar {
+width: 100%;
+margin: 1px 0 1em 0;
+width: 100%;
+}
+.portletCalendar dt {
+background-color: #003300;
+font-weight: normal;
+text-align: center;
+line-height: 1.6em;
+border-bottom: none;
+}
+.portletCalendar dd {
+margin: 0;
+padding: 0;
+}
+.portletCalendar a {
+text-decoration: none;
+}
+.portletCalendar a:hover {
+text-decoration: none;
+}
+.ploneCalendar {
+border-collapse: collapse;
+border-spacing:0;
+width: 100%;
+color: #330000;
+}
+.ploneCalendar td {
+background-color: transparent;
+width: 14%;
+text-align: center;
+padding: 2px;
+}
+.ploneCalendar .weekdays th {
+background-color: #FF9900;
+border: 1px solid #330000;
+text-align: center;
+padding: 2px;
+font-weight: normal;
+}
+.ploneCalendar .event {
+background-color: #003300;
+font-weight: bold;
+}
+.ploneCalendar .todayevent {
+background-color: #663300;;
+border: 2px solid #CC6600;
+font-weight: bold;
+}
+.ploneCalendar .todaynoevent {
+border-collapse: collapse;
+border: 2px solid #663300;
+}
+
+.toc {
+float: right;
+width: 30%;
+font-size: 90%;
+margin: 0 0 0.5em 0.5em;
+}
+.toc .TOC1Digit {
+margin-left: 1em;
+}
+.toc .TOC2Digit {
+margin-left: 2em;
+}
+.toc .TOC3Digit {
+margin-left: 3em;
+}
+
+#portal-column-one fieldset.livesearchContainer {
+right: inherit !important;
+top: 1.5em !important;
+}
+
+
+
+}
+
+
+/* - subskins.css - */
+@media screen {
+/* http://forslagii.medialog.no/portal_css/subskins.css?original=1 */
+
+#portal-columns #portal-breadcrumbs {
+display: block;
+float:  none;
+margin-left:  0;
+}
+* {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+}
+li.formTab a {
+padding: 3px;
+}
+ul.configlets li {
+list-style-type: none !important;
+list-style-image: none !important;
+}
+
+#anon-personalbar {
+padding: 0; margin: 0;
+}
+
+
+.visualClear {
+display: block;
+clear: both;
+}
+.visualPadding {
+padding: 0;
+}
+.hiddenStructure, .netscape4 {
+display: none;
+}
+.tile {
+display: block;
+}
+body.fullscreen #portal-column-one,
+body.fullscreen #portal-column-two {
+display: none;
+}
+body.fullscreen #portal-column-content {
+width: 100%;
+margin: 0;
+padding: 0;
+}
+.managedPortlet .portletHeader {
+display: block;
+}
+
+
+
+html.kupu-html body {
+background: #f3f3f3;
+text-align: left;
+font-size: 1em;
+}
+html.kupu-html body {
+width: 98%;
+}
+.documentEditable  #content {
+padding: 8px;
+}
+.verdana {
+font-family: verdana, helvetica, sans-serif;
+}
+.times {
+font-family: "Times New Roman", Times, Georgia, serif;
+font-size: 115%;
+}
+.lucida {
+font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+.helvetica {
+font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+.color1 {
+color: #330000;
+}
+.color2 {
+color: #996600;
+}
+.color3 {
+color: #CC6600;
+}
+.color4 {
+color: #663300;
+}
+.color5 {
+color: #003300;
+}
+.color6 {
+color: #FF9900;
+}
+.black {
+color: #000;;
+}
+
+
+.visualClear {
+display: block;
+clear: both;
+}
+
+.netscape4 {
+display: none;
+}
+
+.hiddenStructure {
+display: block;
+background: transparent;
+background-image: none;
+
+border: none;
+height: 1px;
+overflow: hidden;
+padding: 0;
+margin: -1px 0 0 -1px;
+width: 1px;
+}
+.contentViews .hiddenStructure,
+.contentActions .hiddenStructure {
+position: absolute;
+top: -200px;
+left: -200px;
+}
+.hiddenLabel {
+display: block;
+background: transparent;
+background-image: none;
+
+border: none;
+height: 1px;
+overflow: hidden;
+padding: 0;
+margin: -1px 0 0 -1px;
+width: 1px;
+}
+
+
+div.overlay {
+width: auto;
+height: auto;
+
+display:none;
+
+margin:1em;
+font-size: 80%;
+}
+div.overlay-iframe,
+div.overlay-ajax {
+width: 60%;
+min-height: 100px;
+z-index: 99; 
+}
+div.overlay-iframe {
+height: 60%;
+}
+
+div.overlaybg div.close,
+div.overlay div.close {
+background-image: url(pb_close.png);
+position: absolute;
+left: -15px;
+top: -15px;
+cursor: pointer;
+height: 30px;
+width: 30px;
+}
+.pb-ajax, .pb-image {
+white-space: normal;
+border:0.5em solid #330000;
+-moz-border-radius:0.35em;
+-webkit-border-radius:0.35em;
+-moz-box-shadow:0 0 1em #888;
+-webkit-box-shadow:0 0 1em #888;
+}
+.pb-ajax > * {
+background-color: #fff;
+padding: 1em;
+white-space: normal;
+}
+.pb-ajax .documentActions {display:none}
+div.overlay div.close span {
+display:block;
+height:1px;
+margin:-1px 0 0 -1px;
+overflow:hidden;
+padding:0;
+width:1px;
+}
+div.overlay textarea { width: 100%; }
+#portal-logo img { margin: 0 0 20px;}
+.callout {
+color: red; font-size: 200%;
+}
+
+
+
+}
+
+
+/* - SubSkins_portlets_asconix.css - */
+@media screen {
+/* http://forslagii.medialog.no/portal_css/SubSkins_portlets_asconix.css?original=1 */
+
+
+
+
+.portlet{
+margin: 12px 12px;
+color: black;
+}
+.portlet ul{
+list-style-type: none;
+padding: 0;
+}
+.portlet ul, .portlet dl, .portlet li, .portlet dt, .portlet dd{
+margin: 0;
+color:black;
+}
+.portletHeader, dt.portletHeader, dt.portletHeader a.tile {
+color:  #996600;
+font-size: 15px;
+margin-top: 20px;
+}
+.portletNavigationTree dt.portletHeader  {
+display: block;
+}
+.portletItem{
+padding-top: 12px;
+color: #FF9900;
+}
+dd.portletItem .tile {
+color: #FF9900;
+}
+span.portletItemDetails{
+display: block;
+color: #003300;
+}
+.configlets li {
+padding: 0.5em 0;
+}
+.portletFooter {
+background: white;;
+padding:4px;
+display: block;
+}
+
+
+
+}
+
+
+/* - SubSkins_text_arty.css - */
+@media screen {
+/* http://forslagii.medialog.no/portal_css/SubSkins_text_arty.css?original=1 */
+
+
+
+body {
+font-family: verdana, helvetica, sans-serif;
+font-size: 10px;
+}
+h1 {
+font-family: verdana, helvetica, sans-serif;
+font-size: 14px;
+line-height: 20px;
+color:  #CC6600;
+}
+h2 {
+font-size: 13px;
+line-height: 17px;
+margin-top: 17px;
+}
+h2.tileHeadline {
+border-top: 2px dotted #CC6600;
+margin-top: 20px;
+padding-top: 13px;
+text-transform: uppercase;
+}
+.summary.url {
+color:  #CC6600;
+font-size: 14px;
+font-weight: normal;
+font-style: normal;
+}
+h5 {
+margin-bottom: 10px;
+}
+p.documentDescription,
+.documentDescription {
+background-image: none;
+background: none;
+padding: 4px 0px 0px 0px;
+color: #2f3130;
+font-size: 11px;
+line-height: 17px;
+font-weight: bold;
+}
+a {
+font-size: 10px;
+font-weight: bold;
+color: #CC6600;
+text-decoration: none;
+}
+a:hover {
+color: #996600;
+}
+p {
+font-family: verdana, helvetica, sans-serif;
+font-size: 11px;
+line-height: 16px;
+}
+p a:link {
+color:  #CC6600;
+}
+img {
+border: none;
+}
+img.image-right,
+img.tileImage {
+float: right;
+margin: 8px 0 10px 20px;
+}
+span#parent-fieldname-imageCaption {
+padding-left: 20px;
+}
+div.newsImageContainer {
+float: right;
+}
+p.tileFooter {
+margin-top: 10px;
+}
+p.tileFooter a {
+color:  #CC6600;
+font-weight: normal;
+font-style: normal;
+text-transform: uppercase;
+padding: 2px 0 3px 25px;
+background: url(buttonForward.png) no-repeat;
+}
+.documentByLine {
+margin: 10px 0;
+}
+.documentByLine,
+.documentByLine a {
+text-transform: uppercase;
+font-weight: normal;
+font-style: normal;
+font-size: 9px;
+}
+img.image-left{
+float: left;
+margin: 8px 20px 10px 0;
+}
+input {
+border: 1px solid #2f4355;
+margin: 5px 0;
+}
+#content-core ul {
+padding-left: 2em;
+}
+ol {
+margin: 0.5em 0 0.75em 2em;
+}
+#content-core  li {
+margin: 0.5em 0;
+}
+dl {
+margin: 0.5em 1em 0.75em;
+}
+dt {
+margin: 0.75em 0;
+font-weight: bold;
+}
+dd {
+margin: 0.5em 0;
+}
+a.tile {
+color: black;
+}
+fieldset {
+padding: 1em;
+border: 1px solid #ccc;
+}
+legend {
+font-weight: bold;
+}
+form {
+border: 0;
+}
+label {
+font-weight: bold;
+display: inline;
+}
+textarea {
+border: 1px solid #ccc;
+margin: 5px 0;
+}
+select {
+border: 1px solid #ccc;
+}
+.field {
+margin-top: 0.75em;
+}
+.formControls input, .searchButton {
+padding: 2px;
+padding-left: 20px;
+}
+table {
+border-collapse: collapse;
+font-size: 1em;
+}
+tbody {
+}
+tr {
+}
+th {
+}
+td {
+}
+em {
+font-style: normal;
+font-weight: bold;
+}
+strong {
+font-weight: bold;
+}
+cite, q {
+}
+blockquote {
+margin: 0.7em 0;
+padding: 0.5em 10px;
+border: 1px solid #ccc;
+color: #666666;
+}
+code, kbd {
+background: #333;
+color: #ccc;
+font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;
+}
+pre {
+margin: 0.5em 2em 0.75em 2em;
+padding: 0.5em;
+background: #333;
+color: #666666;
+font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;
+}
+ins {
+}
+del {
+color: #999;
+text-decoration: overline;
+}
+.portalMessage {
+padding: 0.375em 1em;
+margin-left: 0;
+margin-right:  0;
+background: #003300;
+border: 1px solid #eb0000;
+}
+.documentActions ul {
+margin: 0;
+text-align: right;
+}
+.documentActions ul li {
+display: inline;
+padding-right: 0.5em;
+}
+.documentActions ul li a {
+border: 0;
+}
+.documentFirstHeading {
+color:  #996600;
+font-weight: normal;
+font-style: normal;
+text-transform: uppercase;
+font-size: 20px;
+padding: 0px;
+font-weight: normal;
+margin: 2px 0px 14px 0px;
+}
+.documentDescription {
+padding: 0.5em;
+background: #f3f3f3;
+margin-bottom: 1.5em;
+}
+.comment {
+border: 1px solid #ccc;
+background: #f3f3f3;
+}
+.photoAlbumEntryWrapper {
+float: left;
+}
+.photoAlbumEntryTitle {
+float: left;
+clear: both;
+margin-top: 6px;
+}
+#content  div div.photoAlbumEntry a {
+float: left;
+margin: 20px 20px 10px 0
+}
+
+}
+
+
+/* - SubSkins_navigation_2silver.css - */
+@media screen {
+/* http://forslagii.medialog.no/portal_css/SubSkins_navigation_2silver.css?original=1 */
+
+#portlet-navigation-tree .portletItem{
+padding:0px 0px 0px 0px;
+background-image: none;
+overflow: hidden;
+font-family: tahoma, arial, verdana, sans-serif;
+list-style-type: none;
+}
+.portletNavigationTree{
+list-style-type: none;
+padding: 0px;
+border: 0;
+border-bottom-style: none;
+}
+.portletNavigationTree ul{
+padding:0px 0px 0px 0px;
+margin:0px;
+list-style:none;
+z-index:2;
+border-top: 1px solid silver;
+}
+.portletNavigationTree li{
+margin: 0;
+}
+.portletNavigationTree li a{
+display: block;
+width: auto;
+padding: 6px 6px;
+padding-left: 10px;
+border-top: 0px;
+border-right: 0px;
+color: #996600;
+text-decoration: none;
+border-bottom: 1px solid  silver;
+}
+.portletNavigationTree li.navTreeItem a.navTreeCurrentItem{
+color: #996600;
+}
+.portletNavigationTree li a:hover,
+a.navTreeCurrentItem{
+color: black;
+}
+.portletNavigationTree li a:hover{
+font-weight: bold;
+color: black;
+}
+.portletNavigationTree .navTreeLevel1 li a {
+padding-left: 15px;
+color: black;
+font-weight: normal;
+font-style: normal;
+}
+.portletNavigationTree .navTreeLevel2 li a {
+padding-left: 20px;
+color: black;
+font-weight: normal;
+font-style: normal;
+}
+.portletNavigationTree .navTreeLevel3 li a {
+padding-left: 25px;
+color: black;
+font-weight: normal;
+font-style: normal;
+}
+
+}
+
+

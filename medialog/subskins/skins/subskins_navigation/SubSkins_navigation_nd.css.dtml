@@ -1,0 +1,67 @@
+/*
+  For SubSkins
+   <dtml-with get_base_properties mapping> (do not remove this)
+ <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+
+dl.portletNavigationTree dd.portletItem ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding: 10px;
+}
+
+dl.portletNavigationTree dd.portletItem li ul {
+  padding: 0;
+  margin: 0;
+  padding-left: 14px;
+}
+
+
+
+dl.portletNavigationTree dd.portletItem ul li a {
+  display: block;
+  margin: 0;
+  padding: 0.3em 0 0.3em 14px;
+    color:  #555;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+dl.portletNavigationTree dd.portletItem ul li a img {
+  vertical-align: text-top;
+}
+
+dl.portletNavigationTree dd.portletItem ul li a.navTreeCurrentItem {
+  background: transparent url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor2;/arrow-darkblue.png) 0 0.5em no-repeat;
+}
+
+dl.portletNavigationTree dd.portletItem ul li a.navTreeItemInPath {
+  background: transparent url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor2;/arrow-darkblue_down.png) 0 0.5em no-repeat;
+}
+
+dl.portletNavigationTree dd.portletItem ul li a:hover {
+  background: transparent url(arrow-gray.png) 0 0.5em no-repeat;
+  text-decoration: none;
+}
+
+ul#portal-sitemap {
+  margin: 1em 0;
+}
+
+ul#portal-sitemap li {
+  margin: 0.5em 0;
+}
+
+ul#portal-sitemap li a {
+  display: block;
+  padding: 0.1em 0;
+}
+
+.navTreeItem {
+  display: block;
+  line-height: 1.2em;
+}
+
+/* </dtml-with> */

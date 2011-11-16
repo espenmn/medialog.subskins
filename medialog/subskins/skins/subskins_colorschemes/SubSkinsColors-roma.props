@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Roma
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=561420
+SubSkinsColor1:string=#561420
+SubSkinsColor2:string=#821122
+SubSkinsColor3:string=#C59A6F
+SubSkinsColor4:string=#333333
+SubSkinsColor5:string=#CCCCCC
+SubSkinsColor6:string=#FCFCFC
+SubSkinsPosition:string=-560

@@ -1,0 +1,358 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+/* @group text from koha contest */
+
+body {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 11px;
+}
+
+h1 {
+	color: #01679a;
+	font: normal 20px/27px verdana, helvetica, sans-serif;
+	margin-top: 17px;
+}
+
+h1.documentFirstHeading {
+	margin-top: 0px;
+}
+
+.boardCommentDetails {
+	background: grey url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor2;/blue_grid.jpg) repeat;
+	color: whitesmoke;
+}
+
+h2 {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: bold;
+	margin-top: 17px;
+}
+
+h5 {
+	margin-bottom: 11px;
+}
+
+p.documentDescription,
+.documentDescription {
+	padding: 9px 0px 0px 0px;
+	font: 12px/18px verdana, helvetica, sans-serif;
+}
+
+#parent-fieldname-imageCaption {
+	display: block;
+	padding-bottom: 10px;
+	padding-top: 4px;
+	width: 100%;
+	color: black;
+	font: bold 11px "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+a {
+	font-family: verdana, helvetica, sans-serif;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000000;
+}
+
+p {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	margin-bottom: 5px;
+}
+
+p a:link {
+	color: #000000;
+}
+
+img {
+	border: none;
+	vertical-align: middle;
+}
+
+.newsImageContainer img {
+	float: left;
+	margin: 3px 25px 10px 0;
+}
+
+img.image-left {
+	float: left;
+	margin: 5px 25px 15px 0;
+	padding: 5px;
+	border: 2px solid #01679a;
+}
+
+img.image-right {
+	float: right;
+	margin: 5px 0 15px 25px;
+	padding: 5px;
+	border: 2px solid #01679a;
+}
+
+h3 {
+	background: #01679a;
+	color: whitesmoke;
+	padding: 3px 8px;
+	margin-top: 16px;
+	margin-bottom: 10px;
+}
+
+input {
+	border: 1px solid #ccc;
+	margin: 5px 0;
+}
+
+input.standalone {
+	background: white url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/bullet.gif) no-repeat 6px center;
+	padding: 6px 10px 6px 30px;
+}
+
+#content div a.link-parent {
+	padding-left: 22px;
+	padding-top: 9px;
+	background: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor2;/bullet.gif) no-repeat 0 9px;
+}
+
+#form label {
+	color: #336699;
+	margin-right: 6px;
+}
+
+#form fieldset input {
+	padding: 3px;
+	margin-right: 5px;
+}
+
+#content-core ul  {
+	margin: 0.5em 0 0.75em 1.5em;
+	list-style-type: disc;
+	font-size: 11px;
+}
+
+ol {
+	margin: 0.5em 0 0.75em 2em;
+}
+
+#content-core li {
+	list-style-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor3;/red-bullet.gif);
+	margin: 0.3em 0 0.3em 2.5em;
+	list-style-position: outside;
+}
+
+#content-core li {
+	margin: 0.5em;
+}
+
+.visualNoMarker li {
+	list-style-image: none !important;
+}
+
+dl {
+	margin: 0.5em 1em 0.75em;
+}
+
+dt {
+	margin: 0.75em 0;
+	font-weight: bold;
+}
+
+dd {
+	margin: 0.5em 0;
+}
+
+a.tile {
+	color: black;
+}
+
+fieldset {
+	padding: 1em 2em;
+	border: 1px solid #ccc;
+	margin-bottom: 12px;
+	background: whitesmoke;
+}
+
+legend {
+	font-weight: bold;
+}
+
+form {
+	border: 0;
+}
+
+label {
+	font: 11px verdana, helvetica, sans-serif;
+	font-weight: bold;
+	display: inline;
+}
+
+textarea {
+	border: 1px solid #ccc;
+	margin: 5px 0;
+}
+
+select {
+	border: 1px solid #ccc;
+}
+
+.field {
+	font: 11px verdana, helvetica, sans-serif;
+	margin-top: 0.75em;
+}
+
+.formControls input, .searchButton {
+	padding: 2px;
+	padding-left: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	font-size: 1em;
+}
+
+#content table.listing thead tr th {
+	background: whitesmoke;
+	line-height: 200%;
+}
+
+tbody {
+	
+}
+
+tr {
+	
+}
+
+th {
+	
+}
+
+td {
+	
+}
+
+em {
+	font-style: normal;
+	font-weight: bold;
+}
+
+strong {
+	font-weight: bold;
+}
+
+cite, q {
+	
+}
+
+blockquote {
+	margin: 0.7em 0;
+	padding: 0.5em 11px;
+	border: 1px solid  #01679a;
+	;
+	color: #01679a;
+;
+}
+
+#content div.plain blockquote {
+	clear: both;
+}
+
+code, kbd {
+	background: #333;
+	color: #ccc;
+	font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;
+}
+
+pre {
+	margin: 1em 0em;
+	padding: 0.7em 0.3em;
+	background: whitesmoke;
+	color: #3d3d3d;
+	font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;
+}
+
+ins {
+	
+}
+
+del {
+	color: #999;
+	text-decoration: overline;
+}
+
+.portalMessage {
+	padding: 0.375em 1em;
+	margin-left: 0;
+	margin-right:  0;
+	background: &dtml-SubSkinsColor5;;
+	border: 1px solid #eb0000;
+}
+
+div.documentActions ul {
+	margin: 10px 0;
+	text-align: right;
+	padding: 0;
+	padding-top: 5px;
+	width: 100%;
+	display: block;
+}
+
+.documentActions ul li {
+	display: inline;
+	margin-left: 7px !important;
+}
+
+.documentActions ul li a {
+	border: 0;
+	padding-right: 0;
+	margin-right: 0;
+}
+
+.documentDescription {
+	margin-bottom: 1.5em;
+}
+
+.comment {
+	border: 1px solid #ccc;
+	background: #f3f3f3;
+}
+
+#Xregion-content div dl dt span.discreet {
+	display: none;
+}
+
+#content   table.listing span.discreet {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 10px;
+	color: #666;
+}
+
+#content div.poweredBy {
+	margin-top: 20px;
+}
+
+.photoAlbumEntryWrapper {
+	float: left;
+}
+
+.photoAlbumEntryTitle {
+	float: left;
+	clear: both;
+	margin-top: 6px;
+}
+
+#content div div.photoAlbumEntry a {
+	float: left;
+	margin: 20px 20px 10px 0
+}
+
+/* @end */
+
+/* </dtml-with> */

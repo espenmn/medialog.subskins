@@ -1,0 +1,92 @@
+
+
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+
+
+/* @group Calendar */
+
+.dayPopup {
+	background-color: &dtml-SubSkinsColor5;;
+	padding: 0.2em;
+	position: absolute;
+	visibility: hidden;
+	width: 12em;
+	z-index: 2;
+	border: 1px solid &dtml-SubSkinsColor4;;
+}
+
+.date {
+	font-weight: bold;
+}
+
+.ploneCalendar {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 1px;
+	border: 1px solid &dtml-SubSkinsColor1; ;
+	margin: 0;
+	padding: 0;
+	font-variant: normal;
+}
+
+.portletCalendar .portletItem {
+	padding:  0;
+}
+
+.portlet.portletCalendar {
+	background: white;
+}
+
+.ploneCalendar a {
+	color: whitesmoke;
+}
+
+.ploneCalendar a:hover {
+	text-decoration: none;
+}
+
+.ploneCalendar th {
+	padding: 0.2em 0.5em;
+	background:  url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/000forlopvII.jpg) repeat-x left; 
+	line-height: 1.6em;
+	text-align: center;
+	font-weight: normal;
+}
+
+.ploneCalendar td {
+	text-align: center;
+	color: #999;
+	padding: 0.2em;
+}
+
+.ploneCalendar .weekdays td {
+	text-align: center;
+}
+
+.ploneCalendar .event {
+	color: whitesmoke;
+	font-weight: bold;
+	background-color:&dtml-SubSkinsColor2;;
+}
+
+.ploneCalendar .todayevent {
+	background-color: &dtml-SubSkinsColor2;;
+	font-weight: bold;
+	color: whitesmoke;
+}
+
+.ploneCalendar .todaynoevent {
+	border-collapse: collapse;
+	border: 2px solid &dtml-SubSkinsColor1;;
+}
+
+.ploneCalendar #calendar-previous {
+	
+}
+
+/* @end */
+
+/* </dtml-with> */

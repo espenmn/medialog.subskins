@@ -1,0 +1,17 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+#visual-portal-wrapper {
+	padding: 15px;
+}
+
+#portal-columns  td#portal-column-one,
+#portal-columns  td#portal-column-two {
+	border: 1px solid #e7e7e7;
+	margin: 20px;;
+	background: white url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor3;/page_back_bw.gif) repeat-x !important;
+	padding: 20px;
+}
+
+/* </dtml-with> */
+

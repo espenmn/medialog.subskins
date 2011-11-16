@@ -1,0 +1,89 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+#portal-top {
+	
+	width: 100%;
+	height: auto;
+}
+
+#portal-header {
+	width: 100%;
+	background: url(http://www.coactivate.org/projects/plone-strategic-planning/project-home/plone-people-pointing.jpg) 0 -20px;
+	height: 210px;
+}
+
+#portal-searchbox {
+	float: left;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+}
+
+#portal-logo img{
+	margin: 0;
+	padding: 0;
+	width:  100% !important;;
+	height: 150px !important;
+	clear: both;
+	content: url(transparent.gif);
+}
+
+#portal-siteactions {
+	display: block;
+	float: right;
+	line-height: 30px;
+	margin: 0;
+	margin-left: 12px;
+	padding: 0;
+}
+
+#portal-siteactions li {
+	display: inline;
+	padding: 0;
+	padding-right: 12px;
+	line-height: 30px;
+	font-size: 8pt;
+}
+
+#portal-siteactions li a {
+	color: #f4f6f6;
+	border: 0;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#portal-siteactions li a:hover {
+	color: #f9fecd;
+}
+
+#portal-personaltools {
+	float: right;
+	margin: 0.5em 1em;
+	padding: 0;
+}
+
+#portal-personaltools li {
+	display: inline;
+	list-style: none;
+	list-style-image: none;
+}
+
+#portal-personaltools li a {
+	text-decoration: none;
+	margin-right: 1em;
+}
+
+#portal-breadcrumbs {
+	padding: 8px 15px;
+	font-size: 85%;
+	margin-top:  5px;
+}
+
+.livesearchContainer {
+    background-color:white;
+    }
+
+
+/* </dtml-with> */

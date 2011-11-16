@@ -1,0 +1,104 @@
+/*
+  denne er ferdig (blaa til bruk i medialog demo site
+  <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-with base_properties> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+
+/* portal navigation
+
+---------------------------------------------------------------------- */
+
+#portlet-navigation-tree .portletItem{
+    padding:0px 0px 0px 0px;
+    background-image: none;
+	overflow: hidden;
+	font-family: tahoma, arial, verdana, sans-serif;
+	list-style-type: none;
+	}
+
+.portletNavigationTree{
+  list-style-type: none;
+   padding: 0px;
+  border: 0;
+ 
+  border-bottom-style: none;
+  }
+
+.portletNavigationTree ul{
+  padding:0px 0px 0px 0px;
+  margin:0px;
+  list-style:none;
+  z-index:2;
+  border-top: 1px solid &dtml-SubSkinsColor5;;
+ 
+  }
+
+.portletNavigationTree li{
+  margin: 0;
+  }
+
+.portletNavigationTree li a{
+  display: block;
+  width: auto;
+  padding: 6px 6px;
+  padding-left: 10px;
+  border-top: 0px;
+  border-right: 0px;
+  color: &dtml-SubSkinsColor2;;
+  text-decoration: none;
+  border-bottom: 1px solid  &dtml-SubSkinsColor5;;
+  }
+
+.portletNavigationTree li.navTreeItem a.navTreeCurrentItem{
+  color: &dtml-SubSkinsColor2;;
+  
+ 
+  }
+
+.portletNavigationTree li a:hover,
+a.navTreeCurrentItem{
+  color: black;
+ 
+  }
+
+.portletNavigationTree li a:hover{
+  font-weight: bold;
+  color: black;
+
+  }
+
+.portletNavigationTree .navTreeLevel1 li a {
+  padding-left: 0.75em;
+  color: black;
+  font-weight: normal;
+  font-style: normal;
+  }
+
+.portletNavigationTree .navTreeLevel2 li a {
+  padding-left: 1.5em;
+   color: black;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.portletNavigationTree .navTreeLevel3 li a {
+  padding-left: 2.25em;
+  color: black;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.portletNavigationTree .navTreeLevel2 a:hover {
+  padding-left: 1.5em;
+   }
+
+.portletNavigationTree .navTreeLevel3 a:hover {
+  padding-left: 2.25em;
+ 
+  }
+
+/* </dtml-with> 
+  </dtml-with>
+*/

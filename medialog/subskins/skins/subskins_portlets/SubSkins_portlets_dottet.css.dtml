@@ -1,0 +1,100 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+
+.portlet {
+	margin: 0 0 22px 0;
+	padding: 5px;
+	border: 1px dashed #939393;
+}
+
+.portlet a.tile {
+	color: #333;
+	text-decoration: none;
+	clear: both;
+}
+
+.portlet ul {
+	list-style-type: none;
+}
+
+.portlet ul, .portlet dl, .portlet li, .portlet dt, .portlet dd {
+	margin: 0;
+}
+ 
+.portletHeader {
+	text-align: center;
+	padding: 2px;
+border-bottom: 1px dashed #939393;
+}
+ 
+.portletHeader a.tile {
+	font: bold 1em Helvetica, Arial, "Helvetica Neue", Verdana, Geneva, sans-serif;
+	padding: 3px 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #939393;
+
+}
+.portletNavigationTree .portletItem,
+.portletCalendar .portletItem {
+	padding: 0;
+}
+
+.portletItem {
+	padding: 6px 10px;
+}
+
+.portletItemDetails {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 9px;
+	padding-right: 10px;
+	margin-bottom: 6px;
+	padding-top: 2px;
+	clear: both;
+	display: block;
+}
+
+
+dd.portletFooter {
+	line-height: 25px;
+	padding-left: 10px;
+}
+
+.portletFooter {
+	border: 0 none;
+	padding: 1px 13px;
+	clear: both;
+	text-align: right;
+	border-top: 1px dashed #939393;;
+}
+
+
+.portletFooter a {
+	text-align: right;
+	line-height: 130%;
+}
+
+.portletLogin .portletItem {
+	padding-top: 0;
+	padding-bottom: 5px;
+}
+
+.portletItem.even {
+background: #EEE;	
+}
+
+
+input#__ac_name,
+input#__ac_password {
+	width: 130px;
+	margin-top: 4px;
+}
+
+.portletLogin div.field {
+	padding: 3px;
+}
+/* </dtml-with> */
+
+ 

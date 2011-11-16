@@ -1,0 +1,38 @@
+/*
+For SubSKins
+  <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+#portal-globalnav {
+height: 35px;
+clear: both;
+display: block;
+background: url(000forlopvII.jpg) repeat-x;
+background-position: 0 -55px;
+
+}
+#portal-globalnav li {
+display: block;
+float: left;
+border-right: 5px solid white;
+font-size: 12px;
+height: 35px;
+}
+
+#portal-globalnav li a {
+	font-weight:bold;
+border-top: 4px solid &dtml-SubSkinsColor1;;
+line-height: 35px;
+display: block;
+padding: 0em 1.5em;
+text-decoration: none;
+text-transform: uppercase
+}
+#portal-globalnav li.selected a,
+#portal-globalnav li a:hover {
+border-color:  &dtml-SubSkinsColor2;;
+color: #000;
+}
+
+
+/* </dtml-with> */

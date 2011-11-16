@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Blues
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=183152
+SubSkinsColor1:string=#183152
+SubSkinsColor2:string=#375D81
+SubSkinsColor3:string=#ABC8E2
+SubSkinsColor4:string=#D3E3F5
+SubSkinsColor5:string=#E5F1FA
+SubSkinsColor6:string=#EEF8FF
+SubSkinsPosition:string=-40

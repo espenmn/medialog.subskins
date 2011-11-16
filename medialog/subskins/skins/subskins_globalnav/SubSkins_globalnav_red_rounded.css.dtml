@@ -1,0 +1,34 @@
+/* @override http://www.plonesubskins.com/portal_css/SubSkins/SubSkins_globalnav_corporate_I.css */
+
+#portal-globalnav
+{
+width:760px;
+height:30px;
+background: url(nav_bg.png) no-repeat;
+padding-left:20px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: lowercase;
+	clear: both;
+	margin:  0 auto;
+}
+
+#portal-globalnav li {
+	background: url(vertical_line.png) no-repeat;
+	line-height: 30px;
+	text-decoration: none;
+		list-style-type: none;
+		display: block; float:  left;
+		margin: 0;
+	font-size: 13px;
+}
+
+#portal-globalnav li a{
+background: url(vertical_line.png) no-repeat right;
+display: block;
+float:left;
+color: white;
+	font-weight: bold;
+	list-style-type: none;
+	padding: 0 20px;;
+}

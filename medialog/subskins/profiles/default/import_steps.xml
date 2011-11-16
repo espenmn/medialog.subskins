@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<import-steps>
+  <import-step id="medialog.subskins.various"
+               version="20081110-01"
+               handler="medialog.subskins.setuphandlers.setupVarious"
+               title="subskins: miscellaneous import steps">
+    <dependency step="skins" />
+    Various import steps that are not handled by GS import/export
+    handlers.
+  </import-step>
+</import-steps>

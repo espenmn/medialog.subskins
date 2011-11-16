@@ -1,0 +1,67 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+.portletWrapper {
+	margin-left:7px;
+}
+ 
+.portlet {
+ 	padding:0px!important;
+ 	margin:0px;
+}
+
+dt.portletHeader a.tile,dt.portletHeader {
+ 	color:&dtml-SubSkinsColor1;;
+ 	text-decoration:none;
+}
+
+dt.portletHeader {
+ 	font-weight:bold;
+ 	text-transform:uppercase;
+ 	border-bottom:dotted 1px #999999;
+}
+
+.portlet ul {
+	list-style-type: none;
+}
+
+.portlet dd img {
+ 	display:none;
+}
+
+.portlet dd {
+ 	margin:0px;
+ 	line-height:12px;
+}
+
+.portlet dd {
+ 	padding:5px;
+ 	line-height:12px;
+}
+
+.portlet dd a {
+ 	text-decoration:none;
+}
+
+
+ .portletFooter {
+ 	border:0px;
+}
+
+ .portletEvents li {
+ 	border-bottom:dotted 1px #575757;
+ }
+
+ .portletEvents .portletItem a, .portletNews .portletItem a {
+ 	color:#575757;
+ 	display:block;
+ 	border-bottom:dotted 1px #575757;
+ }
+
+ .portletEvents .even {
+ 	background-color:transparent;}
+
+
+/* </dtml-with> */
+
+

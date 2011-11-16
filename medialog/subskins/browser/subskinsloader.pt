@@ -1,0 +1,19 @@
+<tal:block metal:define-macro="ImportStylesheets" tal:condition="exists:here/portal_subskinstool">
+	<tal:plonesubskins tal:define="portal_url here/portal_url;">
+			 <tal:style tal:repeat="lines python:here.extracss" tal:condition="exists:here/extracss">
+				<style type="text/css" media="all"
+					tal:define="stylesheet python:lines"
+					tal:content="string:@import url($stylesheet);">
+		        </style>
+			</tal:style>
+
+            <tal:style  tal:repeat="lines python:here.portal_url.extracss"  tal:condition="exists:here/portal_url/extracss">
+				<style type="text/css" media="all"
+					tal:define="stylesheet python:lines"
+					tal:content="string:@import url($stylesheet);"  tal:condition="not:exists:here/extracss">>
+		        </style>
+			</tal:style>
+
+
+		</tal:plonesubskins>
+</tal:block>

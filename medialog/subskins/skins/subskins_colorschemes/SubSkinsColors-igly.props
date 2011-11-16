@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Igly
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=FFD600
+SubSkinsColor1:string=#FFD600
+SubSkinsColor2:string=#D60028
+SubSkinsColor3:string=#0050AE
+SubSkinsColor4:string=#427CC3
+SubSkinsColor5:string=#DF3D5A
+SubSkinsColor6:string=#FFE041
+SubSkinsPosition:string=-89

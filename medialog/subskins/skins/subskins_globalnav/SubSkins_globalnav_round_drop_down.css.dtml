@@ -1,0 +1,118 @@
+/*
+  For SubSkins
+  <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+#portal-globalnav { 
+clear: both; 
+margin: 5px 0 0 0; 
+padding: 0; 
+display: block; 
+height: 27px; 
+background: red; 
+background: url(titlebg.gif) repeat; 
+
+} 
+
+#portal-globalnav li { 
+display: block; 
+margin: 0; 
+float: left; 
+padding:0; 
+height: 27px; 
+text-align: center; 
+} 
+
+#portal-globalnav li a { 
+display: block; 
+padding: 1px 10px; 
+margin: 5px 2px; 
+color: black; 
+font: bold 1em Verdana, Helvetica, Arial, "Helvetica Neue", Geneva, sans-serif; 
+filter:alpha(opacity=75); 
+-moz-opacity:0.75; 
+-khtml-opacity: 0.75; 
+opacity: 0.75; 
+vertical-align: middle; 
+background: white; 
+
+} 
+
+#portal-globalnav li:hover a, 
+#portal-globalnav .selected a { 
+color: #006A94; 
+vertical-align: middle; 
+} 
+
+/** SUBMENU STYLES 
+*/ 
+
+#portal-globalnav ul.submenu li { 
+width: 90% !important; 
+padding: 0; 
+margin: 0; 
+} 
+
+.selected ul.submenu { 
+z-index: 99; 
+} 
+
+ul.submenu a:hover { 
+
+} 
+
+#portal-globalnav .submenu li { 
+padding: 0; 
+margin: 0; 
+} 
+
+#portal-globalnav .submenu { 
+border-top: 1px solid #616362; 
+padding-bottom: 8px; 
+} 
+
+#portal-globalnav .submenu ul { 
+border-style: solid solid solid solid !important; 
+border-color: #616362; 
+
+} 
+
+#portal-globalnav ul.submenu a { 
+line-height: 17px; 
+font-weight: normal; 
+font-style: normal; 
+} 
+
+#portal-globalnav ul { 
+padding: 0; 
+} 
+
+.submenu li a { 
+color: #515151 !important; 
+text-align: left; 
+text-transform: capitalize; 
+border-style: none; 
+border-width: 0; 
+} 
+
+.submenu li { 
+background-image: none !important; 
+} 
+
+ul.submenu { 
+margin-top: 5px !important; 
+} 
+
+/* side-dropdown menu styles */ 
+
+#portal-globalnav li ul ul { 
+z-index: 99; 
+margin: 0 0 0 14em; 
+} 
+
+.submenu ul { 
+padding-left: 0; 
+} 
+
+/* </dtml-with> */

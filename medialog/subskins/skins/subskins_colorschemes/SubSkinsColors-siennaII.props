@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Sienna II
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=B64646
+SubSkinsColor1:string=#B64646
+SubSkinsColor2:string=#467DB4
+SubSkinsColor3:string=#B47D46
+SubSkinsColor4:string=#B4B446
+SubSkinsColor5:string=#70C7C7
+SubSkinsColor6:string=#9CD8D8
+SubSkinsPosition:string=-410

@@ -1,0 +1,36 @@
+/*
+  For SubSKins - Dette er medialog looken.
+  <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+#portal-globalnav {
+	clear: both;
+	padding: 0;
+	margin: 0;
+	min-height: 29px;
+	background: #666 url(vertical_line.jpg) repeat-x left  &dtml-SubSkinsPosition;px;
+	position: relative;
+}
+
+#portal-globalnav li {
+	color: #fff;
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 15px;
+	padding: 2px 10px;
+	margin: 5px 0px;
+	border-right: 1px solid &dtml-SubSkinsColor4;;
+	display: block;
+	float: left;
+}
+
+#portal-globalnav li a:hover,
+#portal-globalnav li.selected a,
+#portal-globalnav li a {
+	text-decoration: none;
+	color: &dtml-SubSkinsColor5;;
+}
+
+/* </dtml-with> */

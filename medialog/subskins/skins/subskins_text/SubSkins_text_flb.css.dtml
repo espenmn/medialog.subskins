@@ -1,0 +1,34 @@
+/*for subskins *//* <dtml-with get_base_properties mapping> (do not remove this :) *//* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */body {	font-family: Helvetica, Arial, "Helvetica Neue", sans-serif;	font-size: 11px;	line-height: 15px;	}	body.section-front-page #portal-column-content * {	color:  white;	}body #portal-column-content{	padding: 30px 30px;background: white url(menu_active.gif) repeat-x;}body.section-front-page #portal-column-content{	padding: 30px 30px;	background: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor2;/000forlop.jpg) repeat-y;}body.section-bilder #portal-column-content{	padding: 30px 30px;	background: black;}body.section-bilder h1{	display: none;}h1 {	font-size: 17px;	line-height: 20px;	color: &dtml-SubSkinsColor1;;	}h2 {	font-size: 14px;	line-height: 17px;	margin-top: 17px;	}h5 {	margin-bottom: 10px;	}p.documentDescription,.documentDescription {	background:none;	padding:  8px 0px 20px 0px;	color: &dtml-SubSkinsColor3;;	font-weight: bold;}a {	font-size: 10px;	font-weight: bold;	color: &dtml-SubSkinsColor2;;	text-decoration: none;	}a:hover {	color: &dtml-SubSkinsColor1;;	}p {	font-size:	11px;	line-height: 15px;	}p a:link {	color: &dtml-SubSkinsColor2;;	}img {	border: none;	}
+
+img.image-right {
+	float: right;
+	margin: 8px 0 10px 20px;
+}
+
+img.image-left {
+	float: left;
+	margin: 8px 20px 10px 0;
+}input {    border: 1px solid  #F1E2B9;    margin: 5px 0;    }    #content-core ul {	margin: 0.5em 0 0.75em 2em;	list-style-type: disc;}ol{	margin: 0.5em 0 0.75em 2em;	}#content-core li{	line-height: 20px;	list-style-type: none;	list-style-position: outside;	list-style-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/red-bullet.gif);	padding-top: 5px;}dl{	margin: 0.5em 1em 0.75em;	}dt{	margin: 0.75em 0;	font-weight: bold;	}dd{	margin: 0.5em 0;	}fieldset{	padding: 1em;	border: 1px solid #ccc;	}legend{	font-weight: bold;	}form{	border: 0;	}label {	font: 10px Verdana, Helvetica, sans-serif;	font-weight: bold;	display: inline;	}textarea{	border: 1px solid #ccc;	margin: 5px 0;	}select{	border: 1px solid #ccc;	}.field{	font-size: 10px;	margin-top: 0.75em;	}.formControls input, .searchButton{	padding: 2px ;	padding-left: 20px;	}table{	border-collapse: collapse;	font-size: 1em;	}	tbody{}tr{}th{}td{}em{	font-style: normal;	font-weight: bold;	}	strong{	font-weight: bold;	}cite, q{}blockquote{	margin: 0.7em 0;	padding: 0.5em 10px;	border: 1px solid #ccc;	color: #666666;	}code, kbd{	background: &dtml-SubSkinsColor5;;	font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;	color: #484848;}pre{	margin: 0.5em 2em 0.75em 2em;	padding: 0.5em;	background: &dtml-SubSkinsColor5;;	color: &dtml-SubSkinsColor1;;	font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;	color: #555654;}ins{}del{	color: #F1E2B9;	text-decoration: overline;	}.portalMessage {
+	padding: 0.375em 1em;
+	margin-left: 0;
+	margin-right:  0;
+	background: &dtml-SubSkinsColor5;;
+	border: 1px solid #eb0000;
+}	body.section-front-page .documentActions ul{	display: none;	}	.documentActions ul{	margin: 0;	text-align: right;	}.documentActions ul li{	display: inline;	padding-right: 0.5em;}.documentActions ul li a{	border: 0;}.documentFirstHeading{	color: &dtml-SubSkinsColor1;;}.comment{	border: 1px solid #F1E2B9;	background: &dtml-SubSkinsColor5;;	}
+	.highlightedSearchTerm {background-color: &dtml-SubSkinsColor3;;
+}
+
+.photoAlbumEntryWrapper {
+	float: left;
+}
+
+.photoAlbumEntryTitle {
+	float: left;
+	clear: both;
+	margin-top: 6px;
+}
+
+#content div div.photoAlbumEntry a {
+	float: left;
+	margin: 20px 20px 10px 0
+}/* </dtml-with>*/

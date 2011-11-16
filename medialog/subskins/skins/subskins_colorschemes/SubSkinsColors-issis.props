@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Issisi
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=3F3F30
+SubSkinsColor1:string=#A2282C
+SubSkinsColor2:string=#6BACD5
+SubSkinsColor3:string=#DE7F25
+SubSkinsColor4:string=#C24400
+SubSkinsColor5:string=#F7C510
+SubSkinsColor6:string=#B0B834
+SubSkinsPosition:string=-490

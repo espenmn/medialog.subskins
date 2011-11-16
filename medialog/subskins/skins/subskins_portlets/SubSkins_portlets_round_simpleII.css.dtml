@@ -1,0 +1,73 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+dl.portlet {
+	position: relative;
+	border: 0;
+	background-color:  <dtml-var expr="dim_to_white(color=SubSkinsColor3, percent='85')">;	
+}
+
+.portletHeader {
+	padding: 8px 15px 7px 15px;
+	font-size: 1.2em;
+	line-height: 1em;
+	background-position: top right;
+	background-repeat: no-repeat;
+	text-transform: capitalize;
+	background-color:  <dtml-var expr="dim_to_white(color=SubSkinsColor3, percent='20')">;	
+	background-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor3;/curled-papersII-tr.gif);
+}
+
+.portletHeader a {
+	color: white;
+	text-decoration: none;
+}
+
+.portletItem {
+	padding: 0.7em 15px;
+	font-size: 1.1em;
+}
+
+.portlet ul {
+	list-style-type: none;
+}
+
+dd.portletFooter {
+	background-color: transparent;
+	margin-top: 1em;
+	padding: 0.3em 15px 0.5em;
+	border-top: 1px solid &dtml-SubSkinsColor3;;
+}
+
+/* portlets rounded corners */
+
+.portletBottomLeft,
+.portletBottomRight {
+	position: absolute;
+	height: 10px;
+	width: 10px;
+	background-repeat: no-repeat;
+	background: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor3;/TransparentCorners-10.png);
+}
+
+.portletBottomLeft {
+	bottom: 0;
+	left: 0;
+	background-position: bottom left;
+
+}
+
+.portletBottomRight {
+	bottom: 0;
+	right: 0;
+	background-position: bottom right;
+}
+
+
+/* calendar */
+
+.portletCalendar .portletItem {
+	padding-bottom: 1em;
+}
+
+/* </dtml-with> */

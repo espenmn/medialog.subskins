@@ -1,0 +1,118 @@
+/* @override http://xweb14f.plana.dk:8084/plone4/portal_css/subskins/SubSkins_portlets_corporate.css */
+
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+.portlet{
+	padding: 0px;
+	margin: 0px 0 20px 0;
+	color: black;
+	}
+
+.portlet a{
+	border: 0;
+	text-decoration: none;
+	padding-left: 0;
+	width: auto;
+	font-size: 12px;
+	padding-top: 1px;
+	padding-bottom: 0;
+	}
+	
+.portletNavigationTree .portletItem,
+.portletCalendar .portletItem{
+	padding: 0;
+}
+
+.portlet ul{
+	list-style-type: none;
+	}
+
+.portlet ul, .portlet dl, .portlet li, .portlet dt, .portlet dd{
+	margin: 0;
+	}
+	
+.portletHeader{
+	color: white;
+	text-transform: uppercase;
+	font: normal bold 13px "Lucida Grande", Lucida, Verdana, sans-serif;
+	padding-bottom: 0;
+	height: 24px;
+	padding-top: 6px;
+	padding-left: 40px;
+	overflow: visible;
+	background: &dtml-SubSkinsColor2; url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/000head30.gif) no-repeat;
+	}
+
+.managedPortlet  a {
+	color: white !important;
+}
+	
+.portletCalendar dt.portletHeader {
+	background-image: none;
+	padding-left: 0;
+	}
+
+.portletItem{
+	padding: 0.375em 0 0 10px;
+	background-color: transparent;
+	color: black;
+	}
+
+span.portletItemDetails{
+	display: block;
+	color: #999;
+	}
+
+.configlets li{
+	padding: 0.5em 0;
+	}
+	
+#calendar-previous ,
+#calendar-next {
+	color:  white;
+	}
+
+.portletFooter{
+	padding-top: 0.5em;
+	padding-left: 18px;
+	background: #fff ;
+	background-color: transparent;
+	font-size: 0.875em;
+	}
+	
+portletLogin{
+	font-weight: normal;
+	margin: 0;
+	}
+
+portletLogin a{
+	border: 0;
+	}
+
+portletLogin label{
+	width: 120px;
+	margin-bottom: 2px;
+	margin-left: 20px;
+	}
+
+portletLogin .portletItem{
+	padding-left: 0em;
+	background-image: none;
+	}
+
+portletLogin  a.tile{
+	}
+
+portletLogin  input.context{
+	padding: 0px;
+	margin: 6px 0 0 20px;
+	}
+
+.portletHeader a.tile{
+	color: white;
+	height: 24px;
+	overflow: hidden;
+}
+
+/* </dtml-with> */	

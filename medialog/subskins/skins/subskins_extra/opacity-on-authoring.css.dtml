@@ -1,0 +1,22 @@
+/*
+  <dtml-with base_properties> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+a.state-private,
+a.state-visible,
+a.state-published,
+a.state-pending,
+a.state-expired,
+a.syndicated {
+  /* for IE */
+  filter:alpha(opacity=60);
+  /* CSS3 standard */
+  opacity:0.6;
+  color: inherit;
+  }
+
+
+/* </dtml-with> */
+
+

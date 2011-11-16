@@ -1,0 +1,94 @@
+
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+.documentContent table,
+ {
+	margin-bottom: 1em;
+}
+
+/* @group Data tables */
+
+table.listing {
+	border-spacing: 0; 
+}
+
+table.listing td, 
+table.listing th {
+	padding: 0.5em 1em;
+	vertical-align: top;
+}
+
+table.listing td.listingCheckbox, 
+table.listing th.listingCheckbox {
+	text-align: center;
+}
+
+table.listing thead th {
+	text-align: left;
+	color: #666;
+	border: 0.1em solid #e7e7e7;
+	border-style: solid none none;
+}
+table.listing tr.odd th {
+	border: 0.1em solid #fff;
+	border-style: solid solid none none;
+}
+table.listing tbody th {
+	font-weight: bold;
+}
+table.listing tbody tr {
+	text-align:left;
+}
+table.listing tbody tr.odd {
+	background: #eee;
+}
+table.listing tbody tr td { 
+	background: transparent;
+}
+table.listing tbody tr.odd td { 
+	background: #eee;
+	border: 0.1em solid #fff;
+	border-style: none solid none none;	
+}
+table.listing a { 
+	border: none;
+}
+
+table.listing td.draggable {
+	cursor: move;	
+	/*cursor: ns-resize;*/
+}
+
+
+div.listingBar {
+	font-size: 80%;	
+	margin: 1em 0;
+}
+
+div.listingBar .next {
+	display: inline-block;
+	float: right;
+}
+
+div.listingBar .previous {
+	display: inline-block;
+}
+
+div.listingBar a {
+	display: inline-block;
+	padding: 0.25em 0.5em;
+	border: 0.1em solid #ccc;
+	text-decoration: none;
+}
+
+div.listingBar a:hover {
+	color: White;
+	background-color: &dtml-SubSkinsColor4;;
+	border-color: &dtml-SubSkinsColor4;;
+}
+
+/* @end */
+
+/* </dtml-with> */
+

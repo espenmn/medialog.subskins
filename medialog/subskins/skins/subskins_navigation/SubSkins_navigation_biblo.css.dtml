@@ -1,0 +1,58 @@
+/*
+  For SubSkins
+   <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+
+/* navigation */
+
+
+.portletNavigationTree {
+	border-top-color: #BEBEBC;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+.portletNavigationTree ul {
+	list-style-type: none;
+	list-style-image: none;
+	font-family:Tahoma,Verdana,Geneva;
+	font-size:12px;
+}
+
+.portletNavigationTree a {
+	text-decoration: none;
+	color:  black;;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 20px;
+    padding-top: 11px;
+}
+
+  
+.portletNavigationTree li:first-child {
+	border-top-color: #BEBEBC;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+
+.portletNavigationTree li {
+    border-bottom-color: #BEBEBC;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.portletNavigationTree li:hover,
+li.navTreeCurrentItem{
+	background:url(nav_arrow_right.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	}
+
+
+
+ 
+
+/* </dtml-with> */
+

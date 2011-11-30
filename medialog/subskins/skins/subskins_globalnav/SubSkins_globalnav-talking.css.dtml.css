@@ -1,0 +1,46 @@
+/* @override http://xweb14f.plana.dk:8084/akva/portal_css/subskins/SubSkins_globalnav_modernbuttonII.css */
+
+/************************
+       MAIN MENU
+************************/
+#portal-globalnav  {
+	float: right;
+		list-style-image: none;
+	list-style-type: none;
+}
+
+#portal-globalnav:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+
+}
+
+#portal-globalnav li {
+	float: left;
+	margin-left: 1px;
+	
+}
+#portal-globalnav li a {
+	display: block;
+	background: url(mainmenu_bg.png) repeat-x;
+	height: 35px;
+	padding: 14px 20px 0 20px;
+	text-decoration: none;
+	font: 12px "Lucida Grande", Lucida, Verdana, sans-serif;
+	color: #555555;
+
+}
+#portal-globalnav LI#menu-item-69 A {
+	content: '';
+	content: none;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#portal-globalnav li a:hover, #portal-globalnav li.selected a {
+	background: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor3;/talkbox.gif) no-repeat center;
+	color: white;
+}
+

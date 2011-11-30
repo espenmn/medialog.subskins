@@ -6,6 +6,11 @@ You should upgrade  Product.PloneSubSkins to version 4.7 when using version newe
 Changelog
 =========
 
+4.2b8
+----------
+Added globalnav_talking
+
+ 
 4.2b7
 ----------
 Removed size declaration on <a> (was 11px) on text_koha and text_koha12

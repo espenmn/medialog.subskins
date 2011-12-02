@@ -1,0 +1,163 @@
+
+.portletWrapper {
+	margin: 10px 0;
+	border: 1px solid #B2b3B2;
+	border-bottom: 0 none;
+	float:  left;
+	width:  118px;
+	margin: 10px 8px 5px !important; 
+	padding:  0 10px;
+	float: left;
+}
+
+div.cell.FooterPortletManager1.width-1:6.position-0 {
+	width: 100px;
+}
+
+div.cell.FooterPortletManager3.width-1:6.position-1:3 {
+float:  left !important;	
+}
+
+
+.portlet {
+	color: #808080;
+	margin: -1px 0 0 0 ;
+	background: #E6E6E6;
+	padding-top:  15px;
+	font-size: 12px;
+	}
+
+
+.portlet a {
+	text-decoration: none;
+	clear: both;
+	font-weight: normal;
+	color: #808080;
+	
+}
+
+.portlet ul {
+	list-style-type: none;
+}
+
+.portlet ul, .portlet dl, .portlet li, .portlet dt, .portlet dd {
+	margin: 0;
+}
+
+dt.portletHeader {
+	color: whitesmoke;
+	font-variant: normal;
+	text-transform: none;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 0 10px;
+	background:  #808080;
+	margin-bottom: 10px;
+}
+
+.portletHeader a.tile {
+	text-decoration: none;
+	color: whitesmoke;
+	padding-top: 0px;
+}
+
+.portletNavigationTree .portletItem,
+.portletCalendar .portletItem {
+	padding: 0;
+}
+
+
+.portletItemDetails {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 9px;
+	margin-bottom: 6px;
+	padding-top: 2px;
+	clear: both;
+	display: block;
+}
+
+.portletItem  img.image-inline {
+	border: 2px solid whitesmoke;
+}
+
+.portletHeader a {
+	color: whitesmoke;
+}
+
+.managedPortlet  a {
+	color: #848484;
+}
+
+.visualNoMarker img {
+	float: left;
+	margin-right: 5px;
+	margin-top: -1px;
+}
+
+.portletFooter {
+	
+	clear: both;
+	
+}
+
+.portletFooter a {
+	line-height: 150%;
+	text-decoration: none;
+	color:  #F7931E;
+	padding-left: 5px;
+	
+}
+
+
+
+.portletLogin .label {
+	padding: 4px;
+	display: block;
+	margin: 10px;
+}
+
+.portletLogin .portletItem {
+	padding-top: 0;
+	padding-bottom: 5px;
+}
+
+.portletItem {
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 130%;
+	background: transparent;
+}
+
+.portletLogin dt.portletHeader a.tile {
+	color: white;
+	font-weight: bold;
+}
+
+input#__ac_name,
+input#__ac_password {
+	width: 130px;
+	margin-top: 4px;
+}
+
+.portletLogin div.field {
+	margin-bottom: 12px;
+}
+
+
+div#portlets-footer {
+	background: #E6E6E6;
+	display: block;
+	padding: 10px 10px 1px 10px;
+	font-family: Arial, "Helvetica Neue", Helvetica, Geneva, sans-serif;
+}
+
+div#portlets-footer:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}
+ 
+ 

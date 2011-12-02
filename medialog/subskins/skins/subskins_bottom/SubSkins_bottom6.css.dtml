@@ -1,0 +1,60 @@
+/*
+  <dtml-with get_base_properties mapping> (do not remove this)
+ <dtml-with get_base_properties> 
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+#portal-footer{
+  padding: 5px 10px 2px;
+  background: background: &dtml-SubSkinsColor6;;
+  color: #808080;
+  text-align: center;
+  font-size: 75%;
+}
+
+#portal-footer p, 
+#portal-footer a,
+#portal-footer p acronym{
+  color: #808080;
+  text-decoration: none;
+}
+#portal-colophon{
+ text-align: center;
+   color: #808080;
+   margin-top: 10px;
+   font-size:80%;
+   font-family: Arial, "Helvetica Neue", Helvetica, Geneva, sans-serif;
+   text-decoration: none;
+  }
+
+
+
+#portal-colophon a{
+    color: #808080;
+    text-decoration: none;
+  }
+
+#portal-colophon p{
+  display: inline;
+  margin: 0;
+  padding-left: 0.5em;
+  }
+
+#portal-colophon ul{
+  list-style-type: none;
+  display: inline;
+  margin: 0;
+  }
+
+#portal-colophon ul li{
+  display: inline;
+  padding-left: 0.5em;
+  }
+
+.colophonWrapper{
+	display: inline;
+	}
+
+ 
+/* </dtml-with>*/
+/* </dtml-with>*/

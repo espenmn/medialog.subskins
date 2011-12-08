@@ -19,6 +19,14 @@
        layer=".interfaces.IThemeSpecific"
        />
 
+    <browser:viewlet
+       name="subskinscolophon"
+       manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+       class=".viewlets.SubskinsColophon"
+       permission="zope2.View"
+       layer=".interfaces.IThemeSpecific"
+       />
+
     <!-- Moved / duplicated viewlet registration -->
     <browser:viewlet
         name="plone.site_actions"

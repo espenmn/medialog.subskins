@@ -8,32 +8,37 @@ Changelog
 
 4.2b8
 ----------
-Added globalnav_talking
+- Added some images an d a new colophon viewless and two new globalnavs.
+- Added a new portlet layout (bracket)
+
+4.2b8
+----------
+- Added globalnav_talking
 
  
 4.2b7
 ----------
-Removed size declaration on <a> (was 11px) on text_koha and text_koha12
+- Removed size declaration on <a> (was 11px) on text_koha and text_koha12
 
 4.2b6
 ----------
-Reverted roundcolophon image, turned out it was a bug in PIL that causes the problem
+- Reverted roundcolophon image, turned out it was a bug in PIL that causes the problem
 
 4.2b5
 ----------
 Added 
-extra: drop-down-hackII.css
-globalnavn: SubSkins_globalnav_dropd2.css and SubSkins_globalnav-berge.css
-Small fixes to: authoring.css .actionMenu
+- extra: drop-down-hackII.css
+- globalnavn: SubSkins_globalnav_dropd2.css and SubSkins_globalnav-berge.css
+- Small fixes to: authoring.css .actionMenu
 
 4.2b3 and 4.2b4
 ----------
-Added globalnavs using CSS3 with dropdown and animation
+- Added globalnavs using CSS3 with dropdown and animation
 
 4.2b2
 ----------
-Added "testrender" template, use it like this: http://yoursite/testrender
-Fixed roundcolophon image, so it works with colorizing
+- Added "testrender" template, use it like this: http://yoursite/testrender
+- Fixed roundcolophon image, so it works with colorizing
 
 4.2b
 ----------

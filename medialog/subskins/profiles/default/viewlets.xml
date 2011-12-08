@@ -21,6 +21,8 @@
  <hidden manager="plone.portalfooter" skinname="subskins">
   <viewlet name="plone.personal_bar"/>
   <viewlet name="plone.site_actions"/>
+  <viewlet name="plone.site_actions"/>
+  <viewlet name="subskinscolophon" />
  </hidden>
  <hidden manager="plone.abovecontent" skinname="subskins">
   <viewlet name="plone.path_bar"/>

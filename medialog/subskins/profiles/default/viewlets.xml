@@ -31,6 +31,8 @@
  </hidden>
   <hidden manager="plone.portaltop" skinname="subskins">
   <viewlet name="subskinsloader"/>
-  <viewlet name="medialog_siteactions"/>
  </hidden>
+  <hidden manager="plone.portalheader" skinname="subskins">
+    <viewlet name="medialog_siteactions"/>
+ </hidden>    
 </object>

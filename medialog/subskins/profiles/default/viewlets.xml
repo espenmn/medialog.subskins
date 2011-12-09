@@ -33,6 +33,6 @@
   <viewlet name="subskinsloader"/>
  </hidden>
   <hidden manager="plone.portalheader" skinname="subskins">
-    <viewlet name="subskins_siteactions"/>
- </hidden>    
+  <viewlet name="subskins_siteactions"/>
+ </hidden>
 </object>

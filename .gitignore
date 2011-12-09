@@ -3,3 +3,4 @@
 *.pyc
 MANIFEST.in
 .svn
+*.egg-info

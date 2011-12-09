@@ -27,6 +27,15 @@
        layer=".interfaces.IThemeSpecific"
        />
 
+    <browser:viewlet
+       name="subskins_siteactions"
+       manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+       class="plone.app.layout.viewlets.common.SiteActionsViewlet"
+       template="subskins_siteactions.pt"
+       permission="zope2.View"
+       layer=".interfaces.IThemeSpecific"
+       />
+
     <!-- Moved / duplicated viewlet registration -->
     <browser:viewlet
         name="plone.site_actions"

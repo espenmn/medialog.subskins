@@ -3,6 +3,7 @@
  <order manager="plone.portalheader" skinname="subskins">
   <viewlet name="plone.skip_links"/>
   <viewlet name="plone.site_actions"/>
+  <viewlet name="medialog_siteactions"/>
   <viewlet name="plone.searchbox"/>
   <viewlet name="plone.logo"/>
   <viewlet name="plone.global_sections"/>
@@ -15,12 +16,14 @@
   <viewlet name="plone.colophon"/>
   <viewlet name="plone.personal_bar"/>
   <viewlet name="plone.site_actions"/>
+  <viewlet name="medialog_siteactions"/>
   <viewlet name="plone.analytics"/>
  </order>
  
  <hidden manager="plone.portalfooter" skinname="subskins">
   <viewlet name="plone.personal_bar"/>
   <viewlet name="plone.site_actions"/>
+  <viewlet name="medialog_siteactions"/>
   <viewlet name="subskinscolophon" />
  </hidden>
  <hidden manager="plone.abovecontent" skinname="subskins">
@@ -28,5 +31,6 @@
  </hidden>
   <hidden manager="plone.portaltop" skinname="subskins">
   <viewlet name="subskinsloader"/>
+  <viewlet name="medialog_siteactions"/>
  </hidden>
 </object>

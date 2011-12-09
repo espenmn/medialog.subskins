@@ -6,6 +6,3 @@ class SubskinsLoader(ViewletBase):
 
 class SubskinsColophon(ViewletBase):
     render = ViewPageTemplateFile('subskinscolophon.pt')
-
-class SubskinsSiteactions(ViewletBase):
-    render = ViewPageTemplateFile('subskins_siteactions.pt')

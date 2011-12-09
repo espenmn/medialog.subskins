@@ -6,10 +6,11 @@ You should upgrade  Product.PloneSubSkins to version 4.7 when using version newe
 Changelog
 =========
 
-4.2b8
+4.2b9
 ----------
 - Added some images an d a new colophon viewless and two new globalnavs.
 - Added a new portlet layout (bracket)
+- Added mew viewless to show site actions only as images (no text). The name of the image is situationname + .png
 
 4.2b8
 ----------

@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '4.2b9'
+version = '4.2b10'
 setup(name='medialog.subskins',
       version=version,
       description="An installable theme and theming tool for Plone 4",                

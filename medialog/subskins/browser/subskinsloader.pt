@@ -10,7 +10,14 @@
             <tal:style  tal:repeat="lines python:here.portal_url.extracss"  tal:condition="exists:here/portal_url/extracss">
 				<style type="text/css" media="all"
 					tal:define="stylesheet python:lines"
-					tal:content="string:@import url($stylesheet);"  tal:condition="not:exists:here/extracss">>
+					tal:content="string:@import url($stylesheet);"  tal:condition="not:exists:here/extracss">
+		        </style>
+			</tal:style>
+			
+			<tal:style>
+				<style type="text/css" media="all"
+					tal:define="stylesheet context/css_file"
+					tal:content="string:@import url($stylesheet);"   >
 		        </style>
 			</tal:style>
 

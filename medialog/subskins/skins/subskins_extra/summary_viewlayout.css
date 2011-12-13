@@ -17,6 +17,7 @@ body.template-folder_summary_view  a img.tileImage {
 	margin-right: 10px;
 	margin-bottom: 10px;
 	margin-top: 10px;
+	background-color: #f7f7f7;
 }
 
 body.template-folder_summary_view  p.tileBody   {

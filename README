@@ -6,6 +6,10 @@ You should upgrade  Product.PloneSubSkins to version 4.7 when using version newe
 Changelog
 =========
 
+4.2b12
+----------
+- Last release was broken.   
+
 4.2b10
 ----------
 - added (back again) init.py which had disappeared while moving to github.   

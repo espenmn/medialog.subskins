@@ -1,0 +1,19 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+/* You probably want to include this in TinyMces styles*/
+
+.dropcap {
+	float: left;
+	padding: 8px 12px 8px 12px;
+	margin: 2px 8px 0 0;
+	color: #fff;
+	background: &dtml-SubSkinsColor3;;
+	font-weight: bold;
+	text-transform: uppercase;
+	font: 2.5em/1em "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+
+/* </dtml-with> */
+

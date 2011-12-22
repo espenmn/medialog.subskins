@@ -1,0 +1,1319 @@
+/* Stylesheet for the 'subskins' Plone theme */
+
+
+
+#portal-columns #portal-breadcrumbs {
+	display: block;
+	float:  none;
+	margin-left:  0;
+}
+ 
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+li.formTab a {
+    padding: 3px;
+}
+
+ul.configlets li {
+	list-style-type: none !important;
+	list-style-image: none !important;
+}
+
+/* hack for new action menu header */
+
+#anon-personalbar {
+	padding: 0; margin: 0;
+}
+/* @group Base Classes */
+
+/* base classes - structure
+
+---------------------------------------------------------------------- */
+
+.hiddenStructure {
+	display: none;
+}
+
+.visualClear {
+	display: block;
+	clear: both;
+}
+
+.visualPadding {
+	padding: 0;
+}
+
+.hiddenStructure, .netscape4 {
+	display: none;
+}
+
+.tile {
+	display: block;
+}
+
+body.fullscreen #portal-column-one, 
+
+body.fullscreen #portal-column-two {
+	display: none;
+}
+
+body.fullscreen #portal-column-content {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.managedPortlet .portletHeader {
+	display: block;
+}
+
+/*
+
+@end */
+
+
+/* Accessibility elements, applied by JS */
+body.largeText { font-size: 110%; }
+body.smallText { font-size: 80%; }
+
+/* @group Kupu Edit */
+
+/* base classes - kupu edit
+
+---------------------------------------------------------------------- */
+
+html.kupu-html body {
+	background: #f3f3f3;
+	text-align: left;
+	font-size: 1em;
+}
+
+html.kupu-html body {
+	width: 98%;
+}
+
+.documentEditable  #content {
+	padding: 8px;
+}
+
+.verdana {
+	font-family: verdana, helvetica, sans-serif;
+}
+
+.times {
+	font-family: "Times New Roman", Times, Georgia, serif;
+	font-size: 115%;
+}
+
+.lucida {
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+.helvetica {
+	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+
+.color1 {
+	color: #CE0000;
+}
+
+.color2 {
+	color: #009ECE;
+}
+
+.color3 {
+	color: #FF9E00;
+}
+
+.color4 {
+	color: #F7D708;
+}
+
+.color5 {
+	color: #9CCF31;
+}
+
+.color6 {
+	color: #A2282C;
+}
+
+.black {
+	color: #000;;
+}
+
+/* @end */
+
+
+/* fixes */
+
+.visualClear {
+	display: block;
+	clear: both;
+}
+
+/* Hiding helper elements for old browsers */
+
+.netscape4 {
+	display: none;
+}
+
+/* Accessibility and visual enhancement elements */
+
+.hiddenStructure {
+	display: block;
+	background: transparent;
+	background-image: none;
+	/* safari bug */
+border: none;
+	height: 1px;
+	overflow: hidden;
+	padding: 0;
+	margin: -1px 0 0 -1px;
+	width: 1px;
+}
+
+.contentViews .hiddenStructure,
+.contentActions .hiddenStructure {
+	position: absolute;
+	top: -200px;
+	left: -200px;
+}
+
+.hiddenLabel {
+	display: block;
+	background: transparent;
+	background-image: none;
+	/* safari bug */
+border: none;
+	height: 1px;
+	overflow: hidden;
+	padding: 0;
+	margin: -1px 0 0 -1px;
+	width: 1px;
+}
+
+dt.portletHeader.hiddenStructure {
+	display: none;
+}
+
+
+/* @group overlays */
+
+/* styling for overlays (popups) */
+
+div.overlay {
+    width: auto;
+    height: auto;
+    /* initially overlay is hidden */
+    display:none;
+    /* some padding to layout nested elements nicely  */
+    margin:1em;
+	font-size: 80%;
+}
+
+div.overlay-iframe,
+div.overlay-ajax {
+    width: 60%;
+    min-height: 100px;
+    z-index: 99; /* overlays should be above everything */
+}
+
+div.overlay-iframe {
+    height: 60%;
+}
+
+/* default close button positioned on upper right corner */
+    div.overlaybg div.close,
+    div.overlay div.close {
+    background-image: url(pb_close.png);
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+.pb-ajax, .pb-image {
+    white-space: normal;
+    border:0.5em solid #CE0000;
+    -moz-border-radius:0.35em;
+    -webkit-border-radius:0.35em;
+    -moz-box-shadow:0 0 1em #888;
+    -webkit-box-shadow:0 0 1em #888;
+}
+
+.pb-ajax > * {
+    background-color: #fff;
+    padding: 1em;
+    white-space: normal;
+}
+
+.pb-ajax .documentActions {display:none}
+
+div.overlay div.close span {
+    display:block;
+    height:1px;
+    margin:-1px 0 0 -1px;
+    overflow:hidden;
+    padding:0;
+    width:1px;
+}
+
+div.overlay textarea { width: 100%; }
+
+#portal-personaltools-wrapper {background: whitesmoke !important; height:  26px; margin-bottom: 15px}
+img.tileImage {
+	float:  left;
+	margin-right:  20px;;
+}
+
+div.tileItem {
+	background: #f0f1f5;
+	padding: 10px;
+	margin-bottom: 10px;
+
+}
+
+.highslide-heading {
+    display: none !important;
+}
+
+ 
+
+
+
+/* - simple_tableIV.css - */
+
+table.listing,
+.stx table {
+/* */
+border-collapse: collapse;
+border-spacing: 0;
+border-left: 1px solid #fff;
+border-bottom: 1px solid #fff;
+margin: 1em 0em 1em 0em;
+width: 99%;
+}
+table.listing th,
+.stx table th {
+background: transparent;
+border-top: 1px solid #EEE;
+border-bottom: 2px solid #fff;
+border-right: 1px solid #fff;
+font-weight: normal;
+padding: 0.25em 0.5em;
+}
+table.listing  th {
+border-bottom: 1px solid #EEE;
+}
+table.listing .top {
+border-left: 1px solid #fff;
+border-top: 1px solid #EEE ! important;
+border-right: 1px solid #fff ! important;
+text-align: right ! important;
+padding: 0em 0em 1em 0em;
+}
+table.listing .listingCheckbox {
+text-align: center;
+}
+table.listing td,
+.stx table td {
+border-right: 2px solid #fff;
+border-bottom: 2px solid #fff;
+padding: 0.25em 0.5em;
+}
+table.listing a {
+text-decoration: none;
+}
+table.listing a:hover {
+text-decoration: underline;
+}
+table.listing img {
+vertical-align: middle;
+}
+table.listing td a label,
+.stx table td a label {
+cursor: pointer;
+}
+/* */
+table.vertical {
+background-color: #FAF7EE;
+}
+table.vertical th {
+padding: 0.5em;
+border-top: none;
+}
+table.vertical td {
+border-top: 1px solid #fff;
+padding: 0.5em;
+}
+/* */
+table.grid td {
+border: 1px solid #fff;
+padding: 0.5em;
+}
+/* */
+table.plain,
+table.plain td,
+table.plain th {
+border: 1px solid #ccc !important;
+padding: 0.5em;
+border-collapse: collapse;
+}
+.listing tr.odd,
+tr.tittel {
+background: #e4e4e4;
+position: relative;
+}
+.grid.listing tbody tr:nth-child(odd) {
+background: #e5eff3;
+}
+.listing tr.odd .fieldRequired {
+color: #e5eff3;
+}
+.listing tr.even,
+tr.tittel2 {
+background: #cce0e7;
+position: relative;
+}
+.grid.listing tbody tr:nth-child(even) {
+background: #cce0e7;
+}
+.listing tr.even .fieldRequired {
+color: #cce0e7;
+}
+.listing tr.selected {
+background-color: #fef2c1;
+}
+/* */
+
+
+
+/* - SubSkins_globalnav_menuish.css - */
+
+#portal-globalnav {
+clear: both;
+padding: 0;
+margin: 0;
+min-height: 29px;
+background: #666 url(meny_menu.jpg) repeat-x left  -490px;
+background-repeat: repeat-x;
+position: relative;
+}
+#portal-globalnav li {
+color: #9CCF31;
+font-weight: bold;
+font-size: 11px;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 15px;
+padding: 2px 10px;
+margin: 5px 0px;
+border-right: 1px solid #9CCF31;
+display: block;
+float: left;
+}
+#portal-globalnav li a {
+text-decoration: none;
+color: #f3e3c5;
+}
+#portal-globalnav li a:hover,
+#portal-globalnav li.selected a {
+color: #A2282C;
+}
+/* */
+
+
+/* - SubSkins_base_2.css - */
+
+body.largeText  {
+font-size:96%;
+}
+body.smallText {
+font-size:60%;
+}
+body {
+position: relative;
+background: #FC9C00;
+}
+/* */
+/* */
+#visual-portal-wrapper{
+position: relative;
+background: #fff;
+text-align: left;
+width: 810px;
+margin: 6px auto;
+}
+#portal-column-one{
+width:   180px;
+padding: 0 20px;
+color: #ccc;
+background: #fff;
+border-right: 1px solid #ccc;
+background: white;
+}
+#portal-column-two{
+width:   180px;
+padding: 0 20px;
+color: #ccc;
+background: white;
+}
+#portal-column-content{
+padding: 0 20px 10px 30px;
+}
+
+
+/* - SubSkins_top_useit.css - */
+
+#portal-top {
+width: 810px;
+margin: 0 auto;
+}
+#portal-header {
+width: 810px;
+margin: 0 auto;
+}
+#portal-searchbox {
+height: 30px;
+float: right;
+clear: right;
+}
+.LSBox input.searchButton {
+margin-bottom: 1px !important;
+font-size: 1px;
+height: 26px;
+margin: 0;
+color: #009ECE;
+background: #009ECE url(white_next.gif) center center no-repeat;
+cursor: pointer;
+border: 0 none !important;
+}
+div.searchSection {
+color: #ddd;
+font-size: 11px;
+margin-top: 9px;
+}
+input#searchGadget.inputLabel {
+height:13px;
+margin:0;
+padding:6px 8px;
+}
+#portal-siteactions {
+display: block;
+float: right;
+line-height: 30px;
+margin: 0;
+margin-left: 12px;
+padding: 0;
+}
+#portal-siteactions li {
+display: inline;
+padding: 0;
+padding-left: 12px;
+line-height: 30px;
+font-size: 8pt;
+}
+#portal-siteactions li a {
+color: white;
+border: 0;
+}
+#portal-siteactions li a:hover {
+color: #009ECE;
+}
+div#portal-personaltools-wrapper {
+float: right;
+height: 30px;
+}
+#portal-personaltools {
+float: right;
+margin: 0.5em 0;
+padding: 0;
+}
+#portal-personaltools li {
+display: inline;
+list-style: none;
+list-style-image: none;
+}
+#portal-personaltools li a {
+text-decoration: none;
+margin-right: 1em;
+margin-left: 1em;
+}
+#portal-breadcrumbs {
+padding: 8px 0;
+color: white;
+font-size: 12px;
+}
+span.breadcrumbSeparator {
+font-size: 150%;
+}
+#portal-breadcrumbs a {
+color: #009ECE;
+font-weight: bold;
+}
+/* */
+.LSRes {
+font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+visibility: visible;
+color: #666666;
+background-color: white;
+vertical-align: middle;
+display: block;
+list-style-image: none;
+list-style-type: none;
+text-align: left;
+min-width: 16.5em;
+text-transform: none;
+margin-left: 0;
+line-height: 1em;
+}
+#LSHighlight {
+background-color: white;
+}
+.LSRow {
+padding: 0;
+margin: 0;
+list-style-image: none;
+list-style-type: none;
+}
+.LSRow a {
+text-decoration: none;
+font-weight: bold;
+white-space: nowrap
+}
+.LSDescr {
+color: #777777;
+text-transform: lowercase;
+padding-left: 2.1em;
+margin-top: -0.1em;
+}
+.LSResult {
+position: relative;
+display: block;
+text-align: right;
+padding-top: 0px;
+padding-bottom: 0px;
+margin: 0;
+left: 3px;
+top: 1em;
+z-index: 3;
+}
+.LSShadow {
+position: relative;
+}
+.livesearchContainer {
+background-color: white;
+margin-top: 0;
+padding: 0 !important;
+position: absolute;
+left: 0px;
+/* */
+top: 0;
+white-space: normal;
+font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+visibility: visible;
+text-align: left;
+color: #666666;
+border: 1px
+solid #999999;
+width: 30em;
+text-transform: none;
+}
+* html .livesearchContainer {
+padding: 1px !important;
+padding-top: 0 !important;
+background-color: white;
+border: 0;
+}
+#livesearchLegend {
+line-height: 1em;
+margin-top: -2em;
+margin-left: -0.1em;
+border: 2px	solid #999999;
+border-bottom: 0;
+}
+* html #livesearchLegend {
+margin-top: -1.9em;
+margin-left: -8px;
+position: relative;
+}
+/* */
+.LSIEFix {
+background-color: white;
+padding: 0.5em !important;
+z-index: 20;
+}
+.LSBox {
+clear: left;
+float: left;
+text-align: right;
+padding-right: 1px;
+display: block;
+}
+#LSNothingFound {
+text-align: center;
+padding: 2px;
+}
+.LSRes {
+font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+visibility: visible;
+color: #436976;
+background-color: White;
+vertical-align: middle;
+display: block;
+list-style-image: none;
+list-style-type: none;
+text-align: left;
+min-width: 16.5em;
+text-transform: none;
+margin-left: 0;
+line-height: 1.1em;
+}
+#LSHighlight,
+.LSHighlight {
+background-color: #dee7ec;
+border: 1px solid #8cacbb;
+color: #436976;
+}
+.LSTable {
+margin: 1em 0;
+}
+.LSRow {
+border: 1px solid White;
+white-space: normal;
+padding: 0;
+margin: 0;
+list-style-image: none;
+list-style-type: none;
+}
+.LSRow a {
+text-decoration: none;
+font-weight: bold;
+white-space: nowrap
+}
+.LSDescr {
+color: #76797c;
+font-size: 90%;
+font-weight: normal;
+margin-left: 2.5em;
+}
+.LSResult {
+position: relative;
+display: block;
+text-align: right;
+padding-top: 5px;
+margin: 0;
+left: 3px;
+z-index: 3;
+}
+.LSShadow {
+position: relative;
+text-align: right;
+}
+.livesearchContainer {
+background-color: White;
+margin-top: 0;
+padding: 0 !important;
+position: absolute;
+right:
+0px;
+/* */
+top: 0;
+white-space: normal;
+font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+visibility: visible;
+text-align: left;
+color: #436976;
+border: 1px solid #8cacbb;
+width: 30em;
+text-transform: none;
+}
+* html .livesearchContainer {
+padding: 1px !important;
+padding-top: 0 !important;
+background-color: #8cacbb;
+border: 0;
+}
+#livesearchLegend {
+line-height: 1em;
+margin-top: -2em;
+margin-left: -0.1em;
+border: 1px solid #8cacbb;
+border-bottom: 0;
+}
+* html #livesearchLegend {
+margin-top: -1.9em;
+margin-left: -8px;
+position: relative;
+}
+/* */
+.LSIEFix {
+background-color: White;
+padding: 0.5em !important;
+z-index: 20;
+}
+.LSBox {
+clear: left;
+float: left;
+text-align: right;
+padding-right: 1px;
+display: block;
+}
+#LSNothingFound {
+text-align: center;
+padding: 2px;
+}
+.LSBox label {
+font-weight: normal;
+}
+
+
+
+/* - SubSkins_text_koha.css - */
+
+.documentDescription {
+padding: 9px;
+margin:  15px 0 0 0;
+background: #01679a url(http://xweb14f.plana.dk:8094/christiegaarden/subskins_getimage/%23009ECE/000forlopv.jpg) repeat-x 0 -32px;
+color:  whitesmoke;;
+font: 12px/18px verdana, helvetica, sans-serif;
+}
+body {
+font-family: verdana, helvetica, sans-serif;
+font-size: 11px;
+}
+h1 {
+color: #01679a;
+font: normal 20px/27px verdana, helvetica, sans-serif;
+margin-top: 17px;
+}
+h1.documentFirstHeading {
+margin-top: 0px;
+}
+.boardCommentDetails {
+background: grey url(http://xweb14f.plana.dk:8094/christiegaarden/subskins_getimage/%23009ECE/blue_grid.jpg) repeat;
+color: whitesmoke;
+}
+h2 {
+font-family: verdana, helvetica, sans-serif;
+font-size: 14px;
+line-height: 18px;
+font-weight: bold;
+margin-top: 17px;
+}
+h5 {
+margin-bottom: 11px;
+}
+#parent-fieldname-imageCaption {
+display: block;
+padding-bottom: 10px;
+padding-top: 4px;
+width: 100%;
+color: black;
+font: bold 11px "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+a {
+font-family: verdana, helvetica, sans-serif;
+font-weight: bold;
+color: #1c7b7a;
+text-decoration: none;
+}
+a:hover {
+color: #125d72;
+}
+p {
+font-family: verdana, helvetica, sans-serif;
+font-size: 11px;
+line-height: 16px;
+margin-bottom: 5px;
+}
+p a:link {
+color: #000000;
+}
+img {
+border: none;
+vertical-align: middle;
+}
+.newsImageContainer img {
+float: left;
+margin: 3px 25px 10px 0;
+}
+img.image-left {
+float: left;
+margin: 5px 25px 15px 0;
+padding: 5px;
+border: 2px solid #01679a;
+}
+h3 {
+border-bottom: 1px dotted #01679a;
+margin-top: 16px;
+margin-bottom: 10px;
+padding: 3px 0;
+color:  #01679a;
+}
+input {
+border: 1px solid #ccc;
+margin: 5px 0;
+}
+input.standalone {
+background: white url(http://xweb14f.plana.dk:8094/christiegaarden/subskins_getimage/%23CE0000/bullet.gif) no-repeat 6px center;
+padding: 6px 10px 6px 30px;
+}
+#content div a.link-parent {
+padding-left: 22px;
+padding-top: 9px;
+background: url(http://xweb14f.plana.dk:8094/christiegaarden/subskins_getimage/%23009ECE/bullet.gif) no-repeat 0 9px;
+}
+#form label {
+color: #336699;
+margin-right: 6px;
+}
+#form fieldset input {
+padding: 3px;
+margin-right: 5px;
+}
+#content-core ul  {
+margin: 0.5em 0 0.75em 1.5em;
+list-style-type: disc;
+font-size: 11px;
+}
+ol {
+margin: 0.5em 0 0.75em 2em;
+}
+#content-core li {
+list-style-image: url(http://xweb14f.plana.dk:8094/christiegaarden/subskins_getimage/%23FF9E00/red-bullet.gif);
+margin: 0.3em 0 0.3em 2.5em;
+list-style-position: inside;
+}
+#content-core li {
+margin: 0.5em;
+}
+
+dl {
+margin: 0.5em 1em 0.75em;
+}
+dt {
+margin: 0.75em 0;
+font-weight: bold;
+}
+dd {
+margin: 0.5em 0;
+}
+a.tile {
+color: black;
+}
+fieldset {
+padding: 1em 2em;
+border: 1px solid #ccc;
+margin-bottom: 12px;
+background: whitesmoke;
+}
+legend {
+font-weight: bold;
+}
+form {
+border: 0;
+}
+label {
+font: 11px verdana, helvetica, sans-serif;
+font-weight: bold;
+display: inline;
+}
+textarea {
+border: 1px solid #ccc;
+margin: 5px 0;
+}
+select {
+border: 1px solid #ccc;
+}
+.field {
+font: 11px verdana, helvetica, sans-serif;
+margin-top: 0.75em;
+}
+.formControls input, .searchButton {
+padding: 2px;
+padding-left: 20px;
+}
+table {
+border-collapse: collapse;
+font-size: 1em;
+}
+#content table.listing thead tr th {
+background: whitesmoke;
+line-height: 200%;
+}
+tbody {
+}
+tr {
+}
+th {
+}
+td {
+}
+em {
+font-style: normal;
+font-weight: bold;
+}
+strong {
+font-weight: bold;
+}
+cite, q {
+}
+blockquote {
+margin: 0.7em 0;
+padding: 0.5em 11px;
+border: 1px solid  #01679a;
+;
+color: #01679a;
+;
+}
+#content div.plain blockquote {
+clear: both;
+}
+code, kbd {
+background: #333;
+color: #ccc;
+font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;
+}
+pre {
+margin: 1em 0em;
+padding: 0.7em 0.3em;
+background: whitesmoke;
+color: #3d3d3d;
+font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;
+}
+ins {
+}
+del {
+color: #999;
+text-decoration: overline;
+}
+.portalMessage {
+padding: 0.375em 1em;
+margin-left: 0;
+margin-right:  0;
+background: #9CCF31;
+border: 1px solid #eb0000;
+}
+div.documentActions ul {
+margin: 10px 0;
+text-align: right;
+padding: 0;
+padding-top: 5px;
+width: 100%;
+display: block;
+}
+.documentActions ul li {
+display: inline;
+margin-left: 7px !important;
+}
+.documentActions ul li a {
+border: 0;
+padding-right: 0;
+margin-right: 0;
+}
+.documentDescription {
+margin-bottom: 1.5em;
+}
+.comment {
+border: 1px solid #ccc;
+background: #f3f3f3;
+}
+#content   table.listing span.discreet {
+font-weight: normal;
+font-style: normal;
+font-size: 10px;
+color: #666;
+}
+#content div.poweredBy {
+margin-top: 20px;
+}
+.photoAlbumEntryWrapper {
+float: left;
+}
+.photoAlbumEntryTitle {
+float: left;
+clear: both;
+margin-top: 6px;
+}
+#content div div.photoAlbumEntry a {
+float: left;
+margin: 20px 20px 10px 0
+}
+
+
+/* - SubSkins_portlets_macstyle.css - */
+
+
+.portlet{
+padding: 0px;
+margin: 0px 0 20px 0;
+color: black;
+padding: 0;
+border-bottom: 1px solid silver !important;
+}
+.portlet li {
+list-style-image: none;
+list-style-type: none;
+}
+.portlet.portletCalendar,
+.portletCalendar .portletItem{
+border:  0 none !important;
+}
+#calendar-previous ,
+#calendar-next {
+padding: 0 10px;
+background: none;
+}
+.portletItem{
+list-style-type: none;
+border-left: 1px solid silver;
+border-right: 1px solid silver;
+padding: 4px 12px;
+}
+.portletLogin .portletItem {
+margin: 0;
+}
+.portlet ul, .portlet dl, .portlet li, .portlet dt, .portlet dd{
+margin: 0;
+}
+.portletHeader{
+color: white;
+text-transform: uppercase;
+font: normal bold 13px "Lucida Grande", Lucida, Verdana, sans-serif;
+padding-bottom: 0;
+line-height: 25px;
+padding-left: 15px;
+overflow: visible;
+background:  #FF9E00 url(http://www.christiegaarden.no/christiegaarden/subskins_getimage/%23FF9E00/portal_header_m.gif) no-repeat left top;
+margin: 0;
+}
+.portletCalendar dt.portletHeader {
+padding: 0;
+font-size: 11px;
+}
+#calendar-previous,
+#calendar-next {
+padding: 0 4px;
+color: white;
+}
+.portletHeader a{
+text-decoration: none;
+background: url(http://www.christiegaarden.no/christiegaarden/subskins_getimage/%23FF9E00/portal_header_arrow.gif) no-repeat right top;
+}
+.managedPortlet .portletHeader a {
+background-image: none;
+}
+dd.portletFooter {
+border: 1px solid silver;
+border-collapse: collapse;
+border-bottom-style: none;
+border-bottom-width: 0;
+padding: 4px 12px;
+}
+span.portletItemDetails{
+display: block;
+color: #999;
+}
+.configlets li{
+padding: 0.5em 0;
+}
+.portletBottomRight {
+bottom: 0;
+float:  right;
+right: 0;
+height: 6px;
+width: 2px;
+}
+.portletLogin .field {
+width: 120px;
+margin-bottom: 2px;
+margin-left: 20px;
+margin-top: 0;
+padding-top: 10px;
+}
+.portletLogin .portletItem a.tile {
+padding: 10px;
+}
+.portletLogin  input.context{
+padding: 0px;
+margin: 6px 0 0 20px;
+}
+.portletHeader a.tile{
+color: white;
+}
+
+
+
+/* - SubSkins_navigation_Clean_simple.css - */
+
+.portletNavigationTree  {
+background: white;
+border: none;
+}
+.portletNavigationTree  .portletItem {
+padding: 0;
+}
+li.navTreeItem.visualNoMarker.navTreeItemInPath.navTreeFolderish {
+background: whitesmoke;
+border-bottom:  1px solid silver;
+border-top:  1px solid silver;
+}
+a.navTreeCurrentItem {
+font-weight: bold;
+padding-left: 7px;
+margin-left: -11px;
+border-left: 5px solid #CE0000;
+color: black;
+}
+.portletNavigationTree  li a:hover,
+a.navTreeCurrentItem {
+font-weight: bold;
+}
+.portletNavigationTree  li {
+padding: 4px 10px 4px 15px;
+border-bottom: 1px solid #CCCCCC;
+line-height: 16px;
+}
+.portletNavigationTree  a {
+text-decoration: none;
+}
+li.navTreeItem.visualNoMarker li {
+padding-left: 10px;
+line-height: 12px;
+border-bottom: 0px;
+padding-bottom: 4px;
+}
+
+
+/* - SubSkins_calendar_small145.css - */
+
+.dayPopup {
+background-color: #9CCF31;
+padding: 0.2em;
+position: absolute;
+visibility: hidden;
+width: 12em;
+z-index: 2;
+border: 1px solid #F7D708;
+}
+.date {
+font-weight: bold;
+}
+.ploneCalendar {
+width: 100%;
+border-collapse: separate;
+border-spacing: 1px;
+border: 1px solid #CE0000 ;
+margin: 0;
+padding: 0;
+background: #f2f2f2;
+}
+.portletCalendar dt.portletHeader {
+text-align: center;
+font-size: 11px;
+padding: 0;
+}
+.portletCalendar .portletItem {
+border-style: none !important;
+border-width: 0;
+padding:  0;
+}
+.ploneCalendar a:hover {
+text-decoration: none;
+}
+.ploneCalendar th {
+padding: 0.3em;
+background: #CE0000 url(http://www.christiegaarden.no/christiegaarden/subskins_getimage/%23CE0000/menu_item.gif) repeat-x left;
+color: whitesmoke;
+text-align: center;
+font-weight: normal;
+border-bottom: 1px solid  #CE0000;
+}
+.ploneCalendar td {
+text-align: center;
+color: #454545;
+line-height: 1.3em;
+}
+.ploneCalendar .weekdays td {
+text-align: center;
+}
+.ploneCalendar .event {
+font-weight: bold;
+background-color: #A2282C;
+}
+.ploneCalendar .todayevent {
+background-color: #CE0000;
+font-weight: bold;
+color: whitesmoke;
+}
+.ploneCalendar .todaynoevent {
+border-collapse: collapse;
+border: 2px solid #CE0000;
+}
+
+
+/* - SubSkins_bottom_mirror.css - */
+
+
+#portal-colophon {
+background: #FC9C00 url(http://www.christiegaarden.no/christiegaarden/subskins_getimage/%23FC9C00/forlopIV.gif) repeat-x;
+color: #ffffff;
+text-align: center;
+height: 110px;
+border-top: 1px solid #EEE;
+margin: 0 auto;
+padding: 12px 0;
+font-size: smaller;
+}
+#portal-colophon div.colophonWrapper {
+width: 810px;
+margin: 0 auto;
+}
+#portal-colophon ul {
+list-style-image: none;
+list-style-type: none;
+}
+#portal-colophon ul li {
+display: inline !important;
+font-size: 90%;
+padding: 0 0.75em;
+color: white;
+}
+#portal-colophon ul li a {
+text-decoration: none;
+border-bottom: 1px #ccc solid;
+color: white;
+}
+#portal-footer {
+font-size: 12px;
+color: #dee7ec;
+line-height: 1.2em;
+text-align: center;
+width: 810px;
+margin: 0 auto;
+display: block;
+padding: 5px 0;
+background: #009ECE
+}
+#portal-footer p {
+margin: 0.25em 0;
+}
+#portal-footer a {
+color: white;
+margin: 3px;
+font-style: italic;
+text-decoration: none;
+}
+#portal-footer a:visited {
+color: #436977;
+}
+#portal-footer a:hover {
+text-decoration: underline;
+}

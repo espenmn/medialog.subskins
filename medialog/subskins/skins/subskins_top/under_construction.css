@@ -1,0 +1,286 @@
+/* @override http://xweb14f.plana.dk:8095/Pillow/portal_css/subskins/SubSkins_top_nothing_special.css */
+
+
+/* - SubSkins_top_nothing_special.css - */
+@media screen {
+/*  (do not remove this :) */
+/*  (not this either :) */
+
+/* - SubSkins_top_nothing_special.css - */
+ 
+
+#portal-top {
+background: transparent url(000forlopv.jpg) top left repeat-x;
+min-height: 150px;
+position: relative; }
+#portal-header {
+position: relative; }
+#portal-personaltools {
+padding: 0.5em 0;
+position: absolute;
+top: 0;
+right: 0;
+text-align: right;
+list-style: none; }
+#portal-personaltools li {
+list-style: none;
+display: inline; }
+#portal-personaltools li a {
+display: inline-block;
+margin-left: 1em;
+color: #fff; }
+#portal-logo {
+display: inline-block;
+margin: 26px 0 32px;
+outline: none; }
+#portal-topactions {
+margin-top: 5em;
+float: right; }
+#portal-topactions a {
+color: #fff; }
+/* */
+#portal-languageselector {
+float: right;
+clear: right;
+margin: 4.8em 0 0 1em;
+text-align: right;
+list-style: none; }
+#portal-languageselector li {
+display: inline;
+list-style: none; }
+#portal-languageselector li a {
+margin-left: 0.5em;
+display: inline-block; }
+#portal-languageselector li.currentLanguage {
+opacity: .5; }
+.ie6 #portal-languageselector li.currentLanguage,
+.ie7 #portal-languageselector li.currentLanguage,
+.ie8 #portal-languageselector li.currentLanguage {
+zoom: 1;
+filter: alpha(opacity=50); }
+/*  */
+}
+.LSBox {
+position: relative; }
+#portal-searchbox input#searchGadget {
+font-size: 1em;
+font-family: Arial, san-serif;
+outline: none;
+width: 17em;
+padding: 0.3em 0.7em;
+color: #474747;
+background: #fff;
+-moz-box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.4);
+-webkit-box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.4);
+box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.4);
+border-width: 0px;
+-moz-border-radius: 12px;
+/* */
+-webkit-border-radius: 12px;
+/* */
+border-radius: 12px;
+/* */ }
+#portal-searchbox button {
+background: transparent url("search_icon.png") 50% 50% no-repeat;
+height: 16px;
+width: 16px;
+border: none;
+position: absolute;
+z-index: 1;
+right: 0.5em;
+top: 0.3em;
+overflow: hidden;
+cursor: pointer; }
+#portal-searchbox button span {
+position: absolute;
+left: -100px;
+top: -100px; }
+#portal-searchbox {
+float: right;
+background-color: transparent;
+margin: 4.8em 0 0 0;
+padding: 0;
+text-align: right;
+white-space: nowrap;
+z-index: 2; }
+#portal-advanced-search {
+margin-top: 0.2em;
+clear: both; }
+#portal-advanced-search a {
+text-decoration: none; }
+dl.searchResults dt {
+font-size: 140%;
+font-weight: normal; }
+form.searchPage {
+text-align: center; }
+input.searchPage {
+font-size: 200% !important; }
+form.searchPage input.searchButton {
+background-position: 5px 7px;
+padding: 1px 10px; }
+/* */
+#livesearch-advanced-search,
+#livesearch-all-items {
+font-size: 0.85em;
+margin-top: 1.25em;
+font-family: Helvetica, Arial, sans-serif;
+border-top: 1px solid #555; }
+#livesearch-all-items {
+margin-top: 0; }
+.LSRes {
+visibility: visible;
+vertical-align: middle;
+display: block;
+list-style-image: none;
+list-style-type: none;
+text-align: left;
+min-width: 16.5em;
+text-transform: none;
+margin-left: 0;
+line-height: 1.1em; }
+#LSHighlight,
+.LSHighlight {
+background-color: #646464;
+color: #fff;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-webkit-border-bottom-right-radius: 5px; }
+.LSTable {
+margin: 0; }
+.LSRow {
+white-space: normal;
+padding: 0;
+margin: 0;
+list-style-image: none;
+list-style-type: none;
+font-family: Georgia, Baskerville, Times, "Times New Roman", serif; }
+.LSRow a {
+display: block;
+padding: 0.31em 0.46em;
+margin: 1px 0;
+text-decoration: none;
+color: #fff;
+font-family: Helvetica, Arial, sans-serif;
+position: relative; }
+#LSHighlight a,
+.LSHighlight a,
+.LSRow a:hover {
+color: #fff;
+text-shadow: 0 0 2px #333; }
+.LSDescr {
+color: #aaa;
+font-size: 0.8em;
+font-weight: normal;
+margin-left: 2.5em;
+text-shadow: none;
+font-family: Verdana, Helvetica, Arial, sans-serif; }
+#LSHighlight .LSDescr,
+.LSHighlight .LSDescr {
+color: #f7f7f7; }
+.LSResult {
+position: relative;
+display: block;
+text-align: right;
+margin: 0;
+left: 3px;
+z-index: 5; }
+.LSShadow {
+position: relative;
+text-align: right; }
+.livesearchContainer {
+padding: 0 !important;
+position: absolute;
+right: 0px;
+color: #aaa;
+/* */
+top: 12px;
+white-space: normal;
+visibility: visible;
+text-align: left;
+width: 30em;
+text-transform: none;
+margin: 0;
+border: 1px solid #000000;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-webkit-border-bottom-right-radius: 5px;
+background-color: #000000;
+background-color: rgba(0, 0, 0, 0.9);
+/* */
+box-shadow: 0px 0px 4px #777;
+-moz-box-shadow: 0px 0px 4px #777;
+-webkit-box-shadow: 0px 0px 4px #777; }
+* html .livesearchContainer {
+padding: 1px !important;
+padding-top: 0 !important;
+border: 0; }
+#livesearchLegend {
+display: none; }
+* html #livesearchLegend {
+position: relative; }
+/* */
+.LSIEFix {
+background-color: transparent;
+padding: 0.76em 0.46em !important;
+z-index: 20;
+margin: 1px;
+border: 1px solid #fff;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-webkit-border-bottom-right-radius: 5px; }
+.LSBox {
+clear: left;
+float: left;
+text-align: right;
+padding-right: 1px;
+display: block; }
+#LSNothingFound {
+text-align: center;
+padding: 2px; }
+.LSBox label {
+font-weight: normal; }
+/* */
+#portal-logo {
+display: inline-block;
+margin: 26px 0 32px;
+outline: none; }
+#portal-topactions {
+margin-top: 5em;
+float: right; }
+#portal-topactions a {
+color: #fff; }
+/* */
+#portal-languageselector {
+float: right;
+clear: right;
+margin: 4.8em 0 0 1em;
+text-align: right;
+list-style: none; }
+#portal-languageselector li {
+display: inline;
+list-style: none; }
+#portal-languageselector li a {
+margin-left: 0.5em;
+display: inline-block; }
+#portal-languageselector li.currentLanguage {
+opacity: .5; }
+.ie6 #portal-languageselector li.currentLanguage,
+.ie7 #portal-languageselector li.currentLanguage,
+.ie8 #portal-languageselector li.currentLanguage {
+zoom: 1;
+filter: alpha(opacity=50); }
+
+
+
+/*  */
+}
+

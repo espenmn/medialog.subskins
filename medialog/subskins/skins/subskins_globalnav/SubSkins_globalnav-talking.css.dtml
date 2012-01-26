@@ -1,5 +1,8 @@
-/* @override http://xweb14f.plana.dk:8084/akva/portal_css/subskins/SubSkins_globalnav_modernbuttonII.css */
-
+ /*
+  For SubSkins
+  <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
 /************************
        MAIN MENU
 ************************/
@@ -44,3 +47,5 @@
 	color: white;
 }
 
+
+/* </dtml-with> */

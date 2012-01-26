@@ -1,0 +1,17 @@
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+ 
+#footer {
+color: #fff;
+background-color: &dtml-SubSkinsColor4;;
+background-image: -moz-linear-gradient(top, &dtml-SubSkinsColor3;, &dtml-SubSkinsColor5;);
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, &dtml-SubSkinsColor3;), color-stop(1, &dtml-SubSkinsColor5;));
+filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='&dtml-SubSkinsColor3;', EndColorStr='&dtml-SubSkinsColor5;');
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='&dtml-SubSkinsColor3;', EndColorStr='&dtml-SubSkinsColor5;')";
+}
+
+#footer a {
+color: #fff; }
+
+/* <dtml-with> */

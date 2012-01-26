@@ -1,0 +1,56 @@
+/* @override http://xweb14f.plana.dk:8095/Pillow/portal_css/subskins/SubSkins_navigation_16.css */
+
+
+/* - SubSkins_navigation_16.css - */
+@media screen {
+/*
+  denne er ferdig (blaa til bruk i medialog demo site
+   (do not remove this)
+   (not this either)
+*/
+
+
+/* portal navigation
+
+---------------------------------------------------------------------- */
+
+
+    dl.portletNavigationTree {
+	border:  0 none;
+	background: black;
+	padding-bottom: 0;
+	opacity: 0.90;
+}
+
+ul.navTree.navTreeLevel0 > li a {
+	display: block;
+	padding: 8px 15px;
+	border-bottom:1px solid #fefefe;
+	opacity: 0.90;
+	
+	}
+
+.navTreeCurrentItem {
+	border-left: 8px solid red;;
+	margin-left: -11px;
+
+}
+
+
+
+ 
+
+
+li.navTreeItem a {
+	color:  #fefefe;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+ 
+
+
+/*    */
+}
+

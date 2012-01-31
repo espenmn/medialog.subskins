@@ -39,8 +39,10 @@
     -moz-transition-timing-function: ease-out;  
     margin-right:4px;
 }
-#portal-globalnav li  {
-	display: inline-block;  
+
+#portal-globalnav li {
+    display: block;
+    float: left;
 }
 
  

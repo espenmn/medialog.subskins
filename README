@@ -8,6 +8,10 @@ Changelog
 
 4.2b13
 ----------
+- Some css fixes and requiring Pillow >= 1.7.6 (see http://pypi.python.org/pypi/Pillow/1.7.6#id2 ).   
+
+4.2b13
+----------
 - Some more css files and a fix to taling globalnav.   
 
 4.2b12

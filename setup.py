@@ -26,6 +26,7 @@ setup(name='medialog.subskins',
           'setuptools',
           'plonetheme.classic',
           'Products.PloneSubSkins',
+          'Pillow>=1.7.6',
           # -*- Extra requirements: -*-
       ],
       entry_points="""

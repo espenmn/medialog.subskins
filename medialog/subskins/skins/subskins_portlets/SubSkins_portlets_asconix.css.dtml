@@ -4,8 +4,6 @@
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
 
-/* @group Portlets */
-
 .portlet{
 	margin: 12px 12px;
 	color: black;
@@ -55,6 +53,5 @@ span.portletItemDetails{
 	display: block;
 }
 
-/* @end */
 
 /* </dtml-with>*/

@@ -35,7 +35,6 @@
 	font-size: 12px;
 	line-height: 26px;
 	padding-left:  10px;
-
 }
 
 #portal-column-two .portletHeader {
@@ -48,8 +47,6 @@
 	color: whitesmoke;
 	padding-top: 0px
 }
-
-
 
 .portletNavigationTree .portletItem,
 .portletCalendar .portletItem{

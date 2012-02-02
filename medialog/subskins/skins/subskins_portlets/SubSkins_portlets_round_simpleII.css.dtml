@@ -40,7 +40,6 @@ dd.portletFooter {
 }
 
 /* portlets rounded corners */
-
 .portletBottomLeft,
 .portletBottomRight {
 	position: absolute;
@@ -63,9 +62,7 @@ dd.portletFooter {
 	background-position: bottom right;
 }
 
-
 /* calendar */
-
 .portletCalendar .portletItem {
 	padding-bottom: 1em;
 }

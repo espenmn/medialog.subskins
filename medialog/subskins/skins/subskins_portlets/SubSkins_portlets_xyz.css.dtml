@@ -3,9 +3,9 @@
 
 .portletWrapper {
 	padding: 0;
-background: url(gray_white_border_vanish_L.jpg) no-repeat 0 -1px;
-margin: 10px 0;
-border-top:  1px solid #AAA;
+	background: url(gray_white_border_vanish_L.jpg) no-repeat 0 -1px;
+	margin: 10px 0;
+	border-top:  1px solid #AAA;
 }
 
 
@@ -76,8 +76,6 @@ border-top:  1px solid #AAA;
 	border: 2px solid whitesmoke;
 }
 
-
-
 .visualNoMarker img {
 	float: left;
 	margin-right: 5px;
@@ -95,8 +93,6 @@ border-top:  1px solid #AAA;
 	line-height: 130%;
 	text-decoration: none;
 }
-
-
 
 .portletLogin .label {
 	padding: 4px;

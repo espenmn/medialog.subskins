@@ -218,12 +218,8 @@ top: 0;
 	padding: 0 1px;
 	display: block;
 	margin-left: 0;
-
 	}
 	
-	
-	
-
 #LSNothingFound {
 	text-align: center;
 	padding: 2px;

@@ -1,11 +1,8 @@
 /*
-  For SubSkins
   <dtml-with get_base_properties mapping> (do not remove this)
   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
 */
-/* portal navigation
 
--------------------------------------- */
 
 #portlet-navigation-tree {
 	/*
@@ -21,18 +18,14 @@ Hele navigasjonen (UL) */
 }
 
 a.navTreeCurrentItem {
-	
-
-/* Nåværende side */
+	/* Naavaerende side */
 	font-weight: bold;
 	color: black;
 	background-color: white;
 }
 
 a.navTreeCurrentItem li {
-	
-
-/* Nåværende side */
+	/* Naavaerende side */
 	color: black;
 }
 

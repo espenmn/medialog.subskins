@@ -1,7 +1,6 @@
 /* <dtml-with get_base_properties mapping> (do not remove this :) */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
-
 .portlet {
 	margin: 0 0 22px 0;
 	padding: 5px;
@@ -34,7 +33,6 @@ border-bottom: 1px dashed #939393;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	color: #939393;
-
 }
 .portletNavigationTree .portletItem,
 .portletCalendar .portletItem {
@@ -56,7 +54,6 @@ border-bottom: 1px dashed #939393;
 	display: block;
 }
 
-
 dd.portletFooter {
 	line-height: 25px;
 	padding-left: 10px;
@@ -69,7 +66,6 @@ dd.portletFooter {
 	text-align: right;
 	border-top: 1px dashed #939393;;
 }
-
 
 .portletFooter a {
 	text-align: right;
@@ -84,7 +80,6 @@ dd.portletFooter {
 .portletItem.even {
 background: #EEE;	
 }
-
 
 input#__ac_name,
 input#__ac_password {

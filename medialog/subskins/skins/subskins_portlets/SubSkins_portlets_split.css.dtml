@@ -1,7 +1,5 @@
 /* <dtml-with get_base_properties mapping> (do not remove this :) */
-
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
-
 
 .portlet{
 	padding: 0px;
@@ -9,9 +7,7 @@
 	color: black;
 	padding: 0;	
 	border: 1px solid silver;
-
 	}
-
 
 .portletItem{
 	list-style-type: none;
@@ -110,8 +106,6 @@ span.portletItemDetails{
 	padding: 5px 20px;
 	margin: 6px 0 0 10px;
 	}
-
-
 	
 /* </dtml-with> */
 

@@ -1,6 +1,4 @@
-
 /* <dtml-with get_base_properties mapping> (do not remove this :) */
-
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
 .portlet {
@@ -9,10 +7,7 @@
 	font: 10px verdana, helvetica, sans-serif;
 	border-collapse: collapse;
 	border-width: 0;
-	
-	
 	background: white url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor6;/000forlop.jpg)  repeat-y -400px 0;
-		
 	}
 
 
@@ -78,7 +73,6 @@
 }
 
 .configlets li {
-	
 }
 
 .visualNoMarker img {

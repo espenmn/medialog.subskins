@@ -1,7 +1,4 @@
-/* @override http://localhost:8080/Plone/portal_css/SubSkins/SubSkins_navigation_Blues.css */
-
 /*
-  For SubSkins
    <dtml-with base_properties> (do not remove this)
   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
 */

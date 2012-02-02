@@ -38,7 +38,6 @@
 	font-size: 12px;
 	line-height: 26px;
 	padding-left:  10px;
-
 }
 
 .portletCalendar dt.portletHeader {
@@ -53,8 +52,6 @@
 	padding-top: 0px
 }
 
-
-
 .portletNavigationTree .portletItem,
 .portletCalendar .portletItem{
 	padding: 0;
@@ -63,7 +60,6 @@
 	padding: 6px 10px;
 
 }
-
 
 .portletItemDetails {
 	font-weight: normal;
@@ -75,13 +71,11 @@
 	padding-top: 2px;
 	clear: both;
 	display: block;
-	
 }
 
 .portlet.portletThirdWidth {
 	margin-top: 20px !important;
-	margin-right:22px !important;
-	
+	margin-right:22px !important;	
 }
 
 #portlet-page-view {

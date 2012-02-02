@@ -1,7 +1,4 @@
-/* @override http://xweb14f.plana.dk:8084/Products/portal_css/subskins/subskins-cachekey9716.css */
-
 /*
-  For SubSKins - Dette er medialog looken.
   <dtml-with base_properties> (do not remove this)
   <dtml-with get_base_properties mapping> (do not remove this)
   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
@@ -300,11 +297,8 @@ span.breadcrumbSeparator {
 	margin-top: 0;
 	padding: 0 !important;
 	position: absolute;
-	right: 
-
-0px;
-	/* */
-top: 0;
+	right: 0px;
+	top: 0;
 	white-space: normal;
 	font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
 	visibility: visible;
@@ -335,8 +329,6 @@ top: 0;
 	margin-left: -8px;
 	position: relative;
 }
-
-/* */
 
 .LSIEFix {
 	background-color: White;

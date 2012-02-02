@@ -70,7 +70,6 @@ dd.portletFooter {
 	padding-left: 10px;
 }
 
-/* @end */
 
 .portletLogin  .portletHeader  {
 	background: &dtml-SubSkinsColor3; url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor3;/mon_pattern.png) right;

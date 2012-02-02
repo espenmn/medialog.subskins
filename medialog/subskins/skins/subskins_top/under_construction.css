@@ -1,13 +1,5 @@
-/* @override http://xweb14f.plana.dk:8095/Pillow/portal_css/subskins/SubSkins_top_nothing_special.css */
-
 
 /* - SubSkins_top_nothing_special.css - */
-@media screen {
-/*  (do not remove this :) */
-/*  (not this either :) */
-
-/* - SubSkins_top_nothing_special.css - */
- 
 
 #portal-top {
 background: transparent url(000forlopv.jpg) top left repeat-x;
@@ -58,8 +50,7 @@ opacity: .5; }
 .ie8 #portal-languageselector li.currentLanguage {
 zoom: 1;
 filter: alpha(opacity=50); }
-/*  */
-}
+
 .LSBox {
 position: relative; }
 #portal-searchbox input#searchGadget {
@@ -279,8 +270,4 @@ opacity: .5; }
 zoom: 1;
 filter: alpha(opacity=50); }
 
-
-
-/*  */
-}
 

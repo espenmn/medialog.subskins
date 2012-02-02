@@ -26,8 +26,7 @@
 
 
 .portletItem{
-	list-style-type: none;
-	
+	list-style-type: none;	
 	}
 
 .portletLogin .portletItem {
@@ -49,7 +48,6 @@ dd.portletItem {
 	border-top: 1px solid silver;
 }
 	
-
 .portletHeader{
 	font: normal 14px Verdana,Arial,Helvetica,sans-serif;
 	padding-bottom: 0;
@@ -123,8 +121,6 @@ span.portletItemDetails{
 	padding: 5px 20px;
 	margin: 6px 0 0 10px;
 	}
-
-
 	
 /* </dtml-with> */
 

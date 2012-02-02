@@ -1,12 +1,7 @@
 /*
-  For SubSkins
    <dtml-with get_base_properties mapping> (do not remove this)
   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
 */
-
-
-/* navigation */
-
 
 .portletNavigationTree {
 	border-top-color: #BEBEBC;
@@ -49,10 +44,6 @@ li.navTreeCurrentItem{
 	background-repeat: no-repeat;
 	background-position: top right;
 	}
-
-
-
- 
 
 /* </dtml-with> */
 

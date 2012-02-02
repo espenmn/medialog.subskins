@@ -3,11 +3,6 @@
   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
 */
 
-
-/* portal navigation
-
----------------------------------------------------------------------- */
-
 #portlet-navigation-tree .portletItem{
     padding:0px 0px 0px 0px;
     background-image: none;

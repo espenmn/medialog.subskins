@@ -1,6 +1,5 @@
 /*
-  For SubSKins - Dette er medialog looken.
-  <dtml-with base_properties> (do not remove this)
+   <dtml-with base_properties> (do not remove this)
   <dtml-with get_base_properties mapping> (do not remove this)
   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
 */
@@ -165,7 +164,7 @@ background-color: white;
 	position: absolute;
 	left: 0px;
 	/* Currently exposes a rendering bug in Mozilla */
-top: 0;
+	top: 0;
 	white-space: normal;
 	font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
 	visibility: visible;

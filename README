@@ -6,6 +6,10 @@ You should upgrade  Product.PloneSubSkins to version 4.7 when using version newe
 Changelog
 =========
 
+4.2b16
+----------
+- Some css fixes, removing media screen on composite css files and cleaning up comments.   
+
 4.2b15
 ----------
 - Some css fixes and requiring Pillow >= 1.7.6 (see http://pypi.python.org/pypi/Pillow/1.7.6#id2 ).   

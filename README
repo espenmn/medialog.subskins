@@ -6,6 +6,10 @@ You should upgrade  Product.PloneSubSkins to version 4.7 when using version newe
 Changelog
 =========
 
+4.2b17
+----------
+- Removed comments in two calendar portlets (those based on plone's).   
+
 4.2b16
 ----------
 - Some css fixes, removing media screen on composite css files and cleaning up comments.   

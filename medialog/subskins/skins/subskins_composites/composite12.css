@@ -1,6 +1,5 @@
 /* - SubSkins_base_useit.css - */
-@media screen {
-/* /portal_css/SubSkins_base_useit.css?original=1 */
+
 .colophonWrapper a{
 color: white;
 }
@@ -42,13 +41,7 @@ background: White;
 }
 
 
-}
-
-
 /* - SubSkins_top_nothing_special.css - */
-@media screen {
-/* /portal_css/SubSkins_top_nothing_special.css?original=1 */
-
 
 #portal-top {
 width: 100%;
@@ -230,35 +223,19 @@ text-align: center;
 padding: 2px;
 }
 
-}
-
-
-
-
 /* - columns-padding.css - */
-@media screen {
-/* /portal_css/columns-padding.css?original=1 */
+
 td#portal-column-one,
 td#portal-column-two {
 padding: 20px;
 }
 
-}
-
-
 /* - portlet_background-whitesmoke.css - */
-@media screen {
-/* /portal_css/portlet_background-whitesmoke.css?original=1 */
 .portlet {
 background: #f4f4f4 !important;
 }
-}
-
 
 /* - SubSkins_bottom_mirror.css - */
-@media screen {
-/* /portal_css/SubSkins_bottom_mirror.css?original=1 */
-
 
 #portal-colophon {
 background: #183152 url(subskins_getimage/%23183152/forlopIV.gif) repeat-x;
@@ -316,13 +293,7 @@ color: #436977;
 text-decoration: underline;
 }
 
-}
-
-
 /* - SubSkins_text_koha_12.css - */
-@media screen {
-/* /portal_css/SubSkins_text_koha_12.css?original=1 */
-
 
 body {
 font-family: verdana, helvetica, sans-serif;
@@ -607,22 +578,14 @@ float: left;
 margin: 20px 20px 10px 0
 }
 
-}
-
-
 /* - SubSkins_globalnav_display_none.css - */
-@media screen {
-/* /portal_css/SubSkins_globalnav_display_none.css?original=1 */
+
 #portal-globalnav {
 display: none;
 }
 
-}
-
 
 /* - SubSkins_portlets_clean_small_II.css - */
-@media screen {
-/* /portal_css/SubSkins_portlets_clean_small_II.css?original=1 */
 .portlet {
 margin: 0 0 23px 0;
 color: #666666;
@@ -753,12 +716,7 @@ margin-top: 4px;
 margin-bottom: 12px;
 }
 
-}
-
-
 /* - SubSkins_navigation_2_5.css - */
-@media screen {
-/* /portal_css/SubSkins_navigation_2_5.css?original=1 */
 
 #portlet-navigation-tree .portletItem{
 padding:0px 0px 0px 0px;
@@ -828,7 +786,4 @@ padding-left: 1.5em;
 }
 .portletNavigationTree .navTreeLevel3 a:hover {
 padding-left: 2.25em;
-}
-
-
 }

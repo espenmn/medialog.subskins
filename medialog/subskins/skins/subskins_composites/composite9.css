@@ -1,6 +1,4 @@
 /* - SubSkins_globalnav_abit_round_32.css - */
-@media screen {
-/* portal_css/SubSkins_globalnav_abit_round_32.css?original=1 */
 #portal-globalnav {
 clear: both;
 display: block;
@@ -38,12 +36,8 @@ padding: 4px 9px 2px 6px;
 background: #009ECE;
 }
 
-}
-
-
 /* - SubSkins_portlets_clean_small_III.css - */
-@media screen {
-/* portal_css/SubSkins_portlets_clean_small_III.css?original=1 */
+
 .portlet {
 margin: 0 0 23px 0;
 color: #666666;
@@ -175,12 +169,9 @@ margin-bottom: 12px;
 }
 
 
-}
-
 
 /* - SubSkins_bottom_display_none.css - */
-@media screen {
-/* portal_css/SubSkins_bottom_display_none.css?original=1 */
+
 #portal-footer {
 display:none;
 }
@@ -189,13 +180,7 @@ display:none;
 }
 
 
-}
-
-
 /* - SubSkins_base_black.css - */
-@media screen {
-/* portal_css/SubSkins_base_black.css?original=1 */
-
 
 body {
 position: relative;
@@ -229,14 +214,7 @@ padding: 10px 20px;
 }
 
 
-}
-
-
 /* - SubSkins_text_koha.css - */
-@media screen {
-/* portal_css/SubSkins_text_koha.css?original=1 */
-
-
 
 body {
 font-family: verdana, helvetica, sans-serif;
@@ -512,14 +490,7 @@ float: left;
 margin: 20px 20px 10px 0
 }
 
-
-}
-
-
 /* - SubSkins_navigation_Clean_simple.css - */
-@media screen {
-/* portal_css/SubSkins_navigation_Clean_simple.css?original=1 */
-
 .portletNavigationTree  {
 background: white;
 border: none;
@@ -553,15 +524,7 @@ border-bottom: 0px;
 padding-bottom: 4px;
 }
 
-}
-
-
 /* - SubSkins_calendar_small145.css - */
-@media screen {
-/* portal_css/SubSkins_calendar_small145.css?original=1 */
-
-
-
 .dayPopup {
 background-color: #9CCF31;
 padding: 0.2em;
@@ -627,15 +590,7 @@ border: 2px solid #CE0000;
 }
 
 
-
-}
-
-
 /* - SubSkins_top_nothing_special.css - */
-@media screen {
-/* portal_css/SubSkins_top_nothing_special.css?original=1 */
-
-
 #portal-top {
 width: 100%;
 height: auto;
@@ -815,6 +770,4 @@ display: block;
 #LSNothingFound {
 text-align: center;
 padding: 2px;
-}
-
 }

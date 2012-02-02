@@ -1,6 +1,4 @@
 /* - SubSkins_globalnav_liquid1.css - */
-@media screen {
-/* portal_css/SubSkins_globalnav_liquid1.css?original=1 */
 
 
 #portal-globalnav {
@@ -95,12 +93,8 @@ padding-left: 0;
 }
 
 
-}
-
 
 /* - SubSkins_bottom_mirror.css - */
-@media screen {
-/* portal_css/SubSkins_bottom_mirror.css?original=1 */
 
 
 #portal-colophon {
@@ -159,23 +153,16 @@ color: #436977;
 text-decoration: underline;
 }
 
-}
 
 
 /* - navigation_background-whitesmoke.css - */
-@media screen {
-/* portal_css/navigation_background-whitesmoke.css?original=1 */
+
 .portletNavigationTree {
 background: #f4f4f4 !important;
-}
 }
 
 
 /* - SubSkins_calendar_small145.css - */
-@media screen {
-/* portal_css/SubSkins_calendar_small145.css?original=1 */
-
-
 
 .dayPopup {
 background-color: #A5C53D;
@@ -243,12 +230,9 @@ border: 2px solid #006D90;
 
 
 
-}
-
 
 /* - SubSkins_portlets_clean_small_III.css - */
-@media screen {
-/* portal_css/SubSkins_portlets_clean_small_III.css?original=1 */
+
 .portlet {
 margin: 0 0 23px 0;
 color: #666666;
@@ -380,34 +364,23 @@ margin-bottom: 12px;
 }
 
 
-}
-
 
 /* - no_search_section.css - */
-@media screen {
-/* portal_css/no_search_section.css?original=1 */
+
 .searchSection {
 display: none;
-}
 }
 
 
 /* - shinythings.css - */
-@media screen {
-/* portal_css/shinythings.css?original=1 */
 
 .section-shinythings h1 {font-family: TuffyRegular, "Sans Serif" !important; font-size: 230% !important;  }
-
-}
 
 
 /* - fontfaces.css - */
 
 
 /* - SubSkins_base_greytexture.css - */
-@media screen {
-/* portal_css/SubSkins_base_greytexture.css?original=1 */
-
 
 .kaffe { font-family: 'Yanone Kaffeesatz', arial, serif; font-size: 400% !important;  }
 .section-shinythings #portal-logo img {
@@ -449,15 +422,7 @@ padding: 10px 20px;
 }
 
 
-}
-
-
 /* - SubSkins_text_arty.css - */
-@media screen {
-/* portal_css/SubSkins_text_arty.css?original=1 */
-
-
-
 body {
 font-family: verdana, helvetica, sans-serif;
 font-size: 10px;
@@ -703,12 +668,9 @@ float: left;
 margin: 20px 20px 10px 0
 }
 
-}
-
 
 /* - SubSkins_top_earh.css - */
-@media screen {
-/* portal_css/SubSkins_top_earh.css?original=1 */
+
 #portal-top {
 width: 100%;
 height: auto;
@@ -888,12 +850,9 @@ padding: 2px;
 }
 
 
-}
-
 
 /* - breadcrumbs-layout.css - */
-@media screen {
-/* portal_css/breadcrumbs-layout.css?original=1 */
+
 .breadcrumbSeparator {
 display: none !important;
 }
@@ -920,23 +879,17 @@ font-weight: normal !important;
 span#breadcrumbs-you-are-here{
 display: none;
 }
-}
 
 
 /* - columns-padding.css - */
-@media screen {
-/* portal_css/columns-padding.css?original=1 */
+
 td#portal-column-one,
 td#portal-column-two {
 padding: 20px;
 }
 
-}
-
 
 /* - SubSkins_navigation_Clean_simple_2.css - */
-@media screen {
-/* portal_css/SubSkins_navigation_Clean_simple_2.css?original=1 */
 
 .portletNavigationTree  {
 background: white;
@@ -971,13 +924,8 @@ border-bottom: 0px;
 padding-bottom: 4px;
 }
 
-}
 
 /* - simple_table.css - */
-@media screen {
-/* portal_css/simple_table.css?original=1 */
-
-
 
 table.listing,
 .stx table {
@@ -1087,6 +1035,3 @@ vertical-align: middle;
 text-decoration: none;
 }
 
-
-
-}

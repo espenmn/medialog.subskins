@@ -1,7 +1,4 @@
 /* - SubSkins_base_black.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8096/mountbmh/bingo/portal_css/SubSkins_base_black.css?original=1 */
-
 
 body {
 position: relative;
@@ -35,14 +32,8 @@ padding: 10px 20px;
 }
 
 
-}
-
-
 /* - SubSkins_top_trans.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8096/mountbmh/bingo/portal_css/SubSkins_top_trans.css?original=1 */
-
-
+ 
 #portal-top {
 width: 100%;
 height: auto;
@@ -244,12 +235,8 @@ text-align: center;
 padding: 2px;
 }
 
-}
-
-
 /* - SubSkins_globalnav_sliding.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8096/mountbmh/bingo/portal_css/SubSkins_globalnav_sliding.css?original=1 */
+
 #portal-globalnav {
 height: 32px;
 font-size: 14px;
@@ -297,12 +284,8 @@ margin-left: 0;
 color: white;
 }
 
-}
-
 
 /* - SubSkins_navigation_25.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8096/mountbmh/bingo/portal_css/SubSkins_navigation_25.css?original=1 */
 
 #portlet-navigation-tree .portletItem{
 padding:0px 0px 0px 0px;
@@ -388,13 +371,7 @@ padding-left: 2.25em;
 }
 
 
-}
-
-
 /* - SubSkins_portlets_dottet.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8096/mountbmh/bingo/portal_css/SubSkins_portlets_dottet.css?original=1 */
-
 
 .portlet {
 margin: 0 0 22px 0;
@@ -473,23 +450,15 @@ padding: 3px;
 }
 
 
-}
-
 
 /* - hide_edit_border.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8096/mountbmh/bingo/portal_css/hide_edit_border.css?original=1 */
+
 .documentEditable #content {
 border: 0px hidden !important;
-}
 }
 
 
 /* - simple_table.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8096/mountbmh/bingo/portal_css/simple_table.css?original=1 */
-
-
 
 table.listing,
 .stx table {
@@ -600,15 +569,7 @@ text-decoration: none;
 }
 
 
-
-}
-
-
 /* - SubSkins_bottom1.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8096/mountbmh/bingo/portal_css/SubSkins_bottom1.css?original=1 */
-
-
 
 #portal-footer{
 padding: 1em;
@@ -651,13 +612,7 @@ padding-left: 0.5em;
 display: inline;
 }
 
-}
-
 /* - SubSkins_text_friend.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8096/mountbmh/bingo/portal_css/SubSkins_text_friend.css?original=1 */
-
-
 
 h1, h2.tileHeadline {
 color:  #009ECE;
@@ -885,15 +840,8 @@ float: left;
 margin: 20px 20px 10px 0
 }
 
-}
-
 
 /* - Plone_Calendar1256.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8096/mountbmh/bingo/portal_css/Plone_Calendar1256.css?original=1 */
-
-
-
 
 .dayPopup {
 background-color: #F7D708;
@@ -981,8 +929,4 @@ margin-left: 3em;
 #portal-column-one fieldset.livesearchContainer {
 right: inherit !important;
 top: 1.5em !important;
-}
-
-
-
 }

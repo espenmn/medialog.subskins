@@ -1,8 +1,7 @@
 
 
 /* - SubSkins_base_asconix.css - */
-@media screen {
-/* portal_css/SubSkins_base_asconix.css?original=1 */
+
 body {
 position: relative;
 background:  url(http://grind.no/gui/patDark.png);
@@ -31,16 +30,10 @@ padding: 10px;
 #portal-column-content {
 padding: 10px 30px;
 }
-/* */
-
-}
 
 
 /* - SubSkins_top_nothing_special.css - */
-@media screen {
-/* portal_css/SubSkins_top_nothing_special.css?original=1 */
-/* */
-/* */
+
 #portal-top {
 width: 100%;
 height: auto;
@@ -221,16 +214,11 @@ display: block;
 text-align: center;
 padding: 2px;
 }
-/* */
-}
+
 
 
 /* - SubSkins_text_arty.css - */
-@media screen {
-/* portal_css/SubSkins_text_arty.css?original=1 */
-/* */
-/* */
-/* */
+
 body {
 font-family: verdana, helvetica, sans-serif;
 font-size: 10px;
@@ -475,16 +463,11 @@ margin-top: 6px;
 float: left;
 margin: 20px 20px 10px 0
 }
-/* */
-}
 
 
 /* - SubSkins_calendar_small145.css - */
-@media screen {
-/* portal_css/SubSkins_calendar_small145.css?original=1 */
-/* */
-/* */
-/* */
+
+
 .dayPopup {
 background-color: #F9CA69;
 padding: 0.2em;
@@ -548,29 +531,20 @@ color: whitesmoke;
 border-collapse: collapse;
 border: 2px solid #585858;
 }
-/* */
-/* */
-
-}
 
 
 /* - SubSkins_bottom_display_none.css - */
-@media screen {
-/* portal_css/SubSkins_bottom_display_none.css?original=1 */
+
 #portal-footer {
 display:none;
 }
 #portal-colophon {
 display:none;
 }
-/* */
-
-}
 
 
 /* - SubSkins_globalnav_helvetica.css - */
-@media screen {
-/* portal_css/SubSkins_globalnav_helvetica.css?original=1 */
+
 ul#portal-subnavbar {
 list-style-image: none;
 list-style-type: none;
@@ -619,15 +593,10 @@ text-decoration: underline;
 color: white;
 background: #6F9DBE url(subskins_getimage/%236F9DBE/navbarsel.gif)
 }
-/* */
-/* */
-
-}
 
 
 /* - SubSkins_portlets_clean_small_II.css - */
-@media screen {
-/* portal_css/SubSkins_portlets_clean_small_II.css?original=1 */
+
 .portlet {
 margin: 0 0 23px 0;
 color: #666666;
@@ -757,13 +726,10 @@ margin-top: 4px;
 .portletLogin div.field {
 margin-bottom: 12px;
 }
-/* */
-}
 
 
 /* - maps.css - */
-@media screen {
-/* portal_css/maps.css?original=1 */
+
 .mapsMarker {
 margin: 0;
 padding: 0;
@@ -781,13 +747,9 @@ height: 25em;
 .googleMapLocation .googleMapPane {
 height: 25em;
 }
-}
-
 
 /* - SubSkins_navigation_2silver.css - */
-@media screen {
-/* portal_css/SubSkins_navigation_2silver.css?original=1 */
-/* */
+
 #portlet-navigation-tree .portletItem{
 padding:0px 0px 0px 0px;
 background-image: none;
@@ -850,6 +812,4 @@ padding-left: 25px;
 color: black;
 font-weight: normal;
 font-style: normal;
-}
-/* */
 }

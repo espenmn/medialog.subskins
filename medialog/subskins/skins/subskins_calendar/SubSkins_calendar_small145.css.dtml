@@ -1,8 +1,6 @@
 /* <dtml-with get_base_properties mapping> (do not remove this :) */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
-/* @group Calendar */
-
 .dayPopup {
 	background-color: &dtml-SubSkinsColor5;;
 	 padding: 0.2em;
@@ -77,8 +75,5 @@
 	border-collapse: collapse;
 	border: 2px solid &dtml-SubSkinsColor1;;
 }
-
-/* @end */
-
 
 /* </dtml-with> */

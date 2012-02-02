@@ -1,7 +1,5 @@
 /* Stylesheet for the 'subskins' Plone theme */
 
-
-
 #portal-columns #portal-breadcrumbs {
 	display: block;
 	float:  none;
@@ -31,9 +29,7 @@ ul.configlets li {
 }
 /* @group Base Classes */
 
-/* base classes - structure
-
----------------------------------------------------------------------- */
+/* base classes - structure */
 
 .hiddenStructure {
 	display: none;
@@ -72,9 +68,7 @@ body.fullscreen #portal-column-content {
 	display: block;
 }
 
-/*
-
-@end */
+/* @end */
 
 
 /* Accessibility elements, applied by JS */
@@ -83,9 +77,7 @@ body.smallText { font-size: 80%; }
 
 /* @group Kupu Edit */
 
-/* base classes - kupu edit
-
----------------------------------------------------------------------- */
+/* base classes - kupu edit  */
 
 html.kupu-html body {
 	background: #f3f3f3;
@@ -200,9 +192,6 @@ border: none;
 dt.portletHeader.hiddenStructure {
 	display: none;
 }
-
-
-/* @group overlays */
 
 /* styling for overlays (popups) */
 

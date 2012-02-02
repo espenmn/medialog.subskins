@@ -1,6 +1,5 @@
 /* - SubSkins_globalnav_abit_round_32.css - */
-@media screen {
-/* /portal_css/SubSkins_globalnav_abit_round_32.css?original=1 */
+
 #portal-globalnav {
 clear: both;
 display: block;
@@ -38,12 +37,8 @@ padding: 4px 9px 2px 6px;
 background: #F7991E;
 }
 
-}
-
 
 /* - subskins.css - */
-@media screen {
-/* /portal_css/subskins.css?original=1 */
 
 #portal-columns #portal-breadcrumbs {
 display: block;
@@ -241,14 +236,7 @@ div.overlay textarea { width: 100%; }
 
 
 
-}
-
-
 /* - SubSkins3_top_base.css - */
-@media screen {
-/* /portal_css/SubSkins3_top_base.css?original=1 */
-
-
 
 #portal-top {
 width: 100%;
@@ -443,14 +431,7 @@ padding: 2px;
 }
 
 
-}
-
-
 /* - SubSkins_text_arty.css - */
-@media screen {
-/* /portal_css/SubSkins_text_arty.css?original=1 */
-
-
 
 body {
 font-family: verdana, helvetica, sans-serif;
@@ -697,14 +678,8 @@ float: left;
 margin: 20px 20px 10px 0
 }
 
-}
-
 
 /* - SubSkins_calendar_small145.css - */
-@media screen {
-/* /portal_css/SubSkins_calendar_small145.css?original=1 */
-
-
 
 .dayPopup {
 background-color: #545454;
@@ -772,12 +747,8 @@ border: 2px solid #AC6914;
 
 
 
-}
-
-
 /* - SubSkins_portlets_clean_small_II.css - */
-@media screen {
-/* /portal_css/SubSkins_portlets_clean_small_II.css?original=1 */
+
 .portlet {
 margin: 0 0 23px 0;
 color: #666666;
@@ -908,13 +879,8 @@ margin-top: 4px;
 margin-bottom: 12px;
 }
 
-}
-
 
 /* - SubSkins_bottom1.css - */
-@media screen {
-/* /portal_css/SubSkins_bottom1.css?original=1 */
-
 
 
 #portal-footer{
@@ -958,15 +924,8 @@ padding-left: 0.5em;
 display: inline;
 }
 
-}
-
- 
-
 
 /* - SubSkins_base_1.css - */
-@media screen {
-/* /portal_css/SubSkins_base_1.css?original=1 */
-
 
 body {
 position: relative;
@@ -1002,11 +961,8 @@ padding: 10px 20px;
 }
 #content{
 }
-}
 
 /* - SubSkins_navigation_Clean_simple_2.css - */
-@media screen {
-/* /portal_css/SubSkins_navigation_Clean_simple_2.css?original=1 */
 .portletNavigationTree  {
 background: white;
 border: none;
@@ -1038,5 +994,4 @@ padding-left: 10px;
 line-height: 12px;
 border-bottom: 0px;
 padding-bottom: 4px;
-}
 }

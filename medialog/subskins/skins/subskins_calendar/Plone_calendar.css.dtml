@@ -1,25 +1,8 @@
-/*
-** Plone style sheet - Calendar
-**
-** Style sheet documentation can be found at http://plone.org/documentation
-**
-** You should preferrably use ploneCustom.css to add your own CSS classes and to
-** customize your portal, as these are the base fundaments of Plone, and will
-** change and be refined in newer versions. Keeping your changes in
-** ploneCustom.css will make it easier to upgrade.
-**
-** Feel free to use whole or parts of this for your own designs, but give credit
-** where credit is due.
-**
-*/
-
 /* <dtml-with base_properties> (do not remove this :) */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
 
-/*
-** Calendar elements - used in the calendar rendering
-*/
+/* Calendar elements - used in the calendar rendering */
 .dayPopup {
     background-color: &dtml-helpBackgroundColor;;
     border: &dtml-borderWidth; &dtml-borderStyle; Black;
@@ -128,6 +111,7 @@ div.managedPortlet {
 }
 
 /* Table of Contents styling - essentially a portlet with smaller fonts and aligned right + limited in width */
+
 .toc {
     float: right;
     width: 30%;
@@ -198,7 +182,5 @@ div.managedPortlet {
     height: 0px !important;
     height /**/: <dtml-var "_['arrowRight.gif'].height">px;
 }
-
-</dtml-comment>
 
 /* </dtml-with> */

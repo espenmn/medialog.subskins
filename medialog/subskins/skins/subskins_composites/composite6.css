@@ -1,11 +1,4 @@
-
-
 /* - simple_tableII.css - */
-@media screen {
-/* http://forslagii.medialog.no/portal_css/simple_tableII.css?original=1 */
-
-
-
 
 table.listing,
 .stx table {
@@ -118,16 +111,7 @@ clear: right;
 margin: 0 0 0.5em 1em;
 }
 
-
-
-}
-
-
 /* - SubSkins_globalnav_biblo.css - */
-@media screen {
-/* http://forslagii.medialog.no/portal_css/SubSkins_globalnav_biblo.css?original=1 */
-
-
 
 #portal-globalnav  {
 height: 41px;
@@ -141,7 +125,7 @@ float: left;
 display:block;
 height: 41px; 
 cursor: pointer;
-background-image: url(http://forslagii.medialog.no/subskins_getimage/%23FF9900/gradII.png);
+background-image: url(subskins_getimage/%23FF9900/gradII.png);
 background-repeat: repeat-x;
 background-position: bottom ;
 padding: 0;
@@ -157,59 +141,52 @@ line-height:41px;
 display: block;
 background-repeat: no-repeat;
 padding:  0 14px;
-background-image: url(http://forslagii.medialog.no/subskins_getimage/%23003300/gradII.png);
+background-image: url(subskins_getimage/%23003300/gradII.png);
 background-position: bottom left;
 }
 #portal-globalnav li:first-child{
-background-image: url(http://forslagii.medialog.no/subskins_getimage/%23FF9900/menu_r_left.png);
+background-image: url(subskins_getimage/%23FF9900/menu_r_left.png);
 background-repeat: no-repeat;
 background-position: bottom left;
 padding-left: 2px;
 padding-right: 0;
 }
 #portal-globalnav li:first-child:hover{
-background-image: url(http://forslagii.medialog.no/subskins_getimage/%23330000/menu_r_left_hover.png);
+background-image: url(subskins_getimage/%23330000/menu_r_left_hover.png);
 background-repeat: no-repeat;
 background-position: bottom left;
 padding-left: 0;
 padding-right: 2px;
 }
 #portal-globalnav li:first-child.selected{
-background-image: url(http://forslagii.medialog.no/subskins_getimage/%23996600/menu_r_left_hover.png);
+background-image: url(subskins_getimage/%23996600/menu_r_left_hover.png);
 background-repeat: no-repeat;
 background-position: bottom left;
 padding-left: 0;
 padding-right: 2px;
 }
 #portal-globalnav li.selected {
-background-image: url(http://forslagii.medialog.no/subskins_getimage/%23996600/gradII.png);
+background-image: url(subskins_getimage/%23996600/gradII.png);
 background-repeat: repeat-x;
 background-position: bottom left;
 }
 #portal-globalnav li :hover {
-background-image: url(http://forslagii.medialog.no/subskins_getimage/%23330000/gradIV.png);
+background-image: url(subskins_getimage/%23330000/gradIV.png);
 background-repeat: repeat-x;
 background-position: bottom left;
 color: #ffffff;
 }
 #portal-globalnav  li:last-child{
-background-image:url(http://forslagii.medialog.no/subskins_getimage/%23FF9900/menu_r_right.png);
+background-image:url(subskins_getimage/%23FF9900/menu_r_right.png);
 background-position:right bottom;
 background-repeat:no-repeat;
 padding-right:7px;
 }
 
-}
-
-
 /* - SubSkins_bottom_roundcolophon.css - */
-@media screen {
-/* http://forslagii.medialog.no/portal_css/SubSkins_bottom_roundcolophon.css?original=1 */
-
-
 
 #portal-colophon  {
-background-image:  url(http://forslagii.medialog.no/subskins_getimage/%23996600/roundcolophon.png);
+background-image:  url(subskins_getimage/%23996600/roundcolophon.png);
 background-position: left;
 background-repeat: no-repeat;
 height: 36px;
@@ -219,7 +196,7 @@ text-align: center;
 padding-left: 10px;
 }
 div.colophonWrapper  {
-background-image:  url(http://forslagii.medialog.no/subskins_getimage/%23996600/roundcolophon.png);
+background-image:  url(subskins_getimage/%23996600/roundcolophon.png);
 background-position: right;
 background-repeat: no-repeat;
 }
@@ -247,16 +224,10 @@ margin-left: 3px;
 margin-right:  3px;;
 }
 
-}
-
-
 /* - SubSkins_base_biblo.css - */
-@media screen {
-/* http://forslagii.medialog.no/portal_css/SubSkins_base_biblo.css?original=1 */
-
 
 body {
-background: #CC6600 url(http://forslagii.medialog.no/subskins_getimage/%23CC6600/lindespace.jpg);
+background: #CC6600 url(subskins_getimage/%23CC6600/lindespace.jpg);
 background-position: center top;
 background-repeat: no-repeat;
 position: relative;
@@ -270,13 +241,13 @@ margin: 0 auto;
 }
 #portal-columns{
 background-color: #FFFFFF;
-background-image: url(http://forslagii.medialog.no/subskins_getimage/%23FF9900/almostwhite.jpg);
+background-image: url(subskins_getimage/%23FF9900/almostwhite.jpg);
 background-repeat: no-repeat;
 }
 #clear-space-before-footer {
 display: block;
 width:  100%;
-background-image: url(http://forslagii.medialog.no/subskins_getimage/%23FF9900/almostwhite_footer.jpg);
+background-image: url(subskins_getimage/%23FF9900/almostwhite_footer.jpg);
 background-repeat: no-repeat;
 height: 43px;
 }
@@ -306,13 +277,8 @@ padding: 20px;
 }
 
 
-}
-
-
 /* - SubSkins_top_trans.css - */
 @media screen {
-/* http://forslagii.medialog.no/portal_css/SubSkins_top_trans.css?original=1 */
-
 
 #portal-top {
 width: 100%;
@@ -377,18 +343,18 @@ opacity: 1;
 }
 li#siteaction-sitemap a {
 color: transparent;
-background-image: url(http://forslagii.medialog.no/subskins_getimage/%23996600/sitemap_icon.gif);
+background-image: url(subskins_getimage/%23996600/sitemap_icon.gif);
 background-repeat: no-repeat  ;
 }
 li#siteaction-accessibility a {
 color: transparent;
-background-image: url(http://forslagii.medialog.no/subskins_getimage/%23996600/siteaction_size.png);
+background-image: url(subskins_getimage/%23996600/siteaction_size.png);
 background-position: left center;
 background-repeat: no-repeat;
 }
 li#siteaction-contact a {
 color: transparent;
-background-image: url(http://forslagii.medialog.no/subskins_getimage/%23996600/mail_icon.png);
+background-image: url(subskins_getimage/%23996600/mail_icon.png);
 background-repeat: no-repeat;
 }
 div#portal-personaltools-wrapper {
@@ -515,16 +481,8 @@ text-align: center;
 padding: 2px;
 }
 
-}
-
 
 /* - Plone_Calendar1256.css - */
-@media screen {
-/* http://forslagii.medialog.no/portal_css/Plone_Calendar1256.css?original=1 */
-
-
-
-
 .dayPopup {
 background-color: #003300;
 border: 1px solid #330000;
@@ -614,14 +572,7 @@ top: 1.5em !important;
 }
 
 
-
-}
-
-
 /* - subskins.css - */
-@media screen {
-/* http://forslagii.medialog.no/portal_css/subskins.css?original=1 */
-
 #portal-columns #portal-breadcrumbs {
 display: block;
 float:  none;
@@ -819,17 +770,7 @@ div.overlay textarea { width: 100%; }
 color: red; font-size: 200%;
 }
 
-
-
-}
-
-
 /* - SubSkins_portlets_asconix.css - */
-@media screen {
-/* http://forslagii.medialog.no/portal_css/SubSkins_portlets_asconix.css?original=1 */
-
-
-
 
 .portlet{
 margin: 12px 12px;
@@ -872,15 +813,7 @@ display: block;
 }
 
 
-
-}
-
-
 /* - SubSkins_text_arty.css - */
-@media screen {
-/* http://forslagii.medialog.no/portal_css/SubSkins_text_arty.css?original=1 */
-
-
 
 body {
 font-family: verdana, helvetica, sans-serif;
@@ -1127,13 +1060,8 @@ float: left;
 margin: 20px 20px 10px 0
 }
 
-}
-
 
 /* - SubSkins_navigation_2silver.css - */
-@media screen {
-/* http://forslagii.medialog.no/portal_css/SubSkins_navigation_2silver.css?original=1 */
-
 #portlet-navigation-tree .portletItem{
 padding:0px 0px 0px 0px;
 background-image: none;

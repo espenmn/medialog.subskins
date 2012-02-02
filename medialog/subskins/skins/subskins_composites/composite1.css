@@ -1,7 +1,6 @@
 
 /* - SubSkins_navigation_arrows.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/SubSkins_navigation_arrows.css?original=1 */
+
 .portletNavigationTree .portletItem{
 font-family: tahoma, arial, verdana, sans-serif;
 }
@@ -33,15 +32,11 @@ background: url(arrow-gray.png) no-repeat 0 3px;
 color: #777;
 font-weight: normal;
 }
-/* */
-}
+
 
 
 /* - SubSkins_top_nothing_special.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/SubSkins_top_nothing_special.css?original=1 */
-/* */
-/* */
+
 #portal-top {
 width: 100%;
 height: auto;
@@ -222,39 +217,28 @@ display: block;
 text-align: center;
 padding: 2px;
 }
-/* */
-}
 
 
 /* - globalnav_no_underline.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/globalnav_no_underline.css?original=1 */
+
 #portal-globalnav li a {
 text-decoration: none;
 }
 
-}
-
 
 /* - googlefonts.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/googlefonts.css?original=1 */
+
 h1 {
 font-family: 'Waiting for the Sunrise', arial, serif !important;
 font-size: 300% !important;
 line-height:140% !important;;
 }
 h1, h2 {
-margin-top: 14px; margin-bottom: 9px;}
-
+margin-top: 14px; margin-bottom: 9px;
 }
 
 
 /* - SubSkins_text_koha_12.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/SubSkins_text_koha_12.css?original=1 */
-/* */
-/* */
 body {
 font-family: verdana, helvetica, sans-serif;
 font-size: 11px;
@@ -537,13 +521,11 @@ margin-top: 6px;
 float: left;
 margin: 20px 20px 10px 0
 }
-/* */
-}
+
 
 
 /* - SubSkins_globalnav_linded1_drop_down.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/SubSkins_globalnav_linded1_drop_down.css?original=1 */
+
 #portal-globalnav {
 clear: both;
 display: block;
@@ -630,18 +612,10 @@ padding: 0;
 color: #777 !important;
 text-align: left;
 }
-/* */
-
-}
 
 
 /* - simple_tableII.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/simple_tableII.css?original=1 */
-/* */
-/* */
-/* */
-/* */
+
 table.listing,
 .stx table {
 /* */
@@ -752,19 +726,10 @@ float: right;
 clear: right;
 margin: 0 0 0.5em 1em;
 }
-/* */
-/* */
-
-}
 
 
 /* - SubSkins_portlets_asconix.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/SubSkins_portlets_asconix.css?original=1 */
-/* */
-/* */
-/* */
-/* */
+
 .portlet{
 margin: 12px 12px;
 color: black;
@@ -804,15 +769,10 @@ background: white;;
 padding:4px;
 display: block;
 }
-/* */
-/* */
-
-}
 
 
 /* - SubSkins_base_white.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/SubSkins_base_white.css?original=1 */
+
 body {
 position: relative;
 }
@@ -836,28 +796,19 @@ background: white;
 #portal-column-content {
 padding: 10px 30px;
 }
-/* */
-}
-
 
 /* - columns-grad.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/columns-grad.css?original=1 */
-/* */
-/* */
+
 #portal-column-one,
 #portal-column-two  {
 background: white url(subskins_getimage/%23E4DBC0/forlopvIII.png) repeat-x !important;
 padding: 20px !important;
 background-position: top;
 }
-/* */
-}
 
 
 /* - listingbar.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/fjelberg/portal_css/listingbar.css?original=1 */
+
 #viewlet-below-content div.listingBar {
 line-height: 20px;
 }
@@ -876,6 +827,3 @@ background: url(fancy_right.png) left 2px no-repeat;
 height: 32px;
 padding-left: 35px
 }
-
-}
-

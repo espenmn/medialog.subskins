@@ -1,7 +1,4 @@
 /* - Plone_Calendar1256.css - */
-@media screen {
-/* portal_css/Plone_Calendar1256.css?original=1 */
-
 
 .dayPopup {
 background-color: #C6AD00;
@@ -90,22 +87,15 @@ margin-left: 3em;
 right: inherit !important;
 top: 1.5em !important;
 }
-}
 
- 
-@media screen {
-/* portal_css/subskins.css?original=1 */
 
 #portal-columns #portal-breadcrumbs {
 display: block;
 float:  none;
 margin-left:  0;
 }
-}
 
 /* - SubSkins_navigation_2_5.css - */
-@media screen {
-/* portal_css/SubSkins_navigation_2_5.css?original=1 */
 
 #portlet-navigation-tree .portletItem{
 padding:0px 0px 0px 0px;
@@ -176,22 +166,16 @@ padding-left: 1.5em;
 .portletNavigationTree .navTreeLevel3 a:hover {
 padding-left: 2.25em;
 }
-}
 
 
 /* - no_search_section.css - */
-@media screen {
-/* portal_css/no_search_section.css?original=1 */
+
 .searchSection {
 display: none;
-}
 }
 
 
 /* - SubSkins_text_koha_12.css - */
-@media screen {
-/* portal_css/SubSkins_text_koha_12.css?original=1 */
-
 
 .listingBar a {
 background-image: none;
@@ -482,12 +466,8 @@ float: left;
 margin: 20px 20px 10px 0
 }
 
-}
-
-
 /* - SubSkins_top_nothing_special.css - */
-@media screen {
-/* portal_css/SubSkins_top_nothing_special.css?original=1 */
+
 #portal-top {
 width: 100%;
 height: auto;
@@ -684,15 +664,9 @@ text-align: center;
 padding: 2px;
 }
 
-}
 
-
- 
 
 /* - SubSkins_base_biblo.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8096/mount02/thermtech/portal_css/SubSkins_base_biblo.css?original=1 */
-
 
 #chicken_contentDiv {
 overflow: visible !important;
@@ -792,13 +766,7 @@ padding: 20px;
 }
 
 
-}
-
-
 /* - SubSkins_bottom_mirror.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8096/mount02/thermtech/portal_css/SubSkins_bottom_mirror.css?original=1 */
-
 
 #portal-colophon {
 background: #0071b9 url(http://xweb14f.plana.dk:8096/mount02/thermtech/subskins_getimage/%230071b9/forlopIV.gif) repeat-x;
@@ -856,23 +824,16 @@ color: #436977;
 text-decoration: underline;
 }
 
-}
-
 
 /* - columns-padding.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8096/mount02/thermtech/portal_css/columns-padding.css?original=1 */
+
 td#portal-column-one,
 td#portal-column-two {
 padding: 20px;
 }
 
-}
-
-
 /* - SubSkins_globalnav_modernbuttonII.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8096/mount02/thermtech/portal_css/SubSkins_globalnav_modernbuttonII.css?original=1 */
+
 #portal-globalnav {
 padding: 10px 0;
 clear: both;
@@ -942,13 +903,8 @@ background: #c69a00;
 #portal-globalnav li a:hover {
 text-decoration:underline;
 }
-}
-
 
 /* - SubSkins_portlets_blue.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8096/mount02/thermtech/portal_css/SubSkins_portlets_blue.css?original=1 */
-
 
 .portlet {
 margin: 0 0 23px 0;
@@ -1091,13 +1047,7 @@ margin-top: 4px;
 margin-bottom: 12px;
 }
 
-}
-
-
 /* - simple_tableII.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8096/mount02/thermtech/portal_css/simple_tableII.css?original=1 */
-
 table.listing,
 .stx table {
 border-collapse: collapse;
@@ -1210,14 +1160,8 @@ margin: 0 0 0.5em 1em;
 }
 
 
-
-}
-
-
-
 /* - listingbar.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8096/mount02/thermtech/portal_css/listingbar.css?original=1 */
+
 #viewlet-below-content div.listingBar {
 line-height: 20px;
 }
@@ -1235,5 +1179,4 @@ height: 32px;
 background: url(fancy_right.png) left 2px no-repeat;
 height: 32px;
 padding-left: 35px
-}
 }

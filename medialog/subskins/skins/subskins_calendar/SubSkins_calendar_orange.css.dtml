@@ -1,13 +1,7 @@
 /*
- For Subskins
-
   <dtml-with base_properties> (do not remove this)
   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
 */
-
-
-
-/* @group Calendar */
 
 .dayPopup{
   background-color: #ea9b25;
@@ -22,8 +16,6 @@
 .date{
   font-weight: bold;
   }
-
-
 
 .ploneCalendar{
   border-collapse: separate;
@@ -75,7 +67,6 @@
 .ploneCalendar #calendar-previous{
 
 }
-
 
 /* </dtml-with> */
 

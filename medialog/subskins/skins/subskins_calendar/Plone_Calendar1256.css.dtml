@@ -1,19 +1,8 @@
-/* @override http://localhost:8080/Plone/portal_css/subskins/Plone_calendar.css */
-
-/*
-** SubSkins version of Plone style sheet - Portlets
-**
-
-**
-*/
-
 /* <dtml-with base_properties> (do not remove this :) */
 /* <dtml-with get_base_properties mapping> (do not remove this :) */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
-/*
-** Calendar elements - used in the calendar rendering
-*/
+/* Calendar elements - used in the calendar rendering */
 .dayPopup {
     background-color: &dtml-SubSkinsColor5;;
     border: 1px solid &dtml-SubSkinsColor1;;
@@ -103,7 +92,6 @@
 }
 
 
-
 /* LiveSearch portlet tweaks, since positioning changes */
 #portal-column-one fieldset.livesearchContainer {
     right: inherit !important;
@@ -145,7 +133,6 @@
     height /**/: <dtml-var "_['arrowRight.gif'].height">px;
 }
 
-</dtml-comment>
 
 /* </dtml-with> */
 /* </dtml-with> */

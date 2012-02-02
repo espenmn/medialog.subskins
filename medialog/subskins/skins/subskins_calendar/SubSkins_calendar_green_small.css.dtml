@@ -1,9 +1,5 @@
 /* <dtml-with base_properties> (do not remove this :) */
-
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
-
-
-/* @group Calendar */
 
 .dayPopup {
 	background-color: #c9d8da;
@@ -40,7 +36,6 @@
 	padding:  0;
 }
 
-
 .ploneCalendar a {
 	}
 
@@ -56,7 +51,6 @@
 	font-weight: normal;
 	border-bottom: 1px solid  #949901;
 }
-
 
 .ploneCalendar td {
 	text-align: center;
@@ -87,8 +81,5 @@ line-height: 1.3em;
 .ploneCalendar #calendar-previous {
 	
 }
-
-/* @end */
-
 
 /* </dtml-with> */

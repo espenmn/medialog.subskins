@@ -1,6 +1,5 @@
 /* - SubSkins3_koha.css - */
-@media screen {
-/* /portal_css/SubSkins3_koha.css?original=1 */
+
 #portal-top {
 width: 100%;
 background: whitesmoke;
@@ -188,15 +187,7 @@ padding: 2px;
 }
 
 
-
-}
-
-
 /* - Plone_portlets.css - */
-@media screen {
-/* /portal_css/Plone_portlets.css?original=1 */
-
-
 
 .managePortletsFallback {
 margin: 0 0 0 1em;
@@ -264,16 +255,8 @@ text-align: right;
 .portletTopRight {}
 .portletBottomLeft {}
 .portletBottomRight {}
-
-
-}
-
-
+ 
 /* - SubSkins_bottom.css - */
-@media screen {
-/* /portal_css/SubSkins_bottom.css?original=1 */
-
-
 
 #portal-footer{
 padding: 1em;
@@ -317,13 +300,7 @@ padding-left: 0.5em;
 display: inline;
 }
 
-}
-
-
 /* - SubSkins_base_1.css - */
-@media screen {
-/* /portal_css/SubSkins_base_1.css?original=1 */
-
 
 body {
 position: relative;
@@ -360,15 +337,7 @@ padding: 10px 20px;
 #content{
 }
 
-
-}
-
-
 /* - SubSkins_text_koha.css - */
-@media screen {
-/* /portal_css/SubSkins_text_koha.css?original=1 */
-
-
 
 body {
 font-family: verdana, helvetica, sans-serif;
@@ -644,13 +613,7 @@ float: left;
 margin: 20px 20px 10px 0
 }
 
-
-}
-
-
 /* - SubSkins_navigation_2silver.css - */
-@media screen {
-/* /portal_css/SubSkins_navigation_2silver.css?original=1 */
 
 #portlet-navigation-tree .portletItem{
 padding:0px 0px 0px 0px;
@@ -716,14 +679,7 @@ font-weight: normal;
 font-style: normal;
 }
 
-}
-
-
 /* - SubSkins_calendar_asconix.css - */
-@media screen {
-/* /portal_css/SubSkins_calendar_asconix.css?original=1 */
-
-
 
 .dayPopup {
 background-color: #FFC603;
@@ -791,15 +747,7 @@ border: 2px solid #B20F0F;
 }
 
 
-
-}
-
-
 /* - SubSkins_globalnav_devider1.css - */
-@media screen {
-/* /portal_css/SubSkins_globalnav_devider1.css?original=1 */
-
-
 
 #portal-globalnav {
 height: 40px;
@@ -837,6 +785,4 @@ margin-right: 2px;
 #portal-globalnav .selected a:hover {
 color: white;
 background: url(/subskins_getimage/%23B20F0F/000menuanddevider.png) repeat-x left 0px;
-}
-
 }

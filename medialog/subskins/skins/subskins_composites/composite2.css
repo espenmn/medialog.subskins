@@ -1,6 +1,5 @@
 /* - SubSkins_globalnav_pa.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/skuldal/portal_css/SubSkins_globalnav_pa.css?original=1 */
+
 #portal-globalnav {
 height:37px;
 background:  #007FAE URL(subskins_getimage/%23007FAE/000forlopvII.jpg) repeat-x;
@@ -46,13 +45,7 @@ opacity: 0.85;
 }
 
 
-}
-
-
 /* - SubSkins_navigation_2_5.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/skuldal/portal_css/SubSkins_navigation_2_5.css?original=1 */
-
 #portlet-navigation-tree .portletItem{
 padding:0px 0px 0px 0px;
 background-image: none;
@@ -124,21 +117,12 @@ padding-left: 2.25em;
 }
 
 
-}
-
-
 /* - no_search_section.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/skuldal/portal_css/no_search_section.css?original=1 */
 .searchSection {
 display: none;
 }
-}
-
 
 /* - SubSkins_portlets_clean_small_III.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/skuldal/portal_css/SubSkins_portlets_clean_small_III.css?original=1 */
 .portlet {
 margin: 0 0 23px 0;
 color: #666666;
@@ -269,13 +253,7 @@ margin-top: 4px;
 margin-bottom: 12px;
 }
 
-
-}
-
-
 /* - SubSkins_text_arty.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/skuldal/portal_css/SubSkins_text_arty.css?original=1 */
 body {
 font-family: verdana, helvetica, sans-serif;
 font-size: 10px;
@@ -521,15 +499,8 @@ float: left;
 margin: 20px 20px 10px 0
 }
 
-}
-
 
 /* - SubSkins_bottom1.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/skuldal/portal_css/SubSkins_bottom1.css?original=1 */
-
-
-
 #portal-footer{
 padding: 1em;
 border-bottom: 1px solid #bcbcbc;
@@ -571,12 +542,8 @@ padding-left: 0.5em;
 display: inline;
 }
 
-}
-
 
 /* - SubSkins_base_forl1.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/skuldal/portal_css/SubSkins_base_forl1.css?original=1 */
 
 
 body {
@@ -613,23 +580,16 @@ padding: 10px 20px;
 }
 
 
-}
-
 
 /* - columns-padding.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/skuldal/portal_css/columns-padding.css?original=1 */
+
 td#portal-column-one,
 td#portal-column-two {
 padding: 20px;
 }
 
-}
-
-
 /* - SubSkins_top_earh.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/skuldal/portal_css/SubSkins_top_earh.css?original=1 */
+
 #portal-top {
 width: 100%;
 height: auto;
@@ -809,24 +769,14 @@ padding: 2px;
 }
 
 
-}
-
 
 /* - breadcrumbs-margin.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/skuldal/portal_css/breadcrumbs-margin.css?original=1 */
+
 #portal-breadcrumbs {
 margin: 10px 20px;
 }
 
-}
-
-
 /* - SubSkins_calendar_clean_small.css - */
-@media screen {
-/* http://xweb14f.plana.dk:8094/skuldal/portal_css/SubSkins_calendar_clean_small.css?original=1 */
-
-
 
 .dayPopup {
 background-color: #525252;
@@ -900,7 +850,3 @@ float: left;
 #calendar-next {
 float: right;
 }
-
-
-}
-

@@ -24,14 +24,10 @@
 
 /* for IE */
 
-/*\*/
-
 * html #portal-globalnav {
 	height: 1em;
 	overflow: visible;
 }
-
-/**/
 
 #portal-globalnav li {
 	display: block;

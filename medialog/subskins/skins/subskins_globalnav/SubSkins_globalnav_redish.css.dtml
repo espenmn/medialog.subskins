@@ -1,7 +1,4 @@
-/* - SubSkins_globalnav_redish - */
-/*
-  For SubSKins - Dette er medialog looken.
-  <dtml-with base_properties> (do not remove this)
+/* <dtml-with base_properties> (do not remove this)
   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
 */
 

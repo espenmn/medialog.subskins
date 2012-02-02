@@ -4,10 +4,8 @@
   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
 */
 
-/* The global section tabs. */
 
 #portal-globalnav {
-	
 
 /* Navigational Plone Tabs(tm), implemented by customizing the a tag - they are surprisingly elegant. The power of CSS runs strong in these :) */
     background-color: #FFFFFF;

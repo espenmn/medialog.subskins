@@ -1,5 +1,4 @@
 /*for subskins CSS3 */
-
 /* <dtml-with get_base_properties mapping> (do not remove this :) */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
@@ -58,10 +57,7 @@
 }
 
 
- 
- 
-  /** SUBMENU STYLES 
-*/ 
+  /** SUBMENU STYLES */ 
 #portal-globalnav ul.submenu {
 	width: 211px;
  	padding:0;

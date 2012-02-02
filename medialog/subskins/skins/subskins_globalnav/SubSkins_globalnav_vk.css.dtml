@@ -1,11 +1,8 @@
-
 /*
   Round corners dont work with IE (surprise!)
-    <dtml-with base_properties> (do not remove this)
+  <dtml-with base_properties> (do not remove this)
   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
 */
-
-
 
 #portal-globalnav {
 display: block;

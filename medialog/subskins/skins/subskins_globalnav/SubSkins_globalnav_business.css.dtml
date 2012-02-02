@@ -1,4 +1,4 @@
-/*  For SubSkins (espen@medialog.no)
+/*  For SubSkins (espen at medialog dot no)
    <dtml-with base_properties> (do not remove this)
   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
 */
@@ -21,9 +21,6 @@
 }
 
 /* for IE */
-
-/*\*/
-
 * html #portal-globalnav {
 	height: 28px;
 	overflow: visible;

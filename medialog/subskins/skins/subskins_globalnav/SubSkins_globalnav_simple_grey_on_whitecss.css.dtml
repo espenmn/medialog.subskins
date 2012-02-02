@@ -1,7 +1,6 @@
 /*
   This file is based on the ploneCustom.css.dtml shipped with Plone.
-
-  <dtml-with base_properties> (do not remove this)
+ <dtml-with base_properties> (do not remove this)
   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
 */
 

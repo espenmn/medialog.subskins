@@ -1,6 +1,4 @@
-
 /* For SubSkins
-
   <dtml-with base_properties>
   <dtml-with get_base_properties mapping> (do not remove this)
   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
@@ -36,8 +34,7 @@
 	color:white;
 }
  
- /** SUBMENU STYLES 
-*/ 
+ /** SUBMENU STYLES */ 
 #portal-globalnav ul.submenu{
  	background: url(submenu_bg.gif) no-repeat right bottom;
 	padding:0;

@@ -45,8 +45,7 @@ color: #006A94;
 vertical-align: middle; 
 } 
 
-/** SUBMENU STYLES 
-*/ 
+/** SUBMENU STYLES */ 
 
 #portal-globalnav ul.submenu li { 
 width: 90% !important; 

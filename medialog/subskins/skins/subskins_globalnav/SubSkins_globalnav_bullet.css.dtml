@@ -17,8 +17,6 @@
 
 /* for IE */
 
- 
-
 * html #portal-globalnav {
 	height: 1em;
 	overflow: visible;
@@ -49,11 +47,11 @@
 }
 
 #portal-globalnav li a:hover {
-background: transparent url(http://xweb14f.plana.dk:8084/plone4/subskins_getimage/&dtml.url_quote-SubSkinsColor3;/nav_dot.png) 8px 4px  no-repeat;
+background: transparent url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor3;/nav_dot.png) 8px 4px  no-repeat;
 }
 
 #portal-globalnav li.selected a {
-background: transparent url(http://xweb14f.plana.dk:8084/plone4/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/nav_dot.png) 8px 4px  no-repeat;
+background: transparent url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/nav_dot.png) 8px 4px  no-repeat;
 }
 
 /* </dtml-with> */

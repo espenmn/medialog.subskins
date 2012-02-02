@@ -1,7 +1,4 @@
-
-
 /*
-  For SubSKins - Dette er medialog looken.
   <dtml-with get_base_properties mapping> (do not remove this)
   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
 */
@@ -21,8 +18,6 @@
 	margin: 0;
 	padding: 24px 0;
 	text-transform: uppercase;
-
-	
 }
 
 #portal-globalnav li a {

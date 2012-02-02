@@ -1,7 +1,5 @@
-/* @override http://192.168.1.111:8280/contest/portal_css/SubSkins/SubSkins_globalnav_bluetabs.css */
 
 /*
-For SubSKins
   <dtml-with base_properties> (do not remove this)
   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
 */
@@ -25,8 +23,6 @@ ul#portal-globalnav  {
 	margin-bottom: 0;
 }
 
-
-
 #portal-globalnav:after {
 	content: "";
 	display: block;
@@ -40,7 +36,6 @@ ul#portal-globalnav {
 }
 
 /* for IE */
-
 * html #portal-globalnav {
 	overflow: visible;
 }
@@ -71,8 +66,6 @@ ul#portal-globalnav {
 	text-decoration: none;
 	display: block;
 	background: url(mark.gif) no-repeat right 7px;
-	
-	
 }
 
 #portal-globalnav li.selected {

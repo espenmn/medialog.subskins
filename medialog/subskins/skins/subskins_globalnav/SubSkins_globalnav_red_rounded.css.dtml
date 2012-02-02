@@ -1,5 +1,3 @@
-/* @override http://www.plonesubskins.com/portal_css/SubSkins/SubSkins_globalnav_corporate_I.css */
-
 #portal-globalnav
 {
 width:760px;

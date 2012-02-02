@@ -18,7 +18,6 @@ For SubSKins
 	border-left-style: none;
 }
 
-
 #portal-globalnav li {
 	display: block;
 	margin: 0;
@@ -38,8 +37,5 @@ width: 100px;
 #portal-globalnav li.selected  {
  background:  &dtml-SubSkinsColor4;;
 }
-
-
-
 
 /* </dtml-with> */

@@ -1,7 +1,4 @@
-/* @override http://xweb11.plana.dk:8098/kp/portal_css/SubSkins/SubSkins_globalnav_blueish.css */
-
 /*
-  For SubSKins - Dette er medialog looken.
   <dtml-with base_properties> (do not remove this)
   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
 */

@@ -2,7 +2,6 @@
 /* <dtml-with get_base_properties mapping> (do not remove this :) */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
-/* Calendar elements - used in the calendar rendering */
 .dayPopup {
     background-color: &dtml-SubSkinsColor5;;
     border: 1px solid &dtml-SubSkinsColor1;;
@@ -90,16 +89,6 @@
 .toc .TOC3Digit {
     margin-left: 3em;
 }
-
-
-/* LiveSearch portlet tweaks, since positioning changes */
-#portal-column-one fieldset.livesearchContainer {
-    right: inherit !important;
-    top: 1.5em !important;
-}
-
-<dtml-comment>
-/* Commented out for now, since the calendar markup has changed slightly ~limi */
 
 
 .calendarPrevious {

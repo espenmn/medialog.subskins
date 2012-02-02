@@ -148,9 +148,7 @@ div.managedPortlet {
     top: 1.5em !important;
 }
 
-<dtml-comment>
-/* Commented out for now, since the calendar markup has changed slightly ~limi */
-
+ 
 
 .calendarPrevious {
     background-image: url(&dtml-portal_url;/arrowLeft.gif);

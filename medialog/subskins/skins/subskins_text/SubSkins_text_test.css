@@ -1,12 +1,3 @@
-/*  (do not remove this :) */
-
-/*  (not this either :) */
-
-/* http://i03.tcdn.cc/sc/portal_css/base.css?original=1 */
-
-/* */
-
-/* */
 
 body {
 	font: 11pt "Arial", Lucida Grande, Verdana, Lucida, Helvetica, sans-serif;
@@ -177,14 +168,10 @@ body.smallText {
 	font-size: 60%;
 }
 
-/* */
-
 h1, h2 {
 	border-bottom: 1px solid #8cacbb;
 	font-weight: normal;
 }
-
-/* */
 
 body.kssActive h2.inlineEditable:hover,
 body.kssActive h1.inlineEditable:hover,
@@ -217,8 +204,6 @@ h3, h4, h5, h6 {
 .documentContent ol {
 	margin: 0.5em 0 0 2.5em;
 }
-
-/* */
 
 .documentContent p a {
 	text-decoration: none;
@@ -270,8 +255,6 @@ h3, h4, h5, h6 {
 #content-news h1 {
 	margin-bottom: 1em;
 }
-
-/* */
 
 #content h5,
 #content h6 {
@@ -394,7 +377,7 @@ dl.error dd {
 .documentDescription {
 
 
-/* */
+
 font-weight: bold;
 	display: block;
 	margin: 0em 0em 0.5em 0em;
@@ -489,13 +472,13 @@ dl.searchResults span.documentByLine {
 	border: 1px solid black;
 }
 
-/* */
+
 
 table.listing,
 .stx table {
 
 
-/* */
+
 border-collapse: collapse;
 	border-spacing: 0;
 	border-left: 1px solid #8cacbb;
@@ -550,7 +533,7 @@ table.listing td a label,
 	cursor: pointer;
 }
 
-/* */
+
 
 table.vertical {
 	background-color: White;
@@ -565,14 +548,14 @@ table.vertical td {
 	padding: 0.5em;
 }
 
-/* */
+
 
 table.grid td {
 	border: 1px solid #8cacbb;
 	padding: 0.5em;
 }
 
-/* */
+
 
 table.plain,
 table.plain td,
@@ -582,7 +565,7 @@ table.plain th {
 	border-collapse: collapse;
 }
 
-/* */
+
 
 .listingBar {
 	background-color: #fefefe;
@@ -699,7 +682,7 @@ table.plain th {
 	height: 3.6em;
 }
 
-/* */
+
 
 a.link-parent {
 	display: block;
@@ -723,7 +706,7 @@ a.link-parent {
 	padding: 1px 0px 1px 16px !important
 
 ;
-/* */
+
 }
 
 #content .link-anchor {
@@ -741,9 +724,9 @@ a.link-parent {
 	color: red;
 }
 
-/* */
 
-/* */
+
+
 
 .visualGhosted {
 	opacity: 0.2;
@@ -777,7 +760,7 @@ dl.captioned {
 	padding: 10px;
 }
 
-/* */
+
 
 #dashboard-info-message {
 	padding-top: 0.5em;

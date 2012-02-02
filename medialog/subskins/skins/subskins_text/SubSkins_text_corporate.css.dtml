@@ -104,8 +104,6 @@ dd {
 	margin: 0.5em 0;
 }
 
-/* */
-
 a.tile {
 	color: black;
 }
@@ -149,8 +147,6 @@ select {
 	padding: 2px;
 	padding-left: 20px;
 }
-
-/* */
 
 table {
 	border-collapse: collapse;

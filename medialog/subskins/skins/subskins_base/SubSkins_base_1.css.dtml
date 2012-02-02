@@ -1,5 +1,4 @@
 /* <dtml-with get_base_properties mapping> (do not remove this :) */
-
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
 
@@ -7,12 +6,6 @@ body {
   position: relative;
   background: &dtml-SubSkinsColor1;;
 }
-
-/* @group Base Structure */
-
-/* base structures
-
----------------------------------------------------------------------- */
 
 #visual-portal-wrapper{
 	position: relative;
@@ -41,18 +34,8 @@ body {
   background: white;
   }
 
-
-
 #portal-column-content{
   padding: 10px 20px;
 }
-
-
-
-#content{
-}
-
-
-/* @end */
 
 /* </dtml-with> */	

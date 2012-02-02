@@ -1,5 +1,4 @@
 /* <dtml-with get_base_properties mapping> (do not remove this :) */
-
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
 body {
@@ -30,7 +29,6 @@ h5 {
 	margin-bottom: 10px;
 }
 
-
 h3 {
 	margin-bottom: 1px;
 	color: &dtml-SubSkinsColor3;;
@@ -44,7 +42,6 @@ p.documentDescription,
 	font-size: 13px;
 }
 
-
 a {
 	color: &dtml-SubSkinsColor2;;
 }
@@ -55,10 +52,7 @@ a:hover {
 p {
 	font-size: 11px;
 	line-height: 16px;
-	
-	
 }
-
 
 p a:link {
 	color: &dtml-SubSkinsColor2;;
@@ -263,7 +257,6 @@ del {
 .documentActions ul li a {
 	border: 0;
 }
-
 
 .comment {
 	border: 1px solid #ccc;

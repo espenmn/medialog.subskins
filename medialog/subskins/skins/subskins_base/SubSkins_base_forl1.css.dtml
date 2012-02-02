@@ -8,12 +8,6 @@ body {
   background-position: right;
 }
 
-/* @group Base Structure */
-
-/* base structures
-
----------------------------------------------------------------------- */
-
 #visual-portal-wrapper{
 	position: relative;
 	width:  &dtml-SubSkinsWidth1;;
@@ -43,7 +37,5 @@ body {
   padding: 10px 20px;
 }
 
-
-/* @end */
 
 /* </dtml-with> */	

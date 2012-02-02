@@ -100,11 +100,9 @@ input {
 
 /* @group Basis tagger for Lister */
 
-/* base tags - list
+/* base tags - list  */
 
---------------------------- */
-
-/* Unordered list (med • foran) */
+/* Unordered list (med prikk foran) */
 
 #content-core ul  {
 	margin: 0.5em 0 0.75em 2em;
@@ -148,11 +146,8 @@ dd {
 
 /* @group Basis tagger for Forms */
 
-/* base tags - form
+/* base tags - form  */
 
----------------------------------------------------------------------- */
-
-/* En beholder som kan brukes til å gruppere inputfelter */
 
 fieldset {
 	padding: 1em;
@@ -161,7 +156,7 @@ fieldset {
 
 legend {
 
-/* Tittel på form-felt */
+/* Tittel på formfelt */
   font-weight: bold;
 }
 
@@ -175,13 +170,13 @@ label {
   font-weight: bold;
 }
 
-/* attributter for tekst-felt */
+/* attributter for tekstfelt */
 
 textarea {
 	border: 1px solid #ccc;
 }
 
-/* attributter for input-felt */
+/* attributter for inputfelt */
 
 input {
 	padding: 2px;
@@ -189,7 +184,7 @@ input {
 	background: #fff;
 }
 
-/* attributter for valg-knapper */
+/* attributter for valgknapper */
 
 select {
 	border: 1px solid #ccc;
@@ -208,9 +203,7 @@ select {
 
 /* @group Basis tagger for Tabeller */
 
-/* base tags - table
-
----------------------------------------------------------------------- */
+/* base tags table */
 
 table {
 	border-collapse: collapse;
@@ -243,9 +236,7 @@ td {
 
 /* @group Edit */
 
-/* base tags - edit
-
----------------------------------------------------------------------- */
+/* base tags - edit  */
 
 em {
 	font-style: normal;
@@ -262,7 +253,7 @@ cite, q {
 
 blockquote {
 
-/* Uthevet tekst/sitat */
+/* Uthevet tekst sitat */
   margin: 0.5em 2em 0.75em 2em;
 	padding: 0.5em 2em;
 	border: 1px solid #ccc;

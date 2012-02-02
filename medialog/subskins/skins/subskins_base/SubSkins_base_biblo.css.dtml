@@ -8,10 +8,6 @@ body {
     position: relative;
 }
 
-/* base structures
-
----------------------------------------------------------------------- */
-
 #visual-portal-wrapper{
 	position: relative;
 	width:  &dtml-SubSkinsWidth1;;
@@ -64,7 +60,5 @@ body {
 #content{
 	padding: 20px;
 }
-
-
 
 /* </dtml-with> */	

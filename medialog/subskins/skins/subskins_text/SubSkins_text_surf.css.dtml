@@ -314,11 +314,7 @@ del {
 	border: 1px solid #ccc;
 	background: #f3f3f3;
 }
-
-#Xregion-content div dl dt span.discreet {
-	display: none;
-}
-
+ 
 #content  table.listing span.discreet {
 	font-weight: normal;
 	font-style: normal;

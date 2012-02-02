@@ -52,18 +52,14 @@ p {
 	line-height: 16px;
 }
 
-
-
 img {
 	border: none;
 }
-
 
 img.image-left{
 	float: left;
 	margin: 8px 20px 10px 0;
 }
-
 
 img.image-right,
 img.tileImage {
@@ -79,8 +75,6 @@ div.tileItem.visualIEFloatFix.vevent.contenttype-news-item {
 	border-top: 1px solid gray;
 	margin-top: 20px;
 }
-
-
 
 input {
 	border: 1px solid #2f4355;
@@ -305,8 +299,7 @@ pre {
 	font-family: "Lucida console", Lucida, Monaco, "Courier New", Courier, monospace;
 }
 
-ins {
-	
+ins {	
 }
 
 del {

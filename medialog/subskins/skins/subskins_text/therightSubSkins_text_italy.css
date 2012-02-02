@@ -1,4 +1,3 @@
- 
 .section-front-page .documentFirstHeading {
 display: none;
 }
@@ -62,11 +61,7 @@ img {
 	vertical-align: middle;
 }
 
-	
- 
-
 #content a, .orange {
-	/* color: #8CC63F; */
 	color:  #F7931E;
 	text-decoration: none;
 
@@ -150,15 +145,12 @@ h6 a {
 h1 {
 	font-size: 160%;
 }
-
  
-
 h3 {
 	font-size: 125%;
 	border-bottom: none;
 	font-weight: bold;
 }
- 
 
 h5 {
 	font-size: 100%;
@@ -255,8 +247,6 @@ body.smallText {
 	font-size: 60%;
 }
 
-/* */
-
 h1 {
 	border-bottom: 1px solid #8CC63F;
 	padding-bottom: 8px;
@@ -264,7 +254,6 @@ h1 {
 	font-weight: normal;
 }
 
-/* */
 
 body.kssActive h2.inlineEditable:hover,
 body.kssActive h1.inlineEditable:hover,
@@ -297,7 +286,6 @@ h3, h4, h5, h6 {
 	margin: 0.5em 0 0 2.5em;
 }
 
-/* */
 
 .documentContent p a {
 	text-decoration: none;
@@ -349,8 +337,6 @@ h3, h4, h5, h6 {
 #content-news h1 {
 	margin-bottom: 1em;
 }
-
-/* */
 
 #content h5,
 #content h6 {
@@ -564,13 +550,9 @@ dl.searchResults span.documentByLine {
 	border: 1px solid black;
 }
 
-/* */
-
 table.listing,
 .stx table {
 
-
-/* */
 border-collapse: collapse;
 	border-spacing: 0;
 	border-left: 1px solid #8cacbb;
@@ -625,7 +607,6 @@ table.listing td a label,
 	cursor: pointer;
 }
 
-/* */
 
 table.vertical {
 	background-color: White;
@@ -640,14 +621,11 @@ table.vertical td {
 	padding: 0.5em;
 }
 
-/* */
 
 table.grid td {
 	border: 1px solid #8cacbb;
 	padding: 0.5em;
 }
-
-/* */
 
 table.plain,
 table.plain td,
@@ -656,8 +634,6 @@ table.plain th {
 	padding: 0.5em;
 	border-collapse: collapse;
 }
-
-/* */
 
 .listingBar {
 	background-color: #fefefe;
@@ -781,8 +757,6 @@ div.textdiv {
 	height: 3.6em;
 }
 
-/* */
-
 a.link-parent {
 	display: block;
 	background: transparent url(http://i03.tcdn.cc/sc/arrowUp.gif) 4px 5px no-repeat;
@@ -823,10 +797,6 @@ a.link-parent {
 	color: red;
 }
 
-/* */
-
-/* */
-
 .visualGhosted {
 	opacity: 0.2;
 }
@@ -861,8 +831,6 @@ dd.image-caption {
 dl.captioned {
 	padding: 10px;
 }
-
-/* */
 
 #dashboard-info-message {
 	padding-top: 0.5em;
@@ -976,14 +944,12 @@ fieldset#pfg-fieldsetname-right.PFGFieldsetWidget {
     padding-bottom: 0;
 }
 
- 
 fieldset#pfg-fieldsetname-right.PFGFieldsetWidget {
 margin-left: 45px;
 margin-right: 87px;
 border: 0 none;
 
 }
-
 
 div.formControls {
 float: left;
@@ -1018,8 +984,6 @@ div.formControls input.context {
 
 }
 
- 
-
 label.formQuestion {
 	font: normal 12px Arial, "Helvetica Neue", Helvetica, Geneva, sans-serif;
 	color: #808080;
@@ -1033,8 +997,6 @@ div#archetypes-fieldname-peso-approssimativo {
 	clear: none;
 	margin-bottom: 0;
  }
- 
- 
  
 input  {
 	border-color: #B2B3B2;

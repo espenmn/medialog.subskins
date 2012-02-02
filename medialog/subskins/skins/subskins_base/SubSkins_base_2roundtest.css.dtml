@@ -1,29 +1,18 @@
-
 /* <dtml-with get_base_properties mapping> (do not remove this :) */
-
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
-
-
 
 #portal-globalnav,
 #portal-column-content,
 .portlet,
 #visual-portal-wrapper{
--moz-border-radius: 7px;
--webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
 }
 
 body {
-  position: relative;
-  background: &dtml-SubSkinsColor2;;
+  	position: relative;
+  	background: &dtml-SubSkinsColor2;;
   }
-
-
-/* @group Base Structure */
-
-/* base structures
-
----------------------------------------------------------------------- */
 
 #visual-portal-wrapper{
 	position: relative;

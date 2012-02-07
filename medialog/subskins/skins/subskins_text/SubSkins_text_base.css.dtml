@@ -82,13 +82,17 @@ img.image-right {
 	margin: 8px 0 10px 20px;
 }
 
-
-
-img.image-left {
-	float: left;
-	margin: 8px 20px 10px 0;
+img.image-right,
+img.tileImage {
+float: right;
+margin: 8px 0 10px 20px;
 }
-
+span#parent-fieldname-imageCaption {
+padding-right: 20px;
+}
+div.newsImageContainer {
+float: left;
+}
 
 input {
 	border: 1px solid #463229;

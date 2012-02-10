@@ -1,0 +1,176 @@
+
+/* http://www.naz.edu/portal_css/public.css?original=1 */
+body.kssActive h2.inlineEditable:hover,body.kssActive h1.inlineEditable:hover,body.kssActive h2.formlibInlineEditable:hover,body.kssActive h1.formlibInlineEditable:hover{padding-bottom:1px;}
+.documentFirstHeading{margin-top:0;}
+.documentContent{font-size:100%;padding:1em 1em 2em 1em;background:white;background-image:none;}
+#visual-portal-wrapper{margin:0;padding:0;}
+dl.searchResults dt{font-size:140%;font-weight:normal;}
+form.searchPage{text-align:center;}
+input.searchPage{font-size:19px;padding:3px 0;}
+dl.searchResults{margin-top:10px;padding-top:15px;border-top:1px solid #434345;}
+dl.searchResults dt{font-size:110%;font-weight:bold;margin-bottom:3px;margin-left:15px;padding-top:20px;border-top:1px dashed #999;}
+dl.searchResults dt:first-child{border:none;padding-top:0px;}
+dl.searchResults dt img{margin-left:-25px;margin-right:5px;position:relative;top:3px;}
+dl.searchResults dd{margin-bottom:20px;margin-left:15px;}
+form.searchPage a{color:#5A829B;}
+form.searchPage a:hover{background-color:#EBF0F1;}
+form.searchPage input.searchButton{width:30px;height:30px;background:url("search-magnify.gif") no-repeat;text-indent:-9999px;}
+body.template-search #main_content form{padding:0px;border:0px;margin:15px auto;}
+body.template-search #container #main_content h1{font-size:20px;}
+body.template-search #container #main_content h1 span.discreet{display:block;line-height:15px;}
+.LSRes{font-family:"Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif;visibility:visible;color:#436976;background-color:White;vertical-align:middle;display:block;list-style-image:none;list-style-type:none;text-align:left;min-width:16.5em;text-transform:none;margin-left:0;line-height:1.1em;}
+#LSHighlight,.LSHighlight{background-color:#dee7ec;border:1px solid #8cacbb;color:#436976;}
+.LSTable{margin:1em 0;}
+.LSRow{border:1px solid White;white-space:normal;padding:0;margin:0;list-style-image:none;list-style-type:none;}
+.LSRow a{text-decoration:none;font-weight:bold;white-space:nowrap
+}
+.LSDescr{color:#76797c;font-size:90%;font-weight:normal;margin-left:2.5em;}
+.LSResult{position:relative;display:block;text-align:right;padding-top:5px;margin:0;left:3px;z-index:3;}
+.LSShadow{position:relative;text-align:right;}
+.livesearchContainer{background-color:White;margin-top:0;padding:0;position:absolute;right:0px;top:0;white-space:normal;font-family:"Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif;visibility:visible;text-align:left;color:#436976;border:1px solid #8cacbb;width:30em;text-transform:none;}
+* html .livesearchContainer{padding:1px;padding-top:0;background-color:#8cacbb;border:0;}
+#livesearchLegend{line-height:1em;margin-top:-2em;margin-left:-0.1em;border:1px solid #8cacbb;border-bottom:0;}
+* html #livesearchLegend{margin-top:-1.9em;margin-left:-8px;position:relative;}
+.LSIEFix{background-color:White;padding:0.5em;z-index:20;}
+.LSBox{clear:left;float:left;text-align:right;padding-right:1px;display:block;}
+#LSNothingFound{text-align:center;padding:2px;}
+.LSBox label{font-weight:normal;}
+#portal-personaltools{background-color:#dee7ec;border-top-color:#8cacbb;border-top-style:solid;border-top-width:1px;border-bottom-color:#8cacbb;border-bottom-style:solid;border-bottom-width:1px;line-height:1.6em;color:Black;padding:0em 3em 0em 3em;margin:0;text-align:right;text-transform:none;list-style:none;}
+#portal-personaltools .portalUser{background:transparent url(http://www.naz.edu/user.gif) center left no-repeat;padding-left:18px;}
+#portal-personaltools .portalNotLoggedIn{color:Black;padding:0;background:transparent;background-image:none;}
+#portal-personaltools li{color:#436976;margin-left:1em;display:inline;}
+#portal-personaltools li a{text-decoration:none;color:#436976;}
+#portal-personaltools .visualIconPadding{padding-left:10px;}
+.visualCaseSensitive{text-transform:none;}
+.documentActions{margin:1em 0;padding:0;text-align:right;border-top:1px solid #8cacbb;}
+.documentActions ul{margin:0;padding:0 0.5em;display:block;margin-top:-0.9em;list-style-type:none;list-style-image:none;}
+.documentActions li{display:inline;font-size:90%;margin:0 0.5em;padding:0 0.25em;background-color:White;}
+.documentActions a{border:none;text-decoration:none;}
+dl.portalMessage{font-size:90%;background-color:#ffffe3;border:1px solid #996;}
+dl.portalMessage a{color:black;border:none;text-decoration:underline;}
+dl.portalMessage dt{background-color:#996;font-weight:bold;float:left;margin:0 0.5em 0 0;padding:0.5em 0.75em;color:White;line-height:1.25em;}
+dl.portalMessage dd{padding:0.5em 0.5em;margin:0;line-height:1.25em;}
+dl.warning{border-color:#d80;}
+dl.warning dt{background-color:#d80;}
+dl.error{border-color:#d00;}
+dl.error dt{background-color:#d00;}
+dl.warning{border-color:#d80;}
+dl.warning dd{background-color:#fd7;}
+dl.error{border-color:#d80;}
+dl.error dd{background-color:#fd7;}
+.documentDescription{font-weight:bold;display:block;margin:0em 0em 0.5em 0em;line-height:1.5em;}
+.documentByLine{font-size:90%;font-weight:normal;color:#76797c;margin-bottom:0.5em;}
+dl.searchResults span.documentByLine{display:block;}
+.discussion{margin-top:1em;}
+.even{background-color:#eef3f5;}
+.odd{background-color:transparent;}
+.visualHighlight{background-color:#ffc;}
+.discreet{color:#76797c;font-size:90%;font-weight:normal;}
+.pullquote{padding:0 1em 0 1em;margin:0 0 1em 1em;font-weight:bold;color:#CC9933;float:right;width:35%;clear:right;background-color:White;border-left:4px solid #8cacbb;}
+.notify,.documentEditable * .notify{border:1px solid #ffa500;}
+.card{background-color:#dee7ec;border-color:#8cacbb;border-width:1px;border-style:solid;float:left;margin:1em;text-align:center;width:110px;padding:1em 0;}
+.card a{text-decoration:none;}
+.portrait{background-color:#dee7ec;border-color:#8cacbb;border-width:1px;border-style:solid;font-size:90%;margin:0.5em;padding:1em 0 0.5em 0;text-align:center;width:100px;}
+.portraitPhoto{border:1px solid black;}
+table.listing,.stx table{border-collapse:collapse;border-spacing:0;border-left:1px solid #8cacbb;border-bottom:1px solid #8cacbb;font-size:90%;margin:1em 0em 1em 0em;}
+table.listing th,.stx table th{background:#dee7ec;border-top:1px solid #8cacbb;border-bottom:1px solid #8cacbb;border-right:1px solid #8cacbb;font-weight:normal;padding:0.25em 0.5em;text-transform:none;}
+table.listing .top{border-left:1px solid White;border-top:1px solid White ! important;border-right:1px solid White ! important;text-align:right ! important;padding:0em 0em 1em 0em;}
+table.listing .listingCheckbox{text-align:center;}
+table.listing td,.stx table td{border-right:1px solid #8cacbb;padding:0.25em 0.5em;}
+table.listing a{text-decoration:none;}
+table.listing a:hover{text-decoration:underline;}
+table.listing img{vertical-align:middle;}
+table.listing td a label,.stx table td a label{cursor:pointer;}
+table.vertical{background-color:White;}
+table.vertical th{padding:0.5em;}
+table.vertical td{border-top:1px solid #8cacbb;padding:0.5em;}
+table.grid td{border:1px solid #8cacbb;padding:0.5em;}
+table.plain,table.plain td,table.plain th{border:1px solid #ccc;padding:0.5em;border-collapse:collapse;}
+.listingBar{background-color:#dee7ec;border-color:#8cacbb;border-style:solid;border-width:1px;padding:0em 1em;text-align:center;text-transform:none;vertical-align:top;margin:1em 0em;font-size:94%;clear:both;}
+.listingBar span.previous,.listingPrevious{text-align:left;float:left;margin-right:1em;}
+.listingBar span.next,.listingNext{text-align:right;float:right;margin-left:1em;}
+.listingBar img{vertical-align:middle;}
+.listingBar a{text-decoration:none;}
+.tileItem{border-top:1px solid #8cacbb;padding-top:0.5em;margin-top:0.5em;}
+.tileHeadline{border:none;font-size:110%;font-weight:bold;}
+.tileHeadline a{text-decoration:none;}
+.tileBody{margin-bottom:0.5em;}
+.tileImage{float:right;margin:0 0 0.5em 0.5em;border:1px solid black;}
+.eventDetails{float:right;clear:right;margin:0 0 0.5em 1em;}
+ul.visualNoMarker,ol.visualNoMarker{list-style-type:none;list-style-image:none;margin:0.5em 0 0 0;line-height:1em;}
+ul.discreet{list-style-image:none;list-style-type:disc;}
+textarea.proportional{font:100% "Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif;}
+.feedButton{display:block;float:right;margin-top:1px;}
+.poweredBy{display:block;clear:both;font-size:90%;font-weight:normal;color:#76797c;text-align:right;}
+#portal-sitemap{list-style:none;list-style-image:none;margin:0;font-size:90%;border:none;}
+#portal-sitemap a{border:1px solid White;}
+#portal-sitemap a:hover{border:1px solid #8cacbb;}
+#portal-sitemap .navTreeLevel1{padding-left:1em;border-left:0.5em solid #8cacbb;margin:0 0 0 0.5em;}
+#portal-sitemap .navTreeLevel2{padding-left:1em;border-left:0.5em solid #dee7ec;margin:0 0 0 0.6em;}
+.photoAlbumEntry{float:left;position:relative;overflow:hidden;height:185px;width:143px;margin:0em;padding:0px 6px 0px 9px;text-align:center;background-image:url('http://www.naz.edu/polaroid-single.png');background-repeat:no-repeat;}
+.photoAlbumEntry img{border:1px solid #ccc;display:block;margin:0 auto;}
+.photoAlbumEntryWrapper{height:130px;width:128px;margin-bottom:7px;}
+.photoAlbumEntry a{display:block;text-decoration:none;font-size:90%;height:169px;width:130px;margin:16px auto 0px;}
+.photoAlbumFolder{background-image:url('http://www.naz.edu/polaroid-multi.png');background-repeat:no-repeat;}
+.photoAlbumEntryTitle{color:#76797c;display:block;width:128px;height:3.6em;}
+a.link-parent{display:block;background:transparent url(http://www.naz.edu/arrowUp.gif) 4px 5px no-repeat;padding:1px 0px 10px 16px;font-size:90%;text-decoration:none;}
+#content .link-category{color:#74ae0b;}
+#content .link-user{background:transparent url(http://www.naz.edu/user.gif) 0 1px no-repeat;padding:1px 0px 1px 16px;}
+#content .link-comment{background:transparent url(http://www.naz.edu/discussionitem_icon.gif) center left no-repeat;padding:1px 0px 1px 16px;}
+#content .link-anchor{color:#76797c;text-decoration:none;font-weight:normal;}
+#content .link-presentation{font-size:90%;text-align:center;}
+#content .link-wiki-add{color:red;}
+#content span.link-external a{background:transparent url(http://www.naz.edu/link_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
+#content span.link-https a{background:transparent url(http://www.naz.edu/lock_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
+#content span.link-mailto a{background:transparent url(http://www.naz.edu/mail_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
+#content span.link-news a{background:transparent url(http://www.naz.edu/topic_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
+#content span.link-ftp a{background:transparent url(http://www.naz.edu/file_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
+#content span.link-irc a{background:transparent url(http://www.naz.edu/discussionitem_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
+#content span.link-callto a{background:transparent url(http://www.naz.edu/phone_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
+#content span.link-webcal a{background:transparent url(http://www.naz.edu/event_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
+#content span.link-feed a{background:transparent url(http://www.naz.edu/rss.gif) 0px 1px no-repeat;padding:1px 0px 1px 18px;}
+#content .link-plain{background-image:none;padding:0;}
+.visualGhosted{opacity:0.2;}
+.image-left{float:left;clear:both;margin:0.5em 1em 0.5em 0;}
+.image-inline{float:none;}
+.image-right{float:right;clear:both;margin:0.5em;}
+dd.image-caption{text-align:left;padding:0;margin:0;}
+dl.captioned{padding:10px;}
+#dashboard-info-message{padding-top:0.5em;}
+#dashboard{width:68em;}
+#dashboard-portlets1,#dashboard-portlets2,#dashboard-portlets3{float:left;width:16em;padding:0.7em 1.3em 0 0;}
+#dashboard-portlets4{float:left;width:16em;padding-top:0.7em;}
+#dashboard-portlets1 a,#dashboard-portlets2 a,#dashboard-portlets3 a,#dashboard-portlets4 a{border-bottom:medium none;}
+#dashboard-portlets1 dl.portlet,#dashboard-portlets2 dl.portlet,#dashboard-portlets3 dl.portlet,#dashboard-portlets4 dl.portlet{margin-bottom:1.5em;}
+div.managedPortlet.portlet{border-bottom:none;}
+#dashboard select{width:100%;}
+.portletAssignments{margin-top:1.5em;}
+#dashboard-portlets1 div.managedPortlet a,#dashboard-portlets2 div.managedPortlet a,#dashboard-portlets3 div.managedPortlet a,#dashboard-portlets4 div.managedPortlet a{text-decoration:none;color:#436976;border-bottom:1px solid #436976;}
+#dashboard-portlets1 div.managedPortlet span a,#dashboard-portlets2 div.managedPortlet span a,#dashboard-portlets3 div.managedPortlet span a,#dashboard-portlets4 div.managedPortlet span a{border-bottom:none;}
+#dashboard-actions{float:right;}
+#dashboard-actions ul{list-style-image:none;list-style-position:outside;list-style-type:none;margin-top:0;}
+#dashboard-actions ul li{display:inline;padding-left:0.7em;}
+#dashboard-actions ul li.portalUser{padding-left:18px;}
+.section div{padding-top:0.5em;padding-bottom:0.5em;}
+.documentContent h2,.documentContent h3{font-size:1.7em;color:#5a829b;font-weight:normal;text-align:left;margin-top:15px;font-family:Georgia,"Times New Roman",Times,serif;}
+.documentContent h3{font-size:1.2em;color:#5a829b;font-weight:normal;}
+.documentContent img{padding-bottom:20px;}
+.documentContent ul{list-style:disc;padding-left:20px;font-family:Georgia,"Times New Roman",Times,serif;font-size:1.1em;list-style-position:outside;}
+.documentContent ol{list-style:decimal;padding-left:20px;font-family:Georgia,"Times New Roman",Times,serif;font-size:1.1em;list-style-position:outside;}
+.documentContent a{color:#5a829b;}
+.documentContent a:hover{background:#EBF0F1;}
+.documentContent h2 a{text-decoration:none;}
+.documentContent h2 a:hover{background:none;text-decoration:underline;}
+.documentContent p{font-family:Georgia,"Times New Roman",Times,serif;font-size:1.1em;line-height:1.8em;padding:0 0 5px;}
+.documentContent table caption{padding-top:40px;margin-bottom:0px;padding-bottom:0px;}
+.documentContent table{width:95%;clear:both;margin-top:10px;}
+.documentContent th{padding:3px 5px;color:#5a829b;font-size:1.2em;font-weight:normal;text-align:left;border-bottom:1px #cccccc solid;}
+.documentContent table td{padding:3px 5px;margin:0px;border-bottom:1px #cccccc solid;}
+html.kupu-html{background:none;}
+.formTabs{margin-bottom:10px;}
+body.template-atct_edit form fieldset #title{width:450px;}
+.plone_jscalendar select{width:50px;position:relative;margin-top:22px;}
+#fieldsetlegend-ownership,#fieldset-ownership{display:none;}
+span.fieldRequired{float:left;width:5px;}
+label{font-weight:bold;}
+

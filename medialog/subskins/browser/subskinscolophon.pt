@@ -3,7 +3,11 @@
      i18n:domain="plone">
     <metal:slot define-slot="colophon" />
     <div class="colophonWrapper">
-      <p>Design og publiseringsl&oslash;sning: <a href="http://medialog.no" target="_blank">Grieg
-      Medialog AS</a></p>
-    </div>
+    <ul>
+      <li>
+      Design og publiseringsl&oslash;sning: <a href="http://medialog.no" target="_blank">Grieg
+      Medialog AS</a>
+      </li>
+   <ul>
+   </div>
 </div>

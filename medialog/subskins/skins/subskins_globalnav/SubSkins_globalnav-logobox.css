@@ -1,0 +1,58 @@
+ 
+ 
+ #portal-globalnav {
+	height: 56px;
+	padding: 0;
+	margin:  0;
+	clear: both;
+	list-style-type: none;
+	list-style-image: none;
+	font-family: verdana, helvetica, sans-serif;
+	border: 1px solid #BBB;	
+	-moz-box-shadow: 0px 3px 7px #DDD;
+	-webkit-box-shadow: 0px 3px 7px #DDD;
+	box-shadow: 0px 3px 7px #DD;
+}
+
+ 
+
+ #portal-globalnav  li {
+	float: left;
+	line-height: 56px;
+	background: url(v_down.png) no-repeat 12px center;
+	border-right: 1px solid #BBB;
+}
+
+ #portal-globalnav  li a {
+	display: block;
+	float: left;
+	font-size: 13px;
+	font-weight: normal;
+	color: #333;
+	text-decoration: none;
+	padding-left:20px;
+	padding-right: 30px;
+	text-transform: uppercase;
+
+}
+
+li#portaltab-index_html a {
+	background: url(logo.jpg) no-repeat;
+	background-size: 70%;
+	background-position: center center;
+	color: #FFF;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+	size: 10%;
+	text-indent: -9999px;
+	width: 150px;
+}
+
+ #portal-globalnav  li.selected a {
+	text-decoration: underline;
+}
+	 
+ #portal-globalnav  li a:hover {
+	color: #34637e;
+}

@@ -1,0 +1,53 @@
+
+ #portal-globalnav {
+	background: url(vertical_split.png) repeat-x left center;
+	height: 56px;
+	padding: 0;
+	margin:  0;
+	clear: both;
+	list-style-type: none;
+	list-style-image: none;
+	font-family: verdana, helvetica, sans-serif;
+	border: 1px solid #BBB;	
+	-moz-box-shadow: 3px 3px 7px #DDD;
+	-webkit-box-shadow: 3px 3px 7px #DDD;
+	box-shadow: 3px 3px 7px #DD;
+}
+
+ 
+
+ #portal-globalnav  li {
+	float: left;
+	line-height: 56px;
+	background: url(v_down.png) no-repeat 12px center;
+	border-right: 1px solid #BBB;
+}
+
+ #portal-globalnav  li a {
+	display: block;
+	float: left;
+	font-size: 13px;
+	font-weight: normal;
+	color: #333;
+	text-decoration: none;
+	padding-left:20px;
+	padding-right: 30px;
+	text-transform: uppercase;
+
+}
+
+li#portaltab-index_html a {
+	background: #c03;
+	color: #FFF;
+	font-weight: bold;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+ 
+ #portal-globalnav  li a:hover {
+	color: #c03;
+}
+
+

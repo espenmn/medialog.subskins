@@ -1,5 +1,4 @@
- 
- 
+
  #portal-globalnav {
 	height: 56px;
 	padding: 0;
@@ -14,12 +13,10 @@
 	box-shadow: 0px 3px 7px #DD;
 }
 
- 
-
  #portal-globalnav  li {
 	float: left;
 	line-height: 56px;
-	background: url(v_down.png) no-repeat 12px center;
+	padding-right: 10px;
 	border-right: 1px solid #BBB;
 }
 
@@ -31,9 +28,9 @@
 	color: #333;
 	text-decoration: none;
 	padding-left:20px;
-	padding-right: 30px;
+	padding-right: 20px;
 	text-transform: uppercase;
-
+        background: url(v_down.png) no-repeat center right;
 }
 
 li#portaltab-index_html a {

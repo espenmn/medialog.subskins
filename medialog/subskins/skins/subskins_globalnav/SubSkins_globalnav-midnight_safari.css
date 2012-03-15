@@ -1,0 +1,75 @@
+@-webkit-keyframes greenPulse {
+from { background-color: #749a02; -webkit-box-shadow:: 0 0 9px #333; }
+50% { background-color: #91bd09; -webkit-box-shadow:: 0 0 18px #91bd09; }
+to { background-color: #749a02; -webkit-box-shadow:: 0 0 9px #333; }
+}
+
+	/* Colors for our beloved buttons (for later use) */
+
+	.green.button { background-color: #91bd09; }
+
+	.green.button:hover { background-color: #749a02; }
+
+	.blue.button { background-color: #2daebf; }
+
+	.blue.button:hover { background-color: #007d9a; }
+
+	.red.button { background-color: #e33100; }
+
+	.red.button:hover { background-color: #872300; }
+
+	.magenta.button{ background-color: #a9014b; }
+
+	.magenta.button:hover { background-color: #630030; }
+
+	.orange.button { background-color: #ff5c00; }
+
+	.orange.button:hover { background-color: #d45500; }
+
+	.orangellow.button { background-color: #ffb515; }
+
+	.orangellow.button:hover { background-color: #fc9200; }
+
+	.white.button { background-color: #fff; border: 1px solid #ccc; color: #666 !important; font-weight: normal; text-shadow: 0 1px 1px rgba(255,255,255,1); }
+
+	.white.button:hover { background-color: #eee; }
+
+	
+
+
+
+ #portal-globalnav {
+	background: #000;
+	height: 40px;
+	padding: 3px;
+	list-style-type: none;
+	list-style-image: none;
+	font-family: verdana, helvetica, sans-serif;
+}
+
+ 
+
+ #portal-globalnav  li {
+	float: left;
+	padding: 10px;
+}
+
+ #portal-globalnav  li a {
+	display: block;
+	float: left;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 4px 10px;                               
+	border-radius: 5px;
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px;
+	 -webkit-box-shadow:: 0 0 18px #91bd09; 
+	-webkit-transition: all 1s ease-out;
+	-webkit-animation-name: greenPulse;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+li#portaltab-index_html a {
+} 

@@ -1,0 +1,107 @@
+/* @override http://localhost:8080/issss/portal_css/subskins/SubSkins_globalnav-midnight_safari.css */
+
+/* Colors for our beloved buttons (for later use) */
+
+	.green.button { background-color: #91bd09; }
+
+	.green.button:hover { background-color: #749a02; }
+
+	.blue.button { background-color: #2daebf; }
+
+	.blue.button:hover { background-color: #007d9a; }
+
+	.red.button { background-color: #e33100; }
+
+	.red.button:hover { background-color: #872300; }
+
+	.magenta.button{ background-color: #a9014b; }
+
+	.magenta.button:hover { background-color: #630030; }
+
+	.orange.button { background-color: #ff5c00; }
+
+	.orange.button:hover { background-color: #d45500; }
+
+	.orangellow.button { background-color: #ffb515; }
+
+	.orangellow.button:hover { background-color: #fc9200; }
+
+	.white.button { background-color: #fff; border: 1px solid #ccc; color: #666 !important; font-weight: normal; text-shadow: 0 1px 1px rgba(255,255,255,1); }
+
+	.white.button:hover { background-color: #eee; }
+
+	
+
+
+
+ #portal-globalnav {
+	padding: 3px;
+	list-style-type: none;
+	list-style-image: none;
+ 
+}
+
+ 
+
+ #portal-globalnav  li {
+	float: left;
+	padding: 3px 5px;
+}
+
+ #portal-globalnav  li a {
+	display: block;
+	float: left;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 4px 14px;
+	background-color: #ffb515;
+	color: white;
+	border-radius: 17px;
+	-webkit-border-radius: 17px; 
+	-moz-border-radius: 15px;
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-top: 1px solid rgba(133,75,30,0.40);
+	border-left: 1px solid rgba(133,75,30,0.40);
+	border-right: 1px solid rgba(133,75,30,0.35);
+	border-bottom: 1px solid rgba(133,75,30,0.35);
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ff5c00), to(#d45500));
+  
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #ff5c00, #d45500);
+  
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #ff5c00, #d45500);
+  
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #ff5c00, #d45500);
+  
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #ff5c00, #d45500);
+
+}
+
+#portal-globalnav  li a:hover,
+#portal-globalnav  li.selected a
+{ background: #fc9200; }
+	
+li#portaltab-index_html a  {
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2daebf), to(#007d9a));
+  
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #2daebf, #007d9a);
+  
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #2daebf, #007d9a);
+  
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #2daebf, #007d9a);
+  
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #2daebf, #007d9a);
+
+}

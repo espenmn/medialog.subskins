@@ -1,6 +1,5 @@
 /*
   <dtml-with get_base_properties mapping> (do not remove this)
- <dtml-with get_base_properties> 
   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
 */
 
@@ -11,7 +10,7 @@ input.context {
 	text-align: center;
 	text-decoration: none;
 	font: 14px/100% Arial, Helvetica, sans-serif;
-	padding: .5em 2em .55em;
+	padding: .2em 0.8em .23em;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
@@ -20,18 +19,18 @@ input.context {
 	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
 	box-shadow: 0 1px 2px rgba(0,0,0,.2);
 	background-image: none;
-	color: #fef4e9;
-	border: solid 1px #da7c0c;
-	background: #f78d1d;
+	color: <dtml-var expr="dim_to_white(color=SubSkinsColor2, percent=93)">;
+	border: solid 1px <dtml-var expr="dim_to_black(color=SubSkinsColor2, percent=85)">;
+	background: SubSkinsColor2;
 	background: -webkit-gradient(linear, left top, left bottom, from(<dtml-var expr="dim_to_white(color=SubSkinsColor2, percent=35)">), to(&dtml-SubSkinsColor2;));
 	background: -moz-linear-gradient(top,  <dtml-var expr="dim_to_white(color=SubSkinsColor2, percent=35)">,  &dtml-SubSkinsColor2;);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='<dtml-var expr="dim_to_white(color=SubSkinsColor2, percent=35)">', endColorstr='&dtml-SubSkinsColor2;');
 }
 input.context:hover {
-	background: #f47c20;
+	background: <dtml-var expr="dim_to_black(color=SubSkinsColor2, percent=85)">;
 	background: -webkit-gradient(linear, left top, left bottom, from(&dtml-SubSkinsColor2;), to( <dtml-var expr="dim_to_black(color=SubSkinsColor2, percent=85)">));
 	background: -moz-linear-gradient(top,  &dtml-SubSkinsColor2;,   <dtml-var expr="dim_to_black(color=SubSkinsColor2, percent=85)">);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='&dtml-SubSkinsColor2;', endColorstr=' <dtml-var expr="dim_to_black(color=SubSkinsColor2, percent=85)">');
 }
 /* </dtml-with> */
-/* </dtml-with> */
+ 

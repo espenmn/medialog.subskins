@@ -27,12 +27,12 @@ li.navTreeItem  a {
 
 li.navTreeItem   a:hover,
 li.navTreeItem   a.navTreeCurrentItem{
-	color: #fe8d61;
+	color: &dtml-SubSkinsColor3;;
 }
 
 li.navTreeFolderish li {
-border:  0 none;	
-padding-bottom: 0;
+	border:  0 none;	
+	padding-bottom: 0;
 }
  
  li.navTreeItemInPath.navTreeFolderish  {

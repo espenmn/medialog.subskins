@@ -1,0 +1,45 @@
+/*
+  <dtml-with get_base_properties mapping> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+.portletNavigationTree dd {
+	margin-top: 10px;
+	padding-top: 0;
+	border-top: 1px dotted #999999;
+	list-style: none;
+	list-style-image: none;
+}
+
+
+li.navTreeItem  {
+	display: block;
+	font: Bold 12px Arial;
+	border-bottom: 1px dotted #999999;
+	padding: 9px 0px 10px 12px;
+}
+li.navTreeItem  a {
+	text-decoration: none;
+	color: #777777;
+	margin-right:6px;
+}
+
+
+li.navTreeItem   a:hover,
+li.navTreeItem   a.navTreeCurrentItem{
+	color: #fe8d61;
+}
+
+li.navTreeFolderish li {
+border:  0 none;	
+padding-bottom: 0;
+}
+ 
+ li.navTreeItemInPath.navTreeFolderish  {
+		background: #fBfBfB;
+}
+
+
+
+ 
+/* </dtml-with>  */

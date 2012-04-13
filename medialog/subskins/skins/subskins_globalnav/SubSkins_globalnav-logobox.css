@@ -53,3 +53,25 @@ li#portaltab-index_html a {
  #portal-globalnav  li a:hover {
 	color: #34637e;
 }
+
+#portal-globalnav ul.submenu {
+	top:  57px;
+	background: #EEE;
+	opacity: 0.9;
+	margin-left: -1px
+}
+#portal-globalnav ul.submenu li {
+	line-height: 30px;
+	padding-right:0;
+}
+
+#portal-globalnav ul.submenu li a {
+	background-image: none;
+	text-transform: capitalize;
+	padding-bottom: 5px;
+}
+
+#portal-globalnav ul.submenu li:hover a {
+	border-left: 10px solid silver;
+	padding-left: 10px;
+}

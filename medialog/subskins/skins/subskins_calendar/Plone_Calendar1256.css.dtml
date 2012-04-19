@@ -1,5 +1,5 @@
-/* <dtml-with base_properties> (do not remove this :) */
 /* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-with base_properties> (do not remove this :) */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
 .dayPopup {
@@ -113,13 +113,13 @@
     padding: 0;
     padding-top: <dtml-var "_['arrowLeft.gif'].height">px;
     height: 0px !important;
-    height /**/: <dtml-var "_['arrowLeft.gif'].height">px;
+    height: <dtml-var "_['arrowLeft.gif'].height">px;
     cursor: pointer;
 }
 .calendarNext {
     padding-top: <dtml-var "_['arrowRight.gif'].height">px;
     height: 0px !important;
-    height /**/: <dtml-var "_['arrowRight.gif'].height">px;
+    height: <dtml-var "_['arrowRight.gif'].height">px;
 }
 
 

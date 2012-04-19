@@ -172,13 +172,13 @@ div.managedPortlet {
     padding: 0;
     padding-top: <dtml-var "_['arrowLeft.gif'].height">px;
     height: 0px !important;
-    height /**/: <dtml-var "_['arrowLeft.gif'].height">px;
+    height: <dtml-var "_['arrowLeft.gif'].height">px;
     cursor: pointer;
 }
 .calendarNext {
     padding-top: <dtml-var "_['arrowRight.gif'].height">px;
     height: 0px !important;
-    height /**/: <dtml-var "_['arrowRight.gif'].height">px;
+    height: <dtml-var "_['arrowRight.gif'].height">px;
 }
 
 /* </dtml-with> */

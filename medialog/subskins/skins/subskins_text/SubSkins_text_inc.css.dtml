@@ -216,7 +216,7 @@ margin: 0 0 0 0.6em;
 	border: 1px solid silver;
 	margin-bottom: 10px;
 	background: url(paraBg.gif) repeat-x 2px;
-
+	background-position: top;
 }
 
 .photoAlbumEntry {

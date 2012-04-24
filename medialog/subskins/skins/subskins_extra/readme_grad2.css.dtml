@@ -21,7 +21,7 @@ p.tileFooter a{
 	background-image: none;
 	color: <dtml-var expr="dim_to_white(color=SubSkinsColor2, percent=93)">;
 	border: solid 1px <dtml-var expr="dim_to_black(color=SubSkinsColor2, percent=85)">;
-	background: SubSkinsColor2;
+	background: &dtml-SubSkinsColor2;;
 	background: -webkit-gradient(linear, left top, left bottom, from(<dtml-var expr="dim_to_white(color=SubSkinsColor2, percent=35)">), to(&dtml-SubSkinsColor2;));
 	background: -moz-linear-gradient(top,  <dtml-var expr="dim_to_white(color=SubSkinsColor2, percent=35)">,  &dtml-SubSkinsColor2;);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='<dtml-var expr="dim_to_white(color=SubSkinsColor2, percent=35)">', endColorstr='&dtml-SubSkinsColor2;');
@@ -33,4 +33,3 @@ p.tileFooter:hover a {
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='&dtml-SubSkinsColor2;', endColorstr=' <dtml-var expr="dim_to_black(color=SubSkinsColor2, percent=85)">');
 }
 /* </dtml-with> */
- 

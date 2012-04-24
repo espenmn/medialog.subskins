@@ -1,0 +1,17 @@
+div.LSBox {
+	text-align: left !important;
+}
+
+#livesearch0 div.LSBox input.searchButton {
+	display: none;
+}
+
+input.inputLabel.searchField.portlet-search-gadget  {
+	line-height: 200%;
+	width: 100%;
+	margin: 10px 0;
+}
+
+#livesearch0 div.LSBox div.LSResult div.LSShadow fieldset.livesearchContainer {
+	background: silver;
+}

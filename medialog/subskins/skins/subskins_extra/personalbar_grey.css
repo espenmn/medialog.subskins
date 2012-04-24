@@ -1,0 +1,10 @@
+
+dt#anon-personalbar a {
+color:#888;
+text-decoration: none;
+padding-left: 10px;
+}
+
+dt#anon-personalbar a:hover {
+text-decoration: underline;
+}

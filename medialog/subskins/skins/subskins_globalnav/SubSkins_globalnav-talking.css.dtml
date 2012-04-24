@@ -34,12 +34,7 @@
 	color: #555555;
 
 }
-#portal-globalnav LI#menu-item-69 A {
-	content: '';
-	content: none;
-	padding-left: 15px;
-	padding-right: 15px;
-}
+ 
 #portal-globalnav li a:hover, #portal-globalnav li.selected a {
 	background: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor3;/talkbox.gif) no-repeat center;
 	color: white;

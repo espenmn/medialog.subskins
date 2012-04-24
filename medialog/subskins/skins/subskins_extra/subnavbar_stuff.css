@@ -1,0 +1,29 @@
+ul#portal-subnavbar {
+list-style-image: none;
+list-style-type: none;
+display: none !important;
+position: relative;
+top:  164px;;
+}
+ul#portal-subnavbar li {
+display: inline-block;
+line-height: 30px;
+-webkit-border-radius: 10px 5px 0px 0px;
+-moz-border-radius: 10px 10px 0px 0px;
+border-radius: 10px 10px 0px 0px;
+border: 2px solid #EEE;
+border-bottom: 0 none;
+background: white;
+}
+ul#portal-subnavbar li a {
+padding: 5px 10px;
+	text-transform: uppercase;
+	color:  black;
+	font-size: 12px;
+}
+
+ul#portal-subnavbar li a:hover,
+ul#portal-subnavbar li.selected a {
+color:  #C83300;
+
+}

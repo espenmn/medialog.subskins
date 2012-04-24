@@ -95,6 +95,13 @@ li#siteaction-contact a {
 
 }
 
+li#siteaction-login a {
+	color: transparent;
+	background-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor2;/login.png);
+	background-repeat: no-repeat;
+
+}
+
 div#portal-personaltools-wrapper {
 	float: right;
 	width: 300px;

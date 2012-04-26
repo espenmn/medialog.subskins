@@ -53,6 +53,10 @@
 	display: inline;
 	}
 
+#portal-colophon a,
+#portal-footer a{
+	text-decoration: underline;
+}
  
 /* </dtml-with>*/
 /* </dtml-with>*/

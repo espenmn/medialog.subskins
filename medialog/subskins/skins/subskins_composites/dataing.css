@@ -1,0 +1,95 @@
+
+body {
+  position: relative;
+  background-image: url(bg-blue_forl.png);
+  background-repeat: repeat-x;
+}
+
+#visual-portal-wrapper{
+	position: relative;
+	width: 909px;
+	text-align: left;
+	margin: 0 auto;
+	background: transparent url(wrapper.png) repeat-y ;
+	padding: 15px 50px;
+	margin-top: 20px;
+	border-bottom: 1px solid silver;
+}
+
+#portal-logo img{
+	margin-top: 20px;
+}
+
+#portal-searchbox {
+	margin-top: 74px;
+}
+
+ul#portal-globalnav {
+	margin-left: 100px !important;
+	margin-top: 30px;
+	float: left;
+	clear: none !important;
+}
+
+div.searchSection {
+	display: none;
+}
+
+
+
+div#portal-footer { 
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #FFFFFF;
+    background-image: url(bg-footer.png);
+    background-origin: padding-box;
+    background-position: center top;
+    background-size: auto auto;
+    border-top-color: #E2E1DE;
+    border-top-style: solid;
+    border-top-width: 1px;
+    clear: both;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#portal-footer div.footerbox  {
+	width: 140px;
+	text-align: left;
+	float: left;
+	font-size: 5px;
+	border-left: 1px solid silver;
+	padding-left: 20px;
+}
+#portal-footer div.footerbox p {
+	font-size: 10px;
+}
+
+#portal-columns{
+}
+
+#portal-column-one{
+  width:  150px;
+  padding: 0 20px;
+  color: #ccc;
+  background: #fff;
+  border-right: 1px solid #ccc;
+  background: white;
+  }
+
+#portal-column-two{
+  width:  150px;
+  padding: 0 20px;
+  color: #ccc;
+  background: white;
+  }
+
+#portal-column-content{
+  padding: 30px 20px;
+}
+

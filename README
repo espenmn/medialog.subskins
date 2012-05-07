@@ -8,6 +8,7 @@ Changelog
 
 4.2b17
 ----------
+- Added a composite.  
 - Removed comments in two calendar portlets (those based on plone's).   
 
 4.2b16

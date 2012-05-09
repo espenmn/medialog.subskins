@@ -1,0 +1,31 @@
+
+/* - listingbar_news.css - */
+
+
+div.listingBar {
+	line-height: 20px;
+	clear: both;
+	border-top: 1px solid #BBB;
+	border-bottom: 1px solid #BBB;
+	padding: 2px;
+	}
+
+ div.listingBar a {
+	text-transform: uppercase;
+    background-image: none;
+    padding: 3px 6px;
+    color:  #777;
+    text-decoration: none;
+}
+
+ div.listingBar a:hover {
+    color:  #111;
+}
+
+ div.listingBar .current  {
+    background-color: #BBB;
+    padding: 3px 6px;
+    color:  white;
+    }
+
+ 

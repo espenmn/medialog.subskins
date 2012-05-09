@@ -1,0 +1,53 @@
+ 
+#portal-globalnav {
+	list-style-type: none;
+	text-decoration: none;
+	clear: both;
+}
+
+#portal-globalnav:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}
+
+/* for IE */
+
+* html #portal-globalnav {
+	height: 1em;
+	overflow: visible;
+}
+
+
+#portal-globalnav li {
+	display: block;
+	float: left;
+}
+
+#portal-globalnav li a {
+	display: block;
+	float: left;
+	padding: 2px 14px;
+	color: white;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font: normal 11pt verdana, helvetica, sans-serif;
+}
+
+#portal-globalnav li a:hover {
+	text-decoration: none;
+}
+
+#portal-globalnav li.selected a {
+	color: #f1e5c3;
+	background: #000;
+	opacity: 0.7;
+	padding: 2px 10px;
+	margin-left: 4px;
+	margin-right: 4px;
+	opacity: 0.6;
+}
+ 

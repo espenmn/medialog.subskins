@@ -24,7 +24,7 @@
  	 color:  #AAA;
 } 	 
 
-#portal-globalnav ul.submenu li:hover { 	 
+#portal-globalnav ul.submenu li :hover { 	 
 	background: #8a8a8a !important;;	
 } 
 

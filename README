@@ -6,6 +6,11 @@ You should upgrade  Product.PloneSubSkins to version 4.7 when using version newe
 Changelog
 =========
 
+4.2b18
+----------
+- Added action and browserview ( @@cookview ) to cook portal_js and portal_css if you want to edit css and javascript without being in debug mode.
+- Added new globalnavs and extras 
+
 4.2b17
 ----------
 - Added a composite.  

@@ -68,10 +68,16 @@
         permission="zope2.View"
         layer=".interfaces.IThemeSpecific"
         />
-               
+
+    <browser:page 
+    	name="cookview"
+  	for="*"
+  	permission="cmf.ManagePortal"
+  	class=".views.CookView"
+        layer=".interfaces.IThemeSpecific"
+    />                 
 
     <!-- Zope 3 browser resources -->
-
     <!-- Resource directory for images -->
     <browser:resourceDirectory
         name="medialog.subskins.images"

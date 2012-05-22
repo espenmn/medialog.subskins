@@ -1,0 +1,11 @@
+#content dl.searchResults dt {
+	background: #f7cf33;
+	margin-left: 0 !important;
+}
+
+#content dl.searchResults dt a {
+	padding: 10px;
+	font-size:  15px;;
+	font-weight: bold;
+	line-height: 30px;
+}

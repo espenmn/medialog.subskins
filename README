@@ -6,6 +6,10 @@ You should upgrade  Product.PloneSubSkins to version 4.7 when using subskins ver
 Changelog
 =========
 
+4.2b20
+----------
+- changed all #content-core to #content so it styles correctly when editing in frame.
+
 4.2b19
 ----------
 - bugfix for CSS3 footer and a few more images

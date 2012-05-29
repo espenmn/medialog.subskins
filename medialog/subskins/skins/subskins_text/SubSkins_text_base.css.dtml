@@ -108,7 +108,7 @@ input {
 
 /* Unordered list (med prikk foran) */
 
-#content-core ul  {
+#content ul  {
 	margin: 0.5em 0 0.75em 2em;
 	list-style-type: disc;
 }
@@ -121,7 +121,7 @@ ol {
 
 /* List item. Skriv inn display:inline for horisontal liste */
 
-#content-core li {
+#content li {
 	margin: 0.5em 0;
 }
 

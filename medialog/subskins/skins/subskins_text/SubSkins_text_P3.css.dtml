@@ -96,11 +96,11 @@ a.link-parent {
 }
 
 
-#content-core p,
-#content-core ul,
-#content-core ol,
-#content-core table,
-#content-core dl {
+#content p,
+#content ul,
+#content ol,
+#content table,
+#content dl {
 	margin-bottom: 1em;
 }
 
@@ -140,28 +140,28 @@ a.link-parent {
 	max-width: 100%;
 }
 
-#content-core ul {
+#content ul {
 	list-style-type: disc;
 	margin-left: 2em;
 }
 
-#content-core ol{
+#content ol{
 	list-style-type: decimal;
 	margin-left: 2em;
 }
 
-#content-core li {
+#content li {
 	margin-bottom: 0.25em;
 	line-height: 1.5em;
 	display: list-item;
 }
 
-#content-core dt {
+#content dt {
 	font-weight: bold;
 	margin-bottom: 0;
 	margin-right: 0;
 }
-#content-core dd {
+#content dd {
 	margin: 0 0 1em 1em;
 }
 

@@ -177,14 +177,14 @@ ol {
 	margin: 0.5em 0 0.75em 2em;
 }
 
-#content-core li {
+#content li {
 	list-style-image: url(dotted-arrow.gif);
 	margin: 0.3em 0 0.3em 2.5em;
 	list-style-position: outside;
 }
 
-.section-howtos #content-core li,
-.section-blog #content-core li {
+.section-howtos #content li,
+.section-blog #content li {
 	list-style-image: url(double-bullet.gif);
 }
 

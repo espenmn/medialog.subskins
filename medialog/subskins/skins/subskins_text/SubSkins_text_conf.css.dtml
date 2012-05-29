@@ -80,13 +80,13 @@ h1, h2 {
     border-bottom: 0 none;
 }
 
-#content-core ul {
+#content ul {
     list-style-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/bullet.gif);
     list-style-type: square;
     margin: 0.5em 0 0 1.5em;
 }
 
-#content-core ol {
+#content ol {
     margin: 0.5em 0 0 2.5em;
 }
 

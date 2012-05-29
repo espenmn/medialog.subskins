@@ -114,7 +114,7 @@ input {
 	margin: 5px 0;
 }
 
-#content-core  ul {
+#content  ul {
 	padding-left: 2em;
 }
 
@@ -122,19 +122,19 @@ ol {
 	margin: 0.5em 0 0.75em 2em;
 }
 
-#content-core  li {
+#content  li {
 	margin: 0.5em 0;
 }
 
-#content-core  dl {
+#content  dl {
 	margin: 0.5em 1em 0.75em;
 }
 
-#content-core  dt {
+#content  dt {
 	margin: 0.75em 1em;
 }
 
-#content-core  dd {
+#content  dd {
 	margin: 0.5em 0;
 }
 

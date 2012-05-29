@@ -93,7 +93,7 @@ input {
     font-family: "Helvetica Neue", Helvetica, Sans Sarif, Arial;
 }
 
-#content-core li {
+#content li {
     margin-bottom: 0.5em;
     list-style-position: outside;
     margin-left: 1em;
@@ -102,7 +102,7 @@ input {
 li {
 	list-style-position: inside;
 }
-#content-core ul {
+#content ul {
 	padding-left: 1em;
 }
 

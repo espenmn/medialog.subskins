@@ -92,26 +92,26 @@ h6 {
 font-size: 85%;
 font-weight: bold;
 }
-#content-core ul {
+#content ul {
 line-height: 1.5em;
 margin: 0.5em 0 0 1.5em;
 padding: 0;
 list-style-type: square;
 }
-#content-core ol {
+#content ol {
 line-height: 1.5em;
 margin: 0.5em 0 0 2.5em;
 padding: 0;
 list-style-image: none;
 }
-#content-core li {
+#content li {
 margin-bottom: 0.5em;
 color: &dtml-SubSkinsColor1;;
 }
-#content-core dt {
+#content dt {
 font-weight: bold;
 }
-#content-core dd {
+#content dd {
 line-height: 1.5em;
 margin-bottom: 1em;
 }

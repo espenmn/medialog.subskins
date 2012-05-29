@@ -218,18 +218,18 @@ p {
 	margin: 0;
 }
 
-#content-core ul {
+#content ul {
 	margin: 3px 0 0 5px;
 	padding: 1px 15px;
 	list-style: none;
 	list-style-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/blue_bullet.gif);
 }
-#content-core ol {
+#content ol {
 	margin: 3px 0 0 5px;
 	padding: 1px 15px;
 }
 
-#content-core li {
+#content li {
 	padding: 2px 0;
 }
 

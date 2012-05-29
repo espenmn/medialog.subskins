@@ -128,13 +128,13 @@ input.standalone {
 	margin-right: 5px;
 }
 
-#content-core ul  {
+#content ul  {
 	margin: 0.5em 0 0.75em 0.5em;
 	list-style-type: disc;
 	font-size: 11px;
 }
 
-#content-core ul  {
+#content ul  {
 	margin: 0.5em 0 0.75em 1.5em;
 	list-style-type: disc;
 	font-size: 11px;
@@ -144,13 +144,13 @@ ol {
 	margin: 0.5em 0 0.75em 2em;
 }
 
-#content-core li {
+#content li {
 	list-style-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor1;/red-bullet.gif);
 	margin: 0.3em 0 0.3em 2.5em;
 	list-style-position: outside;
 }
 
-#content-core li {
+#content li {
 	margin: 0.5em;
 }
 

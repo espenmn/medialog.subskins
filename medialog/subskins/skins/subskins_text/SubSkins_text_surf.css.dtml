@@ -130,7 +130,7 @@ input.standalone {
 	margin-right: 5px;
 }
 
-#content-core ul {
+#content ul {
 	margin: 0.5em 0 0.75em 2em;
 	list-style-type: disc;
 	font-size: 11px;
@@ -140,7 +140,7 @@ ol {
 	margin: 0.5em 0 0.75em 2em;
 }
 
-#content-core li {
+#content li {
 	list-style-image: url(&dtml-portal_url;/subskins_getimage/&dtml.url_quote-SubSkinsColor2;/bullet.gif);
 	list-style-position: outside;
 	margin: 0.5em;

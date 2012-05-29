@@ -1,0 +1,12 @@
+h6 {
+	width: auto;
+	background-image: url(arrow_ld.png);
+	background-position: 0px 3px;
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	font-size: 12px;
+	line-height: 13px;
+	color: #a53e27;
+	text-decoration: underline;
+	padding-bottom: 2px;
+}

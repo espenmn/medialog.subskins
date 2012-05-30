@@ -1,0 +1,115 @@
+div.pane-container ul.tabs { 
+      margin:0;
+      padding:10px 10px 0;
+      list-style:none;
+      height:27px;
+      border-bottom:1px solid #666;	
+}
+
+
+/* single tab */
+div.pane-container ul.tabs li { 
+      float:left;
+      background:url(http://xweb14f.plana.dk:8096/mount02/thermtech/tabr_left_both.gif) no-repeat left top;
+      margin:0;
+      padding:0 0 0 9px;
+}
+
+/* link inside the tab. uses a background image */
+div.pane-container ul.tabs a {
+      float:left;
+      display:block;
+      width:.1em;
+      background:url(http://xweb14f.plana.dk:8096/mount02/thermtech/tabr_right_both.gif) no-repeat right top;
+      padding:5px 15px 4px 6px;
+      text-decoration:none;
+      font-weight:bold;
+      color:  #666;
+}
+
+#wysiwygTab-link-0 {
+	color:  orange;
+}
+
+div.pane-container > ul.tabs a {width:auto;}
+
+div.pane-container ul.tabs a:active {
+      outline:none;
+}
+
+div.pane-container ul.tabs li.current {
+      background-position:0 -150px;
+      border-width:0;
+}
+
+div.pane-container ul.tabs li.current a {
+      background-position:100% -150px;
+      padding-bottom: 5px;
+      border-width:0;
+
+}
+
+div.pane-container ul.tabs li:hover,
+div.pane-container ul.tabs li:hover a {
+      background-position:0 -150px;
+      border-width:0;
+  
+}
+
+div.pane-container ul.tabs li:hover a {
+      background-position:100% -150px;
+}
+
+/* initially all panes are hidden */ 
+div.pane-container div.pane {
+      display:none;		
+      padding:15px 10px;
+      font-size:14px;
+      background-color:whitesmoke;
+}
+
+div.pane-container {
+      margin-bottom: 1em;
+}
+
+/*this is simply an edit marker, hide it normally*/
+hr.pane-break {
+      display: none;
+}
+
+/* display for editing */
+body#content hr.pane-break,
+body.kupu hr.pane-break,
+body.mceContentBody hr.pane-break {
+      display: block;
+      background-color: white;
+      color: white;
+      border-top:5px dashed black;
+      height: 5px;
+      margin:0.5em 0 1em;
+}
+
+/* body#content targets FCKEditor */
+body#content h2.content-tab,
+body.kupu h2.content-tab,
+body.mceContentBody h2.content-tab,
+body#content h2.default-content-tab,
+body.kupu h2.default-content-tab,
+body.mceContentBody h2.default-content-tab {
+      display:block;
+      background:url(http://xweb14f.plana.dk:8096/mount02/thermtech/tabr_right_both.gif) no-repeat left top;
+      border-bottom: none;
+      padding:5px 15px 4px 6px;
+      text-decoration:none;
+      color:#555;
+      width: auto;
+}
+
+body#content h2.default-content-tab,
+body.kupu h2.default-content-tab,
+body.mceContentBody h2.default-content-tab {
+      background-position: left -150px;
+      color: #333;
+}
+
+button.kupu-inserthorizontalrule {background-image: url(http://xweb14f.plana.dk:8096/mount02/thermtech/plonekupuimages/hr.gif);}

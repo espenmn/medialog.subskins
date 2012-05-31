@@ -1,9 +1,9 @@
-
 #portal-globalnav ul.submenu {
 	padding-top: 30px;
 	background: none;
 	border: 0 none;
 }
+
 #portal-globalnav ul.submenu li{
  	text-align: left;
  	padding: 0 ;
@@ -31,7 +31,6 @@
 #portal-globalnav ul.submenu a:hover { 	 
 	color:  white; 
 } 
-
  
 .selected ul.submenu {
 	z-index: 99;

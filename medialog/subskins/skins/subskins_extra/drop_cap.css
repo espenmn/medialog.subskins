@@ -1,0 +1,19 @@
+.drop-cap {
+	display: block;
+	font-style: normal;
+	font-size: 3.75em;
+	float: left;
+	margin: 0.16em 0.2em 0 0;
+	line-height: 0.67;
+	font-weight: 100;
+	background-color: #000;
+	color: #fff;
+	-webkit-border-radius: 2.5em;
+	-moz-border-radius: 2.5em;
+	border-radius: 2.5em;
+	padding: 0.3em 0.3em 0.35em;
+	min-width: 0.8em;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.8);
+	background-color: rgba(0,0,0,0.33);
+}

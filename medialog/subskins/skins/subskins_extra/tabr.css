@@ -10,7 +10,7 @@ div.pane-container ul.tabs {
 /* single tab */
 div.pane-container ul.tabs li { 
       float:left;
-      background:url(http://xweb14f.plana.dk:8096/mount02/thermtech/tabr_left_both.gif) no-repeat left top;
+      background:url(tabr_left_both.gif) no-repeat left top;
       margin:0;
       padding:0 0 0 9px;
 }
@@ -20,7 +20,7 @@ div.pane-container ul.tabs a {
       float:left;
       display:block;
       width:.1em;
-      background:url(http://xweb14f.plana.dk:8096/mount02/thermtech/tabr_right_both.gif) no-repeat right top;
+      background:url(tabr_right_both.gif) no-repeat right top;
       padding:5px 15px 4px 6px;
       text-decoration:none;
       font-weight:bold;
@@ -97,7 +97,7 @@ body#content h2.default-content-tab,
 body.kupu h2.default-content-tab,
 body.mceContentBody h2.default-content-tab {
       display:block;
-      background:url(http://xweb14f.plana.dk:8096/mount02/thermtech/tabr_right_both.gif) no-repeat left top;
+      background:url(tabr_right_both.gif) no-repeat left top;
       border-bottom: none;
       padding:5px 15px 4px 6px;
       text-decoration:none;
@@ -112,4 +112,4 @@ body.mceContentBody h2.default-content-tab {
       color: #333;
 }
 
-button.kupu-inserthorizontalrule {background-image: url(http://xweb14f.plana.dk:8096/mount02/thermtech/plonekupuimages/hr.gif);}
+button.kupu-inserthorizontalrule {background-image: url(plonekupuimages/hr.gif);}

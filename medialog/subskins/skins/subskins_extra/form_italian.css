@@ -1,0 +1,91 @@
+slider ul.slider-list li.slide div.pfg-embedded div.pfg-form.formid-skjema {
+	background: url(formimage) no-repeat center -10px;
+	height: 420px;
+	margin: 0;
+	margin-top: -12px;
+}
+
+div#pfg-fieldwrapper {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset#pfg-fieldsetname-left.PFGFieldsetWidget,
+fieldset#pfg-fieldsetname-right.PFGFieldsetWidget {
+	width: 306px;
+	float: left;
+	margin-top: 115px;
+	margin-left: 60px;
+	border-right: 1px solid silver;
+	border-top: 0 none;
+	padding-bottom: 0;
+}
+
+fieldset#pfg-fieldsetname-right.PFGFieldsetWidget {
+	margin-left: 45px;
+	margin-right: 87px;
+	border: 0 none;
+}
+
+div.formControls {
+	float: left;
+	display: block;
+	margin-left: 58px;
+}
+
+div.formControls input {
+	float: left;
+	display: block;
+	text-transform: uppercase;
+	font-size: 12px;
+	height: 25px;
+	width: 90px;
+	text-align: left;
+	float: left;
+	clear: left;
+	margin-bottom: 4px;
+	padding-left: 22px;
+}
+
+div.formControls input.standalone {
+	background: #CCC url(greenbutton.gif) left center;
+}
+
+div.formControls input.context {
+	background: #8CC63F url(greybutton.gif) left center;
+}
+
+.PFGFieldsetWidget .field {
+	margin: 0px 0 10px 0;
+}
+
+label.formQuestion,
+div.formQuestion.label,
+form label {
+	font: normal 12px Arial, "Helvetica Neue", Helvetica, Geneva, sans-serif;
+	color: #4a4b4b;
+}
+
+div#archetypes-fieldname-transporto,
+div#archetypes-fieldname-peso-approssimativo {
+	float: left !important;
+	width: 150px;
+	display: block;
+	clear: none;
+	margin-bottom: 0;
+}
+
+input {
+	border-color: #999a9a;
+	padding: 2px;
+	font-weight: normal;
+}
+
+select {
+	color: #4a4b4b;
+	font-size: 11px;
+	border: 1px solid #999a9a;
+	padding: 4px;
+	height: 24px !important;
+	display: block;
+}

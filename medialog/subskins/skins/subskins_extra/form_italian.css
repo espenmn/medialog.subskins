@@ -1,5 +1,4 @@
 slider ul.slider-list li.slide div.pfg-embedded div.pfg-form.formid-skjema {
-	background: url(formimage) no-repeat center -10px;
 	height: 420px;
 	margin: 0;
 	margin-top: -12px;
@@ -64,15 +63,6 @@ div.formQuestion.label,
 form label {
 	font: normal 12px Arial, "Helvetica Neue", Helvetica, Geneva, sans-serif;
 	color: #4a4b4b;
-}
-
-div#archetypes-fieldname-transporto,
-div#archetypes-fieldname-peso-approssimativo {
-	float: left !important;
-	width: 150px;
-	display: block;
-	clear: none;
-	margin-bottom: 0;
 }
 
 input {

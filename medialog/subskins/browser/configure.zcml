@@ -95,7 +95,7 @@
     <!-- Portlet manager in the footer -->
         
     <browser:viewlet
-        name="medialog.subskins.footerportlets"
+        name="subskins.footerportlets"
         manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
         template="footerportlets.pt"
         layer=".interfaces.IThemeSpecific"

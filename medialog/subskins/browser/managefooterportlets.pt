@@ -13,7 +13,7 @@
 <body>
 <div metal:fill-slot="main">
   <h1 class="documentFirstHeading">Manage Footer Portlets</h1>
-  <span tal:replace="structure provider:medialog.subskins.footerportlets" />
+  <span tal:replace="structure provider:subskins.footerportlets" />
 </div>
 </body>
 </html>

@@ -1,1 +1,1 @@
-<tal:block replace="structure provider:medialog.footerportlets" />
+<tal:block replace="structure provider:subskins.footerportlets" />

@@ -95,9 +95,10 @@
     <!-- Portlet manager in the footer -->
         
     <browser:viewlet
-        name="medialog.footerportlets"
-        manager="plone.app.layout.viewlets.interfaces.IContentViews"
+        name="medialog.subskins.footerportlets"
+        manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
         template="footerportlets.pt"
+        layer=".interfaces.IThemeSpecific"
         permission="zope2.View" 
     />    
     
@@ -106,6 +107,7 @@
         class="plone.app.portlets.browser.manage.ManageContextualPortlets"
         name="manage-footerportlets"
         template="managefooterportlets.pt"
+        layer=".interfaces.IThemeSpecific"
         permission="plone.app.portlets.ManagePortlets"
     />
     

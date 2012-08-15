@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<portlets> 
+ <portletmanager 
+   name="medialog.footerportlets"
+   type="medialog.subskins.interfaces.IMedialogFooterContent"
+ />
+</portlets>

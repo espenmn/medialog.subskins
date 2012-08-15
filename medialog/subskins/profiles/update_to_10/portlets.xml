@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <portlets> 
  <portletmanager 
-   name="medialog.subskins.footerportlets"
+   name="subskins.footerportlets"
    type="medialog.subskins.browser.interfaces.IMedialogFooterContent"
  />
 </portlets>

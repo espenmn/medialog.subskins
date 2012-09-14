@@ -1,4 +1,15 @@
+/* @override http://localhost:8080/jtoo/portal_css/subskins/prettyphoto_fix.css */
+
 #pp_full_res iframe {
-	height: 100%;
-	width: 100%;
+	height: 400px;
+	width: 500px !important;
+}
+ 
+.pp_content {
+	overflow: scroll;
+}
+
+.flexbox html, 
+.flexbox body { 
+	background: white; 
 }

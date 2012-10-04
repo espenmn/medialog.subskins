@@ -1,0 +1,45 @@
+#portal-footer{
+padding: 7px;
+margin-bottom: -10px;
+background: #DDD url(light_forlop.gif)   repeat-x;
+border: 0px solid silver;
+color: #666;
+text-align: center;
+font-size: 0.875em;
+}
+#portal-footer p{
+margin: 0;
+}
+#portal-colophon{
+color: #EFEFEF;
+font-size: 1em;
+text-align: center;
+position: relative;
+background: transparent;
+top:  40px;;
+}
+#portal-colophon a{
+color: #EFEFEF;
+}
+
+#portal-colophon a:hover{
+color: #f6ca4c;
+}
+
+#portal-colophon p{
+display: inline;
+margin: 0;
+padding-left: 0.5em;
+}
+#portal-colophon ul{
+list-style-type: none;
+display: inline;
+margin: 0;
+}
+#portal-colophon ul li{
+display: inline;
+padding-left: 0.5em;
+}
+.colophonWrapper{
+display: inline;
+}

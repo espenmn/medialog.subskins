@@ -1,0 +1,11 @@
+div.tileItem.visualIEFloatFix:nth-child(odd) {
+	float: left;
+	width: 48%;
+	clear:  left;;
+}
+
+
+div.tileItem.visualIEFloatFix:nth-child(even) {
+	float: right;
+	width: 48%;
+}

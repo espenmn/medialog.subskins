@@ -1,0 +1,11 @@
+.two_columns {
+	-moz-column-count:2; /* Firefox */
+    -webkit-column-count:2; /* Safari and Chrome */ 
+    column-count:2;
+    -moz-column-gap:40px; /* Firefox */ 
+    -webkit-column-gap:40px; /* Safari and Chrome */ 
+    column-gap:40px; /* column-rule */
+    -moz-column-rule:1px outset #CCC; /* Firefox */ 
+    -webkit-column-rule:1px outset #CCC; /* Safari and Chrome */
+    column-rule:1px outset #ccc; 
+}

@@ -10,9 +10,6 @@ Changelog
 4.2b20
 ----------
 - added portletmanager in the footer
-
-4.2b20
-----------
 - changed all #content-core to #content so it styles correctly when editing in frame.
 
 4.2b19

@@ -11,5 +11,13 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
+    <genericsetup:upgradeStep
+        title="Add footerportlets"
+        description="Version 4.2b20 adds footerportlets (/@@manage-footerportlets)"
+        source="*"
+        handler=".setuphandlers.upgrade_to_11"
+        destination="11"
+        sortkey="1"
+        profile="medialog.subskins:default"/>
   
 </configure>

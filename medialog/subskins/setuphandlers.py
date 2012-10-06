@@ -9,3 +9,6 @@ def setupVarious(context):
         return
 
     # Add additional setup code here
+
+def upgrade_to_11(context):
+	pass

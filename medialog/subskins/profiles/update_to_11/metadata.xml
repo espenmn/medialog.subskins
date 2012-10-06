@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <metadata>
-  <version>11</version>
+  <version>10_to_11</version>
   <dependencies>
     <dependency>profile-Products.PloneSubSkins:default</dependency>
   </dependencies>

@@ -11,13 +11,12 @@
     provides="Products.GenericSetup.interfaces.EXTENSION"
     />
 
-  <genericsetup:upgradeDepends
-   	destination="11" sortkey="1"
-    title="subskins portlet manager update"
-    description="Upgrades step for new portletmanager."
-    profile="medialog.subskins:default"
-    import_steps="portlets"
-    run_deps="false"
-	/>
+  <genericsetup:registerProfile
+    name="footerportlets"
+    title="subskins footerportlets"
+    directory="profiles/footerportlets"
+    description='"installs footerportlets for subskins (@@manage-footerportlets)'
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    />
 
 </configure>

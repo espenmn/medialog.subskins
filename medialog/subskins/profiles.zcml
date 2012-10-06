@@ -9,7 +9,7 @@
     directory="profiles/default"
     description='"subskins" Plone theme and theming tool.'
     provides="Products.GenericSetup.interfaces.EXTENSION"
-    />
+   />
 
   <genericsetup:registerProfile
     name="footerportlets"
@@ -17,6 +17,6 @@
     directory="profiles/footerportlets"
     description='"installs footerportlets for subskins (@@manage-footerportlets)'
     provides="Products.GenericSetup.interfaces.EXTENSION"
-    />
+   />
 
 </configure>

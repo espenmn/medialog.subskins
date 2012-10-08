@@ -1,3 +1,3 @@
 <div id="footerportlets">
-    <tal:block replace="structure provider:subskins.footerportlets" tal:onerror="nothing"/>
+    <tal:block replace="structure provider:subskins.footerportlets" tal:on-error="nothing"/>
 </div>

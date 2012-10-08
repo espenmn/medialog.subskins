@@ -15,7 +15,7 @@
     name="footerportlets"
     title="subskins footerportlets"
     directory="profiles/footerportlets"
-    description='"installs footerportlets for subskins (@@manage-footerportlets)'
+    description='"installs footerportlets for subskins (@@manage-footerportlets). Install the other profile first and install this from /portal_setup'
     provides="Products.GenericSetup.interfaces.EXTENSION"
    />
 

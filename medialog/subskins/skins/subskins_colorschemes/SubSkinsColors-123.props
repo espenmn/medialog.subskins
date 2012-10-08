@@ -6,16 +6,17 @@ title:string=123
 
 plone_skin:string=SubSkins
 
-SubSkinsPre:string=1D3D71
-SubSkinsColor1:string=#1D3D71
-SubSkinsColor2:string=#3167BD
-SubSkinsColor3:string=#706C1D
-SubSkinsColor4:string=#BD9E31
-SubSkinsColor5:string=#8F8F8F
-SubSkinsColor6:string=#707070
+SubSkinsPre:string=0064A2
+SubSkinsColor1:string=#0064A2
+SubSkinsColor2:string=#408BB9
+
+SubSkinsColor3:string=#A4C6DB
+
+SubSkinsColor4:string=#939495
+
+SubSkinsColor5:string=#C8C9C9
+SubSkinsColor6:string=#F7F7F7
+
 SubSkinsPosition:string=-490
 
 
-#BD9E31RGB189/158/49
-#8F8F8FRGB143/143/143
-#707070RGB112/112/112

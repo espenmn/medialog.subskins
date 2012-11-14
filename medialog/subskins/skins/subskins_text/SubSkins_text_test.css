@@ -645,7 +645,7 @@ table.plain th {
 	margin: 0em;
 	padding: 0px 6px 0px 9px;
 	text-align: center;
-	background-image: url('http://i03.tcdn.cc/sc/polaroid-single.png');
+	background-image: url('polaroid-single.png');
 	background-repeat: no-repeat;
 }
 
@@ -671,7 +671,7 @@ table.plain th {
 }
 
 .photoAlbumFolder {
-	background-image: url('http://i03.tcdn.cc/sc/polaroid-multi.png');
+	background-image: url('polaroid-multi.png');
 	background-repeat: no-repeat;
 }
 

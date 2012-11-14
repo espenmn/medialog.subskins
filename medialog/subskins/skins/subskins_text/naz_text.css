@@ -1,5 +1,5 @@
 
-/* http://www.naz.edu/portal_css/public.css?original=1 */
+/* portal_css/public.css?original=1 */
 body.kssActive h2.inlineEditable:hover,body.kssActive h1.inlineEditable:hover,body.kssActive h2.formlibInlineEditable:hover,body.kssActive h1.formlibInlineEditable:hover{padding-bottom:1px;}
 .documentFirstHeading{margin-top:0;}
 .documentContent{font-size:100%;padding:1em 1em 2em 1em;background:white;background-image:none;}
@@ -36,7 +36,7 @@ body.template-search #container #main_content h1 span.discreet{display:block;lin
 #LSNothingFound{text-align:center;padding:2px;}
 .LSBox label{font-weight:normal;}
 #portal-personaltools{background-color:#dee7ec;border-top-color:#8cacbb;border-top-style:solid;border-top-width:1px;border-bottom-color:#8cacbb;border-bottom-style:solid;border-bottom-width:1px;line-height:1.6em;color:Black;padding:0em 3em 0em 3em;margin:0;text-align:right;text-transform:none;list-style:none;}
-#portal-personaltools .portalUser{background:transparent url(http://www.naz.edu/user.gif) center left no-repeat;padding-left:18px;}
+#portal-personaltools .portalUser{background:transparent url(user.gif) center left no-repeat;padding-left:18px;}
 #portal-personaltools .portalNotLoggedIn{color:Black;padding:0;background:transparent;background-image:none;}
 #portal-personaltools li{color:#436976;margin-left:1em;display:inline;}
 #portal-personaltools li a{text-decoration:none;color:#436976;}
@@ -107,28 +107,28 @@ textarea.proportional{font:100% "Lucida Grande",Verdana,Lucida,Helvetica,Arial,s
 #portal-sitemap a:hover{border:1px solid #8cacbb;}
 #portal-sitemap .navTreeLevel1{padding-left:1em;border-left:0.5em solid #8cacbb;margin:0 0 0 0.5em;}
 #portal-sitemap .navTreeLevel2{padding-left:1em;border-left:0.5em solid #dee7ec;margin:0 0 0 0.6em;}
-.photoAlbumEntry{float:left;position:relative;overflow:hidden;height:185px;width:143px;margin:0em;padding:0px 6px 0px 9px;text-align:center;background-image:url('http://www.naz.edu/polaroid-single.png');background-repeat:no-repeat;}
+.photoAlbumEntry{float:left;position:relative;overflow:hidden;height:185px;width:143px;margin:0em;padding:0px 6px 0px 9px;text-align:center;background-image:url('polaroid-single.png');background-repeat:no-repeat;}
 .photoAlbumEntry img{border:1px solid #ccc;display:block;margin:0 auto;}
 .photoAlbumEntryWrapper{height:130px;width:128px;margin-bottom:7px;}
 .photoAlbumEntry a{display:block;text-decoration:none;font-size:90%;height:169px;width:130px;margin:16px auto 0px;}
-.photoAlbumFolder{background-image:url('http://www.naz.edu/polaroid-multi.png');background-repeat:no-repeat;}
+.photoAlbumFolder{background-image:url('polaroid-multi.png');background-repeat:no-repeat;}
 .photoAlbumEntryTitle{color:#76797c;display:block;width:128px;height:3.6em;}
-a.link-parent{display:block;background:transparent url(http://www.naz.edu/arrowUp.gif) 4px 5px no-repeat;padding:1px 0px 10px 16px;font-size:90%;text-decoration:none;}
+a.link-parent{display:block;background:transparent url(arrowUp.gif) 4px 5px no-repeat;padding:1px 0px 10px 16px;font-size:90%;text-decoration:none;}
 #content .link-category{color:#74ae0b;}
-#content .link-user{background:transparent url(http://www.naz.edu/user.gif) 0 1px no-repeat;padding:1px 0px 1px 16px;}
-#content .link-comment{background:transparent url(http://www.naz.edu/discussionitem_icon.gif) center left no-repeat;padding:1px 0px 1px 16px;}
+#content .link-user{background:transparent url(user.gif) 0 1px no-repeat;padding:1px 0px 1px 16px;}
+#content .link-comment{background:transparent url(discussionitem_icon.gif) center left no-repeat;padding:1px 0px 1px 16px;}
 #content .link-anchor{color:#76797c;text-decoration:none;font-weight:normal;}
 #content .link-presentation{font-size:90%;text-align:center;}
 #content .link-wiki-add{color:red;}
-#content span.link-external a{background:transparent url(http://www.naz.edu/link_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
-#content span.link-https a{background:transparent url(http://www.naz.edu/lock_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
-#content span.link-mailto a{background:transparent url(http://www.naz.edu/mail_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
-#content span.link-news a{background:transparent url(http://www.naz.edu/topic_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
-#content span.link-ftp a{background:transparent url(http://www.naz.edu/file_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
-#content span.link-irc a{background:transparent url(http://www.naz.edu/discussionitem_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
-#content span.link-callto a{background:transparent url(http://www.naz.edu/phone_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
-#content span.link-webcal a{background:transparent url(http://www.naz.edu/event_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
-#content span.link-feed a{background:transparent url(http://www.naz.edu/rss.gif) 0px 1px no-repeat;padding:1px 0px 1px 18px;}
+#content span.link-external a{background:transparent url(link_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
+#content span.link-https a{background:transparent url(lock_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
+#content span.link-mailto a{background:transparent url(mail_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
+#content span.link-news a{background:transparent url(topic_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
+#content span.link-ftp a{background:transparent url(file_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
+#content span.link-irc a{background:transparent url(discussionitem_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
+#content span.link-callto a{background:transparent url(phone_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
+#content span.link-webcal a{background:transparent url(event_icon.gif) 0px 1px no-repeat;padding:1px 0px 1px 16px;}
+#content span.link-feed a{background:transparent url(rss.gif) 0px 1px no-repeat;padding:1px 0px 1px 18px;}
 #content .link-plain{background-image:none;padding:0;}
 .visualGhosted{opacity:0.2;}
 .image-left{float:left;clear:both;margin:0.5em 1em 0.5em 0;}

@@ -1,3 +1,5 @@
+/* @override http://kjeldstad.medialog.no/portal_css/subskins/SubSkins_text_corporate.css */
+
 /* <dtml-with get_base_properties mapping> (do not remove this :) */
 /* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
 
@@ -251,15 +253,45 @@ del {
 	float: left;
 }
 
+.photoAlbumEntry {
+float: left;
+height: 185px;
+width: 143px;
+margin: 0em;
+padding: 0px 6px 0px 9px;
+text-align: center;
+background-image: url(polaroid-single.png);
+background-repeat: no-repeat;
+}
+.photoAlbumEntry img {
+border: 1px solid #ccc;
+display: block;
+margin: 0 auto;
+}
+.photoAlbumEntryWrapper {
+height: 130px;
+width: 128px;
+margin-bottom: 7px;
+}
+.photoAlbumEntry a {
+display: block;
+text-decoration: none;
+font-size: 85%;
+height: 169px;
+width: 130px;
+margin: 16px auto 0px;
+}
+.photoAlbumFolder {
+background-image: url(polaroid-multi.png);
+background-repeat: no-repeat;
+}
 .photoAlbumEntryTitle {
-	float: left;
-	clear: both;
-	margin-top: 6px;
+color: #76797c;
+display: block;
+overflow: hidden;
+width: 128px;
+height: 3.6em;
 }
 
-#content  div div.photoAlbumEntry a {
-	float: left;
-	margin: 20px 20px 10px 0
-}
 
 /* </dtml-with> */

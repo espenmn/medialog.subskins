@@ -21,6 +21,7 @@
 	height: 130px;
 	width: 128px;
 	margin-bottom: 7px;
+	float: none !important;
 }
 
 .photoAlbumEntry a {

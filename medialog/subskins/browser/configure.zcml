@@ -51,8 +51,7 @@
         permission="zope2.View"
         layer=".interfaces.IThemeSpecific"
         />
-        
-        
+             
      <browser:viewlet
         name="plone.personal_bar"
         manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
@@ -69,11 +68,20 @@
         layer=".interfaces.IThemeSpecific"
         />
 
+    <browser:viewlet
+        name="subskins.global_sections"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class=".viewlets.GlobalSectionsViewlet"
+        layer=".interfaces.IThemeSpecific"
+        permission="zope2.View"
+        />
+
+
     <browser:page 
     	name="cookview"
-  	for="*"
-  	permission="cmf.ManagePortal"
-  	class=".views.CookView"
+  	    for="*"
+  	    permission="cmf.ManagePortal"
+  	    class=".views.CookView"
         layer=".interfaces.IThemeSpecific"
     />                 
 

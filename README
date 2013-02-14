@@ -6,6 +6,10 @@ You should upgrade  Product.PloneSubSkins to version 4.7 when using subskins ver
 Changelog
 =========
 
+4.2.2
+----------
+- fix for (new) TinyMCE
+
 4.2
 ----------
 - fixes for photo album

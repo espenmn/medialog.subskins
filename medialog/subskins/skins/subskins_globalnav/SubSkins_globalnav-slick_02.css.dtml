@@ -1,0 +1,71 @@
+/*for subskins CSS3 */
+/* <dtml-with get_base_properties>  */
+/* <dtml-with get_base_properties mapping> (do not remove this :) */
+/* <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either :) */
+
+ 
+<dtml-var expr="dim_to_black(color=SubSkinsColor2, percent='65')">
+
+
+#portal-globalnav {
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.2) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.2) inset;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.2) inset;
+	background: url("gradients.png") repeat-x 0 -50px <dtml-var expr="dim_to_black(color=SubSkinsColor2, percent='65')">;
+	background: -moz-linear-gradient(top,&dtml-SubSkinsColor2;,<dtml-var expr="dim_to_black(color=SubSkinsColor2, percent='65')">);
+	background: -ms-linear-gradient(top,&dtml-SubSkinsColor2;,<dtml-var expr="dim_to_black(color=SubSkinsColor2, percent='65')">);
+	background: -o-linear-gradient(top,&dtml-SubSkinsColor2;,<dtml-var expr="dim_to_black(color=SubSkinsColor2, percent='65')">);
+	background: -webkit-gradient(linear,0 0,0 100%,from(&dtml-SubSkinsColor2;),to(<dtml-var expr="dim_to_black(color=SubSkinsColor2, percent='65')">));
+	background: -webkit-linear-gradient(top,&dtml-SubSkinsColor2;,<dtml-var expr="dim_to_black(color=SubSkinsColor2, percent='65')">);
+	height: 40px;
+	z-index: auto;
+}
+
+#portal-globalnav li:first-child {
+	padding-left: 12px;
+}
+
+#portal-globalnav li {
+	background-attachment: scroll;
+	background-clip: border-box;
+	background-color: transparent;
+	background-image: url("header-nav-divider.png");
+	background-origin: padding-box;
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+	background-size: auto auto;
+	float: left;
+	line-height: 40px;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+#portal-globalnav li a {
+	text-decoration: none;
+	-moz-font-feature-settings: normal;
+	-moz-font-language-override: normal;
+	-x-system-font: none;
+	color: #FFFFFF;
+	float: left;
+	font-family: Georgia,serif;
+	font-size: 14px;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	padding-bottom: 0;
+	padding-left: 18px;
+	padding-right: 20px;
+	padding-top: 0;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+	list-style-type: none;
+	list-style-image: none;
+}
+
+#portal-globalnav li:hover {
+		background-color: <dtml-var expr="dim_to_black(color=SubSkinsColor2, percent='65')">;
+}
+ 
+/* </dtml-with>*/
+/* </dtml-with>*/

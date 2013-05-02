@@ -1,0 +1,195 @@
+
+
+/* @group tekst */
+
+#content div.relatedItems {
+	margin: 10px 0;
+	padding: 10px 35px 10px 15px;
+	border: 1px solid;
+	border: 1px solid #c6c6c6;
+	background-image: url(hyperlink_blue.png);
+	background-position: right 8px;
+	background-repeat: no-repeat;
+}
+
+#relatedItemBox dt {
+	margin-bottom: 3px;
+	font-weight: bold;
+	color: #7c7c7c;
+}
+
+/* text */
+
+p {
+	font-size: 10pt;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 8px;
+	margin-left: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #656352;
+	margin: 10px 0 0 0;
+}
+
+h1 {
+	font-size: 21px;
+	margin-top: 4px;
+	margin-bottom: 8px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #454340;
+	margin-bottom: 12px;
+	padding-bottom: 8px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #909090;
+}
+
+h2 {
+	font-size: 18px;
+	margin-top: 24px;
+	margin-right: 0px;
+	margin-bottom: 8px;
+	color: #656352;
+}
+
+h3 {
+	font-size: 10pt;
+	color: #323129;
+	margin-top: 12px;
+	margin-bottom: 6px;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 18px;
+	color: #ffffff;
+	padding-top: 2px;
+}
+
+h5 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #3C3A31;
+}
+
+h6 {
+	color: #3C3A31;
+}
+
+.documentDescription {
+	font-size: 10pt;
+	margin-bottom: 18px;
+
+
+/*
+
+er 8 i originalen */
+}
+
+form {
+	margin: 0px;
+}
+
+input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding: 2px 5px;
+	margin-top: 0;
+}
+
+img {
+	border: 0px;
+}
+
+img.image-left {
+	float: left;
+	margin: 2px 10px 10px 0;
+}
+
+img.image-right {
+	float: right;
+	margin: 2px 0px 10px 10px;
+}
+
+dl.portalMessage {
+	background: #f4e16a;
+	padding: 10px 15px;
+	margin: 10px 0;
+;
+}
+
+img.tileImage {
+	float: right;
+	border: 1px solid #889BB1;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+.visualIEFloatFix {
+	margin-top: 6px;
+	margin-bottom: 25px;
+	padding-bottom: 12px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #909090;
+}
+
+.visualIEFloatFix .tileFooter a {
+	display: none
+}
+
+a {
+	color: #003976;
+	font-size: 10pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+
+a:link {
+	color: #003976;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #889BB1;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #832328;
+
+}
+
+ul, ol {
+	margin-top: 8px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-left: 20px;
+}
+
+ol {
+	padding-left: 30px;
+}
+
+li {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 6px;
+	margin-left: 0px;
+	list-style-image: url(arrow.gif);
+	padding: 0px;
+	font-size: 10pt;
+}
+
+p.discreet {
+	color: #777;
+}
+
+/* @end */

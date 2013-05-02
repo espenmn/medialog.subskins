@@ -1,0 +1,86 @@
+
+
+/* @group portlets */
+
+/*portlets*/
+
+.portlet  a {
+	text-decoration: none;
+	display: block;
+}
+
+.portletNavigationTree ul {
+	padding-left: 0;
+}
+
+.portletNavigationTree li {
+	line-height: 20px;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+.navTreeFolderish {
+	background-image: url(pil_meny.png);
+	background-repeat: no-repeat;
+	background-position: 1px 9px
+}
+
+.portletNavigationTree a {
+	border-bottom: 1px solid #c6c6c6;
+	text-decoration: none;
+	display: block;
+	padding-left: 22px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+dt.portletHeader  a {
+	text-decoration: none;
+	color: #353535;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+	padding-left: 0;
+	border-bottom: 1px solid #c6c6c6;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.portletItem {
+	margin-top: 12px;
+}
+
+.portletItemDetails {
+	clear: both;
+	display: block;
+	float: right;
+	font-size: 10px;
+	color: #777;
+	;
+	width: 100%;
+	margin-top: 3px;
+	margin-bottom: 12px;
+	text-align: right;
+}
+
+.portletFooter {
+	clear: both;
+	display: block;
+	text-indent: 24px;
+}
+
+.portletFooter a {
+	background-image: url(pil_meny.png);
+	background-repeat: no-repeat;
+	background-position: 2px;
+	text-indent: 24px;
+}
+
+.portletNavigationTree a.navTreeCurrentItem {
+	color: #000000;
+	font-weight: bold;
+}
+
+ 
+
+/* @end */

@@ -1,0 +1,23 @@
+
+
+/* @group breadcrumbs */
+
+#portal-breadcrumbs {
+	font-size: 11px;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+#portal-breadcrumbs a {
+	font-size: 11px;
+}
+
+.breadcrumbSeparator {
+	content: "/" !important;
+}
+
+#breadcrumbs-you-are-here {
+	display: none;
+}
+
+/* @end */

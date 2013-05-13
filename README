@@ -6,163 +6,165 @@ You should upgrade  Product.PloneSubSkins to version 4.7 when using subskins ver
 Changelog
 =========
 
+4.2.3
+----------
+- new globalnav viewlet [espen_mn]
+- new more (css) styles [espen_mn]
+- css styles for mobile browsers [espen_mn]
+
+
 4.2.2
 ----------
-- fix for (new) TinyMCE
+- fix for (new) TinyMCE [espen_mn]
 
 4.2
 ----------
-- fixes for photo album
+- fixes for photo album [espen_mn]
 
 4.2b20
 ----------
-- added portletmanager in the footer
-- changed all #content-core to #content so it styles correctly when editing in frame.
+- added portletmanager in the footer [espen_mn]
+- changed all #content-core to #content so it styles correctly when editing in frame. [espen_mn]
 
 4.2b19
 ----------
-- bugfix for CSS3 footer and a few more images
+- bugfix for CSS3 footer and a few more images [espen_mn]
 
 4.2b18
 ----------
-- Added action and browserview ( @@cookview ) to cook portal_js and portal_css if you want to edit css and javascript without being in debug mode.
-- Added new globalnavs and extras 
+- Added action and browserview ( @@cookview ) to cook portal_js and portal_css if you want to edit css and javascript without being in debug mode. [espen_mn]
+- Added new globalnavs and extras  [espen_mn]
 
 4.2b17
 ----------
 - Added a composite.  
-- Removed comments in two calendar portlets (those based on plone's).   
+- Removed comments in two calendar portlets (those based on plone's). [espen_mn]
 
 4.2b16
 ----------
-- Some css fixes, removing media screen on composite css files and cleaning up comments.   
+- Some css fixes, removing media screen on composite css files and cleaning up comments.    [espen_mn]
 
 4.2b15
 ----------
-- Some css fixes and requiring Pillow >= 1.7.6 (see http://pypi.python.org/pypi/Pillow/1.7.6#id2 ).   
+- Some css fixes and requiring Pillow >= 1.7.6 (see http://pypi.python.org/pypi/Pillow/1.7.6#id2 ).    [espen_mn]
 
 4.2b13
 ----------
-- Some more css files and a fix to taling globalnav.   
+- Some more css files and a fix to taling globalnav.    [espen_mn]
 
 4.2b12
 ----------
-- Last release was broken.   
+- Last release was broken.   [espen_mn] 
 
 4.2b10
 ----------
-- added (back again) init.py which had disappeared while moving to github.   
+- added (back again) init.py which had disappeared while moving to github.    [espen_mn]
 
 4.2b9
 ----------
-- Added some images and a new colophon viewlet and two new globalnavs.
-- Added a new portlet layout (bracket)
-- Added mew viewlet to show site actions only as images (no text). The name of the image is situationname + .png
+- Added some images and a new colophon viewlet and two new globalnavs. [espen_mn]
+- Added a new portlet layout (bracket) [espen_mn]
+- Added mew viewlet to show site actions only as images (no text). The name of the image is situationname + .png [espen_mn]
 
 4.2b8
 ----------
-- Added globalnav_talking
+- Added globalnav_talking [espen_mn]
 
  
 4.2b7
 ----------
-- Removed size declaration on <a> (was 11px) on text_koha and text_koha12
+- Removed size declaration on <a> (was 11px) on text_koha and text_koha12 [espen_mn]
 
 4.2b6
 ----------
-- Reverted roundcolophon image, turned out it was a bug in PIL that causes the problem
+- Reverted roundcolophon image, turned out it was a bug in PIL that causes the problem [espen_mn]
 
 4.2b5
 ----------
 Added 
-- extra: drop-down-hackII.css
-- globalnavn: SubSkins_globalnav_dropd2.css and SubSkins_globalnav-berge.css
-- Small fixes to: authoring.css .actionMenu
+- extra: drop-down-hackII.css [espen_mn]
+- globalnavn: SubSkins_globalnav_dropd2.css and SubSkins_globalnav-berge.css [espen_mn]
+- Small fixes to: authoring.css .actionMenu [espen_mn]
 
 4.2b3 and 4.2b4
 ----------
-- Added globalnavs using CSS3 with dropdown and animation
+- Added globalnavs using CSS3 with dropdown and animation [espen_mn]
 
 4.2b2
 ----------
-- Added "testrender" template, use it like this: http://yoursite/testrender
-- Fixed roundcolophon image, so it works with colorizing
+- Added "testrender" template, use it like this: http://yoursite/testrender [espen_mn]
+- Fixed roundcolophon image, so it works with colorizing [espen_mn]
 
 4.2b
 ----------
 - Added a few new styles
-- Named the rest of the css files, so they have proper names.
-- Included a few CSS3 globalnavs (Easingbuttons). 
-- Added new text selections 
-- Fixed some styles for login link (it was in the same color as the background)
-- Edited some styles for the footers and colophon
+- Named the rest of the css files, so they have proper names. [espen_mn]
+- Included a few CSS3 globalnavs (Easingbuttons).  [espen_mn]
+- Added new text selections  [espen_mn]
+- Fixed some styles for login link (it was in the same color as the background) [espen_mn]
+- Edited some styles for the footers and colophon [espen_mn]
 
 
 4.1b7
 ----------
-- Added styles for Accessibility elements
-- Added text and table css files
-- Named a lot of files (metadata)
-- Fixed hidden structure on portlet header (so it does not show when navigation portlet has no title)
+- Added styles for Accessibility elements [espen_mn]
+- Added text and table css files [espen_mn]
+- Named a lot of files (metadata) [espen_mn]
+- Fixed hidden structure on portlet header (so it does not show when navigation portlet has no title) [espen_mn]
 
 4.1b6
 ----------
-- 4 new globalnavs for modern browsers
+- 4 new globalnavs for modern browsers [espen_mn]
 
 4.1b5
 ----------
-- Fixed all text css files to include style for images. 
-- Added composite styles.
-- A few changes so it works with medialog.foldersubskins
+- Fixed all text css files to include style for images.  [espen_mn]
+- Added composite styles. [espen_mn]
+- A few changes so it works with medialog.foldersubskins [espen_mn]
 
 4.1
 ----------
-- Added brosho plugin - http://demos.usejquery.com/brosho-plugin/
+- Added brosho plugin - http://demos.usejquery.com/brosho-plugin/ [espen_mn]
 
 4.0b7
 ----------
-- Changes in #content (#content li > #content-core li etc.)
+- Changes in #content (#content li > #content-core li etc.) [espen_mn]
 
 4.0b6
 ----------
-- Changed viewlet definitions etc. due to change in Plone Classic theme
+- Changed viewlet definitions etc. due to change in Plone Classic theme [espen_mn]
 
 4.0b5
 ----------
-- changed all "content classes" " to #content ( https://dev.plone.org/plone/ticket/10231 )
-- small fixes on round corners portlets
+- changed all "content classes" " to #content ( https://dev.plone.org/plone/ticket/10231 ) [espen_mn]
+- small fixes on round corners portlets [espen_mn]
 
 4.0b4
 ----------
-- added two round corners portlets
-- added a lot of extras (grad on columns, navbackground, portletsbackground)
-- fixed nameing
-- added images 
-- round corners and page curl
+- added two round corners portlets [espen_mn]
+- added a lot of extras (grad on columns, navbackground, portletsbackground) [espen_mn]
+- fixed nameing [espen_mn]
+- added images  [espen_mn]
+- round corners and page curl [espen_mn]
 
 4.0b3
 ----------
-- checked and validated all css files 
-- added a lot of "extra selections" to tweak site
-- added a few more images
-- added extra file "members.css" to overrule members.css while developing
-- Changes in control panel (Product.PloneSubSkins). 
-  It now includes "next" buttons to "walk through the options"
+- checked and validated all css files  [espen_mn]
+- added a lot of "extra selections" to tweak site [espen_mn]
+- added a few more images [espen_mn]
+- added extra file "members.css" to overrule members.css while developing [espen_mn]
+- Changes in control panel (Product.PloneSubSkins).  [espen_mn]
+  It now includes "next" buttons to "walk through the options" [espen_mn]
 
 4.0b2
 ----------
-- added support for colorized images,
-- added another multiselct option for small tweaks
-- Added a lot of new layout options
-- Removed a lot of images that are not longer needed.
-- Most of selections now uses the new "colorize" option instead of images
+- added support for colorized images, [espen_mn]
+- added another multiselct option for small tweaks [espen_mn]
+- Added a lot of new layout options [espen_mn]
+- Removed a lot of images that are not longer needed. [espen_mn]
+- Most of selections now uses the new "colorize" option instead of images [espen_mn]
 
 4.0
 ----------
-medialog.subskins for plone 4
-
-
-Things I want to include / Links worth checking out:
-====================================================
-- http://snipt.net/public/tag/css
-- http://devsnippets.com/article/40-new-high-quality-icon-set-for-elegant-designs.html
+medialog.subskins for plone 4 [espen_mn]
+ 

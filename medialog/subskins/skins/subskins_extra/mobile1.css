@@ -1,0 +1,57 @@
+@media screen and (max-width: 480px) {
+
+#portal-breadcrumbs {
+	display: none;
+}
+
+body,html ,
+div#visual-portal-wrapper {
+	width: 100%;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+p {
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+td#portal-column-one,
+td#portal-column-two {
+	display: none;
+}
+
+a#portal-logo img {
+	width: 100%;
+	height: auto;
+}
+
+#portal-searchbox {
+	float: none;
+	width: 80%;
+	clear: both;
+	margin: 0 auto 2%;
+}
+
+ul#portal-globalnav,
+#portal-globalnav li {
+	width: 100%;	
+	height: auto;
+
+}
+
+#portal-globalnav li a{
+	display: block;
+	line-height: 23px;
+	border-bottom: 1px solid white;
+	font-size: 15px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	letter-spacing: 1px;
+}
+
+#portal-globalnav li a:hover{
+	background: #83a1b8;
+}
+

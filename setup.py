@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '4.2.2'
+version = '4.2.3'
 setup(name='medialog.subskins',
       version=version,
       description="An installable theme and theming tool for Plone 4",                
@@ -25,7 +25,7 @@ setup(name='medialog.subskins',
       install_requires=[
           'setuptools',
           'plonetheme.classic',
-          'Products.PloneSubSkins',
+          'Products.PloneSubSkins>=4.7.5',
           'Pillow>=1.7.6',
           # -*- Extra requirements: -*-
       ],

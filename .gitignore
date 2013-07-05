@@ -4,3 +4,6 @@
 .svn
 *.egg-info
 dist/
+medialog/subskins/skins/medialog_subskins_custom_images/join.html
+
+medialog/subskins/skins/medialog_subskins_custom_images/tweet.html

@@ -1,0 +1,16 @@
+# Colorscheme for Subskins.
+
+DEPRECATED:string=This approach is deprecated and will be phased out in Plone 2.2 or 2.3
+
+title:string=Highcharts 3
+
+plone_skin:string=SubSkins
+
+SubSkinsPre:string=3F3F30
+SubSkinsColor1:string=#91100a
+SubSkinsColor2:string=#8bbd21
+SubSkinsColor3:string=#0e233a
+SubSkinsColor4:string=#2e7ed7
+SubSkinsColor5:string=#1dadcd
+SubSkinsColor6:string=#49286f
+SubSkinsPosition:string=-490

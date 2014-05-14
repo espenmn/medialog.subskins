@@ -1,16 +1,10 @@
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 from plone.app.layout.viewlets.common import ViewletBase
 
-#from cgi import escape
-#from datetime import date
-#from urllib import unquote
-#from zope.i18n import translate
-#from zope.interface import implements, alsoProvides
-#from zope.viewlet.interfaces import IViewlet
-#from zope.deprecation.deprecation import deprecate
-#from Products.CMFPlone.utils import safe_unicode
-#from Products.Five.browser import BrowserView
-#from plone.app.layout.globals.interfaces import IViewView
+from plone.portlets.interfaces import IPortletManager
+from fractions import Fraction
+from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
+
 
 from Products.CMFPlone import PloneMessageFactory as _
 
@@ -29,7 +23,11 @@ class SubskinsLoader(ViewletBase):
 
 class SubskinsColophon(ViewletBase):
     render = ViewPageTemplateFile('subskinscolophon.pt')
-
+    
+class FooterPortlets(ViewletBase):
+	name = 'subskins.footerportlets'
+	manage_view = '@@manage-footerportlets'
+	
 class GlobalSectionsViewlet(BaseGlobalSectionsViewlet):
     index = ViewPageTemplateFile('globalnavviewlet.pt')
 
